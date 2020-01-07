@@ -18,7 +18,7 @@
         <result column="SF2_MSG" property="sf2Msg" jdbcType="VARCHAR" />
     </resultMap>
     <insert id="insert" parameterType="com.ntu.datasync.model.po.DataSynchro" >
-        insert into DATA_SYNCHRO (BASICINFOID, TYPE, SA1_STATUS,
+        insert into data_synchro (BASICINFOID, TYPE, SA1_STATUS,
         SB1_TIME, SC1_TIME, SD1_NUM,
         SE1_TIME, SF1_MSG, SA2_STATUS,
         SB2_TIME, SC2_TIME, SF2_MSG
@@ -30,7 +30,7 @@
         )
     </insert>
     <insert id="insertSelective" parameterType="com.ntu.datasync.model.po.DataSynchro" >
-        insert into DATA_SYNCHRO
+        insert into data_synchro
         <trim prefix="(" suffix=")" suffixOverrides="," >
             <if test="basicinfoid != null" >
                 BASICINFOID,
@@ -109,16 +109,16 @@
         </trim>
     </insert>
     <select id="querySyncData" resultMap="BaseResultMap">
-        select  * from DATA_SYNCHRO where 1=1 and SA1_STATUS = '${@aglid.cst.sa_status@notsynchroed}'
-        or SA1_STATUS = '${@aglid.cst.sa_status@failed}'
+        select  * from data_synchro where 1=1 and SA1_STATUS = '1'
+        or SA1_STATUS = '9'
     </select>
 
     <select id="findById"  resultMap="BaseResultMap">
-        select  * from DATA_SYNCHRO where rtrim(basicinfoid)= #{basicinfoid} and type = #{type}
+        select  * from data_synchro where rtrim(basicinfoid)= #{basicinfoid} and type = #{type}
     </select>
 
     <update id="updateActive"  parameterType="com.ntu.datasync.model.po.DataSynchro" >
-        update DATA_SYNCHRO set SA1_STATUS = #{sa1Status}
+        update data_synchro set SA1_STATUS = #{sa1Status}
         <if test="sc1Time != null" >
             , SC1_TIME= #{sc1Time}
         </if>
@@ -135,7 +135,7 @@
     </update>
 
     <update id="updatePassive"  parameterType="com.ntu.datasync.model.po.DataSynchro" >
-        update DATA_SYNCHRO set SA2_STATUS = #{sa2Status}
+        update data_synchro set SA2_STATUS = #{sa2Status}
         <if test="sb2Time != null" >
             , SB2_TIME= #{sb2Time}
         </if>

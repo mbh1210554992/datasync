@@ -2,6 +2,7 @@ package com.ntu.datasync.mapper;
 
 import com.ntu.datasync.model.po.Book;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -12,5 +13,6 @@ import java.util.List;
 @Mapper
 public interface BookMapper {
     List<Book> findAll();
-    void insertBook();
+    Book findById(@Param("bookId") String bookId);
+    void insertBook(Book book);
 }

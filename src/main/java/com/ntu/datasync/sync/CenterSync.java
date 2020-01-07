@@ -30,12 +30,14 @@ public class CenterSync {
 
         SysConfig sysConfig = new SysConfig();
         sysConfig.setClintid("center");
-        IMQTTClient imqttClient = new EMQTTClient(sysConfig.getClintid(),sysConfig.getClintid(),sysConfig.getPassword());
+        IMQTTClient imqttClient = new EMQTTClient("node10000000","node10000000","client1");
 
-        imqttClient.connect();
-        imqttClient.subscribe("/sync/test");
+        imqttClient.connect(new DataReceiver(imqttClient,applicationContextProvider));
+        imqttClient.subscribe("sync/node");
         SendThread st = new SendThread("center",applicationContextProvider,imqttClient);
-        new Thread(st).start();
+        Thread node = new Thread(st);
+        node.setName("center");
+        node.start();
         //logger.info("center:"+ bookMapper.findAll());
         
     }

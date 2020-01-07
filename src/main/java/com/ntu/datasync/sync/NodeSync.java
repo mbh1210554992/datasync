@@ -27,11 +27,14 @@ public class NodeSync {
 
 
         SysConfig sysConfig = new SysConfig();
-        IMQTTClient imqttClient = new EMQTTClient(sysConfig.getClintid(),sysConfig.getClintid(),sysConfig.getPassword());
-        imqttClient.connect();
+        IMQTTClient imqttClient = new EMQTTClient("center","center","client1");
+        imqttClient.connect(new DataReceiver(imqttClient,applicationContextProvider));
+        imqttClient.subscribe("sync/center");
         //DataSourceType.setDataBaseType(DataSourceType.DataBaseType.Secondary);
         //imqttClient.publish("/sync/test",bookMapper.findAll().toString().getBytes(),false);
         SendThread st = new SendThread("node",applicationContextProvider,imqttClient);
-        new Thread(st).start();
+        Thread node = new Thread(st);
+        node.setName("node");
+        node.start();
     }
 }

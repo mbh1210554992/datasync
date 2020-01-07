@@ -33,17 +33,19 @@ public class DataReceiver {
 
         try{
             syncMessage = new MsgSerializer().decode(data);
-            logger.debug("receive from "+topicName+" : "+syncMessage.getDataSynchro()+syncMessage.getData());
+            logger.info("receive from "+topicName+" : "+syncMessage.getDataSynchro()+syncMessage.getData());
             DataSynchro local =
                     dataSynchroMapper.findById(syncMessage.getDataSynchro().getBasicinfoid(), syncMessage.getDataSynchro().getType());
             remote = syncMessage.getDataSynchro();
             if (syncMessage.getMsgtype()== 11) {
                 //receive ack
-                logger.debug("receive ack "+topicName+" : "+syncMessage.getDataSynchro()+syncMessage.getData());
+                System.out.println("*******************************************************");
+                logger.info("receive ack "+topicName+" : "+syncMessage.getDataSynchro()+syncMessage.getData());
                 if(local != null) {
                     local.setSa1Status(remote.getSa1Status());
                     local.setSc1Time(new Date());
                     if (local.getSa1Status().equals("0")) { //success
+                        System.out.println("name-----------"+Thread.currentThread().getName());
                         local.setSd1Num(0L);
                     }
                     else if (local.getSa1Status().equals("2")) {//refuse
@@ -61,7 +63,7 @@ public class DataReceiver {
                 return;
             }
             else {//receive data
-                logger.debug("receive data from "+topicName+" : "+syncMessage.getDataSynchro()+syncMessage.getData());
+                logger.info("receive data from "+topicName+" : "+syncMessage.getDataSynchro()+syncMessage.getData());
                 boolean insertFlag = false;
                 if(local == null){
                     local = new DataSynchro();
@@ -69,7 +71,7 @@ public class DataReceiver {
                     local.setType(remote.getType());
                     insertFlag = true;
                 }
-                IDataProcessor iDataProcessor = (IDataProcessor) applicationContextProvider.getBean("processor");
+                IDataProcessor iDataProcessor = (IDataProcessor) applicationContextProvider.getBean("bookProcessor");
                 int processFlag = iDataProcessor.onReceive(syncMessage);
                 if (processFlag == 0){
                     //successful
@@ -111,7 +113,8 @@ public class DataReceiver {
                         syncMessage.getClientid(), remote, null);
                 byte[] buf = new MsgSerializer().encode(ackMessage);
                 //String topicId = (syncMessage.getClientid().startsWith("node"))?topic.TOPIC_SYNC_NODE+smsg.getClientid():topic.TOPIC_SYNC_CENTER;
-//					mc.publish(topic.TOPIC_SYNC_NODE+smsg.getClientid(), buf, true);
+                mc.publish("sync/center", buf, true);
+                logger.info("发送确认信息=======================");
                 //mc.publish(topicId, buf, true);
                 //LOG.debug("send ack to "+topic.TOPIC_SYNC_NODE+smsg.getClientid()+":"+remote);
             }

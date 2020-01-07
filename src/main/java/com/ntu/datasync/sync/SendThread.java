@@ -4,12 +4,16 @@ import com.ntu.datasync.common.ApplicationContextProvider;
 import com.ntu.datasync.common.MsgSerializer;
 import com.ntu.datasync.config.DataSourceType;
 import com.ntu.datasync.config.SysConfig;
-import com.ntu.datasync.mapper.BookMapper;
+import com.ntu.datasync.mapper.DataSynchroMapper;
 import com.ntu.datasync.model.SyncMessage;
-import com.ntu.datasync.model.po.Book;
+import com.ntu.datasync.model.po.DataSynchro;
+import com.ntu.datasync.sync.processor.BookProcessor;
+import com.ntu.datasync.sync.processor.IDataProcessor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -39,16 +43,58 @@ public class SendThread implements Runnable {
         }else {
             DataSourceType.setDataBaseType(DataSourceType.DataBaseType.Secondary);
         }
-        BookMapper bookMapper = (BookMapper) applicationContextProvider.getBean("bookMapper");
+        DataSynchroMapper dataSynchroMapper = (DataSynchroMapper) applicationContextProvider.getBean("dataSynchroMapper");
 
         while(true){
-            List<Book> books = bookMapper.findAll();
             try {
-                Thread.sleep(60000);
+                Thread.sleep(6000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            if(role.equals("center")){
+
+            try{
+                List<DataSynchro> data = dataSynchroMapper.querySyncData();
+                for(DataSynchro ds : data){
+                    if(ds.getSa1Status().equals("9")){
+                        //主动同步失败，检查重发时间
+                        Long min = ds.getSd1Num()*6;
+                        Calendar cal = Calendar.getInstance();
+                        cal.setTime(ds.getSe1Time());
+                        cal.add(Calendar.MINUTE, min.intValue());
+                        if(cal.after(new Date()))
+                        {
+                            continue;
+                        }
+                    }
+
+                    byte[] message = null;
+                    IDataProcessor dr =(BookProcessor)applicationContextProvider.getBean("bookProcessor");
+                    SyncMessage sm = new SyncMessage();
+                    sm.setDataSynchro(ds);
+                    sm.setClientid(sysConfig.getClintid());
+                    sm.setMsgtype(1);
+                    String target = dr.onSend(sm);
+                    logger.info("chaxun:"+sm.getData());
+                    if(sm.getData() == null){
+                        logger.error("同步数据不存在："+ds);
+                        ds.setSa1Status("2");
+                        ds.setSc1Time(new Date());
+                        ds.setSf1Msg("data not found");
+                        dataSynchroMapper.updateActive(ds);
+                        continue;
+                    }
+                    message = new MsgSerializer().encode(sm);
+                    imqttClient.publish("sync/node",message,true);
+                    logger.info("发送消息"+":" + sm.getData());
+                }
+            }catch (Exception e){
+                logger.error(e.getMessage());
+            }
+
+
+
+
+           /* if(role.equals("center")){
 
             }else{
                // Processor processor = (Processor) applicationContextProvider.getBean("processor");
@@ -62,7 +108,7 @@ public class SendThread implements Runnable {
 
                 imqttClient.publish("/sync/test",message,true);
             }
-
+*/
         }
     }
 }
