@@ -1,7 +1,6 @@
 package com.ntu.datasync;
 
 import com.ntu.datasync.config.MoquetteServer;
-import com.ntu.datasync.config.SysConfig;
 import com.ntu.datasync.sync.CenterSync;
 import com.ntu.datasync.sync.NodeSync;
 import org.slf4j.Logger;
@@ -38,6 +37,7 @@ public class ServerStart implements ApplicationListener<ContextRefreshedEvent> {
 
         centerSync.start(moquetteServer);
         try {
+            Thread.sleep(3000);
             nodeSync.start(moquetteServer);
         } catch (InterruptedException e) {
             e.printStackTrace();
