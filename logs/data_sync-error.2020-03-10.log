@@ -1,0 +1,65 @@
+15:36:08.575 [node] ERROR com.ntu.datasync.sync.SendThread - 同步数据不存在：DataSynchro(basicinfoid=1, type=1, sa1Status=9, sb1Time=null, sc1Time=Tue Mar 10 14:53:27 CST 2020, sd1Num=1, se1Time=Tue Mar 10 14:53:27 CST 2020, sf1Msg=synchronize data failed, sa2Status=null, sb2Time=null, sc2Time=null, sf2Msg=null)
+15:36:09.806 [MQTT Call: node10000000] ERROR com.ntu.datasync.sync.DataReceiver - 31 号数据同步失败原因: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '31' for key 'PRIMARY'
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\target\classes\mapper\BookMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into         book         (           book_id,           book_name,           book_isbn,           book_author,           book_status,           book_info,           book_publisher,           book_createtime         )         values         ( ?,           ?,           ?,           ?,           0,           ?,           ?,           now()         )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '31' for key 'PRIMARY'
+; Duplicate entry '31' for key 'PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '31' for key 'PRIMARY'
+15:36:10.677 [MQTT Call: node10000000] ERROR com.ntu.datasync.sync.DataReceiver - 8 号数据同步失败原因: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '8' for key 'PRIMARY'
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\target\classes\mapper\BookMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into         book         (           book_id,           book_name,           book_isbn,           book_author,           book_status,           book_info,           book_publisher,           book_createtime         )         values         ( ?,           ?,           ?,           ?,           0,           ?,           ?,           now()         )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '8' for key 'PRIMARY'
+; Duplicate entry '8' for key 'PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '8' for key 'PRIMARY'
+15:37:11.704 [MQTT Call: node10000000] ERROR com.ntu.datasync.sync.DataReceiver - 31 号数据同步失败原因: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '31' for key 'PRIMARY'
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\target\classes\mapper\BookMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into         book         (           book_id,           book_name,           book_isbn,           book_author,           book_status,           book_info,           book_publisher,           book_createtime         )         values         ( ?,           ?,           ?,           ?,           0,           ?,           ?,           now()         )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '31' for key 'PRIMARY'
+; Duplicate entry '31' for key 'PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '31' for key 'PRIMARY'
+15:37:12.716 [MQTT Call: node10000000] ERROR com.ntu.datasync.sync.DataReceiver - 8 号数据同步失败原因: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '8' for key 'PRIMARY'
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\target\classes\mapper\BookMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into         book         (           book_id,           book_name,           book_isbn,           book_author,           book_status,           book_info,           book_publisher,           book_createtime         )         values         ( ?,           ?,           ?,           ?,           0,           ?,           ?,           now()         )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '8' for key 'PRIMARY'
+; Duplicate entry '8' for key 'PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '8' for key 'PRIMARY'
+15:38:13.733 [MQTT Call: node10000000] ERROR com.ntu.datasync.sync.DataReceiver - 31 号数据同步失败原因: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '31' for key 'PRIMARY'
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\target\classes\mapper\BookMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into         book         (           book_id,           book_name,           book_isbn,           book_author,           book_status,           book_info,           book_publisher,           book_createtime         )         values         ( ?,           ?,           ?,           ?,           0,           ?,           ?,           now()         )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '31' for key 'PRIMARY'
+; Duplicate entry '31' for key 'PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '31' for key 'PRIMARY'
+15:38:14.773 [MQTT Call: node10000000] ERROR com.ntu.datasync.sync.DataReceiver - 8 号数据同步失败原因: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '8' for key 'PRIMARY'
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\target\classes\mapper\BookMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into         book         (           book_id,           book_name,           book_isbn,           book_author,           book_status,           book_info,           book_publisher,           book_createtime         )         values         ( ?,           ?,           ?,           ?,           0,           ?,           ?,           now()         )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '8' for key 'PRIMARY'
+; Duplicate entry '8' for key 'PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '8' for key 'PRIMARY'
+15:39:17.807 [MQTT Call: node10000000] ERROR com.ntu.datasync.sync.DataReceiver - 31 号数据同步失败原因: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '31' for key 'PRIMARY'
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\target\classes\mapper\BookMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into         book         (           book_id,           book_name,           book_isbn,           book_author,           book_status,           book_info,           book_publisher,           book_createtime         )         values         ( ?,           ?,           ?,           ?,           0,           ?,           ?,           now()         )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '31' for key 'PRIMARY'
+; Duplicate entry '31' for key 'PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '31' for key 'PRIMARY'
+15:39:19.768 [MQTT Call: node10000000] ERROR com.ntu.datasync.sync.DataReceiver - 8 号数据同步失败原因: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '8' for key 'PRIMARY'
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\target\classes\mapper\BookMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into         book         (           book_id,           book_name,           book_isbn,           book_author,           book_status,           book_info,           book_publisher,           book_createtime         )         values         ( ?,           ?,           ?,           ?,           0,           ?,           ?,           now()         )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '8' for key 'PRIMARY'
+; Duplicate entry '8' for key 'PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '8' for key 'PRIMARY'

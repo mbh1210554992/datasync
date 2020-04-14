@@ -8,7 +8,6 @@ import org.eclipse.paho.client.mqttv3.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-
 /**
  * @Author: baihua
  * @Date: Created in 11/11/2019 10:30 AM
@@ -19,7 +18,8 @@ public class EMQTTClient implements IMQTTClient {
     private static final short KEEP_ALIVE = 30;
     private static final long RECONNECTION_DELAY = 5000;
 
-    private SysConfig sysConfig;
+   /* @Autowired
+    private SysConfig sysConfig;*/
 
     private DataReceiver dr  =null;
 
@@ -36,9 +36,9 @@ public class EMQTTClient implements IMQTTClient {
         this.clientid = clientid;
         this.password = password;
         this.username = username;
-        this.sysConfig = new SysConfig();
+        //this.sysConfig = new SysConfig();
         try{
-            mqttClient = new MqttClient(sysConfig.getServerurl(), clientid);
+            mqttClient = new MqttClient(SysConfig.SERVER_URL, clientid);
         } catch (MqttException e) {
             e.printStackTrace();
         }
@@ -46,7 +46,7 @@ public class EMQTTClient implements IMQTTClient {
     }
     @Override
     public void connect(DataReceiver dr) {
-        logger.info("connecting to server: "+sysConfig.getServerurl());
+        logger.debug("connecting to server: "+SysConfig.SERVER_URL);
         MqttConnectOptions options = new MqttConnectOptions();
         options.setCleanSession(CLEAN_START);
         options.setPassword(password.toCharArray());
@@ -69,11 +69,11 @@ public class EMQTTClient implements IMQTTClient {
 
                     @Override
                     public void messageArrived(String topic, MqttMessage message) throws Exception {
-                        logger.info("收到的主题： "+topic);
+                        logger.debug("收到的主题： "+topic);
                         //logger.info("接收消息内容： "+message.getPayload());
-                        logger.info("接收消息Qos： "+message.getQos());
+                        logger.debug("接收消息Qos： "+message.getQos());
                         SyncMessage syncMessage = new MsgSerializer().decode(message.getPayload());
-                        logger.info("接收消息内容： "+ syncMessage.getData());
+                        logger.debug("接收消息内容： "+ syncMessage.getData());
                         if("MQTT Call: center".equals(Thread.currentThread().getName())){
                             DataSourceType.setDataBaseType(DataSourceType.DataBaseType.Secondary);
                         }else{
@@ -86,7 +86,7 @@ public class EMQTTClient implements IMQTTClient {
 
                     @Override
                     public void deliveryComplete(IMqttDeliveryToken token) {
-                        logger.info("deliveryComplete---------"+token.isComplete());
+                        logger.debug("deliveryComplete---------"+token.isComplete());
                     }
                 });
                 mqttClient.connect(options);
@@ -101,7 +101,7 @@ public class EMQTTClient implements IMQTTClient {
             }
         }
 
-        logger.info("connect successful");
+        logger.debug("connect successful");
     }
 
     @Override
@@ -122,7 +122,7 @@ public class EMQTTClient implements IMQTTClient {
             mm.setRetained(false);
             MqttDeliveryToken token = mt.publish(mm);
             token.waitForCompletion(3000);
-            logger.info("MQTTServer Message Topic="+topicName+" Content: "+new MsgSerializer().decode(message).getData());
+            logger.debug("MQTTServer Message Topic="+topicName+" Content: "+new MsgSerializer().decode(message).getData());
         } catch (MqttPersistenceException e) {
             e.printStackTrace();
         } catch (MqttException e) {

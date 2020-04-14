@@ -2,6 +2,7 @@ package com.ntu.datasync.sync;
 
 import com.ntu.datasync.common.ApplicationContextProvider;
 import com.ntu.datasync.common.MsgSerializer;
+import com.ntu.datasync.config.SysConfig;
 import com.ntu.datasync.mapper.DataSynchroMapper;
 import com.ntu.datasync.model.SyncMessage;
 import com.ntu.datasync.model.po.DataSynchro;
@@ -33,19 +34,19 @@ public class DataReceiver {
 
         try{
             syncMessage = new MsgSerializer().decode(data);
-            logger.info("receive from "+topicName+" : "+syncMessage.getDataSynchro()+syncMessage.getData());
+            logger.debug("receive from "+topicName+" : "+syncMessage.getDataSynchro()+syncMessage.getData());
             DataSynchro local =
                     dataSynchroMapper.findById(syncMessage.getDataSynchro().getBasicinfoid(), syncMessage.getDataSynchro().getType());
             remote = syncMessage.getDataSynchro();
             if (syncMessage.getMsgtype()== 11) {
                 //receive ack
                 System.out.println("*******************************************************");
-                logger.info("receive ack "+topicName+" : "+syncMessage.getDataSynchro()+syncMessage.getData());
+                logger.debug("receive ack "+topicName+" : "+syncMessage.getDataSynchro()+syncMessage.getData());
                 if(local != null) {
                     local.setSa1Status(remote.getSa1Status());
                     local.setSc1Time(new Date());
                     if (local.getSa1Status().equals("0")) { //success
-                        System.out.println("name-----------"+Thread.currentThread().getName());
+                        logger.debug("name-----------"+Thread.currentThread().getName());
                         local.setSd1Num(0L);
                     }
                     else if (local.getSa1Status().equals("2")) {//refuse
@@ -63,7 +64,7 @@ public class DataReceiver {
                 return;
             }
             else {//receive data
-                logger.info("receive data from "+topicName+" : "+syncMessage.getDataSynchro()+syncMessage.getData());
+                logger.debug("receive data from "+topicName+" : "+syncMessage.getDataSynchro()+syncMessage.getData());
                 boolean insertFlag = false;
                 if(local == null){
                     local = new DataSynchro();
@@ -89,8 +90,10 @@ public class DataReceiver {
 
                 if(insertFlag){
                     dataSynchroMapper.insert(local);
+                    logger.info(local.getBasicinfoid()+" 号数据同步成功");
                 }
                 else{
+                    logger.info(local.getBasicinfoid()+" 号数据同步成功");
                     dataSynchroMapper.updatePassive(local);
                 }
             }
@@ -98,7 +101,8 @@ public class DataReceiver {
             remote.setSc1Time(local.getSc2Time());
             remote.setSf1Msg(local.getSf2Msg());
         }catch (Throwable e){
-            logger.error(e.getMessage());
+            logger.info(syncMessage.getDataSynchro().getBasicinfoid()+" 号数据同步失败");
+            logger.error(syncMessage.getDataSynchro().getBasicinfoid()+" 号数据同步失败原因: "+e.getMessage());
             remote = new DataSynchro();
             remote.setBasicinfoid(syncMessage.getDataSynchro().getBasicinfoid());
             remote.setType(syncMessage.getDataSynchro().getType());
@@ -113,8 +117,8 @@ public class DataReceiver {
                         syncMessage.getClientid(), remote, null);
                 byte[] buf = new MsgSerializer().encode(ackMessage);
                 //String topicId = (syncMessage.getClientid().startsWith("node"))?topic.TOPIC_SYNC_NODE+smsg.getClientid():topic.TOPIC_SYNC_CENTER;
-                mc.publish("sync/center", buf, true);
-                logger.info("发送确认信息=======================");
+                mc.publish(SysConfig.CENTER_TOPIC, buf, true);
+                logger.debug("发送确认信息=======================");
                 //mc.publish(topicId, buf, true);
                 //LOG.debug("send ack to "+topic.TOPIC_SYNC_NODE+smsg.getClientid()+":"+remote);
             }

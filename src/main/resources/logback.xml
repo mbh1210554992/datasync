@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration scan="true">
-    <property name="PROJECT_NAME" value="preprocess_api"/>
-    <property name="LOG_HOME" value="/tmp/preprocess_api"/>
+    <property name="PROJECT_NAME" value="data_sync"/>
+    <property name="LOG_HOME" value="./logs"/>
 
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <withJansi>true</withJansi>

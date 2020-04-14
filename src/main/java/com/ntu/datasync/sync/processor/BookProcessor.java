@@ -42,7 +42,7 @@ public class BookProcessor implements IDataProcessor{
     @Override
     public String onSend(SyncMessage msg) {
         Book book = bookMapper.findById(msg.getDataSynchro().getBasicinfoid());
-        System.out.println(book);
+        //System.out.println(book);
         msg.setData(book);
         return book==null ? null : book.getBookId();
     }

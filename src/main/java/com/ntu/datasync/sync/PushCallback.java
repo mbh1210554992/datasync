@@ -19,20 +19,20 @@ public class PushCallback implements MqttCallback {
 
     @Override
     public void connectionLost(Throwable throwable) {
-        logger.info("-----------连接断开-----------");
+        logger.debug("-----------连接断开-----------");
     }
 
     @Override
     public void messageArrived(String topic, MqttMessage message) throws Exception {
-        logger.info("收到的主题： "+topic);
+        logger.debug("收到的主题： "+topic);
         //logger.info("接收消息内容： "+message.getPayload());
-        logger.info("接收消息Qos： "+message.getQos());
+        logger.debug("接收消息Qos： "+message.getQos());
         SyncMessage syncMessage = new MsgSerializer().decode(message.getPayload());
-        logger.info("接收消息内容： "+ syncMessage.getData());
+        logger.debug("接收消息内容： "+ syncMessage.getData());
     }
 
     @Override
     public void deliveryComplete(IMqttDeliveryToken token) {
-        logger.info("deliveryComplete---------"+token.isComplete());
+        logger.debug("deliveryComplete---------"+token.isComplete());
     }
 }

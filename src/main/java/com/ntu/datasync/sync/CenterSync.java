@@ -15,25 +15,25 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class CenterSync {
-    private static final Logger logger = LoggerFactory.getLogger(CenterSync.class);
 
-    private MoquetteServer moquetteServer = null;
     @Autowired
     BookMapper bookMapper;
-
     @Autowired
     ApplicationContextProvider applicationContextProvider;
+    private static final Logger logger = LoggerFactory.getLogger(CenterSync.class);
+    private MoquetteServer moquetteServer = null;
 
     
     public void start(MoquetteServer moquetteServer){
 
 
-        SysConfig sysConfig = new SysConfig();
-        sysConfig.setClintid("center");
-        IMQTTClient imqttClient = new EMQTTClient("node10000000","node10000000","client1");
+
+        IMQTTClient imqttClient = new EMQTTClient(SysConfig.CENTER_CLIENT_ID,
+                SysConfig.CENTER_CLIENT_USERNAME,
+                SysConfig.CENTER_CLIENT_PASSWORD);
 
         imqttClient.connect(new DataReceiver(imqttClient,applicationContextProvider));
-        imqttClient.subscribe("sync/node");
+        imqttClient.subscribe(SysConfig.NODE_TOPIC);
         SendThread st = new SendThread("center",applicationContextProvider,imqttClient);
         Thread node = new Thread(st);
         node.setName("center");

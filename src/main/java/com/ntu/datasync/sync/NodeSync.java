@@ -15,23 +15,20 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class NodeSync {
-
     private static final Logger logger = LoggerFactory.getLogger(NodeSync.class);
     @Autowired
     BookMapper bookMapper;
-
     @Autowired
     ApplicationContextProvider applicationContextProvider;
 
     public void start(MoquetteServer moquetteServer) throws InterruptedException {
 
 
-        SysConfig sysConfig = new SysConfig();
-        IMQTTClient imqttClient = new EMQTTClient("center","center","client1");
+        IMQTTClient imqttClient = new EMQTTClient(SysConfig.NODE_CLIENT_ID,
+                SysConfig.NODE_CLIENT_USERNAME,
+                SysConfig.NODE_CLIENT_PASSWORD);
         imqttClient.connect(new DataReceiver(imqttClient,applicationContextProvider));
-        imqttClient.subscribe("sync/center");
-        //DataSourceType.setDataBaseType(DataSourceType.DataBaseType.Secondary);
-        //imqttClient.publish("/sync/test",bookMapper.findAll().toString().getBytes(),false);
+        imqttClient.subscribe(SysConfig.CENTER_TOPIC);
         SendThread st = new SendThread("node",applicationContextProvider,imqttClient);
         Thread node = new Thread(st);
         node.setName("node");

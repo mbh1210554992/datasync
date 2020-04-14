@@ -3,7 +3,6 @@ package com.ntu.datasync.sync;
 import com.ntu.datasync.common.ApplicationContextProvider;
 import com.ntu.datasync.common.MsgSerializer;
 import com.ntu.datasync.config.DataSourceType;
-import com.ntu.datasync.config.SysConfig;
 import com.ntu.datasync.mapper.DataSynchroMapper;
 import com.ntu.datasync.model.SyncMessage;
 import com.ntu.datasync.model.po.DataSynchro;
@@ -26,13 +25,13 @@ public class SendThread implements Runnable {
     private ApplicationContextProvider applicationContextProvider;
 
     private String role;
-    private SysConfig sysConfig;
+    //private SysConfig sysConfig;
     private IMQTTClient imqttClient;
 
     public SendThread(String role, ApplicationContextProvider context,IMQTTClient emqttClient){
         applicationContextProvider = context;
         this.role = role;
-        this.sysConfig = new SysConfig();
+        //this.sysConfig = new SysConfig();
         this.imqttClient = emqttClient;
 
     }
@@ -47,7 +46,7 @@ public class SendThread implements Runnable {
 
         while(true){
             try {
-                Thread.sleep(6000);
+                Thread.sleep(60000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -71,10 +70,10 @@ public class SendThread implements Runnable {
                     IDataProcessor dr =(BookProcessor)applicationContextProvider.getBean("bookProcessor");
                     SyncMessage sm = new SyncMessage();
                     sm.setDataSynchro(ds);
-                    sm.setClientid(sysConfig.getClintid());
+                    //sm.setClientid(role.equals("node") ? );
                     sm.setMsgtype(1);
                     String target = dr.onSend(sm);
-                    logger.info("chaxun:"+sm.getData());
+                    //logger.info("查询到新增的数据:"+sm.getData());
                     if(sm.getData() == null){
                         logger.error("同步数据不存在："+ds);
                         ds.setSa1Status("2");
