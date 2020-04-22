@@ -74,7 +74,7 @@ public class EMQTTClient implements IMQTTClient {
                         logger.debug("接收消息Qos： "+message.getQos());
                         SyncMessage syncMessage = new MsgSerializer().decode(message.getPayload());
                         logger.debug("接收消息内容： "+ syncMessage.getData());
-                        if("MQTT Call: center".equals(Thread.currentThread().getName())){
+                        if("MQTT Call: node".equals(Thread.currentThread().getName())){
                             DataSourceType.setDataBaseType(DataSourceType.DataBaseType.Secondary);
                         }else{
                             DataSourceType.setDataBaseType(DataSourceType.DataBaseType.Primary);

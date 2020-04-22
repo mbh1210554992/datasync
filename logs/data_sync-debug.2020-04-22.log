@@ -1,0 +1,1159 @@
+12:47:16.591 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+12:47:16.622 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+12:47:16.669 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+12:47:24.355 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+12:47:24.370 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+12:47:24.433 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+12:48:16.697 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+12:48:16.697 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+12:48:16.712 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+12:48:24.445 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+12:48:24.445 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+12:48:24.445 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+12:49:16.730 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+12:49:16.730 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+12:49:16.745 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+12:49:24.447 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+12:49:24.447 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+12:49:24.447 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+12:50:16.775 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+12:50:16.775 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+12:50:16.791 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+12:50:24.461 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+12:50:24.461 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+12:50:24.461 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+12:51:16.808 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+12:51:16.808 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+12:51:16.824 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+12:51:24.462 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+12:51:24.462 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+12:51:24.462 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+12:52:16.841 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+12:52:16.841 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+12:52:16.856 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+12:52:24.464 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+12:52:24.464 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+12:52:24.464 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+12:53:16.882 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+12:53:16.882 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+12:53:16.898 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+12:53:24.474 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+12:53:24.474 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+12:53:24.474 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+12:54:16.915 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+12:54:16.915 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+12:54:16.930 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+12:54:24.476 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+12:54:24.476 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+12:54:24.476 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+12:55:16.957 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+12:55:16.957 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+12:55:16.972 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+12:55:24.486 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+12:55:24.486 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+12:55:24.486 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+12:56:17.004 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+12:56:17.004 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+12:56:17.019 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+12:56:24.502 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+12:56:24.502 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+12:56:24.502 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:02:52.492 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:02:52.528 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:02:52.572 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:03:00.197 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:03:00.198 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:03:00.199 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:03:52.595 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:03:52.596 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:03:52.618 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:04:00.200 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:04:00.201 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:04:00.204 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:04:00.207 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:04:00.207 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 1222(String)
+13:04:00.208 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:04:01.089 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:04:01.090 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 1222(String), 1(String)
+13:04:01.123 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:04:01.124 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:04:01.124 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 1222(String)
+13:04:01.125 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:04:01.127 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==>  Preparing: update book set book_id = ?, book_name = ?, book_isbn = ?, book_author = ?, book_info = ?, book_publisher = ? where book_id = ? 
+13:04:01.128 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==> Parameters: 1222(String), 有有有有有有(String), 12121222112(String), mbh(String), null, null, 1222(String)
+13:04:02.265 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:04:02.265 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 1222(String), 1(String)
+13:04:02.288 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 0
+13:04:52.640 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:04:52.641 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:04:52.663 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:05:01.240 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:05:01.241 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:05:01.243 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 2
+13:05:01.243 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:05:01.244 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 1222(String)
+13:05:01.245 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 0
+13:05:01.265 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+13:05:01.268 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==> Parameters: 2(String), 2020-04-22 13:05:01.245(Timestamp), data not found(String), 1222(String), 1(String)
+13:05:01.373 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+13:05:01.374 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:05:01.374 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 999(String)
+13:05:01.375 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:05:02.113 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:05:02.113 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 999(String), 1(String)
+13:05:02.114 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:05:02.115 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:05:02.116 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 999(String)
+13:05:02.117 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:05:02.118 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==>  Preparing: update book set book_id = ?, book_name = ?, book_isbn = ?, book_author = ?, book_info = ?, book_publisher = ? where book_id = ? 
+13:05:02.118 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==> Parameters: 999(String), 有有有有有有(String), 12121222112(String), mbh(String), null, null, 999(String)
+13:05:02.293 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:05:02.293 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 999(String), 1(String)
+13:05:02.315 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 0
+13:05:52.686 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:05:52.686 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:05:52.709 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:06:02.269 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:06:02.270 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:06:02.271 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:06:02.272 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:06:02.273 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 999(String)
+13:06:02.274 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:06:03.140 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:06:03.140 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 999(String), 1(String)
+13:06:03.142 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:06:03.142 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:06:03.143 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 999(String)
+13:06:03.144 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:06:03.145 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==>  Preparing: update book set book_id = ?, book_name = ?, book_isbn = ?, book_author = ?, book_info = ?, book_publisher = ? where book_id = ? 
+13:06:03.146 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==> Parameters: 999(String), 有有有有有有(String), 12121222112(String), mbh(String), null, null, 999(String)
+13:06:04.314 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:06:04.314 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 999(String), 1(String)
+13:06:04.336 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 0
+13:06:52.731 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:06:52.731 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:06:52.754 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:07:02.318 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:07:02.319 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:07:02.320 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 2
+13:07:02.321 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:07:02.321 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 999(String)
+13:07:02.322 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 0
+13:07:02.322 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+13:07:02.323 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==> Parameters: 2(String), 2020-04-22 13:07:02.322(Timestamp), data not found(String), 999(String), 1(String)
+13:07:02.449 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+13:07:02.450 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:07:02.450 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:07:02.451 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:07:03.172 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:07:03.173 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:07:03.174 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:07:03.174 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:07:03.174 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:07:03.175 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:07:03.176 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==>  Preparing: update book set book_id = ?, book_name = ?, book_isbn = ?, book_author = ?, book_info = ?, book_publisher = ? where book_id = ? 
+13:07:03.176 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==> Parameters: 99999(String), 有有有有有有(String), 12121222112(String), mbh(String), null, null, 99999(String)
+13:07:03.342 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:07:03.343 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:07:03.364 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 0
+13:07:52.775 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:07:52.776 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:07:52.798 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:08:03.319 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:08:03.320 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:08:03.321 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:08:03.322 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:08:03.322 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:08:03.323 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:08:04.212 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:08:04.212 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:08:04.215 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:08:04.220 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:08:04.221 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:08:04.224 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:08:04.225 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==>  Preparing: update book set book_id = ?, book_name = ?, book_isbn = ?, book_author = ?, book_info = ?, book_publisher = ? where book_id = ? 
+13:08:04.225 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==> Parameters: 99999(String), 有有有有有有(String), 12121222112(String), mbh(String), null, null, 99999(String)
+13:08:04.377 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:08:04.378 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:08:04.404 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 0
+13:08:52.819 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:08:52.820 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:08:52.842 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:09:04.350 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:09:04.351 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:09:04.352 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:09:04.352 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:09:04.353 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:09:04.354 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:09:05.235 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:09:05.235 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:09:05.236 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:09:05.237 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:09:05.237 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:09:05.238 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:09:05.239 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==>  Preparing: update book set book_id = ?, book_name = ?, book_isbn = ?, book_author = ?, book_info = ?, book_publisher = ? where book_id = ? 
+13:09:05.239 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==> Parameters: 99999(String), 有有有有有有(String), 12121222112(String), mbh(String), null, null, 99999(String)
+13:09:05.394 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:09:05.395 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:09:05.417 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 0
+13:09:52.863 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:09:52.863 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:09:52.885 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:10:05.370 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:10:05.371 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:10:05.372 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:10:05.373 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:10:05.373 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:10:05.374 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:10:06.262 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:10:06.262 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:10:06.265 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:10:06.266 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:10:06.266 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:10:06.267 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:10:06.268 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==>  Preparing: update book set book_id = ?, book_name = ?, book_isbn = ?, book_author = ?, book_info = ?, book_publisher = ? where book_id = ? 
+13:10:06.268 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==> Parameters: 99999(String), 有有有有有有(String), 12121222112(String), mbh(String), null, null, 99999(String)
+13:10:07.412 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:10:07.413 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:10:07.435 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 0
+13:10:52.908 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:10:52.908 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:10:52.931 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:11:06.390 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:11:06.390 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:11:06.392 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:11:06.392 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:11:06.393 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:11:06.394 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:11:07.264 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:11:07.265 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:11:07.266 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:11:07.267 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:11:07.267 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:11:07.270 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:11:07.271 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==>  Preparing: update book set book_id = ?, book_name = ?, book_isbn = ?, book_author = ?, book_info = ?, book_publisher = ? where book_id = ? 
+13:11:07.272 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==> Parameters: 99999(String), 有有有有有有(String), 12121222112(String), mbh(String), null, null, 99999(String)
+13:11:07.433 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:11:07.434 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:11:07.455 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 0
+13:11:52.953 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:11:52.954 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:11:52.976 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:12:07.409 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:12:07.409 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:12:07.411 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:12:07.411 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:12:07.411 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:12:07.412 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:12:08.324 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:12:08.324 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:12:08.327 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:12:08.330 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:12:08.330 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:12:08.332 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:12:08.332 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==>  Preparing: update book set book_id = ?, book_name = ?, book_isbn = ?, book_author = ?, book_info = ?, book_publisher = ? where book_id = ? 
+13:12:08.333 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==> Parameters: 99999(String), 有有有有有有(String), 12121222112(String), mbh(String), null, null, 99999(String)
+13:12:08.472 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:12:08.472 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:12:08.495 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 0
+13:16:00.620 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:16:00.655 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:16:00.707 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:16:05.227 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:16:05.228 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:16:05.232 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:16:05.234 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:16:05.235 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:16:05.237 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:16:05.728 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:16:05.728 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:16:05.745 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:16:06.193 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:16:06.193 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:16:06.195 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:17:33.444 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:17:33.445 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:17:33.449 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:21:12.068 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:21:12.069 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:21:12.071 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:21:12.073 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:21:12.073 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:21:12.075 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:21:12.080 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:21:12.081 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:21:12.099 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:21:12.133 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==>  Preparing: update book set book_id = ?, book_name = ?, book_isbn = ?, book_author = ?, book_info = ?, book_publisher = ? where book_id = ? 
+13:21:12.134 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==> Parameters: 99999(String), 有有有有有有(String), 12121222112(String), mbh(String), null, null, 99999(String)
+13:21:17.115 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:21:17.116 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:21:17.133 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:21:17.148 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:21:17.149 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:21:17.150 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:21:17.151 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:21:17.151 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:21:17.152 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:21:22.149 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:21:22.150 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:21:22.154 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:21:22.154 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:21:22.155 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:21:22.156 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:21:22.157 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:21:22.158 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:21:22.167 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:21:27.160 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:21:27.161 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:21:27.163 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:21:27.165 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:21:27.165 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:21:27.166 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:21:27.184 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:21:27.184 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:21:27.201 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:21:32.167 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:21:32.168 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:21:32.169 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:21:32.170 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:21:32.170 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:21:32.171 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:21:32.217 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:21:32.217 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:21:32.233 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:21:37.175 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:21:37.176 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:21:37.178 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:21:37.178 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:21:37.179 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:21:37.181 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:21:37.249 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:21:37.249 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:21:37.265 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:22:04.092 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:22:04.125 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:22:04.180 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:22:09.206 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:22:09.207 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:22:09.228 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:22:11.667 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:22:11.667 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:22:11.672 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:22:11.675 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:22:11.676 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:22:11.677 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:22:12.528 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:22:12.528 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:22:12.530 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:22:21.352 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:22:21.353 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:22:21.354 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:23:35.478 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:23:35.479 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:23:35.502 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:23:35.506 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==>  Preparing: update book set book_id = ?, book_name = ?, book_isbn = ?, book_author = ?, book_info = ?, book_publisher = ? where book_id = ? 
+13:23:35.507 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==> Parameters: 99999(String), 有有有有有有(String), 12121222112(String), mbh(String), null, null, 99999(String)
+13:24:05.503 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:24:05.553 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:24:05.608 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:24:10.629 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:24:10.630 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:24:10.650 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:24:13.094 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:24:13.094 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:24:13.098 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:24:13.100 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:24:13.101 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:24:13.102 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:24:13.977 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:24:13.977 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:24:13.979 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:24:13.980 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:24:13.980 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:24:13.982 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:24:13.983 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==>  Preparing: update book set book_id = ?, book_name = ?, book_isbn = ?, book_author = ?, book_info = ?, book_publisher = ? where book_id = ? 
+13:24:13.984 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==> Parameters: 99999(String), 有有有有有有(String), 12121222112(String), mbh(String), null, null, 99999(String)
+13:24:15.101 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:24:15.101 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:24:15.118 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 0
+13:24:15.667 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:24:15.667 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:24:15.683 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:24:19.085 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:24:19.085 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:24:19.086 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:24:19.087 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:24:19.087 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:24:19.089 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:24:19.977 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:24:19.978 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:24:19.979 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:24:19.980 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:24:19.980 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:24:19.981 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:24:19.982 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==>  Preparing: update book set book_id = ?, book_name = ?, book_isbn = ?, book_author = ?, book_info = ?, book_publisher = ? where book_id = ? 
+13:24:19.982 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==> Parameters: 99999(String), 有有有有有有(String), 12121222112(String), mbh(String), null, null, 99999(String)
+13:24:20.698 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:24:20.698 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:24:20.713 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:24:21.087 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:24:21.088 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:24:21.103 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 0
+13:24:25.087 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:24:25.088 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:24:25.089 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:24:25.089 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:24:25.090 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:24:25.092 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:24:25.730 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:24:25.730 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:24:25.747 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:24:25.979 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:24:25.979 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:24:25.980 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:24:25.981 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:24:25.981 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:24:25.982 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:24:25.983 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==>  Preparing: update book set book_id = ?, book_name = ?, book_isbn = ?, book_author = ?, book_info = ?, book_publisher = ? where book_id = ? 
+13:24:25.983 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==> Parameters: 99999(String), 有有有有有有(String), 12121222112(String), mbh(String), null, null, 99999(String)
+13:24:26.093 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:24:26.093 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:24:26.109 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 0
+13:24:30.761 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:24:30.762 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:24:30.777 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:24:31.090 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:24:31.090 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:24:31.092 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:24:31.094 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:24:31.094 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:24:31.096 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:24:31.983 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:24:31.983 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:24:31.984 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:24:31.985 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:24:31.985 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:24:31.986 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:24:31.987 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==>  Preparing: update book set book_id = ?, book_name = ?, book_isbn = ?, book_author = ?, book_info = ?, book_publisher = ? where book_id = ? 
+13:24:31.987 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==> Parameters: 99999(String), 有有有有有有(String), 12121222112(String), mbh(String), null, null, 99999(String)
+13:24:32.111 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:24:32.111 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:24:32.126 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 0
+13:24:35.792 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:24:35.793 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:24:35.808 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:24:37.094 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:24:37.095 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:24:37.096 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:24:37.097 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:24:37.097 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:24:37.098 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:24:37.987 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:24:37.987 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:24:37.988 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:24:37.989 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:24:37.989 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:24:37.990 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:24:37.990 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==>  Preparing: update book set book_id = ?, book_name = ?, book_isbn = ?, book_author = ?, book_info = ?, book_publisher = ? where book_id = ? 
+13:24:37.991 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==> Parameters: 99999(String), 有有有有有有(String), 12121222112(String), mbh(String), null, null, 99999(String)
+13:24:38.112 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:24:38.112 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:24:38.128 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 0
+13:24:40.823 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:24:40.824 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:24:40.840 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:24:43.096 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:24:43.097 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:24:43.098 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:24:43.098 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:24:43.099 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:24:43.100 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:24:43.990 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:24:43.990 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:24:43.991 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:24:43.991 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:24:43.992 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:24:43.993 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:24:43.993 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==>  Preparing: update book set book_id = ?, book_name = ?, book_isbn = ?, book_author = ?, book_info = ?, book_publisher = ? where book_id = ? 
+13:24:43.993 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==> Parameters: 99999(String), 有有有有有有(String), 12121222112(String), mbh(String), null, null, 99999(String)
+13:24:45.114 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:24:45.115 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:24:45.131 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 0
+13:24:45.855 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:24:45.855 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:24:45.872 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:24:49.099 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:24:49.099 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:24:49.100 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:24:49.101 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:24:49.101 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:24:49.102 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:24:49.994 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:24:49.994 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:24:49.995 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:24:49.996 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:24:49.996 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:24:49.997 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:24:49.997 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==>  Preparing: update book set book_id = ?, book_name = ?, book_isbn = ?, book_author = ?, book_info = ?, book_publisher = ? where book_id = ? 
+13:24:49.998 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==> Parameters: 99999(String), 有有有有有有(String), 12121222112(String), mbh(String), null, null, 99999(String)
+13:24:50.119 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:24:50.120 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:24:50.135 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 0
+13:24:50.887 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:24:50.887 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:24:50.902 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:24:55.102 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:24:55.103 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:24:55.104 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:24:55.104 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:24:55.104 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:24:55.105 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:24:55.917 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:24:55.917 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:24:55.933 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:24:55.997 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:24:55.997 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:24:55.999 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:24:55.999 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:24:55.999 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:24:56.001 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:24:56.002 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==>  Preparing: update book set book_id = ?, book_name = ?, book_isbn = ?, book_author = ?, book_info = ?, book_publisher = ? where book_id = ? 
+13:24:56.003 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==> Parameters: 99999(String), 有有有有有有(String), 12121222112(String), mbh(String), null, null, 99999(String)
+13:24:57.121 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:24:57.121 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:24:57.136 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 0
+13:25:00.948 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:25:00.948 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:25:00.964 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:25:01.104 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:25:01.105 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:25:01.106 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:25:01.107 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:25:01.107 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:25:01.109 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:25:01.998 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:25:01.998 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:25:02.000 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:25:02.000 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:25:02.000 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:25:02.001 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:25:02.002 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==>  Preparing: update book set book_id = ?, book_name = ?, book_isbn = ?, book_author = ?, book_info = ?, book_publisher = ? where book_id = ? 
+13:25:02.002 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==> Parameters: 99999(String), 有有有有有有(String), 12121222112(String), mbh(String), null, null, 99999(String)
+13:25:02.127 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:25:02.128 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:25:02.143 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 0
+13:25:05.979 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:25:05.979 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:25:05.994 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:25:07.109 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:25:07.109 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:25:07.110 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:25:07.111 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:25:07.111 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:25:07.112 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:25:08.003 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:25:08.003 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:25:08.004 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:25:08.005 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:25:08.005 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:25:08.006 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:25:08.006 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==>  Preparing: update book set book_id = ?, book_name = ?, book_isbn = ?, book_author = ?, book_info = ?, book_publisher = ? where book_id = ? 
+13:25:08.007 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==> Parameters: 99999(String), 有有有有有有(String), 12121222112(String), mbh(String), null, null, 99999(String)
+13:25:08.129 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:25:08.130 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:25:08.145 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 0
+13:25:11.010 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:25:11.010 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:25:11.026 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:25:13.112 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:25:13.113 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:25:13.114 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:25:13.114 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:25:13.115 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:25:13.115 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:25:14.006 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:25:14.006 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:25:14.007 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:25:14.008 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:25:14.008 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:25:14.009 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:25:14.009 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==>  Preparing: update book set book_id = ?, book_name = ?, book_isbn = ?, book_author = ?, book_info = ?, book_publisher = ? where book_id = ? 
+13:25:14.010 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==> Parameters: 99999(String), 有有有有有有(String), 12121222112(String), mbh(String), null, null, 99999(String)
+13:25:15.131 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:25:15.132 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:25:15.148 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 0
+13:25:16.041 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:25:16.041 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:25:16.058 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:25:19.115 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:25:19.116 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:25:19.117 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:25:19.117 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:25:19.118 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:25:19.119 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:25:20.011 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:25:20.011 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:25:20.012 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:25:20.012 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:25:20.012 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:25:20.013 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:25:20.014 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==>  Preparing: update book set book_id = ?, book_name = ?, book_isbn = ?, book_author = ?, book_info = ?, book_publisher = ? where book_id = ? 
+13:25:20.014 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==> Parameters: 99999(String), 有有有有有有(String), 12121222112(String), mbh(String), null, null, 99999(String)
+13:25:21.073 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:25:21.074 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:25:21.089 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:25:21.118 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:25:21.118 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:25:21.134 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 0
+13:31:21.907 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:31:21.934 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:31:21.974 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:31:26.991 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:31:26.992 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:31:27.008 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:31:29.612 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:31:29.612 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:31:29.616 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:31:29.618 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:31:29.619 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:31:29.620 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:31:30.517 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:31:30.517 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:31:30.534 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 0
+13:31:30.534 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:31:30.535 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:31:30.551 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 0
+13:31:30.552 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - ==>  Preparing: insert into book ( book_id, book_name, book_isbn, book_author, book_status, book_info, book_publisher, book_createtime ) values ( ?, ?, ?, ?, 0, ?, ?, now() ) 
+13:31:30.554 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - ==> Parameters: 99999(String), 有有有有有有(String), 12121222112(String), mbh(String), null, null
+13:31:30.590 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - <==    Updates: 1
+13:31:30.590 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.insert - ==>  Preparing: insert into data_synchro (BASICINFOID, TYPE, SA1_STATUS, SB1_TIME, SC1_TIME, SD1_NUM, SE1_TIME, SF1_MSG, SA2_STATUS, SB2_TIME, SC2_TIME, SF2_MSG ) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+13:31:30.594 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.insert - ==> Parameters: 99999(String), 1(String), null, null, null, null, null, null, 0(String), null, 2020-04-22 13:31:30.59(Timestamp), null
+13:31:30.628 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.insert - <==    Updates: 1
+13:31:31.604 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:31:31.605 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:31:31.606 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:31:31.628 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SD1_NUM= ? where rtrim(basicinfoid)= ? and type = ? 
+13:31:31.629 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-04-22 13:31:31.607(Timestamp), 0(Long), 99999(String), 1(String)
+13:31:31.711 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+13:31:32.024 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:31:32.024 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:31:32.041 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:31:35.603 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:31:35.604 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:31:35.605 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:31:37.056 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:31:37.057 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:31:37.074 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:31:40.606 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:31:40.606 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:31:40.607 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:31:42.090 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:31:42.091 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:31:42.106 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:31:45.608 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:31:45.610 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:31:45.612 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:31:47.123 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:31:47.124 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:31:47.140 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:31:50.613 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:31:50.613 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:31:50.614 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:31:52.157 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:31:52.157 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:31:52.174 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:31:55.616 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:31:55.617 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:31:55.617 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:31:57.192 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:31:57.192 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:31:57.208 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:32:00.618 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:32:00.619 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:32:00.620 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:32:02.226 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:32:02.227 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:32:02.243 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:32:05.620 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:32:05.621 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:32:05.622 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:32:07.259 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:32:07.260 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:32:07.276 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:32:10.623 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:32:10.623 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:32:10.624 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:32:12.292 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:32:12.292 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:32:12.309 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:32:15.625 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:32:15.626 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:32:15.627 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:32:17.325 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:32:17.325 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:32:17.342 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:32:20.628 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:32:20.628 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:32:20.629 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:32:22.359 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:32:22.359 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:32:22.377 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:32:25.630 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:32:25.631 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:32:25.632 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:37:57.254 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:37:57.280 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:37:57.323 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:38:02.346 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:38:02.346 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:38:02.367 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:38:04.922 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:38:04.922 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:38:04.928 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:38:04.930 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:38:04.930 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:38:04.932 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:38:05.824 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:38:05.825 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:38:05.846 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:38:05.847 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:38:05.847 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:38:05.869 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:38:05.871 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==>  Preparing: update book set book_id = ?, book_name = ?, book_isbn = ?, book_author = ?, book_info = ?, book_publisher = ? where book_id = ? 
+13:38:05.871 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==> Parameters: 99999(String), 无无无无无无无无(String), 12121222112(String), mbh(String), null, null, 99999(String)
+13:38:05.915 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - <==    Updates: 1
+13:38:05.935 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updatePassive - ==>  Preparing: update data_synchro set SA2_STATUS = ? , SC2_TIME= ? where rtrim(basicinfoid)= ? and type = ? 
+13:38:05.938 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updatePassive - ==> Parameters: 0(String), 2020-04-22 13:38:05.915(Timestamp), 99999(String), 1(String)
+13:38:05.981 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updatePassive - <==    Updates: 1
+13:38:06.914 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:38:06.914 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:38:06.915 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:38:06.917 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SD1_NUM= ? where rtrim(basicinfoid)= ? and type = ? 
+13:38:06.918 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-04-22 13:38:06.916(Timestamp), 0(Long), 99999(String), 1(String)
+13:38:06.992 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+13:38:07.388 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:38:07.388 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:38:07.409 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:38:10.912 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:38:10.912 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:38:10.915 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:38:12.431 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:38:12.431 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:38:12.452 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:38:15.917 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:38:15.918 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:38:15.920 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:38:17.474 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:38:17.474 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:38:17.495 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:38:20.921 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:38:20.922 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:38:20.923 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:38:22.519 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:38:22.519 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:38:22.541 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:38:25.925 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:38:25.926 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:38:25.928 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
+13:38:25.928 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:38:25.929 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:38:25.930 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:38:26.836 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:38:26.836 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:38:26.856 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:38:26.857 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+13:38:26.857 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 99999(String)
+13:38:26.879 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+13:38:26.879 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==>  Preparing: update book set book_id = ?, book_name = ?, book_isbn = ?, book_author = ?, book_info = ?, book_publisher = ? where book_id = ? 
+13:38:26.880 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - ==> Parameters: 99999(String), 无无无无无无无无有有有(String), 12121222112(String), mbh(String), null, null, 99999(String)
+13:38:26.930 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.BookMapper.updateBook - <==    Updates: 1
+13:38:26.931 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updatePassive - ==>  Preparing: update data_synchro set SA2_STATUS = ? , SC2_TIME= ? where rtrim(basicinfoid)= ? and type = ? 
+13:38:26.932 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updatePassive - ==> Parameters: 0(String), 2020-04-22 13:38:26.931(Timestamp), 99999(String), 1(String)
+13:38:26.975 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updatePassive - <==    Updates: 1
+13:38:27.563 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:38:27.563 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:38:27.584 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:38:27.923 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+13:38:27.924 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 99999(String), 1(String)
+13:38:27.926 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+13:38:27.927 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SD1_NUM= ? where rtrim(basicinfoid)= ? and type = ? 
+13:38:27.928 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-04-22 13:38:27.927(Timestamp), 0(Long), 99999(String), 1(String)
+13:38:27.969 [MQTT Call: node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+13:38:31.919 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:38:31.920 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:38:31.921 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:38:32.604 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:38:32.604 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:38:32.625 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:38:36.922 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:38:36.923 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:38:36.924 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:38:37.646 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:38:37.647 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:38:37.667 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:38:41.925 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:38:41.925 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:38:41.926 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:38:42.688 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:38:42.688 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:38:42.709 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:38:46.927 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:38:46.928 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:38:46.928 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:38:47.729 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:38:47.730 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:38:47.751 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:38:51.929 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:38:51.930 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:38:51.931 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:38:52.772 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:38:52.772 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:38:52.794 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:38:56.932 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:38:56.933 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:38:56.934 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:38:57.815 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:38:57.816 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:38:57.837 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:39:01.934 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:39:01.935 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:39:01.936 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:39:02.858 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:39:02.858 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:39:02.880 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:39:06.937 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:39:06.938 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:39:06.939 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:39:07.902 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:39:07.902 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:39:07.924 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:39:11.939 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:39:11.940 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:39:11.941 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:39:12.945 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:39:12.945 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:39:12.967 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:39:16.941 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:39:16.942 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:39:16.943 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:39:17.987 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:39:17.987 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:39:18.009 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:39:21.943 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:39:21.944 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:39:21.944 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:39:23.030 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:39:23.030 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:39:23.052 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:39:26.946 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:39:26.947 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:39:26.948 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:39:28.073 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:39:28.073 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:39:28.095 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:39:31.949 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:39:31.949 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:39:31.950 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:39:33.116 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:39:33.116 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:39:33.137 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:39:36.951 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:39:36.952 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:39:36.952 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:39:38.158 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:39:38.159 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:39:38.180 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:39:41.953 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:39:41.954 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:39:41.955 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:39:43.200 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:39:43.201 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:39:43.223 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:39:46.955 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:39:46.956 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:39:46.957 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:39:48.245 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:39:48.245 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:39:48.266 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:39:51.957 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:39:51.958 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:39:51.959 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:39:53.286 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:39:53.287 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:39:53.308 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:39:56.959 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:39:56.960 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:39:56.961 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:39:58.329 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:39:58.329 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:39:58.350 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:40:01.961 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:40:01.962 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:40:01.963 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:40:03.370 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:40:03.371 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:40:03.391 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:40:06.964 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:40:06.965 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:40:06.966 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:40:08.413 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:40:08.413 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:40:08.434 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:40:11.967 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:40:11.968 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:40:11.968 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:40:13.456 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:40:13.456 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:40:13.477 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:40:16.969 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:40:16.969 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:40:16.970 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:40:18.498 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:40:18.498 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:40:18.520 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:40:21.972 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:40:21.972 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:40:21.973 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:40:23.541 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:40:23.541 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:40:23.562 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:40:26.974 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:40:26.974 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:40:26.975 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:40:28.583 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:40:28.583 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:40:28.604 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:40:31.976 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:40:31.977 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:40:31.978 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:40:33.625 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:40:33.625 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:40:33.646 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:40:36.979 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:40:36.979 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:40:36.980 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:40:38.667 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:40:38.667 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:40:38.688 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:40:41.982 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:40:41.982 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:40:41.983 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:40:43.709 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:40:43.709 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:40:43.731 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:40:46.983 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:40:46.984 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:40:46.985 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:40:48.751 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:40:48.751 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:40:48.773 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:40:51.985 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:40:51.986 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:40:51.987 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:40:53.794 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:40:53.794 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:40:53.815 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:40:56.987 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:40:56.987 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:40:56.988 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:40:58.835 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:40:58.836 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:40:58.857 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:41:01.990 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:41:01.991 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:41:01.991 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:41:03.879 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:41:03.879 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:41:03.901 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:41:06.993 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:41:06.994 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:41:06.994 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:41:08.922 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:41:08.922 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:41:08.944 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:41:11.995 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:41:11.995 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:41:11.996 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:41:13.965 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:41:13.965 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:41:13.986 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:41:16.997 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:41:16.998 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:41:16.999 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:41:19.007 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:41:19.007 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:41:19.028 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:41:21.999 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:41:22.000 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:41:22.001 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:41:24.049 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:41:24.050 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:41:24.071 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:41:27.002 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:41:27.003 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:41:27.004 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:41:29.092 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:41:29.092 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:41:29.113 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:41:32.004 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:41:32.004 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:41:32.005 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:41:34.134 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:41:34.134 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:41:34.155 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:41:37.006 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:41:37.006 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:41:37.007 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:41:39.177 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:41:39.177 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:41:39.199 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:41:42.008 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:41:42.008 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:41:42.009 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:41:44.220 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:41:44.220 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:41:44.241 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:41:47.011 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:41:47.012 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:41:47.012 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:41:49.263 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:41:49.263 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:41:49.284 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:41:52.014 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:41:52.014 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:41:52.015 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:41:54.305 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:41:54.305 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:41:54.326 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:41:57.016 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:41:57.017 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:41:57.018 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:41:59.347 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:41:59.347 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:41:59.373 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:42:02.019 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:42:02.020 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:42:02.021 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:42:04.393 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:42:04.393 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:42:04.414 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:42:07.021 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:42:07.022 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:42:07.022 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:42:09.435 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:42:09.436 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:42:09.456 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:42:12.023 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:42:12.024 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:42:12.025 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:42:14.478 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:42:14.478 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:42:14.500 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:42:17.026 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:42:17.027 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:42:17.028 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:42:19.520 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:42:19.520 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:42:19.547 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:42:22.028 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:42:22.029 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:42:22.029 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:42:24.568 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:42:24.568 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:42:24.590 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:42:27.030 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:42:27.031 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:42:27.031 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:42:29.610 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:42:29.610 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:42:29.632 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:42:32.033 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:42:32.033 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:42:32.034 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:42:34.651 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:42:34.652 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:42:34.673 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:42:37.035 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:42:37.035 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:42:37.036 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:42:39.694 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:42:39.694 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:42:39.715 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:42:42.037 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:42:42.038 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:42:42.038 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:42:44.736 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:42:44.736 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:42:44.757 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:42:47.039 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:42:47.039 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:42:47.040 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:42:49.779 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:42:49.779 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:42:49.801 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:42:52.041 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:42:52.041 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:42:52.042 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:42:54.822 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:42:54.822 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:42:54.842 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:42:57.044 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:42:57.044 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:42:57.045 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:42:59.865 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:42:59.865 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:42:59.887 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:43:02.046 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:43:02.047 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:43:02.047 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:43:04.907 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:43:04.907 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:43:04.929 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:43:07.048 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:43:07.048 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:43:07.049 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:43:09.951 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:43:09.951 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:43:09.972 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:43:12.050 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:43:12.050 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:43:12.051 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:43:14.994 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:43:14.994 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:43:15.015 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:43:17.052 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:43:17.052 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:43:17.053 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:43:20.037 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:43:20.037 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:43:20.058 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:43:22.054 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:43:22.055 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:43:22.055 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:43:25.079 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:43:25.079 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:43:25.100 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:43:27.056 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:43:27.057 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:43:27.057 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:43:30.120 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:43:30.120 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:43:30.142 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:43:32.059 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:43:32.060 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:43:32.060 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:52:21.672 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:52:21.719 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:52:21.758 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:52:26.797 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:52:26.797 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:52:26.814 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:52:29.361 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:52:29.362 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:52:29.363 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:52:31.831 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:52:31.831 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:52:31.848 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:52:34.364 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:52:34.365 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:52:34.366 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0

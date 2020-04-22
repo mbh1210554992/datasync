@@ -52,4 +52,16 @@
         )
 
     </insert>
+
+    <update id="updateBook">
+        update book
+        set
+        book_id = #{bookId},
+        book_name = #{bookName},
+        book_isbn = #{bookIsbn},
+        book_author = #{bookAuthor},
+        book_info = #{bookInfo},
+        book_publisher = #{bookPublisher}
+        where book_id = #{bookId}
+    </update>
 </mapper>

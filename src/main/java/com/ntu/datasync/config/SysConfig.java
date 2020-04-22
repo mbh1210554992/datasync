@@ -23,6 +23,8 @@ public class SysConfig {
     public static String NODE_CLIENT_USERNAME;
     public static String NODE_CLIENT_PASSWORD;
 
+    public static Long SCAN_INTERVAL;
+
 
     @Value("${mqtt.server.url}")
     public  void setServerUrl(String serverUrl) {
@@ -68,19 +70,8 @@ public class SysConfig {
         NODE_CLIENT_PASSWORD = nodeClientPassword;
     }
 
-    /*@Value("${mqtt.server.id}")
-    public void setCLIENT_ID(String CLIENT_ID) {
-        this.CLIENT_ID = CLIENT_ID;
+    @Value("${task.scan.interval}")
+    public  void setScanInterval(Long scanInterval) {
+        SCAN_INTERVAL = scanInterval;
     }
-
-    @Value("${mqtt.server.password}")
-    public void setPASSWORD(String PASSWORD) {
-        this.PASSWORD = PASSWORD;
-    }*/
-
-   /* @Value("${mqtt.server.role}")
-    public void setROLE(int ROLE) {
-        this.ROLE = ROLE;
-    }*/
-
 }

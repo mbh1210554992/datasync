@@ -3,6 +3,7 @@ package com.ntu.datasync.sync;
 import com.ntu.datasync.common.ApplicationContextProvider;
 import com.ntu.datasync.common.MsgSerializer;
 import com.ntu.datasync.config.DataSourceType;
+import com.ntu.datasync.config.SysConfig;
 import com.ntu.datasync.mapper.DataSynchroMapper;
 import com.ntu.datasync.model.SyncMessage;
 import com.ntu.datasync.model.po.DataSynchro;
@@ -46,7 +47,7 @@ public class SendThread implements Runnable {
 
         while(true){
             try {
-                Thread.sleep(60000);
+                Thread.sleep(SysConfig.SCAN_INTERVAL);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

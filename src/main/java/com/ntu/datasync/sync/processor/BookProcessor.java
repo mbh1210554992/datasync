@@ -19,7 +19,7 @@ public class BookProcessor implements IDataProcessor{
     public int onReceive(SyncMessage msg) {
         Book book = (Book)msg.getData();
         Book old = bookMapper.findById(book.getBookId());
-        if(book !=null)
+        if(old !=null)
         {
             /*if(book.getUpddate() == null ||  old.getUpddate().before(msg.getDataSynchro().getSb1Time()))
             {
@@ -33,6 +33,8 @@ public class BookProcessor implements IDataProcessor{
                 return 1;
             }*/
             //return 0;
+            bookMapper.updateBook(book);
+            return 0;
         }
         bookMapper.insertBook(book);
         System.out.println("==============================================================");
