@@ -694,3 +694,227 @@
 13:52:24.385 [main] INFO  com.ntu.datasync.DatasyncApplication - Started DatasyncApplication in 19.754 seconds (JVM running for 23.107)
 13:52:29.356 [node] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
 13:52:29.361 [node] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+14:05:01.407 [main] INFO  com.ntu.datasync.DatasyncApplication - Starting DatasyncApplication on LAPTOP-6SA701DM with PID 21100 (C:\Users\Lenovo\Desktop\datasync\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+14:05:01.416 [main] INFO  com.ntu.datasync.DatasyncApplication - No active profile set, falling back to default profiles: default
+14:05:04.644 [main] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+14:05:04.657 [main] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+14:05:04.666 [main] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+14:05:04.821 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$23517155] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:05:04.863 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$8e432c84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:05:04.886 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:05:05.280 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+14:05:05.302 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+14:05:05.312 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:05:05.313 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+14:05:05.525 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:05:05.525 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3965 ms
+14:05:05.625 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+14:05:05.669 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+14:06:20.114 [main] INFO  com.ntu.datasync.DatasyncApplication - Starting DatasyncApplication on LAPTOP-6SA701DM with PID 12988 (C:\Users\Lenovo\Desktop\datasync\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+14:06:20.119 [main] INFO  com.ntu.datasync.DatasyncApplication - No active profile set, falling back to default profiles: default
+14:06:22.037 [main] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+14:06:22.048 [main] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+14:06:22.055 [main] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+14:06:22.194 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2b0d92da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:06:22.230 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$95ff4e09] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:06:22.249 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:06:22.645 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+14:06:22.664 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+14:06:22.673 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:06:22.673 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+14:06:22.880 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:06:22.881 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2638 ms
+14:06:23.806 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:06:24.254 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+14:06:24.352 [main] INFO  org.springframework.integration.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+14:06:24.352 [main] INFO  org.springframework.integration.channel.PublishSubscribeChannel - Channel 'application.errorChannel' has 1 subscriber(s).
+14:06:24.352 [main] INFO  org.springframework.integration.endpoint.EventDrivenConsumer - started _org.springframework.integration.errorLogger
+14:06:24.363 [main] INFO  io.moquette.broker.config.ResourceLoaderConfig - Loading configuration. ResourceLoader = classpath resource, configName = null.
+14:06:24.365 [main] INFO  io.moquette.broker.config.ClasspathResourceLoader - Loading resource. RelativePath = config/moquette.conf.
+14:06:24.366 [main] INFO  io.moquette.broker.config.ResourceLoaderConfig - Parsing configuration properties. ResourceLoader = classpath resource, configName = null.
+14:06:24.368 [main] INFO  io.moquette.broker.Server - Configuring message interceptors...
+14:06:24.370 [main] INFO  io.moquette.interception.BrokerInterceptor - Initializing broker interceptor. InterceptorIds=[]
+14:06:24.377 [main] INFO  io.moquette.broker.Server - Using default SSL context creator
+14:06:24.381 [main] INFO  io.moquette.broker.security.ResourceAuthenticator - Loading password classpath resource config/password_file.conf
+14:06:24.381 [main] INFO  io.moquette.broker.config.ClasspathResourceLoader - Loading resource. RelativePath = config/password_file.conf.
+14:06:24.382 [main] INFO  io.moquette.broker.Server - An io.moquette.broker.security.ResourceAuthenticator authenticator instance will be used
+14:06:24.384 [main] INFO  io.moquette.broker.Server - Parsing ACL file. Path = config/acl.conf
+14:06:24.384 [main] INFO  io.moquette.broker.config.ClasspathResourceLoader - Loading resource. RelativePath = config/acl.conf.
+14:06:24.391 [main] INFO  io.moquette.broker.Server - Authorizator policy io.moquette.broker.security.AuthorizationsCollector instance will be used
+14:06:24.396 [main] INFO  io.moquette.broker.subscriptions.CTrieSubscriptionDirectory - Initializing CTrie
+14:06:24.401 [main] INFO  io.moquette.broker.subscriptions.CTrieSubscriptionDirectory - Initializing subscriptions store...
+14:06:24.439 [main] INFO  io.moquette.broker.NewNettyAcceptor - Netty is using NIO
+14:06:27.084 [main] INFO  io.moquette.broker.NewNettyAcceptor - Server bound to host=0.0.0.0, port=6666, protocol=TCP MQTT
+14:06:27.093 [main] INFO  io.moquette.broker.NewNettyAcceptor - Server bound to host=0.0.0.0, port=8000, protocol=Websocket MQTT
+14:06:27.095 [main] INFO  io.moquette.broker.Server - Moquette integration has been started successfully in 2728 ms
+14:06:32.249 [nioEventLoopGroup-3-1] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C->B CONNECT <null>
+14:06:32.275 [nioEventLoopGroup-3-1] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C->B SUBSCRIBE <center> to topics [MqttTopicSubscription[topicFilter=sync/node, qualityOfService=AT_LEAST_ONCE]]
+14:06:32.280 [nioEventLoopGroup-3-1] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C<-B SUBACK <center> packetID <1>, grantedQoses [1]
+14:06:40.306 [nioEventLoopGroup-3-2] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C->B CONNECT <null>
+14:06:40.310 [nioEventLoopGroup-3-2] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C->B SUBSCRIBE <node> to topics [MqttTopicSubscription[topicFilter=sync/center, qualityOfService=AT_LEAST_ONCE]]
+14:06:40.310 [nioEventLoopGroup-3-2] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C<-B SUBACK <node> packetID <1>, grantedQoses [1]
+14:06:40.315 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+14:06:40.339 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+14:06:40.343 [main] INFO  com.ntu.datasync.DatasyncApplication - Started DatasyncApplication in 21.435 seconds (JVM running for 25.497)
+14:06:45.313 [node] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:06:45.333 [node] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:07:55.027 [main] INFO  com.ntu.datasync.DatasyncApplication - Starting DatasyncApplication on LAPTOP-6SA701DM with PID 16496 (C:\Users\Lenovo\Desktop\datasync\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+14:07:55.046 [main] INFO  com.ntu.datasync.DatasyncApplication - No active profile set, falling back to default profiles: default
+14:07:58.096 [main] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+14:07:58.113 [main] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+14:07:58.124 [main] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+14:07:58.313 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5ea6b4f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:07:58.343 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$c9987023] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:07:58.357 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:07:58.751 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+14:07:58.771 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+14:07:58.782 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:07:58.783 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+14:07:58.991 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:07:58.991 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3814 ms
+14:08:00.192 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:08:00.840 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+14:08:00.903 [main] INFO  org.springframework.integration.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+14:08:00.904 [main] INFO  org.springframework.integration.channel.PublishSubscribeChannel - Channel 'application.errorChannel' has 1 subscriber(s).
+14:08:00.904 [main] INFO  org.springframework.integration.endpoint.EventDrivenConsumer - started _org.springframework.integration.errorLogger
+14:08:00.916 [main] INFO  io.moquette.broker.config.ResourceLoaderConfig - Loading configuration. ResourceLoader = classpath resource, configName = null.
+14:08:00.918 [main] INFO  io.moquette.broker.config.ClasspathResourceLoader - Loading resource. RelativePath = config/moquette.conf.
+14:08:00.919 [main] INFO  io.moquette.broker.config.ResourceLoaderConfig - Parsing configuration properties. ResourceLoader = classpath resource, configName = null.
+14:08:00.922 [main] INFO  io.moquette.broker.Server - Configuring message interceptors...
+14:08:00.923 [main] INFO  io.moquette.interception.BrokerInterceptor - Initializing broker interceptor. InterceptorIds=[]
+14:08:00.928 [main] INFO  io.moquette.broker.Server - Using default SSL context creator
+14:08:00.931 [main] INFO  io.moquette.broker.security.ResourceAuthenticator - Loading password classpath resource config/password_file.conf
+14:08:00.931 [main] INFO  io.moquette.broker.config.ClasspathResourceLoader - Loading resource. RelativePath = config/password_file.conf.
+14:08:00.932 [main] INFO  io.moquette.broker.Server - An io.moquette.broker.security.ResourceAuthenticator authenticator instance will be used
+14:08:00.933 [main] INFO  io.moquette.broker.Server - Parsing ACL file. Path = config/acl.conf
+14:08:00.934 [main] INFO  io.moquette.broker.config.ClasspathResourceLoader - Loading resource. RelativePath = config/acl.conf.
+14:08:00.938 [main] INFO  io.moquette.broker.Server - Authorizator policy io.moquette.broker.security.AuthorizationsCollector instance will be used
+14:08:00.942 [main] INFO  io.moquette.broker.subscriptions.CTrieSubscriptionDirectory - Initializing CTrie
+14:08:00.945 [main] INFO  io.moquette.broker.subscriptions.CTrieSubscriptionDirectory - Initializing subscriptions store...
+14:08:00.972 [main] INFO  io.moquette.broker.NewNettyAcceptor - Netty is using NIO
+14:08:03.212 [main] INFO  io.moquette.broker.NewNettyAcceptor - Server bound to host=0.0.0.0, port=6666, protocol=TCP MQTT
+14:08:03.222 [main] INFO  io.moquette.broker.NewNettyAcceptor - Server bound to host=0.0.0.0, port=8000, protocol=Websocket MQTT
+14:08:03.224 [main] INFO  io.moquette.broker.Server - Moquette integration has been started successfully in 2303 ms
+14:08:08.364 [nioEventLoopGroup-3-1] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C->B CONNECT <null>
+14:08:08.388 [nioEventLoopGroup-3-1] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C->B SUBSCRIBE <center> to topics [MqttTopicSubscription[topicFilter=sync/node, qualityOfService=AT_LEAST_ONCE]]
+14:08:08.392 [nioEventLoopGroup-3-1] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C<-B SUBACK <center> packetID <1>, grantedQoses [1]
+14:08:16.430 [nioEventLoopGroup-3-2] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C->B CONNECT <null>
+14:08:16.435 [nioEventLoopGroup-3-2] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C->B SUBSCRIBE <node> to topics [MqttTopicSubscription[topicFilter=sync/center, qualityOfService=AT_LEAST_ONCE]]
+14:08:16.436 [nioEventLoopGroup-3-2] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C<-B SUBACK <node> packetID <1>, grantedQoses [1]
+14:08:16.444 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+14:08:16.491 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+14:08:16.499 [main] INFO  com.ntu.datasync.DatasyncApplication - Started DatasyncApplication in 22.34 seconds (JVM running for 25.511)
+14:08:21.447 [node] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:08:21.483 [node] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:09:16.649 [nioEventLoopGroup-3-2] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C<-B PUBACK <node> packetID <2>
+14:09:17.459 [node] INFO  com.ntu.datasync.sync.SendThread - 发送消息:Book{bookId=99999, bookName='大大大大大大大大大', bookIsbn='12121222112', bookAuthor='mbh', bookStatus='0'}
+14:09:17.501 [MQTT Call: center] INFO  com.ntu.datasync.sync.DataReceiver - 99999 号数据同步成功
+14:09:17.689 [nioEventLoopGroup-3-1] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C<-B PUBACK <center> packetID <2>
+14:09:18.349 [nioEventLoopGroup-3-1] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C->B PUBACK <center> packetID <1>
+14:09:18.518 [nioEventLoopGroup-3-2] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C->B PUBACK <node> packetID <1>
+14:16:45.980 [main] INFO  com.ntu.datasync.DatasyncApplication - Starting DatasyncApplication on LAPTOP-6SA701DM with PID 13160 (C:\Users\Lenovo\Desktop\datasync\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+14:16:45.985 [main] INFO  com.ntu.datasync.DatasyncApplication - No active profile set, falling back to default profiles: default
+14:16:47.881 [main] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+14:16:47.892 [main] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+14:16:47.900 [main] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+14:16:48.028 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c0f990e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:16:48.057 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$2beb4c17] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:16:48.072 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:16:48.441 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+14:16:48.465 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+14:16:48.479 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:16:48.479 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+14:16:48.700 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:16:48.701 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2611 ms
+14:16:49.425 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:16:49.805 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+14:16:49.865 [main] INFO  org.springframework.integration.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+14:16:49.866 [main] INFO  org.springframework.integration.channel.PublishSubscribeChannel - Channel 'application.errorChannel' has 1 subscriber(s).
+14:16:49.866 [main] INFO  org.springframework.integration.endpoint.EventDrivenConsumer - started _org.springframework.integration.errorLogger
+14:16:49.873 [main] INFO  io.moquette.broker.config.ResourceLoaderConfig - Loading configuration. ResourceLoader = classpath resource, configName = null.
+14:16:49.875 [main] INFO  io.moquette.broker.config.ClasspathResourceLoader - Loading resource. RelativePath = config/moquette.conf.
+14:16:49.876 [main] INFO  io.moquette.broker.config.ResourceLoaderConfig - Parsing configuration properties. ResourceLoader = classpath resource, configName = null.
+14:16:49.877 [main] INFO  io.moquette.broker.Server - Configuring message interceptors...
+14:16:49.879 [main] INFO  io.moquette.interception.BrokerInterceptor - Initializing broker interceptor. InterceptorIds=[]
+14:16:49.883 [main] INFO  io.moquette.broker.Server - Using default SSL context creator
+14:16:49.885 [main] INFO  io.moquette.broker.security.ResourceAuthenticator - Loading password classpath resource config/password_file.conf
+14:16:49.886 [main] INFO  io.moquette.broker.config.ClasspathResourceLoader - Loading resource. RelativePath = config/password_file.conf.
+14:16:49.887 [main] INFO  io.moquette.broker.Server - An io.moquette.broker.security.ResourceAuthenticator authenticator instance will be used
+14:16:49.888 [main] INFO  io.moquette.broker.Server - Parsing ACL file. Path = config/acl.conf
+14:16:49.888 [main] INFO  io.moquette.broker.config.ClasspathResourceLoader - Loading resource. RelativePath = config/acl.conf.
+14:16:49.893 [main] INFO  io.moquette.broker.Server - Authorizator policy io.moquette.broker.security.AuthorizationsCollector instance will be used
+14:16:49.896 [main] INFO  io.moquette.broker.subscriptions.CTrieSubscriptionDirectory - Initializing CTrie
+14:16:49.900 [main] INFO  io.moquette.broker.subscriptions.CTrieSubscriptionDirectory - Initializing subscriptions store...
+14:16:49.927 [main] INFO  io.moquette.broker.NewNettyAcceptor - Netty is using NIO
+14:16:51.878 [main] INFO  io.moquette.broker.NewNettyAcceptor - Server bound to host=0.0.0.0, port=6666, protocol=TCP MQTT
+14:16:51.887 [main] INFO  io.moquette.broker.NewNettyAcceptor - Server bound to host=0.0.0.0, port=8000, protocol=Websocket MQTT
+14:16:51.889 [main] INFO  io.moquette.broker.Server - Moquette integration has been started successfully in 2012 ms
+14:16:57.026 [nioEventLoopGroup-3-1] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C->B CONNECT <null>
+14:16:57.052 [nioEventLoopGroup-3-1] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C->B SUBSCRIBE <center> to topics [MqttTopicSubscription[topicFilter=sync/node, qualityOfService=AT_LEAST_ONCE]]
+14:16:57.056 [nioEventLoopGroup-3-1] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C<-B SUBACK <center> packetID <1>, grantedQoses [1]
+14:17:05.080 [nioEventLoopGroup-3-2] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C->B CONNECT <null>
+14:17:05.083 [nioEventLoopGroup-3-2] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C->B SUBSCRIBE <node> to topics [MqttTopicSubscription[topicFilter=sync/center, qualityOfService=AT_LEAST_ONCE]]
+14:17:05.084 [nioEventLoopGroup-3-2] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C<-B SUBACK <node> packetID <1>, grantedQoses [1]
+14:17:05.089 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+14:17:05.111 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+14:17:05.116 [main] INFO  com.ntu.datasync.DatasyncApplication - Started DatasyncApplication in 20.009 seconds (JVM running for 23.079)
+14:17:50.346 [nioEventLoopGroup-3-2] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C<-B PUBACK <node> packetID <2>
+14:17:51.101 [node] INFO  com.ntu.datasync.sync.SendThread - 发送消息:Book{bookId=555555, bookName='笑笑笑', bookIsbn='324324', bookAuthor='34234', bookStatus='23'}
+14:17:51.183 [MQTT Call: center] INFO  com.ntu.datasync.sync.DataReceiver - 555555 号数据同步成功
+14:17:51.278 [nioEventLoopGroup-3-1] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C<-B PUBACK <center> packetID <2>
+14:17:52.000 [nioEventLoopGroup-3-1] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C->B PUBACK <center> packetID <1>
+14:17:52.213 [nioEventLoopGroup-3-2] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C->B PUBACK <node> packetID <1>
+14:19:11.220 [nioEventLoopGroup-3-2] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C<-B PUBACK <node> packetID <3>
+14:19:12.147 [node] INFO  com.ntu.datasync.sync.SendThread - 发送消息:Book{bookId=555555, bookName='笑笑笑酷酷酷酷亏库', bookIsbn='324324', bookAuthor='34234', bookStatus='23'}
+14:19:12.164 [MQTT Call: center] INFO  com.ntu.datasync.sync.DataReceiver - 555555 号数据同步成功
+14:19:12.259 [nioEventLoopGroup-3-1] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C<-B PUBACK <center> packetID <3>
+14:19:13.037 [nioEventLoopGroup-3-1] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C->B PUBACK <center> packetID <2>
+14:19:13.255 [nioEventLoopGroup-3-2] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C->B PUBACK <node> packetID <2>
+21:28:38.443 [main] INFO  com.ntu.datasync.DatasyncApplication - Starting DatasyncApplication on LAPTOP-6SA701DM with PID 17152 (C:\Users\Lenovo\Desktop\datasync\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+21:28:38.467 [main] INFO  com.ntu.datasync.DatasyncApplication - No active profile set, falling back to default profiles: default
+21:28:43.663 [main] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+21:28:43.680 [main] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+21:28:43.691 [main] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+21:28:43.948 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1b834cf4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:28:43.983 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$86750823] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:28:44.001 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:28:44.672 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+21:28:44.697 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+21:28:44.724 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21:28:44.724 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+21:28:44.983 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:28:44.983 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5999 ms
+21:28:47.049 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+21:28:47.724 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+21:28:47.832 [main] INFO  org.springframework.integration.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+21:28:47.832 [main] INFO  org.springframework.integration.channel.PublishSubscribeChannel - Channel 'application.errorChannel' has 1 subscriber(s).
+21:28:47.833 [main] INFO  org.springframework.integration.endpoint.EventDrivenConsumer - started _org.springframework.integration.errorLogger
+21:28:47.850 [main] INFO  io.moquette.broker.config.ResourceLoaderConfig - Loading configuration. ResourceLoader = classpath resource, configName = null.
+21:28:47.857 [main] INFO  io.moquette.broker.config.ClasspathResourceLoader - Loading resource. RelativePath = config/moquette.conf.
+21:28:47.858 [main] INFO  io.moquette.broker.config.ResourceLoaderConfig - Parsing configuration properties. ResourceLoader = classpath resource, configName = null.
+21:28:47.893 [main] INFO  io.moquette.broker.Server - Configuring message interceptors...
+21:28:47.898 [main] INFO  io.moquette.interception.BrokerInterceptor - Initializing broker interceptor. InterceptorIds=[]
+21:28:47.905 [main] INFO  io.moquette.broker.Server - Using default SSL context creator
+21:28:47.909 [main] INFO  io.moquette.broker.security.ResourceAuthenticator - Loading password classpath resource config/password_file.conf
+21:28:47.910 [main] INFO  io.moquette.broker.config.ClasspathResourceLoader - Loading resource. RelativePath = config/password_file.conf.
+21:28:47.917 [main] INFO  io.moquette.broker.Server - An io.moquette.broker.security.ResourceAuthenticator authenticator instance will be used
+21:28:47.919 [main] INFO  io.moquette.broker.Server - Parsing ACL file. Path = config/acl.conf
+21:28:47.919 [main] INFO  io.moquette.broker.config.ClasspathResourceLoader - Loading resource. RelativePath = config/acl.conf.
+21:28:47.926 [main] INFO  io.moquette.broker.Server - Authorizator policy io.moquette.broker.security.AuthorizationsCollector instance will be used
+21:28:47.935 [main] INFO  io.moquette.broker.subscriptions.CTrieSubscriptionDirectory - Initializing CTrie
+21:28:47.940 [main] INFO  io.moquette.broker.subscriptions.CTrieSubscriptionDirectory - Initializing subscriptions store...
+21:28:48.014 [main] INFO  io.moquette.broker.NewNettyAcceptor - Netty is using NIO
+21:28:50.199 [main] INFO  io.moquette.broker.NewNettyAcceptor - Server bound to host=0.0.0.0, port=6666, protocol=TCP MQTT
+21:28:50.209 [main] INFO  io.moquette.broker.NewNettyAcceptor - Server bound to host=0.0.0.0, port=8000, protocol=Websocket MQTT
+21:28:50.211 [main] INFO  io.moquette.broker.Server - Moquette integration has been started successfully in 2333 ms
+21:28:55.470 [nioEventLoopGroup-3-1] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C->B CONNECT <null>
+21:28:55.546 [nioEventLoopGroup-3-1] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C->B SUBSCRIBE <center> to topics [MqttTopicSubscription[topicFilter=sync/node, qualityOfService=AT_LEAST_ONCE]]
+21:28:55.550 [nioEventLoopGroup-3-1] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C<-B SUBACK <center> packetID <1>, grantedQoses [1]
+21:29:03.577 [nioEventLoopGroup-3-2] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C->B CONNECT <null>
+21:29:03.581 [nioEventLoopGroup-3-2] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C->B SUBSCRIBE <node> to topics [MqttTopicSubscription[topicFilter=sync/center, qualityOfService=AT_LEAST_ONCE]]
+21:29:03.582 [nioEventLoopGroup-3-2] INFO  io.moquette.broker.metrics.MQTTMessageLogger - C<-B SUBACK <node> packetID <1>, grantedQoses [1]
+21:29:03.588 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+21:29:03.634 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+21:29:03.639 [main] INFO  com.ntu.datasync.DatasyncApplication - Started DatasyncApplication in 26.825 seconds (JVM running for 33.292)

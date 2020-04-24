@@ -4,13 +4,9 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Primary;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
-
 
 import javax.sql.DataSource;
 import java.util.HashMap;
@@ -24,7 +20,7 @@ import java.util.Map;
 @MapperScan(basePackages = "com.ntu.datasync.mapper", sqlSessionFactoryRef = "SqlSessionFactory") //basePackages 我们接口文件的地址
 public class DynamicDataSourceConfig {
 
-    // 将这个对象放入Spring容器中
+   /* // 将这个对象放入Spring容器中
     @Bean(name = "PrimaryDataSource")
     // 表示这个数据源是默认数据源
     @Primary
@@ -33,14 +29,14 @@ public class DynamicDataSourceConfig {
     @ConfigurationProperties(prefix = "spring.datasource.primary")
     public DataSource getDateSource1() {
         return DataSourceBuilder.create().build();
-    }
+    }*/
 
 
-    @Bean(name = "SecondaryDataSource")
+   /* @Bean(name = "SecondaryDataSource")
     @ConfigurationProperties(prefix = "spring.datasource.secondary")
     public DataSource getDateSource2() {
         return DataSourceBuilder.create().build();
-    }
+    }*/
 
 
     @Bean(name = "dynamicDataSource")
