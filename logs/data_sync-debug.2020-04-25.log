@@ -1,0 +1,102 @@
+13:56:08.192 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:56:08.262 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:56:08.293 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:56:11.841 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:56:11.842 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:56:11.900 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:56:13.315 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:56:13.315 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:56:13.331 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:56:16.901 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:56:16.902 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:56:16.903 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:56:18.357 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:56:18.357 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:56:18.379 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:56:21.906 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:56:21.906 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:56:21.907 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:56:23.405 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:56:23.405 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:56:23.422 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:56:26.908 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:56:26.908 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:56:26.909 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:56:28.442 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:56:28.442 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:56:28.464 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:56:31.911 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:56:31.911 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:56:31.912 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:56:33.480 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:56:33.481 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:56:33.508 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:56:36.912 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:56:36.913 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:56:36.914 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:56:38.528 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:56:38.528 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:56:38.547 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:56:41.915 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:56:41.915 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:56:41.916 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:56:43.570 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:56:43.571 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:56:43.593 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:56:46.971 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:56:46.973 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:56:46.980 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:56:48.610 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:56:48.610 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:56:48.627 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:56:51.983 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:56:51.984 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:56:51.985 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:56:53.645 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:56:53.645 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:56:53.664 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:56:56.986 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:56:56.986 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:56:56.987 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:56:58.681 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:56:58.681 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:56:58.708 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:57:01.989 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:57:01.989 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:57:01.990 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:57:03.733 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:57:03.733 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:57:03.754 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:57:06.990 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:57:06.991 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:57:06.992 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:57:08.771 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:57:08.771 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:57:08.789 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:57:11.992 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:57:11.993 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:57:11.994 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:57:13.805 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:57:13.805 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:57:13.822 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:57:16.996 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:57:16.996 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:57:16.997 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:57:18.844 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:57:18.844 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:57:18.861 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:57:21.999 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:57:21.999 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:57:22.000 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:57:23.879 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:57:23.879 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:57:23.901 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:57:27.003 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:57:27.003 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:57:27.004 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:57:28.918 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:57:28.918 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:57:28.936 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+13:57:32.004 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+13:57:32.005 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+13:57:32.005 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0

@@ -1,8 +1,8 @@
 package com.ntu.datasync.mapper;
 
 import com.ntu.datasync.model.po.Book;
-import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import java.util.List;
  * @Author: baihua
  * @Date: Created in 11/12/2019 5:29 PM
  */
-@Mapper
+@Component
 public interface BookMapper {
     List<Book> findAll();
     Book findById(@Param("bookId") String bookId);

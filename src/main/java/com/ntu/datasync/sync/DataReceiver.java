@@ -118,7 +118,7 @@ public class DataReceiver {
                 byte[] buf = new MsgSerializer().encode(ackMessage);
                 //String topicId = (syncMessage.getClientid().startsWith("node"))?topic.TOPIC_SYNC_NODE+smsg.getClientid():topic.TOPIC_SYNC_CENTER;
                 mc.publish(SysConfig.CENTER_TOPIC, buf, true);
-                logger.debug("发送确认信息=======================");
+                logger.debug("发送确认信息==========================");
                 //mc.publish(topicId, buf, true);
                 //LOG.debug("send ack to "+topic.TOPIC_SYNC_NODE+smsg.getClientid()+":"+remote);
             }
