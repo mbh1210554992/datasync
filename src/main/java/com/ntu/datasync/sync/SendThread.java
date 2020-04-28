@@ -1,5 +1,6 @@
 package com.ntu.datasync.sync;
 
+import com.ntu.cst.DatasyncType;
 import com.ntu.datasync.common.ApplicationContextProvider;
 import com.ntu.datasync.common.MsgSerializer;
 import com.ntu.datasync.config.DataSourceType;
@@ -7,7 +8,7 @@ import com.ntu.datasync.config.SysConfig;
 import com.ntu.datasync.mapper.DataSynchroMapper;
 import com.ntu.datasync.model.SyncMessage;
 import com.ntu.datasync.model.po.DataSynchro;
-import com.ntu.datasync.sync.processor.BookProcessor;
+import com.ntu.datasync.sync.processor.Processor1;
 import com.ntu.datasync.sync.processor.IDataProcessor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -68,11 +69,29 @@ public class SendThread implements Runnable {
                     }
 
                     byte[] message = null;
-                    IDataProcessor dr =(BookProcessor)applicationContextProvider.getBean("bookProcessor");
+                    int type = 0;
+                    for(DatasyncType dataType : DatasyncType.values()){
+                         if(dataType.getFlag().equals(ds.getType())){
+                             type = dataType.getId();
+                             break;
+                         }
+                    }
+
+                    if(type == 0){
+                        logger.error("同步数据不存在："+ds);
+                        ds.setSa1Status("2");
+                        ds.setSc1Time(new Date());
+                        ds.setSf1Msg("data not found");
+                        ds.setSd1Num(5L);
+                        dataSynchroMapper.updateActive(ds);
+                        continue;
+                    }
+
+                    IDataProcessor dr =(Processor1)applicationContextProvider.getBean("Processor"+type);
                     SyncMessage sm = new SyncMessage();
                     sm.setDataSynchro(ds);
                     //sm.setClientid(role.equals("node") ? );
-                    sm.setMsgtype(1);
+                    sm.setMsgtype(type);
                     String target = dr.onSend(sm);
                     //logger.info("查询到新增的数据:"+sm.getData());
                     if(sm.getData() == null){
@@ -80,6 +99,7 @@ public class SendThread implements Runnable {
                         ds.setSa1Status("2");
                         ds.setSc1Time(new Date());
                         ds.setSf1Msg("data not found");
+                        ds.setSd1Num(5L);
                         dataSynchroMapper.updateActive(ds);
                         continue;
                     }
@@ -89,6 +109,7 @@ public class SendThread implements Runnable {
                 }
             }catch (Exception e){
                 logger.error(e.getMessage());
+
             }
 
 

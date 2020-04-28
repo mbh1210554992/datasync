@@ -10,8 +10,8 @@ import org.springframework.stereotype.Component;
  * @Author: baihua
  * @Date: 2019/12/4 09:05
  */
-@Component
-public class BookProcessor implements IDataProcessor{
+@Component(value = "Processor1")
+public class Processor1 implements IDataProcessor{
 
     @Autowired
     private BookMapper bookMapper;
