@@ -34,10 +34,10 @@ public class CenterSync {
 
         imqttClient.connect(new DataReceiver(imqttClient,applicationContextProvider));
         imqttClient.subscribe(SysConfig.NODE_TOPIC);
-        SendThread st = new SendThread("center",applicationContextProvider,imqttClient);
-        Thread node = new Thread(st);
-        node.setName("center");
-        node.start();
+//        SendThread st = new SendThread("center",applicationContextProvider,imqttClient);
+//        Thread node = new Thread(st);
+//        node.setName("center");
+//        node.start();
         //logger.info("center:"+ bookMapper.findAll());
         
     }

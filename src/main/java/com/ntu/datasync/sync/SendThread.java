@@ -104,7 +104,13 @@ public class SendThread implements Runnable {
                         continue;
                     }
                     message = new MsgSerializer().encode(sm);
-                    imqttClient.publish("sync/node",message,true);
+                    String topic = null;
+                    if(role.equals("center")){
+                        topic = SysConfig.CENTER_TOPIC;
+                    }else{
+                        topic = SysConfig.NODE_TOPIC;
+                    }
+                    imqttClient.publish(topic,message,true);
                     logger.info("发送消息"+":" + sm.getData());
                 }
             }catch (Exception e){

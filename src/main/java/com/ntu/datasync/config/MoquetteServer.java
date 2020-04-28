@@ -28,6 +28,8 @@ public class MoquetteServer {
     public void startServer() throws IOException {
         IResourceLoader configFileResourceLoader = new ClasspathResourceLoader(configFilePath);
         final IConfig config = new ResourceLoaderConfig(configFileResourceLoader);
+//        String rootpath  = URLDecoder.decode(CenterSync.class.getResource("/").getPath(), "UTF-8");
+//        System.getProperties().setProperty("log4j.configuration",rootpath+"config/moquette-log.properties");
 
         mqttServer = new Server();
 

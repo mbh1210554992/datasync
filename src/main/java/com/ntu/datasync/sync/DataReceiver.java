@@ -107,10 +107,12 @@ public class DataReceiver {
                 }
                 logger.info(tableName+" 表中的 "+local.getBasicinfoid()+" 号数据同步成功");
 
+                remote.setSa1Status(local.getSa2Status());
+                remote.setSc1Time(local.getSc2Time());
+                remote.setSf1Msg(local.getSf2Msg());
             }
-            remote.setSa1Status(local.getSa2Status());
-            remote.setSc1Time(local.getSc2Time());
-            remote.setSf1Msg(local.getSf2Msg());
+
+
         }catch (Throwable e){
             logger.info(tableName+" 表中的 " + syncMessage.getDataSynchro().getBasicinfoid()+" 号数据同步失败");
             logger.error(syncMessage.getDataSynchro().getBasicinfoid()+" 号数据同步失败原因: "+e.getMessage());
@@ -128,8 +130,9 @@ public class DataReceiver {
                         syncMessage.getClientid(), remote, null);
                 byte[] buf = new MsgSerializer().encode(ackMessage);
                 //String topicId = (syncMessage.getClientid().startsWith("node"))?topic.TOPIC_SYNC_NODE+smsg.getClientid():topic.TOPIC_SYNC_CENTER;
-                mc.publish(SysConfig.CENTER_TOPIC, buf, true);
                 logger.debug("发送确认信息==========================");
+                mc.publish(SysConfig.CENTER_TOPIC, buf, true);
+                logger.debug("确认信息发送完成==========================");
                 //mc.publish(topicId, buf, true);
                 //LOG.debug("send ack to "+topic.TOPIC_SYNC_NODE+smsg.getClientid()+":"+remote);
             }
