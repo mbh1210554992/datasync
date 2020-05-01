@@ -1,2 +1,0 @@
-22:28:37.877 [node] ERROR com.ntu.datasync.sync.SendThread - No bean named 'Processor1' available
-22:28:42.880 [node] ERROR com.ntu.datasync.sync.SendThread - No bean named 'Processor1' available
