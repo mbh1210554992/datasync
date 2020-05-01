@@ -118,24 +118,6 @@ public class SendThread implements Runnable {
 
             }
 
-
-
-
-           /* if(role.equals("center")){
-
-            }else{
-               // Processor processor = (Processor) applicationContextProvider.getBean("processor");
-                SyncMessage syncMessage = new SyncMessage();
-                syncMessage.setClientid(sysConfig.getClintid());
-                syncMessage.setMsgtype(1);
-                syncMessage.setData(books);
-                //String target  = processor.onSend(syncMessage);
-
-                byte[] message =new MsgSerializer().encode(syncMessage);
-
-                imqttClient.publish("/sync/test",message,true);
-            }
-*/
         }
     }
 }
