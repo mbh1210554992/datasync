@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ntu.center.mapper.ChangJiangBoxSensorMapper">
+    <resultMap id="changJiangBoxSensor" type="com.ntu.common.model.po.ChangJiangBoxSensor">
+        <id column="area_id" property="areaId"/>
+        <id column="spot_id" property="spotId"/>
+        <id column="node_id" property="nodeId"/>
+        <id column="data_time" property="dataTime"/>
+        <result column="Conductivity" property="conductivity"/>
+        <result column="Temperature" property="temperature"/>
+        <result column="PH" property="ph"/>
+        <result column="Salinity" property="salinity"/>
+        <result column="DissolvedOxygen" property="dissolvedOxygen"/>
+        <result column="Turbidity" property="turbidity"/>
+    </resultMap>
+
+    <insert id="insert">
+        insert into nantong_changjiang_box_sensor
+        values (#{areaId},
+                #{spotId},
+                #{nodeId},
+                #{dataTime},
+                #{conductivity},
+                #{temperature},
+                #{ph},
+                #{salinity},
+                #{dissolvedOxygen},
+                #{turbidity})
+    </insert>
+
+    <update id="update">
+        update nantong_changjiang_box_sensor
+        set Conductivity = #{conductivity},
+            Temperature = #{temperature},
+            PH = #{ph},
+            Salinity = #{salinity},
+            DissolvedOxygen = #{dissolvedOxygen},
+            Turbidity = #{turbidity}
+        where area_id = #{areaId} and spot_id = #{spotId} and node_id = #{nodeId} and data_time = #{dataTime}
+    </update>
+
+    <select id="findById" resultMap="changJiangBoxSensor">
+        select
+            area_id,
+            spot_id,
+            node_id,
+            data_time,
+            Conductivity,
+            Temperature,
+            PH,
+            Salinity,
+            DissolvedOxygen,
+            Turbidity
+        from nantong_changjiang_box_sensor
+        where area_id = #{areaId} and spot_id = #{spotId} and node_id = #{nodeId} and data_time = #{dataTime}
+    </select>
+
+
+</mapper>
