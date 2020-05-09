@@ -8,7 +8,7 @@ import com.ntu.common.config.MsgSerializer;
 import com.ntu.common.cst.DatasyncType;
 import com.ntu.common.model.po.DataSynchro;
 import com.ntu.common.model.SyncMessage;
-import com.ntu.common.model.SysConfig;
+import com.ntu.common.model.Constant;
 import com.ntu.common.processor.DataReceiver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -88,16 +88,18 @@ public class CenterDataReceiver implements DataReceiver {
                 int processFlag = iDataProcessor.onReceive(syncMessage);
                 if (processFlag == 0){
                     //successful
-                    local.setSa2Status("0");
+                    local.setSa1Status("0");
                     local.setSb2Time(remote.getSb1Time());
                     local.setSc2Time(new Date());
+                    local.setSc1Time(new Date());
+                    local.setSf1Msg("data synchronize success");
 
                 }
                 else{
                     //failed
-                    local.setSa2Status("2");
-                    local.setSf2Msg("data expired");
-                    local.setSc2Time(new Date());
+                    local.setSa1Status("2");
+                    local.setSf1Msg("data expired");
+                    local.setSe1Time(new Date());
                 }
 
 
@@ -105,25 +107,26 @@ public class CenterDataReceiver implements DataReceiver {
                     dataSynchroMapper.insert(local);
                 }
                 else{
-                    dataSynchroMapper.updatePassive(local);
+                    dataSynchroMapper.updateActive(local);
                 }
-                logger.info(tableName+" 表中的 "+local.getBasicinfoid()+" 号数据同步成功");
+                logger.info(syncMessage.getClientid()+" 节点的 "+tableName+" 表中的 "+local.getBasicinfoid()+" 号数据同步成功");
 
-                remote.setSa1Status(local.getSa2Status());
+                remote.setSa1Status(local.getSa1Status());
                 remote.setSc1Time(local.getSc2Time());
-                remote.setSf1Msg(local.getSf2Msg());
+                remote.setSf1Msg(local.getSf1Msg());
             }
 
 
         }catch (Throwable e){
-            logger.info(tableName+" 表中的 " + syncMessage.getDataSynchro().getBasicinfoid()+" 号数据同步失败");
-            logger.error(syncMessage.getDataSynchro().getBasicinfoid()+" 号数据同步失败原因: "+e.getMessage());
+            logger.info(syncMessage.getClientid()+" 节点的 "+tableName+" 表中的 " + syncMessage.getDataSynchro().getBasicinfoid()+" 号数据同步失败");
+            logger.error(syncMessage.getClientid()+" 节点的 "+syncMessage.getDataSynchro().getBasicinfoid()+" 号数据同步失败原因: "+e.getMessage());
             remote = new DataSynchro();
             remote.setBasicinfoid(syncMessage.getDataSynchro().getBasicinfoid());
             remote.setType(syncMessage.getDataSynchro().getType());
             remote.setSa1Status("9");
             remote.setSc1Time(new Date());
             remote.setSf1Msg("synchronize data failed");
+
         }
 
         try{
@@ -133,7 +136,12 @@ public class CenterDataReceiver implements DataReceiver {
                 byte[] buf = new MsgSerializer().encode(ackMessage);
                 //String topicId = (syncMessage.getClientid().startsWith("node"))?topic.TOPIC_SYNC_NODE+smsg.getClientid():topic.TOPIC_SYNC_CENTER;
                 logger.debug("发送确认信息==========================");
-                mc.publish(SysConfig.CENTER_TOPIC, buf, true);
+                if(Constant.NODE_CLIENT_ID.equals(syncMessage.getClientid())){
+                    mc.publish(Constant.CENTER_TOPIC1, buf, true);
+                }else if(Constant.NODE2_CLIENT_ID.equals(syncMessage.getClientid())){
+                    mc.publish(Constant.CENTER_TOPIC2, buf, true);
+                }
+
                 logger.debug("确认信息发送完成==========================");
                 //mc.publish(topicId, buf, true);
                 //LOG.debug("send ack to "+topic.TOPIC_SYNC_NODE+smsg.getClientid()+":"+remote);

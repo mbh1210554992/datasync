@@ -4,9 +4,9 @@ import com.ntu.common.client.IMQTTClient;
 import com.ntu.common.config.ApplicationContextProvider;
 import com.ntu.common.config.MsgSerializer;
 import com.ntu.common.cst.DatasyncType;
-import com.ntu.common.model.po.DataSynchro;
+import com.ntu.common.model.Constant;
 import com.ntu.common.model.SyncMessage;
-import com.ntu.common.model.SysConfig;
+import com.ntu.common.model.po.DataSynchro;
 import com.ntu.node.mapper.DataSynchroMapper;
 import com.ntu.node.sync.processor.IDataProcessor;
 import org.slf4j.Logger;
@@ -43,7 +43,7 @@ public class SendThread implements Runnable {
 
         while(true){
             try {
-                Thread.sleep(SysConfig.SCAN_INTERVAL);
+                Thread.sleep(Constant.SCAN_INTERVAL);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -98,13 +98,10 @@ public class SendThread implements Runnable {
                         dataSynchroMapper.updateActive(ds);
                         continue;
                     }
+                    String topic = Constant.NODE_TOPIC;
+                    sm.setClientid(Constant.NODE_CLIENT_ID);
                     message = new MsgSerializer().encode(sm);
-                    String topic = null;
-                    if(role.equals("center")){
-                        topic = SysConfig.CENTER_TOPIC;
-                    }else{
-                        topic = SysConfig.NODE_TOPIC;
-                    }
+
                     imqttClient.publish(topic,message,true);
                     logger.info("发送消息"+":" + sm.getData());
                 }

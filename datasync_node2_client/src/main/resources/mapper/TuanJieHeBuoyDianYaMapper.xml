@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ntu.client2.mapper.TuanJieHeBuoyDianYaMapper">
+  <resultMap id="BaseResultMap" type="com.ntu.common.model.po.TuanJieHeBuoyDianYa">
+    <id column="info_id" property="infoId"/>
+    <id column="area_id" jdbcType="VARCHAR" property="areaId" />
+    <id column="spot_id" jdbcType="VARCHAR" property="spotId" />
+    <id column="node_id" jdbcType="VARCHAR" property="nodeId" />
+    <id column="data_time" jdbcType="TIMESTAMP" property="dataTime" />
+    <result column="dianya" jdbcType="VARCHAR" property="dianya" />
+    <result column="dianliust" jdbcType="VARCHAR" property="dianliust" />
+    <result column="state" jdbcType="VARCHAR" property="state" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    info_id,area_id, spot_id, node_id, data_time, dianya, dianliust, state
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="com.ntu.common.model.po.TuanJieHeBuoyDianYa" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from nantong_tuanjiehe_buoy_dianya
+    where area_id = #{areaId,jdbcType=VARCHAR}
+      and spot_id = #{spotId,jdbcType=VARCHAR}
+      and node_id = #{nodeId,jdbcType=VARCHAR}
+      and data_time = #{dataTime,jdbcType=TIMESTAMP}
+  </select>
+
+    <select id="findById" resultMap="BaseResultMap">
+      select <include refid="Base_Column_List" />
+      from nantong_tuanjiehe_buoy_dianya
+      where info_id = #{infoId}
+    </select>
+
+    <delete id="deleteByPrimaryKey" parameterType="com.ntu.common.model.po.TuanJieHeBuoyDianYa">
+    delete from nantong_tuanjiehe_buoy_dianya
+    where area_id = #{areaId,jdbcType=VARCHAR}
+      and spot_id = #{spotId,jdbcType=VARCHAR}
+      and node_id = #{nodeId,jdbcType=VARCHAR}
+      and data_time = #{dataTime,jdbcType=TIMESTAMP}
+  </delete>
+
+  <insert id="insert" parameterType="com.ntu.common.model.po.TuanJieHeBuoyDianYa">
+    insert into nantong_tuanjiehe_buoy_dianya (area_id, spot_id, node_id, 
+      data_time, dianya, dianliust, 
+      state)
+    values (#{areaId,jdbcType=VARCHAR}, #{spotId,jdbcType=VARCHAR}, #{nodeId,jdbcType=VARCHAR}, 
+      #{dataTime,jdbcType=TIMESTAMP}, #{dianya,jdbcType=VARCHAR}, #{dianliust,jdbcType=VARCHAR}, 
+      #{state,jdbcType=VARCHAR})
+  </insert>
+
+  <insert id="insertSelective" parameterType="com.ntu.common.model.po.TuanJieHeBuoyDianYa">
+    insert into nantong_tuanjiehe_buoy_dianya
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="areaId != null">
+        area_id,
+      </if>
+      <if test="spotId != null">
+        spot_id,
+      </if>
+      <if test="nodeId != null">
+        node_id,
+      </if>
+      <if test="dataTime != null">
+        data_time,
+      </if>
+      <if test="dianya != null">
+        dianya,
+      </if>
+      <if test="dianliust != null">
+        dianliust,
+      </if>
+      <if test="state != null">
+        state,
+      </if>
+    </trim>
+
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="areaId != null">
+        #{areaId,jdbcType=VARCHAR},
+      </if>
+      <if test="spotId != null">
+        #{spotId,jdbcType=VARCHAR},
+      </if>
+      <if test="nodeId != null">
+        #{nodeId,jdbcType=VARCHAR},
+      </if>
+      <if test="dataTime != null">
+        #{dataTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="dianya != null">
+        #{dianya,jdbcType=VARCHAR},
+      </if>
+      <if test="dianliust != null">
+        #{dianliust,jdbcType=VARCHAR},
+      </if>
+      <if test="state != null">
+        #{state,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+
+  <update id="updateByPrimaryKeySelective" parameterType="com.ntu.common.model.po.TuanJieHeBuoyDianYa">
+    update nantong_tuanjiehe_buoy_dianya
+    <set>
+      <if test="dianya != null">
+        dianya = #{dianya,jdbcType=VARCHAR},
+      </if>
+      <if test="dianliust != null">
+        dianliust = #{dianliust,jdbcType=VARCHAR},
+      </if>
+      <if test="state != null">
+        state = #{state,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where area_id = #{areaId,jdbcType=VARCHAR}
+      and spot_id = #{spotId,jdbcType=VARCHAR}
+      and node_id = #{nodeId,jdbcType=VARCHAR}
+      and data_time = #{dataTime,jdbcType=TIMESTAMP}
+  </update>
+
+  <update id="updateByPrimaryKey" parameterType="com.ntu.common.model.po.TuanJieHeBuoyDianYa">
+    update nantong_tuanjiehe_buoy_dianya
+    set dianya = #{dianya,jdbcType=VARCHAR},
+      dianliust = #{dianliust,jdbcType=VARCHAR},
+      state = #{state,jdbcType=VARCHAR}
+    where area_id = #{areaId,jdbcType=VARCHAR}
+      and spot_id = #{spotId,jdbcType=VARCHAR}
+      and node_id = #{nodeId,jdbcType=VARCHAR}
+      and data_time = #{dataTime,jdbcType=TIMESTAMP}
+  </update>
+
+</mapper>

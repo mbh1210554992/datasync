@@ -1,0 +1,535 @@
+20:49:41.144 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+20:49:41.181 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 1(Long), D(String)
+20:49:41.230 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 0
+20:49:41.239 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+20:49:41.243 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: sd(String), asd(String), asd(String), 2020-05-05 04:48:02.0(Timestamp)
+20:49:41.262 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 0
+20:49:41.263 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.insert - ==>  Preparing: insert into nantong_tuanjiehe_buoy_dianya (area_id, spot_id, node_id, data_time, dianya, dianliust, state) values (?, ?, ?, ?, ?, ?, ?) 
+20:49:41.265 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.insert - ==> Parameters: sd(String), asd(String), asd(String), 2020-05-05 04:48:02.0(Timestamp), 234(String), 324(String), 234(String)
+20:49:41.333 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.insert - <==    Updates: 1
+20:49:41.333 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.insert - ==>  Preparing: insert into data_synchro (BASICINFOID, TYPE, SA1_STATUS, SB1_TIME, SC1_TIME, SD1_NUM, SE1_TIME, SF1_MSG, SA2_STATUS, SB2_TIME, SC2_TIME, SF2_MSG ) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+20:49:41.335 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.insert - ==> Parameters: 1(Long), D(String), null, null, null, null, null, null, 0(String), null, 2020-05-09 20:49:41.333(Timestamp), null
+20:49:41.399 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.insert - <==    Updates: 1
+22:13:59.426 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+22:13:59.471 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), G(String)
+22:13:59.525 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 0
+22:13:59.535 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyGongZuoWenDuMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, num, num_quest, state, errornum, tem1hratur, tem2_xical from nantong_tuanjiehe_buoy_gongzuowendu where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:13:59.537 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyGongZuoWenDuMapper.selectByPrimaryKey - ==> Parameters: 32(String), 213(String), 213(String), 2020-05-13 06:12:01.0(Timestamp)
+22:13:59.553 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyGongZuoWenDuMapper.selectByPrimaryKey - <==      Total: 0
+22:13:59.554 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyGongZuoWenDuMapper.insert - ==>  Preparing: insert into nantong_tuanjiehe_buoy_gongzuowendu (area_id, spot_id, node_id, data_time, num, num_quest, state, errornum, tem1hratur, tem2_xical) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:13:59.555 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyGongZuoWenDuMapper.insert - ==> Parameters: 32(String), 213(String), 213(String), 2020-05-13 06:12:01.0(Timestamp), 234(String), 43(String), 32(String), 324(String), 23.0(Double), 234.0(Double)
+22:13:59.591 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyGongZuoWenDuMapper.insert - <==    Updates: 1
+22:13:59.592 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.insert - ==>  Preparing: insert into data_synchro (BASICINFOID, TYPE, SA1_STATUS, SB1_TIME, SC1_TIME, SD1_NUM, SE1_TIME, SF1_MSG, SA2_STATUS, SB2_TIME, SC2_TIME, SF2_MSG ) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+22:13:59.593 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.insert - ==> Parameters: 2(Long), G(String), null, null, null, null, null, null, 0(String), null, 2020-05-09 22:13:59.592(Timestamp), null
+22:13:59.637 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.insert - <==    Updates: 1
+22:54:39.139 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+22:54:39.205 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 3(Long), G(String)
+22:54:39.273 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 0
+22:54:39.291 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyGongZuoWenDuMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, num, num_quest, state, errornum, tem1hratur, tem2_xical from nantong_tuanjiehe_buoy_gongzuowendu where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:54:39.294 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyGongZuoWenDuMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), we(String), ew(String), 2020-05-13 06:43:37.0(Timestamp)
+22:54:39.315 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyGongZuoWenDuMapper.selectByPrimaryKey - <==      Total: 0
+22:54:39.316 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyGongZuoWenDuMapper.insert - ==>  Preparing: insert into nantong_tuanjiehe_buoy_gongzuowendu (area_id, spot_id, node_id, data_time, num, num_quest, state, errornum, tem1hratur, tem2_xical) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:54:39.318 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyGongZuoWenDuMapper.insert - ==> Parameters: tuanjiehe(String), we(String), ew(String), 2020-05-13 06:43:37.0(Timestamp), ewr(String), re(String), 34(String), 34(String), 323.0(Double), 234.0(Double)
+22:54:39.380 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyGongZuoWenDuMapper.insert - <==    Updates: 1
+22:54:39.381 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.insert - ==>  Preparing: insert into data_synchro (BASICINFOID, TYPE, SA1_STATUS, SC1_TIME, SD1_NUM, SE1_TIME, SF1_MSG ) values (?, ?, ?, ?, ?, ?, ? ) 
+22:54:39.382 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.insert - ==> Parameters: 3(Long), G(String), null, 2020-05-09 22:54:39.381(Timestamp), null, null, null
+22:54:39.466 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.insert - <==    Updates: 1
+22:59:28.679 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+22:59:28.680 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 4(Long), G(String)
+22:59:28.698 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 0
+22:59:28.699 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyGongZuoWenDuMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, num, num_quest, state, errornum, tem1hratur, tem2_xical from nantong_tuanjiehe_buoy_gongzuowendu where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:59:28.700 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyGongZuoWenDuMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), ss(String), ss(String), 2020-05-14 06:59:16.0(Timestamp)
+22:59:28.717 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyGongZuoWenDuMapper.selectByPrimaryKey - <==      Total: 0
+22:59:28.718 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyGongZuoWenDuMapper.insert - ==>  Preparing: insert into nantong_tuanjiehe_buoy_gongzuowendu (area_id, spot_id, node_id, data_time, num, num_quest, state, errornum, tem1hratur, tem2_xical) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:59:28.719 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyGongZuoWenDuMapper.insert - ==> Parameters: tuanjiehe(String), ss(String), ss(String), 2020-05-14 06:59:16.0(Timestamp), 546(String), 56(String), 879(String), 58(String), 65.0(Double), 3.0(Double)
+22:59:28.767 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyGongZuoWenDuMapper.insert - <==    Updates: 1
+22:59:28.768 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.insert - ==>  Preparing: insert into data_synchro (BASICINFOID, TYPE, SA1_STATUS, SC1_TIME, SD1_NUM, SE1_TIME, SF1_MSG ) values (?, ?, ?, ?, ?, ?, ? ) 
+22:59:28.769 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.insert - ==> Parameters: 4(Long), G(String), null, 2020-05-09 22:59:28.768(Timestamp), null, null, null
+22:59:28.824 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.insert - <==    Updates: 1
+23:03:48.811 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:03:48.850 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:03:48.912 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 0
+23:03:48.922 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:03:48.925 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:03:48.949 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 0
+23:03:48.950 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.insert - ==>  Preparing: insert into nantong_tuanjiehe_buoy_dianya (area_id, spot_id, node_id, data_time, dianya, dianliust, state) values (?, ?, ?, ?, ?, ?, ?) 
+23:03:48.952 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.insert - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp), 435(String), 345(String), 45(String)
+23:03:49.030 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.insert - <==    Updates: 1
+23:03:49.030 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.insert - ==>  Preparing: insert into data_synchro (BASICINFOID, TYPE, SA1_STATUS, SC1_TIME, SD1_NUM, SE1_TIME, SF1_MSG ) values (?, ?, ?, ?, ?, ?, ? ) 
+23:03:49.032 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.insert - ==> Parameters: 2(Long), D(String), 0(String), 2020-05-09 23:03:49.03(Timestamp), null, null, data synchronize success(String)
+23:03:49.122 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.insert - <==    Updates: 1
+23:03:59.350 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:03:59.351 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:03:59.419 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:03:59.420 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:03:59.421 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:03:59.443 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:03:59.444 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:03:59.444 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:03:59.508 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:03:59.582 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updatePassive - ==>  Preparing: update data_synchro set SA2_STATUS = ? , SC2_TIME= ? where rtrim(basicinfoid)= ? and type = ? 
+23:03:59.583 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updatePassive - ==> Parameters: null, 2020-05-09 23:03:59.509(Timestamp), 2(Long), D(String)
+23:04:10.361 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:04:10.362 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:04:10.385 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:04:10.386 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:04:10.387 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:04:10.409 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:04:10.410 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:04:10.411 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:04:10.473 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:04:10.474 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updatePassive - ==>  Preparing: update data_synchro set SA2_STATUS = ? , SC2_TIME= ? where rtrim(basicinfoid)= ? and type = ? 
+23:04:10.475 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updatePassive - ==> Parameters: null, 2020-05-09 23:04:10.473(Timestamp), 2(Long), D(String)
+23:04:21.367 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:04:21.367 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:04:21.387 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:04:21.388 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:04:21.389 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:04:21.407 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:04:21.408 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:04:21.409 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:04:21.472 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:04:21.473 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updatePassive - ==>  Preparing: update data_synchro set SA2_STATUS = ? , SC2_TIME= ? where rtrim(basicinfoid)= ? and type = ? 
+23:04:21.475 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updatePassive - ==> Parameters: null, 2020-05-09 23:04:21.472(Timestamp), 2(Long), D(String)
+23:04:32.372 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:04:32.372 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:04:32.392 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:04:32.393 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:04:32.393 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:04:32.414 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:04:32.415 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:04:32.416 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:04:32.472 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:04:32.473 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updatePassive - ==>  Preparing: update data_synchro set SA2_STATUS = ? , SC2_TIME= ? where rtrim(basicinfoid)= ? and type = ? 
+23:04:32.474 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updatePassive - ==> Parameters: null, 2020-05-09 23:04:32.473(Timestamp), 2(Long), D(String)
+23:04:43.384 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:04:43.384 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:04:43.408 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:04:43.410 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:04:43.410 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:04:43.431 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:04:43.431 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:04:43.432 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:04:43.493 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:04:43.493 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updatePassive - ==>  Preparing: update data_synchro set SA2_STATUS = ? , SC2_TIME= ? where rtrim(basicinfoid)= ? and type = ? 
+23:04:43.494 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updatePassive - ==> Parameters: null, 2020-05-09 23:04:43.493(Timestamp), 2(Long), D(String)
+23:12:55.152 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:12:55.197 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:12:55.252 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:12:55.260 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:12:55.263 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:12:55.280 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:12:55.280 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:12:55.281 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:12:55.333 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:12:55.369 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:12:55.370 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:12:55.334(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:12:55.423 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:13:04.753 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:13:04.753 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:13:04.772 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:13:04.772 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:13:04.773 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:13:04.790 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:13:04.790 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:13:04.791 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:13:04.831 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:13:04.831 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:13:04.832 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:13:04.831(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:13:04.894 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:13:15.758 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:13:15.759 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:13:15.774 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:13:15.775 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:13:15.776 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:13:15.791 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:13:15.792 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:13:15.793 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:13:15.853 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:13:15.854 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:13:15.855 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:13:15.854(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:13:15.906 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:13:26.770 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:13:26.771 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:13:26.786 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:13:26.786 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:13:26.787 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:13:26.805 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:13:26.807 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:13:26.807 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:13:26.854 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:13:26.855 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:13:26.856 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:13:26.854(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:13:26.909 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:13:37.774 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:13:37.775 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:13:37.789 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:13:37.790 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:13:37.790 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:13:37.808 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:13:37.809 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:13:37.809 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:13:37.862 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:13:37.862 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:13:37.863 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:13:37.862(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:13:37.911 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:13:48.790 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:13:48.790 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:13:48.812 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:13:48.813 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:13:48.814 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:13:48.830 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:13:48.830 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:13:48.831 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:13:48.913 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:13:48.913 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:13:48.914 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:13:48.913(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:13:48.980 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:13:59.788 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:13:59.788 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:13:59.804 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:13:59.805 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:13:59.805 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:13:59.821 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:13:59.821 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:13:59.822 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:13:59.880 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:13:59.880 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:13:59.881 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:13:59.88(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:13:59.929 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:14:10.853 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:14:10.853 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:14:10.869 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:14:10.870 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:14:10.871 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:14:10.891 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:14:10.892 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:14:10.892 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:14:10.963 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:14:10.964 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:14:10.965 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:14:10.963(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:14:11.037 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:14:21.805 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:14:21.806 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:14:21.829 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:14:21.829 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:14:21.830 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:14:21.849 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:14:21.850 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:14:21.851 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:14:21.925 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:14:21.925 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:14:21.926 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:14:21.925(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:14:21.986 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:14:32.811 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:14:32.812 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:14:32.828 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:14:32.828 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:14:32.829 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:14:32.846 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:14:32.847 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:14:32.847 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:14:32.908 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:14:32.908 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:14:32.909 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:14:32.908(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:14:32.952 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:14:43.823 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:14:43.824 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:14:43.846 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:14:43.847 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:14:43.848 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:14:43.864 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:14:43.865 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:14:43.866 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:14:43.937 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:14:43.938 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:14:43.939 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:14:43.937(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:14:44.003 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:14:54.822 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:14:54.823 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:14:54.839 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:14:54.839 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:14:54.840 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:14:54.865 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:14:54.865 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:14:54.866 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:14:54.935 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:14:54.936 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:14:54.936 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:14:54.935(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:14:54.996 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:15:05.830 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:15:05.831 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:15:05.847 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:15:05.848 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:15:05.849 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:15:05.864 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:15:05.865 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:15:05.866 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:15:05.918 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:15:05.919 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:15:05.920 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:15:05.918(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:15:05.973 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:15:16.838 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:15:16.838 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:15:16.853 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:15:16.854 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:15:16.854 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:15:16.876 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:15:16.877 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:15:16.878 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:15:16.920 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:15:16.921 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:15:16.922 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:15:16.921(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:15:16.967 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:15:27.851 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:15:27.851 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:15:27.867 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:15:27.868 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:15:27.868 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:15:27.883 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:15:27.884 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:15:27.884 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:15:27.934 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:15:27.934 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:15:27.934 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:15:27.934(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:15:27.993 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:15:38.857 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:15:38.857 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:15:38.874 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:15:38.874 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:15:38.875 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:15:38.894 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:15:38.895 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:15:38.896 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:15:38.949 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:15:38.950 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:15:38.952 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:15:38.949(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:15:39.009 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:15:49.860 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:15:49.860 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:15:49.883 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:15:49.883 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:15:49.884 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:15:49.901 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:15:49.902 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:15:49.903 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:15:49.960 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:15:49.960 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:15:49.961 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:15:49.96(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:15:50.015 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:16:29.880 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:16:29.880 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:16:29.899 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:16:29.899 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:16:29.899 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:16:29.919 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:16:29.919 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:16:29.919 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:16:29.986 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:16:29.987 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:16:29.987 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:16:29.986(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:16:30.040 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:16:40.893 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:16:40.894 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:16:40.911 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:16:40.911 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:16:40.912 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:16:40.927 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:16:40.927 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:16:40.928 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:16:40.991 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:16:40.992 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:16:40.992 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:16:40.991(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:16:41.046 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:16:51.898 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:16:51.899 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:16:51.920 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:16:51.921 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:16:51.921 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:16:51.936 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:16:51.937 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:16:51.937 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:16:51.995 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:16:51.995 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:16:51.996 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:16:51.995(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:16:52.053 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:17:02.905 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:17:02.905 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:17:02.931 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:17:02.932 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:17:02.932 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:17:02.952 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:17:02.952 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:17:02.953 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:17:03.008 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:17:03.009 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:17:03.009 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:17:03.009(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:17:03.072 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:17:13.915 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:17:13.916 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:17:13.931 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:17:13.932 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:17:13.932 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:17:13.955 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:17:13.955 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:17:13.956 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:17:14.005 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:17:14.005 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:17:14.006 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:17:14.005(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:17:14.060 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:17:24.917 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:17:24.918 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:17:24.932 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:17:24.932 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:17:24.933 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:17:24.951 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:17:24.951 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:17:24.952 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:17:25.018 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:17:25.018 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:17:25.019 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:17:25.018(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:17:25.087 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:17:35.918 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:17:35.919 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:17:35.941 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:17:35.942 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:17:35.942 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:17:35.958 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:17:35.958 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:17:35.959 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:17:36.022 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:17:36.022 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:17:36.022 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:17:36.022(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:17:36.079 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:17:46.923 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:17:46.923 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:17:46.940 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:17:46.940 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:17:46.940 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:17:46.956 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:17:46.956 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:17:46.957 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:17:47.006 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:17:47.006 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:17:47.007 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:17:47.006(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:17:47.059 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:17:57.932 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:17:57.933 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:17:57.950 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:17:57.951 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:17:57.952 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:17:57.969 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:17:57.974 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:17:57.979 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:17:58.018 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:17:58.019 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:17:58.020 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:17:58.019(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:17:58.066 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:18:08.939 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:18:08.940 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:18:08.956 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:18:08.957 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:18:08.957 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:18:08.972 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:18:08.973 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:18:08.973 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:18:09.025 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:18:09.026 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:18:09.026 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:18:09.025(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:18:09.077 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:18:19.951 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:18:19.952 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:18:19.971 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:18:19.972 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:18:19.972 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:18:19.992 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:18:19.992 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:18:19.992 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:18:20.051 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:18:20.052 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:18:20.053 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:18:20.051(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:18:20.107 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:18:56.971 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:18:56.972 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:18:56.986 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:18:56.987 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:18:56.987 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:18:57.003 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:18:57.004 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:18:57.004 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:18:57.051 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:18:57.051 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:18:57.052 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:18:57.051(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:18:57.096 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:19:07.975 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:19:07.975 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:19:07.990 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:19:07.990 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:19:07.991 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:19:08.008 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:19:08.008 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:19:08.009 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:19:08.071 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:19:08.071 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:19:08.072 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:19:08.071(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:19:08.123 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:19:18.990 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:19:18.990 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:19:19.012 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:19:19.013 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:19:19.013 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:19:19.035 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:19:19.036 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:19:19.036 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:19:19.098 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:19:19.099 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:19:19.099 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:19:19.099(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:19:19.157 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:19:29.991 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:19:29.992 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:19:30.007 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:19:30.007 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:19:30.008 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:19:30.026 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:19:30.026 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:19:30.027 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:19:30.100 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:19:30.101 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:19:30.102 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:19:30.101(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:19:30.150 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:20:04.012 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:20:04.012 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:20:04.030 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:20:04.030 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:20:04.031 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:20:04.046 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:20:04.046 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:20:04.047 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:20:04.109 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:20:04.109 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:20:04.109 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:20:04.109(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:20:04.177 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:25:00.254 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:25:00.291 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 2(Long), D(String)
+23:25:00.351 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 1
+23:25:00.360 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:25:00.362 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:25:00.382 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 1
+23:25:00.383 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==>  Preparing: update nantong_tuanjiehe_buoy_dianya set dianya = ?, dianliust = ?, state = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:25:00.384 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - ==> Parameters: 435(String), 345(String), 45(String), tuanjiehe(String), 34(String), 32(String), 2020-05-06 07:03:42.0(Timestamp)
+23:25:00.448 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.updateByPrimaryKey - <==    Updates: 1
+23:25:00.479 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+23:25:00.479 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-05-09 23:25:00.448(Timestamp), data synchronize success(String), 2(Long), D(String)
+23:25:00.538 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+23:27:30.882 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+23:27:30.883 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 3(Long), D(String)
+23:27:30.903 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 0
+23:27:30.904 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, dianya, dianliust, state from nantong_tuanjiehe_buoy_dianya where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:27:30.905 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - ==> Parameters: fd(String), tr4(String), 6546(String), 2020-05-10 07:27:24.0(Timestamp)
+23:27:30.925 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.selectByPrimaryKey - <==      Total: 0
+23:27:30.926 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.insert - ==>  Preparing: insert into nantong_tuanjiehe_buoy_dianya (area_id, spot_id, node_id, data_time, dianya, dianliust, state) values (?, ?, ?, ?, ?, ?, ?) 
+23:27:30.928 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.insert - ==> Parameters: fd(String), tr4(String), 6546(String), 2020-05-10 07:27:24.0(Timestamp), 546(String), 546(String), 45(String)
+23:27:30.980 [MQTT Call: center] DEBUG com.ntu.center.mapper.TuanJieHeBuoyDianYaMapper.insert - <==    Updates: 1
+23:27:30.981 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.insert - ==>  Preparing: insert into data_synchro (BASICINFOID, TYPE, SA1_STATUS, SC1_TIME, SD1_NUM, SE1_TIME, SF1_MSG ) values (?, ?, ?, ?, ?, ?, ? ) 
+23:27:30.982 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.insert - ==> Parameters: 3(Long), D(String), 0(String), 2020-05-09 23:27:30.981(Timestamp), null, null, data synchronize success(String)
+23:27:31.030 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.insert - <==    Updates: 1

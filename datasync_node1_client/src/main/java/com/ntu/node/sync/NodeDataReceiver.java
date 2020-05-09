@@ -57,7 +57,8 @@ public class NodeDataReceiver implements DataReceiver {
                     local.setSc1Time(new Date());
                     if (local.getSa1Status().equals("0")) { //success
                         logger.debug("name-----------"+Thread.currentThread().getName());
-                        local.setSd1Num(0L);
+                        //local.setSd1Num(0L);
+                        local.setSf1Msg(remote.getSf1Msg());
                         logger.info(tableName+"表中 "+local.getBasicinfoid()+" 号数据同步成功....");
                     }
                     else if (local.getSa1Status().equals("2")) {//refuse

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ntu.center.mapper.BoxSensorMapper" >
+  <resultMap id="BaseResultMap" type="com.ntu.common.model.po.BoxSensor" >
+    <id column="area_id" property="areaId" jdbcType="VARCHAR" />
+    <id column="spot_id" property="spotId" jdbcType="VARCHAR" />
+    <id column="node_id" property="nodeId" jdbcType="VARCHAR" />
+    <id column="data_time" property="dataTime" jdbcType="TIMESTAMP" />
+    <result column="Conductivity" property="conductivity" jdbcType="REAL" />
+    <result column="Temperature" property="temperature" jdbcType="REAL" />
+    <result column="Pressure" property="pressure" jdbcType="REAL" />
+    <result column="Salinity" property="salinity" jdbcType="REAL" />
+    <result column="DissolvedOxygen" property="dissolvedoxygen" jdbcType="REAL" />
+    <result column="SPAD" property="spad" jdbcType="REAL" />
+    <result column="Turbidity" property="turbidity" jdbcType="REAL" />
+    <result column="AnDan" property="andan" jdbcType="REAL" />
+    <result column="YaXiaoDan" property="yaxiaodan" jdbcType="REAL" />
+    <result column="LinSuanYan" property="linsuanyan" jdbcType="REAL" />
+    <result column="ORP" property="orp" jdbcType="REAL" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    area_id, spot_id, node_id, data_time, Conductivity, Temperature, Pressure, Salinity, 
+    DissolvedOxygen, SPAD, Turbidity, AnDan, YaXiaoDan, LinSuanYan, ORP
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="com.ntu.common.model.po.BoxSensor" >
+    select 
+    <include refid="Base_Column_List" />
+    from box_sensor
+    where area_id = #{areaId,jdbcType=VARCHAR}
+      and spot_id = #{spotId,jdbcType=VARCHAR}
+      and node_id = #{nodeId,jdbcType=VARCHAR}
+      and data_time = #{dataTime,jdbcType=TIMESTAMP}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="com.ntu.common.model.po.BoxSensor" >
+    delete from box_sensor
+    where area_id = #{areaId,jdbcType=VARCHAR}
+      and spot_id = #{spotId,jdbcType=VARCHAR}
+      and node_id = #{nodeId,jdbcType=VARCHAR}
+      and data_time = #{dataTime,jdbcType=TIMESTAMP}
+  </delete>
+  <insert id="insert" parameterType="com.ntu.common.model.po.BoxSensor" >
+    insert into box_sensor (area_id, spot_id, node_id, 
+      data_time, Conductivity, Temperature, 
+      Pressure, Salinity, DissolvedOxygen, 
+      SPAD, Turbidity, AnDan, YaXiaoDan, 
+      LinSuanYan, ORP)
+    values (#{areaId,jdbcType=VARCHAR}, #{spotId,jdbcType=VARCHAR}, #{nodeId,jdbcType=VARCHAR}, 
+      #{dataTime,jdbcType=TIMESTAMP}, #{conductivity,jdbcType=REAL}, #{temperature,jdbcType=REAL}, 
+      #{pressure,jdbcType=REAL}, #{salinity,jdbcType=REAL}, #{dissolvedoxygen,jdbcType=REAL}, 
+      #{spad,jdbcType=REAL}, #{turbidity,jdbcType=REAL}, #{andan,jdbcType=REAL}, #{yaxiaodan,jdbcType=REAL}, 
+      #{linsuanyan,jdbcType=REAL}, #{orp,jdbcType=REAL})
+  </insert>
+  <insert id="insertSelective" parameterType="com.ntu.common.model.po.BoxSensor" >
+    insert into box_sensor
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="areaId != null" >
+        area_id,
+      </if>
+      <if test="spotId != null" >
+        spot_id,
+      </if>
+      <if test="nodeId != null" >
+        node_id,
+      </if>
+      <if test="dataTime != null" >
+        data_time,
+      </if>
+      <if test="conductivity != null" >
+        Conductivity,
+      </if>
+      <if test="temperature != null" >
+        Temperature,
+      </if>
+      <if test="pressure != null" >
+        Pressure,
+      </if>
+      <if test="salinity != null" >
+        Salinity,
+      </if>
+      <if test="dissolvedoxygen != null" >
+        DissolvedOxygen,
+      </if>
+      <if test="spad != null" >
+        SPAD,
+      </if>
+      <if test="turbidity != null" >
+        Turbidity,
+      </if>
+      <if test="andan != null" >
+        AnDan,
+      </if>
+      <if test="yaxiaodan != null" >
+        YaXiaoDan,
+      </if>
+      <if test="linsuanyan != null" >
+        LinSuanYan,
+      </if>
+      <if test="orp != null" >
+        ORP,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="areaId != null" >
+        #{areaId,jdbcType=VARCHAR},
+      </if>
+      <if test="spotId != null" >
+        #{spotId,jdbcType=VARCHAR},
+      </if>
+      <if test="nodeId != null" >
+        #{nodeId,jdbcType=VARCHAR},
+      </if>
+      <if test="dataTime != null" >
+        #{dataTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="conductivity != null" >
+        #{conductivity,jdbcType=REAL},
+      </if>
+      <if test="temperature != null" >
+        #{temperature,jdbcType=REAL},
+      </if>
+      <if test="pressure != null" >
+        #{pressure,jdbcType=REAL},
+      </if>
+      <if test="salinity != null" >
+        #{salinity,jdbcType=REAL},
+      </if>
+      <if test="dissolvedoxygen != null" >
+        #{dissolvedoxygen,jdbcType=REAL},
+      </if>
+      <if test="spad != null" >
+        #{spad,jdbcType=REAL},
+      </if>
+      <if test="turbidity != null" >
+        #{turbidity,jdbcType=REAL},
+      </if>
+      <if test="andan != null" >
+        #{andan,jdbcType=REAL},
+      </if>
+      <if test="yaxiaodan != null" >
+        #{yaxiaodan,jdbcType=REAL},
+      </if>
+      <if test="linsuanyan != null" >
+        #{linsuanyan,jdbcType=REAL},
+      </if>
+      <if test="orp != null" >
+        #{orp,jdbcType=REAL},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.ntu.common.model.po.BoxSensor" >
+    update box_sensor
+    <set >
+      <if test="conductivity != null" >
+        Conductivity = #{conductivity,jdbcType=REAL},
+      </if>
+      <if test="temperature != null" >
+        Temperature = #{temperature,jdbcType=REAL},
+      </if>
+      <if test="pressure != null" >
+        Pressure = #{pressure,jdbcType=REAL},
+      </if>
+      <if test="salinity != null" >
+        Salinity = #{salinity,jdbcType=REAL},
+      </if>
+      <if test="dissolvedoxygen != null" >
+        DissolvedOxygen = #{dissolvedoxygen,jdbcType=REAL},
+      </if>
+      <if test="spad != null" >
+        SPAD = #{spad,jdbcType=REAL},
+      </if>
+      <if test="turbidity != null" >
+        Turbidity = #{turbidity,jdbcType=REAL},
+      </if>
+      <if test="andan != null" >
+        AnDan = #{andan,jdbcType=REAL},
+      </if>
+      <if test="yaxiaodan != null" >
+        YaXiaoDan = #{yaxiaodan,jdbcType=REAL},
+      </if>
+      <if test="linsuanyan != null" >
+        LinSuanYan = #{linsuanyan,jdbcType=REAL},
+      </if>
+      <if test="orp != null" >
+        ORP = #{orp,jdbcType=REAL},
+      </if>
+    </set>
+    where area_id = #{areaId,jdbcType=VARCHAR}
+      and spot_id = #{spotId,jdbcType=VARCHAR}
+      and node_id = #{nodeId,jdbcType=VARCHAR}
+      and data_time = #{dataTime,jdbcType=TIMESTAMP}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.ntu.common.model.po.BoxSensor" >
+    update box_sensor
+    set Conductivity = #{conductivity,jdbcType=REAL},
+      Temperature = #{temperature,jdbcType=REAL},
+      Pressure = #{pressure,jdbcType=REAL},
+      Salinity = #{salinity,jdbcType=REAL},
+      DissolvedOxygen = #{dissolvedoxygen,jdbcType=REAL},
+      SPAD = #{spad,jdbcType=REAL},
+      Turbidity = #{turbidity,jdbcType=REAL},
+      AnDan = #{andan,jdbcType=REAL},
+      YaXiaoDan = #{yaxiaodan,jdbcType=REAL},
+      LinSuanYan = #{linsuanyan,jdbcType=REAL},
+      ORP = #{orp,jdbcType=REAL}
+    where area_id = #{areaId,jdbcType=VARCHAR}
+      and spot_id = #{spotId,jdbcType=VARCHAR}
+      and node_id = #{nodeId,jdbcType=VARCHAR}
+      and data_time = #{dataTime,jdbcType=TIMESTAMP}
+  </update>
+</mapper>

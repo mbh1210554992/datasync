@@ -37,7 +37,7 @@ public class Processor2 implements IDataProcessor{
             return 0;
         }
         changJiangBoxEnvironmentMapper.insert( changJiangBoxEnvironment);
-        logger.info("==========数据同步完成===========");
+        logger.debug("==========数据同步完成===========");
         return 0;
     }
 

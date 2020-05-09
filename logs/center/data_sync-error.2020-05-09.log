@@ -1,0 +1,40 @@
+23:03:59.838 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 2 号数据同步失败原因: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'SA2_STATUS' in 'field list'
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes\mapper\DataSynchroMapper.xml]
+### The error may involve com.ntu.center.mapper.DataSynchroMapper.updatePassive-Inline
+### The error occurred while setting parameters
+### SQL: update data_synchro set SA2_STATUS = ?                                 , SC2_TIME= ?                             where rtrim(basicinfoid)= ? and type = ?
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'SA2_STATUS' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'SA2_STATUS' in 'field list'
+23:04:10.517 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 2 号数据同步失败原因: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'SA2_STATUS' in 'field list'
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes\mapper\DataSynchroMapper.xml]
+### The error may involve com.ntu.center.mapper.DataSynchroMapper.updatePassive-Inline
+### The error occurred while setting parameters
+### SQL: update data_synchro set SA2_STATUS = ?                                 , SC2_TIME= ?                             where rtrim(basicinfoid)= ? and type = ?
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'SA2_STATUS' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'SA2_STATUS' in 'field list'
+23:04:21.514 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 2 号数据同步失败原因: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'SA2_STATUS' in 'field list'
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes\mapper\DataSynchroMapper.xml]
+### The error may involve com.ntu.center.mapper.DataSynchroMapper.updatePassive-Inline
+### The error occurred while setting parameters
+### SQL: update data_synchro set SA2_STATUS = ?                                 , SC2_TIME= ?                             where rtrim(basicinfoid)= ? and type = ?
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'SA2_STATUS' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'SA2_STATUS' in 'field list'
+23:04:32.512 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 2 号数据同步失败原因: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'SA2_STATUS' in 'field list'
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes\mapper\DataSynchroMapper.xml]
+### The error may involve com.ntu.center.mapper.DataSynchroMapper.updatePassive-Inline
+### The error occurred while setting parameters
+### SQL: update data_synchro set SA2_STATUS = ?                                 , SC2_TIME= ?                             where rtrim(basicinfoid)= ? and type = ?
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'SA2_STATUS' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'SA2_STATUS' in 'field list'
+23:04:43.537 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 2 号数据同步失败原因: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'SA2_STATUS' in 'field list'
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes\mapper\DataSynchroMapper.xml]
+### The error may involve com.ntu.center.mapper.DataSynchroMapper.updatePassive-Inline
+### The error occurred while setting parameters
+### SQL: update data_synchro set SA2_STATUS = ?                                 , SC2_TIME= ?                             where rtrim(basicinfoid)= ? and type = ?
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'SA2_STATUS' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'SA2_STATUS' in 'field list'

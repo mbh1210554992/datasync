@@ -7,26 +7,19 @@
         <result column="BASICINFOID" property="basicinfoid" jdbcType="CHAR" />
         <result column="TYPE" property="type" jdbcType="CHAR" />
         <result column="SA1_STATUS" property="sa1Status" jdbcType="CHAR" />
-        <result column="SB1_TIME" property="sb1Time" jdbcType="TIMESTAMP" />
         <result column="SC1_TIME" property="sc1Time" jdbcType="TIMESTAMP" />
         <result column="SD1_NUM" property="sd1Num" jdbcType="DECIMAL" />
         <result column="SE1_TIME" property="se1Time" jdbcType="TIMESTAMP" />
         <result column="SF1_MSG" property="sf1Msg" jdbcType="VARCHAR" />
-        <result column="SA2_STATUS" property="sa2Status" jdbcType="CHAR" />
-        <result column="SB2_TIME" property="sb2Time" jdbcType="TIMESTAMP" />
-        <result column="SC2_TIME" property="sc2Time" jdbcType="TIMESTAMP" />
-        <result column="SF2_MSG" property="sf2Msg" jdbcType="VARCHAR" />
     </resultMap>
     <insert id="insert" parameterType="com.ntu.common.model.po.DataSynchro" >
         insert into data_synchro (BASICINFOID, TYPE, SA1_STATUS,
-        SB1_TIME, SC1_TIME, SD1_NUM,
-        SE1_TIME, SF1_MSG, SA2_STATUS,
-        SB2_TIME, SC2_TIME, SF2_MSG
+        SC1_TIME, SD1_NUM,
+        SE1_TIME, SF1_MSG
         )
         values (#{basicinfoid,jdbcType=CHAR}, #{type,jdbcType=CHAR}, #{sa1Status,jdbcType=CHAR},
-        #{sb1Time,jdbcType=TIMESTAMP}, #{sc1Time,jdbcType=TIMESTAMP}, #{sd1Num,jdbcType=DECIMAL},
-        #{se1Time,jdbcType=TIMESTAMP}, #{sf1Msg,jdbcType=VARCHAR}, #{sa2Status,jdbcType=CHAR},
-        #{sb2Time,jdbcType=TIMESTAMP}, #{sc2Time,jdbcType=TIMESTAMP}, #{sf2Msg,jdbcType=VARCHAR}
+        #{sc1Time,jdbcType=TIMESTAMP}, #{sd1Num,jdbcType=DECIMAL},
+        #{se1Time,jdbcType=TIMESTAMP}, #{sf1Msg,jdbcType=VARCHAR}
         )
     </insert>
     <insert id="insertSelective" parameterType="com.ntu.common.model.po.DataSynchro" >

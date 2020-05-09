@@ -41,7 +41,7 @@ public class Processor1 implements IDataProcessor{
             return 0;
         }
         changJiangBoxSensorMapper.insert(changJiangBoxSensor);
-        logger.info("==========数据同步完成===========");
+        logger.debug("==========数据同步完成===========");
         return 0;
     }
 

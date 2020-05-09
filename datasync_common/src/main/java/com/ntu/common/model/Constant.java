@@ -11,9 +11,10 @@ import org.springframework.stereotype.Component;
 
 @Getter
 @Component
-public class SysConfig {
+public class Constant {
     public static String SERVER_URL;
-    public static String CENTER_TOPIC;
+    public static String CENTER_TOPIC1;
+    public static String CENTER_TOPIC2;
     public static String CENTER_CLIENT_ID;
     public static String CENTER_CLIENT_USERNAME;
     public static String CENTER_CLIENT_PASSWORD;
@@ -23,6 +24,11 @@ public class SysConfig {
     public static String NODE_CLIENT_USERNAME;
     public static String NODE_CLIENT_PASSWORD;
 
+    public static String NODE2_TOPIC;
+    public static String NODE2_CLIENT_ID;
+    public static String NODE2_CLIENT_USERNAME;
+    public static String NODE2_CLIENT_PASSWORD;
+
     public static Long SCAN_INTERVAL;
 
 
@@ -31,10 +37,16 @@ public class SysConfig {
         SERVER_URL = serverUrl;
     }
 
-    @Value("${center.client.topic}")
-    public  void setCenterTopic(String centerTopic) {
-        CENTER_TOPIC = centerTopic;
+    @Value("${center.client.topic1}")
+    public  void setCenterTopic1(String centerTopic) {
+        CENTER_TOPIC1 = centerTopic;
     }
+
+    @Value("${center.client.topic2}")
+    public  void setCenterTopic2(String centerTopic2) {
+        CENTER_TOPIC2 = centerTopic2;
+    }
+
     @Value("${node.client.topic}")
     public  void setNodeTopic(String nodeTopic) {
         NODE_TOPIC = nodeTopic;
@@ -73,5 +85,25 @@ public class SysConfig {
     @Value("${task.scan.interval}")
     public  void setScanInterval(Long scanInterval) {
         SCAN_INTERVAL = scanInterval;
+    }
+
+    @Value("${node2.client.topic}")
+    public  void setNode2Topic(String node2Topic) {
+        NODE2_TOPIC = node2Topic;
+    }
+
+    @Value("${node2.client.id}")
+    public  void setNode2ClientId(String node2ClientId) {
+        NODE2_CLIENT_ID = node2ClientId;
+    }
+
+    @Value("${node2.client.username}")
+    public  void setNode2ClientUsername(String node2ClientUsername) {
+        NODE2_CLIENT_USERNAME = node2ClientUsername;
+    }
+
+    @Value("${node2.client.password}")
+    public  void setNode2ClientPassword(String node2ClientPassword) {
+        NODE2_CLIENT_PASSWORD = node2ClientPassword;
     }
 }

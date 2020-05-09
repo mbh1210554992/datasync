@@ -1,0 +1,112 @@
+19:44:18.086 [main] INFO  com.ntu.node.Node1ClientApplication - Starting Node1ClientApplication on LAPTOP-6SA701DM with PID 10264 (C:\Users\Lenovo\Desktop\datasync\datasync_node1_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+19:44:18.107 [main] INFO  com.ntu.node.Node1ClientApplication - No active profile set, falling back to default profiles: default
+19:44:20.861 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+19:44:20.878 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+19:44:20.880 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+19:44:20.880 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+19:44:21.217 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:44:21.218 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2928 ms
+19:44:22.093 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+19:44:22.681 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+19:44:29.296 [main] INFO  com.ntu.node.ClientStart - 长江结点成功连接至MQTT服务器.........
+19:44:29.299 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+19:44:29.337 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+19:44:29.341 [main] INFO  com.ntu.node.Node1ClientApplication - Started Node1ClientApplication in 13.334 seconds (JVM running for 16.99)
+19:44:39.427 [node1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:44:39.640 [node1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:47:56.148 [main] INFO  com.ntu.node.Node1ClientApplication - Starting Node1ClientApplication on LAPTOP-6SA701DM with PID 14268 (C:\Users\Lenovo\Desktop\datasync\datasync_node1_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+20:47:56.155 [main] INFO  com.ntu.node.Node1ClientApplication - No active profile set, falling back to default profiles: default
+20:47:59.849 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+20:47:59.873 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+20:47:59.875 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:47:59.876 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+20:48:00.177 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:48:00.177 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3817 ms
+20:48:01.348 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+20:48:02.156 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+20:48:08.840 [main] INFO  com.ntu.node.ClientStart - 长江结点成功连接至MQTT服务器.........
+20:48:08.843 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+20:48:08.890 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+20:48:08.896 [main] INFO  com.ntu.node.Node1ClientApplication - Started Node1ClientApplication in 14.405 seconds (JVM running for 19.8)
+20:48:18.874 [node1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:48:19.062 [node1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:56:01.661 [main] INFO  com.ntu.node.Node1ClientApplication - Starting Node1ClientApplication on LAPTOP-6SA701DM with PID 5584 (C:\Users\Lenovo\Desktop\datasync\datasync_node1_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+20:56:01.668 [main] INFO  com.ntu.node.Node1ClientApplication - No active profile set, falling back to default profiles: default
+20:56:04.295 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+20:56:04.312 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+20:56:04.313 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:56:04.313 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+20:56:04.593 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:56:04.594 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2760 ms
+20:56:05.270 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+20:56:05.751 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+20:56:12.380 [main] INFO  com.ntu.node.ClientStart - 长江结点成功连接至MQTT服务器.........
+20:56:12.383 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+20:56:12.422 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+20:56:12.427 [main] INFO  com.ntu.node.Node1ClientApplication - Started Node1ClientApplication in 12.139 seconds (JVM running for 15.216)
+20:56:22.432 [node1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:56:22.742 [node1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:59:08.286 [main] INFO  com.ntu.node.Node1ClientApplication - Starting Node1ClientApplication on LAPTOP-6SA701DM with PID 14920 (C:\Users\Lenovo\Desktop\datasync\datasync_node1_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+20:59:08.293 [main] INFO  com.ntu.node.Node1ClientApplication - No active profile set, falling back to default profiles: default
+20:59:12.151 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+20:59:12.179 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+20:59:12.181 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:59:12.181 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+20:59:12.633 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:59:12.633 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4173 ms
+20:59:13.883 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+20:59:14.659 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+20:59:21.606 [main] INFO  com.ntu.node.ClientStart - 长江结点成功连接至MQTT服务器.........
+20:59:21.611 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+20:59:21.657 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+20:59:21.662 [main] INFO  com.ntu.node.Node1ClientApplication - Started Node1ClientApplication in 15.007 seconds (JVM running for 19.084)
+20:59:31.639 [node1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:59:31.828 [node1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21:02:29.628 [main] INFO  com.ntu.node.Node1ClientApplication - Starting Node1ClientApplication on LAPTOP-6SA701DM with PID 14392 (C:\Users\Lenovo\Desktop\datasync\datasync_node1_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+21:02:29.648 [main] INFO  com.ntu.node.Node1ClientApplication - No active profile set, falling back to default profiles: default
+21:02:33.261 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+21:02:33.278 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+21:02:33.279 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21:02:33.279 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+21:02:33.522 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:02:33.523 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3645 ms
+21:02:34.595 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+21:02:35.860 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+21:02:43.147 [main] INFO  com.ntu.node.ClientStart - 长江结点成功连接至MQTT服务器.........
+21:02:43.151 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+21:02:43.198 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+21:02:43.203 [main] INFO  com.ntu.node.Node1ClientApplication - Started Node1ClientApplication in 15.16 seconds (JVM running for 18.604)
+21:02:53.185 [node1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21:02:53.382 [node1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21:05:17.861 [main] INFO  com.ntu.node.Node1ClientApplication - Starting Node1ClientApplication on LAPTOP-6SA701DM with PID 15720 (C:\Users\Lenovo\Desktop\datasync\datasync_node1_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+21:05:17.863 [main] INFO  com.ntu.node.Node1ClientApplication - No active profile set, falling back to default profiles: default
+21:05:21.060 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+21:05:21.088 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+21:05:21.089 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21:05:21.090 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+21:05:21.335 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:05:21.335 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3298 ms
+21:05:22.103 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+21:05:22.686 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+21:05:29.218 [main] INFO  com.ntu.node.ClientStart - 长江结点成功连接至MQTT服务器.........
+21:05:29.222 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+21:05:29.271 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+21:05:29.276 [main] INFO  com.ntu.node.Node1ClientApplication - Started Node1ClientApplication in 13.496 seconds (JVM running for 16.851)
+21:05:39.398 [node1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21:05:39.865 [node1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21:05:51.015 [main] INFO  com.ntu.node.Node1ClientApplication - Starting Node1ClientApplication on LAPTOP-6SA701DM with PID 15588 (C:\Users\Lenovo\Desktop\datasync\datasync_node1_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+21:05:51.023 [main] INFO  com.ntu.node.Node1ClientApplication - No active profile set, falling back to default profiles: default
+21:05:54.217 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+21:05:54.236 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+21:05:54.237 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21:05:54.238 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+21:05:54.489 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:05:54.490 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3296 ms
+21:05:55.142 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+21:05:55.636 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+21:06:02.302 [main] INFO  com.ntu.node.ClientStart - 长江结点成功连接至MQTT服务器.........
+21:06:02.306 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+21:06:02.374 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+21:06:02.379 [main] INFO  com.ntu.node.Node1ClientApplication - Started Node1ClientApplication in 12.516 seconds (JVM running for 15.59)
+21:06:12.342 [node1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21:06:12.538 [node1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.

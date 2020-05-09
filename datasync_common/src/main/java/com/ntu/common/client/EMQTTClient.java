@@ -2,7 +2,7 @@ package com.ntu.common.client;
 
 import com.ntu.common.config.MsgSerializer;
 import com.ntu.common.model.SyncMessage;
-import com.ntu.common.model.SysConfig;
+import com.ntu.common.model.Constant;
 import com.ntu.common.processor.DataReceiver;
 import com.ntu.common.util.SslUtil;
 import org.eclipse.paho.client.mqttv3.*;
@@ -39,7 +39,7 @@ public class EMQTTClient implements IMQTTClient {
         this.username = username;
         //this.sysConfig = new SysConfig();
         try{
-            mqttClient = new MqttClient(SysConfig.SERVER_URL, clientid);
+            mqttClient = new MqttClient(Constant.SERVER_URL, clientid);
         } catch (MqttException e) {
             e.printStackTrace();
         }
@@ -48,7 +48,7 @@ public class EMQTTClient implements IMQTTClient {
 
 
     public void connect(DataReceiver dr) {
-        logger.info("connecting to server: "+SysConfig.SERVER_URL);
+        logger.info("connecting to server: "+ Constant.SERVER_URL);
         MqttConnectOptions options = new MqttConnectOptions();
         options.setCleanSession(CLEAN_START);
         options.setPassword(password.toCharArray());
@@ -111,7 +111,7 @@ public class EMQTTClient implements IMQTTClient {
         try{
             mqttClient.subscribe(topics);
         } catch (MqttException e) {
-            e.printStackTrace();
+            logger.error(e.getMessage());
         }
     }
 
@@ -129,6 +129,15 @@ public class EMQTTClient implements IMQTTClient {
             e.printStackTrace();
         } catch (MqttException e) {
             e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void disconnect() {
+        try {
+            mqttClient.disconnect();
+        } catch (MqttException e) {
+            logger.error(e.getMessage());
         }
     }
 }

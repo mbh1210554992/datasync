@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ntu.client2.mapper.DataSynchroMapper" >
+  <resultMap id="BaseResultMap" type="com.ntu.common.model.po.DataSynchro" >
+    <result column="BASICINFOID" property="basicinfoid" jdbcType="CHAR" />
+    <result column="TYPE" property="type" jdbcType="CHAR" />
+    <result column="SA1_STATUS" property="sa1Status" jdbcType="CHAR" />
+    <result column="SC1_TIME" property="sc1Time" jdbcType="TIMESTAMP" />
+    <result column="SD1_NUM" property="sd1Num" jdbcType="DECIMAL" />
+    <result column="SE1_TIME" property="se1Time" jdbcType="TIMESTAMP" />
+    <result column="SF1_MSG" property="sf1Msg" jdbcType="VARCHAR" />
+  </resultMap>
+  <insert id="insert" parameterType="com.ntu.common.model.po.DataSynchro" >
+        insert into data_synchro (BASICINFOID, TYPE, SA1_STATUS,
+        SC1_TIME, SD1_NUM,
+        SE1_TIME, SF1_MSG
+        )
+        values (#{basicinfoid,jdbcType=CHAR}, #{type,jdbcType=CHAR}, #{sa1Status,jdbcType=CHAR},
+        #{sc1Time,jdbcType=TIMESTAMP}, #{sd1Num,jdbcType=DECIMAL},
+        #{se1Time,jdbcType=TIMESTAMP}, #{sf1Msg,jdbcType=VARCHAR}
+        )
+    </insert>
+  <insert id="insertSelective" parameterType="com.ntu.common.model.po.DataSynchro" >
+    insert into data_synchro
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="basicinfoid != null" >
+        BASICINFOID,
+      </if>
+      <if test="type != null" >
+        TYPE,
+      </if>
+      <if test="sa1Status != null" >
+        SA1_STATUS,
+      </if>
+      <if test="sb1Time != null" >
+        SB1_TIME,
+      </if>
+      <if test="sc1Time != null" >
+        SC1_TIME,
+      </if>
+      <if test="sd1Num != null" >
+        SD1_NUM,
+      </if>
+      <if test="se1Time != null" >
+        SE1_TIME,
+      </if>
+      <if test="sf1Msg != null" >
+        SF1_MSG,
+      </if>
+      <if test="sa2Status != null" >
+        SA2_STATUS,
+      </if>
+      <if test="sb2Time != null" >
+        SB2_TIME,
+      </if>
+      <if test="sc2Time != null" >
+        SC2_TIME,
+      </if>
+      <if test="sf2Msg != null" >
+        SF2_MSG,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="basicinfoid != null" >
+        #{basicinfoid,jdbcType=CHAR},
+      </if>
+      <if test="type != null" >
+        #{type,jdbcType=CHAR},
+      </if>
+      <if test="sa1Status != null" >
+        #{sa1Status,jdbcType=CHAR},
+      </if>
+      <if test="sb1Time != null" >
+        #{sb1Time,jdbcType=TIMESTAMP},
+      </if>
+      <if test="sc1Time != null" >
+        #{sc1Time,jdbcType=TIMESTAMP},
+      </if>
+      <if test="sd1Num != null" >
+        #{sd1Num,jdbcType=DECIMAL},
+      </if>
+      <if test="se1Time != null" >
+        #{se1Time,jdbcType=TIMESTAMP},
+      </if>
+      <if test="sf1Msg != null" >
+        #{sf1Msg,jdbcType=VARCHAR},
+      </if>
+      <if test="sa2Status != null" >
+        #{sa2Status,jdbcType=CHAR},
+      </if>
+      <if test="sb2Time != null" >
+        #{sb2Time,jdbcType=TIMESTAMP},
+      </if>
+      <if test="sc2Time != null" >
+        #{sc2Time,jdbcType=TIMESTAMP},
+      </if>
+      <if test="sf2Msg != null" >
+        #{sf2Msg,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="querySyncData" resultMap="BaseResultMap">
+        select  * from data_synchro where 1=1 and (SA1_STATUS = '1'
+        or SA1_STATUS = '9') and (SD1_NUM &lt; 5 or SD1_NUM is null)
+    </select>
+
+  <select id="findById"  resultMap="BaseResultMap">
+        select  * from data_synchro where rtrim(basicinfoid)= #{basicinfoid} and type = #{type}
+    </select>
+
+  <update id="updateActive"  parameterType="com.ntu.common.model.po.DataSynchro" >
+    update data_synchro set SA1_STATUS = #{sa1Status}
+    <if test="sc1Time != null" >
+      , SC1_TIME= #{sc1Time}
+    </if>
+    <if test="sd1Num != null" >
+      , SD1_NUM= #{sd1Num}
+    </if>
+    <if test="se1Time != null" >
+      , SE1_TIME= #{se1Time}
+    </if>
+    <if test="sf1Msg != null" >
+      , SF1_MSG= #{sf1Msg}
+    </if>
+    where rtrim(basicinfoid)= #{basicinfoid} and type = #{type}
+  </update>
+
+  <update id="updatePassive"  parameterType="com.ntu.common.model.po.DataSynchro" >
+    update data_synchro set SA2_STATUS = #{sa2Status}
+    <if test="sb2Time != null" >
+      , SB2_TIME= #{sb2Time}
+    </if>
+    <if test="sc2Time != null" >
+      , SC2_TIME= #{sc2Time}
+    </if>
+    <if test="sf2Msg != null" >
+      , SF2_MSG= #{sf2Msg}
+    </if>
+    where rtrim(basicinfoid)= #{basicinfoid} and type = #{type}
+  </update>
+</mapper>

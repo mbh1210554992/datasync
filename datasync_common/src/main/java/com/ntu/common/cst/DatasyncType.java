@@ -23,7 +23,9 @@ import lombok.ToString;
 @ToString
 public enum DatasyncType {
     CHANGJIANG_BOX_SENSOR("M",1),
-    CHANGJIANG_BOX_ENVIRONMENT("N",2);
+    CHANGJIANG_BOX_ENVIRONMENT("N",2),
+    TUANJIEHE_BUOY_DIANYA("D",3),
+    TUANJIEHE_BUOY_GONGZUOWENDU("G",4);
 
 
 

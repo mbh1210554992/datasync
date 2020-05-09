@@ -8,9 +8,11 @@ import com.ntu.common.processor.DataReceiver;
  */
 
 public interface IMQTTClient {
-    public void connect(DataReceiver dr);
+    void connect(DataReceiver dr);
 
-    public void subscribe(String topics);
+    void subscribe(String topics);
 
-    public void publish(String topicName, byte[] message, boolean retain);
+    void publish(String topicName, byte[] message, boolean retain);
+
+    void disconnect();
 }
