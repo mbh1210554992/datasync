@@ -1,0 +1,19 @@
+12:11:17.568 [main] INFO  com.ntu.node.Node1ClientApplication - Starting Node1ClientApplication on LAPTOP-6SA701DM with PID 6620 (C:\Users\Lenovo\Desktop\datasync\datasync_node1_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+12:11:17.585 [main] INFO  com.ntu.node.Node1ClientApplication - No active profile set, falling back to default profiles: default
+12:11:21.655 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+12:11:21.684 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+12:11:21.686 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+12:11:21.686 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+12:11:22.346 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:11:22.347 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4475 ms
+12:11:23.815 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12:11:24.737 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+12:11:32.602 [main] INFO  com.ntu.node.ClientStart - 长江结点成功连接至MQTT服务器.........
+12:11:32.606 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+12:11:32.639 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+12:11:32.642 [main] INFO  com.ntu.node.Node1ClientApplication - Started Node1ClientApplication in 16.57 seconds (JVM running for 20.446)
+12:11:42.655 [node1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12:11:43.236 [node1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12:12:54.183 [node1] INFO  com.ntu.node.sync.SendThread - 发送消息:ChangJiangBoxSensor(infoId=9, areaId=dfg, spotId=fg, nodeId=dfg, dataTime=Tue May 19 20:12:49 CST 2020, conductivity=null, temperature=null, ph=null, salinity=null, dissolvedOxygen=null, turbidity=null)
+12:12:55.189 [MQTT Call: cj_node] INFO  com.ntu.node.sync.NodeDataReceiver - 收到确认消息.....
+12:12:55.189 [MQTT Call: cj_node] INFO  com.ntu.node.sync.NodeDataReceiver - CHANGJIANG_BOX_SENSOR表中 9 号数据同步成功....

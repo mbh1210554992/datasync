@@ -1,0 +1,12 @@
+12:12:54.643 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+12:12:54.680 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - ==> Parameters: 9(Long), M(String)
+12:12:54.730 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.findById - <==      Total: 0
+12:12:54.739 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from nantong_changjiang_box_sensor where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+12:12:54.742 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: dfg(String), fg(String), dfg(String), 2020-05-19 20:12:49.0(Timestamp)
+12:12:54.762 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 0
+12:12:54.763 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==>  Preparing: insert into nantong_changjiang_box_sensor values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+12:12:54.764 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==> Parameters: dfg(String), fg(String), dfg(String), 2020-05-19 20:12:49.0(Timestamp), null, null, null, null, null, null
+12:12:54.814 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - <==    Updates: 1
+12:12:54.815 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.insert - ==>  Preparing: insert into data_synchro (BASICINFOID, TYPE, AREA_NAME ,SA1_STATUS, SC1_TIME, SD1_NUM, SE1_TIME, SF1_MSG ) values (?, ?, ?,?, ?, ?, ?, ? ) 
+12:12:54.816 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.insert - ==> Parameters: 9(Long), M(String), changjiang(String), 0(String), 2020-05-10 12:12:54.815(Timestamp), null, null, data synchronize success(String)
+12:12:54.872 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSynchroMapper.insert - <==    Updates: 1

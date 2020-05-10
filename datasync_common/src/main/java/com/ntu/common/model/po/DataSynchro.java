@@ -19,6 +19,7 @@ public class DataSynchro implements Serializable {
 
     private Long basicinfoid;
     private String type;
+    private String areaName;
     private String sa1Status;
     private Date sb1Time;
     private Date sc1Time;

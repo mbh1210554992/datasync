@@ -102,6 +102,11 @@ public class CenterDataReceiver implements DataReceiver {
                     local.setSe1Time(new Date());
                 }
 
+                if(Constant.NODE_CLIENT_ID.equals(syncMessage.getClientid())){
+                   local.setAreaName("changjiang");
+                }else if(Constant.NODE2_CLIENT_ID.equals(syncMessage.getClientid())){
+                    local.setAreaName("tuanjiehe");
+                }
 
                 if(insertFlag){
                     dataSynchroMapper.insert(local);
@@ -134,7 +139,6 @@ public class CenterDataReceiver implements DataReceiver {
                 SyncMessage ackMessage = new SyncMessage(syncMessage.getMsgtype(),
                         syncMessage.getClientid(), remote, null);
                 byte[] buf = new MsgSerializer().encode(ackMessage);
-                //String topicId = (syncMessage.getClientid().startsWith("node"))?topic.TOPIC_SYNC_NODE+smsg.getClientid():topic.TOPIC_SYNC_CENTER;
                 logger.debug("发送确认信息==========================");
                 if(Constant.NODE_CLIENT_ID.equals(syncMessage.getClientid())){
                     mc.publish(Constant.CENTER_TOPIC1, buf, true);
@@ -143,8 +147,6 @@ public class CenterDataReceiver implements DataReceiver {
                 }
 
                 logger.debug("确认信息发送完成==========================");
-                //mc.publish(topicId, buf, true);
-                //LOG.debug("send ack to "+topic.TOPIC_SYNC_NODE+smsg.getClientid()+":"+remote);
             }
         }
         catch(Throwable e) {
