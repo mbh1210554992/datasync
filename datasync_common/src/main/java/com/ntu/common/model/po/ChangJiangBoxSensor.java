@@ -23,4 +23,5 @@ public class ChangJiangBoxSensor implements Serializable {
     private Float salinity;
     private Float dissolvedOxygen;
     private Float turbidity;
+    private String areaName;
 }

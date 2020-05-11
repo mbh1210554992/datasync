@@ -87,17 +87,21 @@ public class SendThread implements Runnable {
                     sm.setDataSynchro(ds);
                     //sm.setClientid(role.equals("node") ? );
                     sm.setMsgtype(type);
-                    dr.onSend(sm);
-                    //logger.info("查询到新增的数据:"+sm.getData());
-                    if(sm.getData() == null){
-                        logger.error("同步数据不存在："+ds);
-                        ds.setSa1Status("2");
-                        ds.setSc1Time(new Date());
-                        ds.setSf1Msg("data not found");
-                        ds.setSd1Num(5L);
-                        dataSynchroMapper.updateActive(ds);
-                        continue;
+                    //如果是删除操作，则不需要去对应的表里查询数据
+                    if(!ds.getSa1Status().equals("3")){
+                        dr.onSend(sm);
+                        //logger.info("查询到新增的数据:"+sm.getData());
+                        if(sm.getData() == null){
+                            logger.error("同步数据不存在："+ds);
+                            ds.setSa1Status("2");
+                            ds.setSc1Time(new Date());
+                            ds.setSf1Msg("data not found");
+                            ds.setSd1Num(5L);
+                            dataSynchroMapper.updateActive(ds);
+                            continue;
+                        }
                     }
+
                     String topic = Constant.NODE2_TOPIC;
                     sm.setClientid(Constant.NODE2_CLIENT_ID);
                     message = new MsgSerializer().encode(sm);

@@ -1,6 +1,7 @@
 package com.ntu.client2.mapper;
 
 import com.ntu.common.model.po.AreaSpot;
+import org.apache.ibatis.annotations.Param;
 
 public interface AreaSpotMapper {
     int deleteByPrimaryKey(AreaSpot record);
@@ -16,4 +17,6 @@ public interface AreaSpotMapper {
     int updateByPrimaryKeyWithBLOBs(AreaSpot record);
 
     int updateByPrimaryKey(AreaSpot record);
+
+    AreaSpot findById(@Param("infoId")Long infoId);
 }

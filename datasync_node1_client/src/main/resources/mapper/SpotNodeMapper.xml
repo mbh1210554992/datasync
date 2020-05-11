@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ntu.node.mapper.SpotNodeMapper" >
+  <resultMap id="BaseResultMap" type="com.ntu.common.model.po.SpotNode" >
+    <id column="node_id" property="nodeId" jdbcType="VARCHAR" />
+    <id column="spot_id" property="spotId" jdbcType="VARCHAR" />
+    <id column="area_id" property="areaId" jdbcType="VARCHAR" />
+    <result column="info_id" property="infoId"/>
+    <result column="node_name" property="nodeName" jdbcType="VARCHAR" />
+    <result column="node_type" property="nodeType" jdbcType="VARCHAR" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.ntu.common.model.po.SpotNode" extends="BaseResultMap" >
+    <result column="node_note" property="nodeNote" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    node_id, spot_id, area_id, node_name, node_type
+  </sql>
+  <sql id="Blob_Column_List" >
+    node_note
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="com.ntu.common.model.po.SpotNode" >
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from spot_node
+    where node_id = #{nodeId,jdbcType=VARCHAR}
+      and spot_id = #{spotId,jdbcType=VARCHAR}
+      and area_id = #{areaId,jdbcType=VARCHAR}
+  </select>
+
+  <select id="findById" resultMap="BaseResultMap">
+    select * from spot_node where info_id = #{infoId}
+  </select>
+
+  <delete id="deleteByPrimaryKey" parameterType="com.ntu.common.model.po.SpotNode" >
+    delete from spot_node
+    where node_id = #{nodeId,jdbcType=VARCHAR}
+      and spot_id = #{spotId,jdbcType=VARCHAR}
+      and area_id = #{areaId,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.ntu.common.model.po.SpotNode" >
+    insert into spot_node (node_id, spot_id, area_id, 
+      node_name, node_type, node_note
+      )
+    values (#{nodeId,jdbcType=VARCHAR}, #{spotId,jdbcType=VARCHAR}, #{areaId,jdbcType=VARCHAR}, 
+      #{nodeName,jdbcType=VARCHAR}, #{nodeType,jdbcType=VARCHAR}, #{nodeNote,jdbcType=LONGVARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.ntu.common.model.po.SpotNode" >
+    insert into spot_node
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="nodeId != null" >
+        node_id,
+      </if>
+      <if test="spotId != null" >
+        spot_id,
+      </if>
+      <if test="areaId != null" >
+        area_id,
+      </if>
+      <if test="nodeName != null" >
+        node_name,
+      </if>
+      <if test="nodeType != null" >
+        node_type,
+      </if>
+      <if test="nodeNote != null" >
+        node_note,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="nodeId != null" >
+        #{nodeId,jdbcType=VARCHAR},
+      </if>
+      <if test="spotId != null" >
+        #{spotId,jdbcType=VARCHAR},
+      </if>
+      <if test="areaId != null" >
+        #{areaId,jdbcType=VARCHAR},
+      </if>
+      <if test="nodeName != null" >
+        #{nodeName,jdbcType=VARCHAR},
+      </if>
+      <if test="nodeType != null" >
+        #{nodeType,jdbcType=VARCHAR},
+      </if>
+      <if test="nodeNote != null" >
+        #{nodeNote,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.ntu.common.model.po.SpotNode" >
+    update spot_node
+    <set >
+      <if test="nodeName != null" >
+        node_name = #{nodeName,jdbcType=VARCHAR},
+      </if>
+      <if test="nodeType != null" >
+        node_type = #{nodeType,jdbcType=VARCHAR},
+      </if>
+      <if test="nodeNote != null" >
+        node_note = #{nodeNote,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where node_id = #{nodeId,jdbcType=VARCHAR}
+      and spot_id = #{spotId,jdbcType=VARCHAR}
+      and area_id = #{areaId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.ntu.common.model.po.SpotNode" >
+    update spot_node
+    set node_name = #{nodeName,jdbcType=VARCHAR},
+      node_type = #{nodeType,jdbcType=VARCHAR},
+      node_note = #{nodeNote,jdbcType=LONGVARCHAR}
+    where node_id = #{nodeId,jdbcType=VARCHAR}
+      and spot_id = #{spotId,jdbcType=VARCHAR}
+      and area_id = #{areaId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.ntu.common.model.po.SpotNode" >
+    update spot_node
+    set node_name = #{nodeName,jdbcType=VARCHAR},
+      node_type = #{nodeType,jdbcType=VARCHAR}
+    where node_id = #{nodeId,jdbcType=VARCHAR}
+      and spot_id = #{spotId,jdbcType=VARCHAR}
+      and area_id = #{areaId,jdbcType=VARCHAR}
+  </update>
+</mapper>

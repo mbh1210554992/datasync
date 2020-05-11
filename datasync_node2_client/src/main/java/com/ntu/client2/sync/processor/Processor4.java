@@ -21,18 +21,6 @@ public class Processor4 implements IDataProcessor {
         TuanJieHeBuoyGongZuoWenDu old = tuanJieHeBuoyGongZuoWenDuMapper.selectByPrimaryKey(tuanJieHeBuoyGongZuoWenDu);
         if(old !=null)
         {
-            /*if(book.getUpddate() == null ||  old.getUpddate().before(msg.getDataSynchro().getSb1Time()))
-            {
-                bookMapper.updateSelective(book);
-                return 0;
-            }else if(old.getUpddate().equals(msg.getSynchro().getSb1Time()))
-            {
-                return 0;
-            }else
-            {
-                return 1;
-            }*/
-            //return 0;
             tuanJieHeBuoyGongZuoWenDuMapper.updateByPrimaryKey(tuanJieHeBuoyGongZuoWenDu);
             return 0;
         }
@@ -44,7 +32,6 @@ public class Processor4 implements IDataProcessor {
     @Override
     public Long onSend(SyncMessage msg) {
         TuanJieHeBuoyGongZuoWenDu tuanJieHeBuoyGongZuoWenDu = tuanJieHeBuoyGongZuoWenDuMapper.findById(msg.getDataSynchro().getBasicinfoid());
-        //System.out.println(book);
         msg.setData(tuanJieHeBuoyGongZuoWenDu);
         return tuanJieHeBuoyGongZuoWenDu==null ? null : tuanJieHeBuoyGongZuoWenDu.getInfoId();
     }

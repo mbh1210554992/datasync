@@ -5,6 +5,7 @@
     <id column="node_id" property="nodeId" jdbcType="VARCHAR" />
     <id column="spot_id" property="spotId" jdbcType="VARCHAR" />
     <id column="area_id" property="areaId" jdbcType="VARCHAR" />
+    <result column="info_id" property="infoId"/>
     <result column="node_name" property="nodeName" jdbcType="VARCHAR" />
     <result column="node_type" property="nodeType" jdbcType="VARCHAR" />
   </resultMap>
@@ -27,6 +28,11 @@
       and spot_id = #{spotId,jdbcType=VARCHAR}
       and area_id = #{areaId,jdbcType=VARCHAR}
   </select>
+
+  <select id="findById" resultMap="BaseResultMap">
+    select * from spot_node where info_id = #{infoId}
+  </select>
+
   <delete id="deleteByPrimaryKey" parameterType="com.ntu.common.model.po.SpotNode" >
     delete from spot_node
     where node_id = #{nodeId,jdbcType=VARCHAR}

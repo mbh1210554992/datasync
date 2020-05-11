@@ -1,7 +1,7 @@
 package com.ntu.client2.mapper;
 
 import com.ntu.common.model.po.TuanJieHeBuoyCod;
-
+import org.apache.ibatis.annotations.Param;
 
 public interface TuanJieHeBuoyCodMapper {
     int deleteByPrimaryKey(TuanJieHeBuoyCod record);
@@ -15,4 +15,6 @@ public interface TuanJieHeBuoyCodMapper {
     int updateByPrimaryKeySelective(TuanJieHeBuoyCod record);
 
     int updateByPrimaryKey(TuanJieHeBuoyCod record);
+
+    TuanJieHeBuoyCod findById(@Param("infoId")Long infoId);
 }

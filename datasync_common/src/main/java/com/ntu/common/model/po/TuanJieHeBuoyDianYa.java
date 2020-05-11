@@ -20,5 +20,6 @@ public class TuanJieHeBuoyDianYa implements Serializable {
     private String dianya;
     private String dianliust;
     private String state;
+    private String areaName;
 
 }

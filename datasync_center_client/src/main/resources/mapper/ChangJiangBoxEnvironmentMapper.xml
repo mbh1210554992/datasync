@@ -7,6 +7,7 @@
         <result column="area_id" property="areaId"/>
         <result column="spot_id" property="spotId"/>
         <result column="data_time" property="dataTime"/>
+        <result column="area_name" property="areaName"/>
         <result column="G_InVoltage" property="gInVoltage"/>
         <result column="G_InCurrent" property="gInCurrent"/>
         <result column="G_Temperature" property="gTemperature"/>
@@ -25,12 +26,12 @@
 
     <insert id="insert">
         insert into nantong_changjiang_box_environment
-            (area_id,spot_id,node_id,data_time,G_InVoltage,G_InCurrent,
+            (info_id,area_name,area_id,spot_id,node_id,data_time,G_InVoltage,G_InCurrent,
              G_Temperature, Z_InVoltage,Z_InCurrent,Z_Temperature,
              Z_JueYuan,Z_LouShui, C_InVoltage,
              C_YunTaiDianLiu,C_Temperature,C_JueYuan,
              C_LouShui,Water_Deep)
-        value( #{areaId},#{spotId},#{nodeId},#{dataTime},#{gInVoltage},
+        value( #{infoId},#{areaName},#{areaId},#{spotId},#{nodeId},#{dataTime},#{gInVoltage},
                #{gInCurrent},#{gTemperature},#{zInVoltage},
                #{zInCurrent},#{zTemperature},#{zJueYuan},
                #{zLouShui},#{cInVoltage},#{cYunTaiDianLiu},
@@ -54,6 +55,9 @@
             C_LouShui = #{cLouShui},
             Water_Deep = #{waterDeep}
     </update>
+    <delete id="deleteById">
+        delete from nantong_changjiang_box_environment where info_id = #{infoId} and area_name = #{areaName}
+    </delete>
 
 
     <select id="findById" resultMap="result">

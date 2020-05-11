@@ -12,7 +12,7 @@ public interface DataSynchroMapper {
 
     int insertSelective(DataSynchro record);
     
-    DataSynchro findById(@Param("basicinfoid") Long basicinfoid, @Param("type") String type);
+    DataSynchro findById(@Param("basicinfoid") Long basicinfoid, @Param("type") String type,@Param("areaName")String areaName);
     
     List<DataSynchro> querySyncData();
     

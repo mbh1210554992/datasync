@@ -6,6 +6,7 @@
     <id column="spot_id" property="spotId" jdbcType="VARCHAR" />
     <id column="node_id" property="nodeId" jdbcType="VARCHAR" />
     <id column="data_time" property="dataTime" jdbcType="TIMESTAMP" />
+    <result column="info_id" property="infoId"/>
     <result column="num" property="num" jdbcType="VARCHAR" />
     <result column="num_1" property="num1" jdbcType="VARCHAR" />
     <result column="state" property="state" jdbcType="VARCHAR" />
@@ -31,7 +32,12 @@
       and node_id = #{nodeId,jdbcType=VARCHAR}
       and data_time = #{dataTime,jdbcType=TIMESTAMP}
   </delete>
-  <insert id="insert" parameterType="com.ntu.common.model.po.TuanJieHeBuoyCod" >
+
+    <delete id="deleteById">
+      delete from nantong_tuanjiehe_buoy_cod where info_id = #{infoId} and area_name = #{areaName}
+    </delete>
+
+    <insert id="insert" parameterType="com.ntu.common.model.po.TuanJieHeBuoyCod" >
     insert into nantong_tuanjiehe_buoy_cod (area_id, spot_id, node_id, 
       data_time, num, num_1, 
       state, error, cod)

@@ -1,6 +1,7 @@
 package com.ntu.center.mapper;
 
 import com.ntu.common.model.po.TuanJieHeBuoyDianYa;
+import org.apache.ibatis.annotations.Param;
 
 public interface TuanJieHeBuoyDianYaMapper {
     int deleteByPrimaryKey(TuanJieHeBuoyDianYa record);
@@ -14,4 +15,6 @@ public interface TuanJieHeBuoyDianYaMapper {
     int updateByPrimaryKeySelective(TuanJieHeBuoyDianYa record);
 
     int updateByPrimaryKey(TuanJieHeBuoyDianYa record);
+
+    void deleteById(@Param("infoId")Long infoId,@Param("areaName")String areaName);
 }

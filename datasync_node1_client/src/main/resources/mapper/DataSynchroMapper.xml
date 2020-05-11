@@ -103,7 +103,7 @@
     </insert>
     <select id="querySyncData" resultMap="BaseResultMap">
         select  * from data_synchro where 1=1 and (SA1_STATUS = '1'
-        or SA1_STATUS = '9') and (SD1_NUM &lt; 5 or SD1_NUM is null)
+        or SA1_STATUS = '9' or SA1_STATUS = '3') and (SD1_NUM &lt; 5 or SD1_NUM is null)
     </select>
 
     <select id="findById"  resultMap="BaseResultMap">

@@ -23,6 +23,7 @@ public class TuanJieHeBuoyGongZuoWenDu implements Serializable {
     private String errornum;
     private Double tem1hratur;
     private Double tem2Xical;
+    private String areaName;
 
 
 }

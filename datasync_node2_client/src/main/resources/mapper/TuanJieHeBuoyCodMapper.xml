@@ -6,6 +6,7 @@
     <id column="spot_id" property="spotId" jdbcType="VARCHAR" />
     <id column="node_id" property="nodeId" jdbcType="VARCHAR" />
     <id column="data_time" property="dataTime" jdbcType="TIMESTAMP" />
+    <result column="info_id" property="infoId"/>
     <result column="num" property="num" jdbcType="VARCHAR" />
     <result column="num_1" property="num1" jdbcType="VARCHAR" />
     <result column="state" property="state" jdbcType="VARCHAR" />
@@ -13,7 +14,7 @@
     <result column="cod" property="cod" jdbcType="DOUBLE" />
   </resultMap>
   <sql id="Base_Column_List" >
-    area_id, spot_id, node_id, data_time, num, num_1, state, error, cod
+     info_id,area_id, spot_id, node_id, data_time, num, num_1, state, error, cod
   </sql>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="com.ntu.common.model.po.TuanJieHeBuoyCod" >
     select 
@@ -24,6 +25,11 @@
       and node_id = #{nodeId,jdbcType=VARCHAR}
       and data_time = #{dataTime,jdbcType=TIMESTAMP}
   </select>
+
+  <select id="findById" resultMap="BaseResultMap">
+    select * from nantong_tuanjiehe_buoy_cod where info_id = #{infoId}
+  </select>
+
   <delete id="deleteByPrimaryKey" parameterType="com.ntu.common.model.po.TuanJieHeBuoyCod" >
     delete from nantong_tuanjiehe_buoy_cod
     where area_id = #{areaId,jdbcType=VARCHAR}

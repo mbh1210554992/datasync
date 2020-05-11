@@ -11,6 +11,8 @@ import java.io.Serializable;
 @ToString
 public class AreaSpot implements Serializable {
     private static final long serialVersionUID = -6893071434497225334L;
+    private Long infoId;
+    private String areaName;
     private String areaId;
     private String spotId;
     private String spotName;

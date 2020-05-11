@@ -12,6 +12,7 @@ import java.util.Date;
 @ToString
 public class TuanJieHeBuoyCod implements Serializable {
     private static final long serialVersionUID = -4174570655096567451L;
+    private Long infoId;
     private String areaId;
     private String spotId;
     private String nodeId;
@@ -21,5 +22,6 @@ public class TuanJieHeBuoyCod implements Serializable {
     private String state;
     private String error;
     private Double cod;
+    private String areaName;
 
 }

@@ -1,0 +1,402 @@
+12:41:50.978 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 16164 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+12:41:50.987 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+12:41:54.933 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+12:41:54.960 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+12:41:54.962 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+12:41:54.962 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+12:41:55.261 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:41:55.261 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4081 ms
+12:41:56.358 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12:41:56.859 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+12:42:03.512 [main] INFO  com.ntu.center.CenterClientStart - 中央数据库节点成功连接至MQTT服务器.....
+12:42:03.515 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+12:42:03.558 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+12:42:03.563 [main] INFO  com.ntu.center.CenterClientApplication - Started CenterClientApplication in 14.857 seconds (JVM running for 19.479)
+12:50:33.739 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12:50:34.173 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12:50:34.593 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 CHANGJIANG_BOX_SENSOR 表中的 10 号数据同步失败
+12:50:44.789 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 CHANGJIANG_BOX_SENSOR 表中的 10 号数据同步失败
+12:50:55.798 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 CHANGJIANG_BOX_SENSOR 表中的 10 号数据同步失败
+12:51:06.809 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 CHANGJIANG_BOX_SENSOR 表中的 10 号数据同步失败
+12:51:17.816 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 CHANGJIANG_BOX_SENSOR 表中的 10 号数据同步失败
+12:52:37.128 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 13452 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+12:52:37.138 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+12:52:40.552 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+12:52:40.573 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+12:52:40.573 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+12:52:40.574 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+12:52:40.850 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:52:40.850 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3500 ms
+12:52:41.745 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12:52:42.337 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+12:52:48.932 [main] INFO  com.ntu.center.CenterClientStart - 中央数据库节点成功连接至MQTT服务器.....
+12:52:48.936 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+12:52:49.005 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+12:52:49.012 [main] INFO  com.ntu.center.CenterClientApplication - Started CenterClientApplication in 14.037 seconds (JVM running for 18.09)
+12:54:17.870 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12:54:18.267 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12:54:18.524 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 CHANGJIANG_BOX_SENSOR 表中的 10 号数据同步成功
+12:56:48.091 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 CHANGJIANG_BOX_SENSOR 表中的 10 号数据同步成功
+13:06:16.792 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 2704 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+13:06:16.815 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+13:06:19.293 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+13:06:19.313 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+13:06:19.314 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+13:06:19.314 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+13:06:19.640 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:06:19.640 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2589 ms
+13:06:20.559 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+13:06:21.099 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+13:06:27.649 [main] INFO  com.ntu.center.CenterClientStart - 中央数据库节点成功连接至MQTT服务器.....
+13:06:27.653 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+13:06:27.700 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+13:06:27.708 [main] INFO  com.ntu.center.CenterClientApplication - Started CenterClientApplication in 12.512 seconds (JVM running for 16.412)
+13:07:08.609 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:07:09.135 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:07:09.403 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 CHANGJIANG_BOX_SENSOR 表中的 0 号数据同步成功 同步时间：Mon May 11 13:07:09 CST 2020
+13:17:10.115 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 CHANGJIANG_BOX_SENSOR 表中的 0 号数据同步成功 同步时间：Mon May 11 13:17:10 CST 2020
+13:20:40.220 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 CHANGJIANG_BOX_SENSOR 表中的 0 号数据同步成功 同步时间：Mon May 11 13:20:40 CST 2020
+13:22:21.240 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 CHANGJIANG_BOX_SENSOR 表中的 0 号数据同步成功 同步时间：Mon May 11 13:22:21 CST 2020
+17:20:57.901 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 11396 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+17:20:57.912 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+17:21:02.181 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+17:21:02.221 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+17:21:02.224 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+17:21:02.226 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+17:21:02.700 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:21:02.700 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4591 ms
+17:21:03.325 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+17:21:03.340 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:24:58.294 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 812 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+17:24:58.302 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+17:25:01.563 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+17:25:01.583 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+17:25:01.583 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+17:25:01.584 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+17:25:01.897 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:25:01.898 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3408 ms
+17:25:02.863 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:25:03.402 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+17:25:10.139 [main] INFO  com.ntu.center.CenterClientStart - 中央数据库节点成功连接至MQTT服务器.....
+17:25:10.144 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+17:25:10.199 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+17:25:10.206 [main] INFO  com.ntu.center.CenterClientApplication - Started CenterClientApplication in 13.497 seconds (JVM running for 16.991)
+17:28:59.157 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:28:59.547 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:28:59.848 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 CHANGJIANG_BOX_SENSOR 表中的 0 号数据同步成功 同步时间：Mon May 11 17:28:59 CST 2020
+17:29:50.328 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 CHANGJIANG_BOX_SENSOR 表中的 0 号数据同步成功 同步时间：Mon May 11 17:29:50 CST 2020
+17:32:31.387 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 CHANGJIANG_BOX_SENSOR 表中的 0 号数据同步成功 同步时间：Mon May 11 17:32:31 CST 2020
+17:33:45.396 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 15780 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+17:33:45.406 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+17:33:48.889 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+17:33:48.912 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+17:33:48.913 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+17:33:48.914 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+17:33:49.205 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:33:49.205 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3666 ms
+17:33:50.601 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:33:51.433 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+17:33:58.424 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - -----------连接断开-----------
+17:33:58.425 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+17:33:58.449 [main] INFO  com.ntu.center.CenterClientStart - 中央数据库节点成功连接至MQTT服务器.....
+17:33:58.450 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - -----------连接断开-----------
+17:33:58.450 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+17:33:58.454 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+17:33:58.480 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9999"]
+17:33:58.480 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+17:33:58.490 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9999"]
+17:33:58.490 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9999"]
+17:33:58.494 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:33:58.513 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+17:34:03.529 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - -----------连接断开-----------
+17:34:03.529 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+17:34:08.529 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - -----------连接断开-----------
+17:34:08.529 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+17:34:13.576 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - -----------连接断开-----------
+17:34:13.576 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+17:34:18.572 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - -----------连接断开-----------
+17:34:18.573 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+17:34:23.659 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - -----------连接断开-----------
+17:34:23.659 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+17:34:28.657 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - -----------连接断开-----------
+17:34:28.657 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+17:34:53.541 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 10408 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+17:34:53.548 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+17:34:57.131 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+17:34:57.166 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+17:34:57.167 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+17:34:57.168 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+17:34:57.593 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:34:57.593 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3929 ms
+17:34:58.999 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:34:59.695 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+17:35:06.458 [main] INFO  com.ntu.center.CenterClientStart - 中央数据库节点成功连接至MQTT服务器.....
+17:35:06.462 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+17:35:06.538 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+17:35:06.547 [main] INFO  com.ntu.center.CenterClientApplication - Started CenterClientApplication in 14.87 seconds (JVM running for 20.933)
+17:35:52.380 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:35:52.838 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:36:49.774 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 CHANGJIANG_BOX_SENSOR 表中的 11 号数据同步成功 同步时间：Mon May 11 17:36:49 CST 2020
+17:36:49.819 [Timer-0] INFO  com.ntu.common.client.EMQTTClient - -----------连接断开-----------
+17:36:49.820 [Timer-0] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+17:37:31.892 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 CHANGJIANG_BOX_SENSOR 表中的 11 号数据同步成功 同步时间：Mon May 11 17:37:31 CST 2020
+17:37:31.906 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - -----------连接断开-----------
+17:37:31.906 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+17:37:53.232 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 CHANGJIANG_BOX_SENSOR 表中的 11 号数据同步成功 同步时间：Mon May 11 17:37:53 CST 2020
+17:37:53.251 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - -----------连接断开-----------
+17:37:53.253 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+17:38:06.761 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 CHANGJIANG_BOX_SENSOR 表中的 11 号数据同步成功 同步时间：Mon May 11 17:38:06 CST 2020
+17:38:35.473 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 CHANGJIANG_BOX_SENSOR 表中的 11 号数据同步成功 同步时间：Mon May 11 17:38:35 CST 2020
+17:38:56.517 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 CHANGJIANG_BOX_SENSOR 表中的 11 号数据同步成功 同步时间：Mon May 11 17:38:56 CST 2020
+17:41:17.581 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 CHANGJIANG_BOX_SENSOR 表中的 11 号数据同步成功 同步时间：Mon May 11 17:41:17 CST 2020
+17:41:48.608 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 CHANGJIANG_BOX_SENSOR 表中的 11 号数据同步成功 同步时间：Mon May 11 17:41:48 CST 2020
+17:42:28.646 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 CHANGJIANG_BOX_SENSOR 表中的 11 号数据同步成功 同步时间：Mon May 11 17:42:28 CST 2020
+17:45:09.737 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 1 号数据同步失败
+17:45:20.633 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 1 号数据同步失败
+17:45:31.646 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 1 号数据同步失败
+17:45:42.654 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 1 号数据同步失败
+17:45:53.677 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 1 号数据同步失败
+17:46:15.046 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+17:46:15.048 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:46:15.072 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:46:26.837 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 14928 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+17:46:26.844 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+17:46:29.646 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+17:46:29.667 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+17:46:29.668 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+17:46:29.668 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+17:46:29.971 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:46:29.971 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2877 ms
+17:46:30.905 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:46:31.404 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+17:46:37.969 [main] INFO  com.ntu.center.CenterClientStart - 中央数据库节点成功连接至MQTT服务器.....
+17:46:37.973 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+17:46:38.017 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+17:46:38.022 [main] INFO  com.ntu.center.CenterClientApplication - Started CenterClientApplication in 12.96 seconds (JVM running for 16.681)
+17:46:54.916 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:46:55.408 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:46:55.711 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 1 号数据同步成功 同步时间：Mon May 11 17:46:55 CST 2020
+17:48:15.146 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 1 号数据同步成功 同步时间：Mon May 11 17:48:15 CST 2020
+18:01:13.593 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 TUANJIEHE_BUOY_DIANYA 表中的 4 号数据同步失败
+18:01:24.474 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 TUANJIEHE_BUOY_DIANYA 表中的 4 号数据同步失败
+18:01:35.494 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 TUANJIEHE_BUOY_DIANYA 表中的 4 号数据同步失败
+18:01:46.495 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 TUANJIEHE_BUOY_DIANYA 表中的 4 号数据同步失败
+18:01:57.509 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 TUANJIEHE_BUOY_DIANYA 表中的 4 号数据同步失败
+18:04:36.620 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 TUANJIEHE_BUOY_DIANYA 表中的 4 号数据同步失败
+18:04:47.629 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 TUANJIEHE_BUOY_DIANYA 表中的 4 号数据同步失败
+18:04:58.631 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 TUANJIEHE_BUOY_DIANYA 表中的 4 号数据同步失败
+18:05:09.636 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 TUANJIEHE_BUOY_DIANYA 表中的 4 号数据同步失败
+18:05:20.631 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 TUANJIEHE_BUOY_DIANYA 表中的 4 号数据同步失败
+18:07:24.708 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 2636 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+18:07:24.716 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+18:07:27.389 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+18:07:27.409 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+18:07:27.410 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+18:07:27.410 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+18:07:27.670 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:07:27.671 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2663 ms
+18:07:28.607 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+18:07:29.124 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+18:07:35.678 [main] INFO  com.ntu.center.CenterClientStart - 中央数据库节点成功连接至MQTT服务器.....
+18:07:35.682 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+18:07:35.723 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+18:07:35.728 [main] INFO  com.ntu.center.CenterClientApplication - Started CenterClientApplication in 12.638 seconds (JVM running for 16.32)
+18:07:51.601 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:07:52.023 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:07:52.292 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 TUANJIEHE_BUOY_DIANYA 表中的 4 号数据同步成功 同步时间：Mon May 11 18:07:52 CST 2020
+18:09:02.814 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 AREA_SPOT 表中的 1 号数据同步成功 同步时间：Mon May 11 18:09:02 CST 2020
+18:09:33.789 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 AREA_SPOT 表中的 1 号数据同步成功 同步时间：Mon May 11 18:09:33 CST 2020
+18:11:06.852 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 1 号数据同步成功 同步时间：Mon May 11 18:11:06 CST 2020
+18:12:46.954 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 2 号数据同步成功 同步时间：Mon May 11 18:12:46 CST 2020
+18:13:17.930 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 3 号数据同步成功 同步时间：Mon May 11 18:13:17 CST 2020
+18:14:14.947 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 AREA_SPOT 表中的 2 号数据同步成功 同步时间：Mon May 11 18:14:14 CST 2020
+18:14:34.960 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 AREA_SPOT 表中的 3 号数据同步成功 同步时间：Mon May 11 18:14:34 CST 2020
+18:21:08.283 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 3 号数据同步成功 同步时间：Mon May 11 18:21:08 CST 2020
+18:27:18.279 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 3 号数据同步失败
+18:28:48.545 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 13572 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+18:28:48.577 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+18:28:51.768 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+18:28:51.789 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+18:28:51.789 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+18:28:51.790 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+18:28:52.333 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:28:52.333 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3545 ms
+18:28:53.393 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+18:28:54.060 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+18:29:01.164 [main] INFO  com.ntu.center.CenterClientStart - 中央数据库节点成功连接至MQTT服务器.....
+18:29:01.168 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+18:29:01.213 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+18:29:01.218 [main] INFO  com.ntu.center.CenterClientApplication - Started CenterClientApplication in 14.34 seconds (JVM running for 17.896)
+18:30:09.171 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:30:09.607 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:30:09.929 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 3 号数据同步成功 同步时间：Mon May 11 18:30:09 CST 2020
+18:33:26.412 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 TUANJIEHE_BUOY_DIANYA 表中的 1 号数据同步成功 同步时间：Mon May 11 18:33:26 CST 2020
+18:33:27.425 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 AREA_SPOT 表中的 1 号数据同步成功 同步时间：Mon May 11 18:33:27 CST 2020
+18:34:38.458 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 TUANJIEHE_BUOY_DIANYA 表中的 3 号数据同步成功 同步时间：Mon May 11 18:34:38 CST 2020
+18:34:39.441 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 TUANJIEHE_BUOY_GONGZUOWENDU 表中的 3 号数据同步成功 同步时间：Mon May 11 18:34:39 CST 2020
+18:34:40.438 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 AREA_SPOT 表中的 3 号数据同步成功 同步时间：Mon May 11 18:34:40 CST 2020
+18:35:51.496 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 TUANJIEHE_BUOY_DIANYA 表中的 2 号数据同步成功 同步时间：Mon May 11 18:35:51 CST 2020
+18:35:52.504 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 TUANJIEHE_BUOY_GONGZUOWENDU 表中的 2 号数据同步成功 同步时间：Mon May 11 18:35:52 CST 2020
+18:35:53.544 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 AREA_SPOT 表中的 2 号数据同步成功 同步时间：Mon May 11 18:35:53 CST 2020
+18:36:40.529 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 CHANGJIANG_BOX_ENVIRONMENT 表中的 2 号数据同步成功 同步时间：Mon May 11 18:36:40 CST 2020
+18:36:41.548 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 2 号数据同步成功 同步时间：Mon May 11 18:36:41 CST 2020
+18:46:15.607 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 4636 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+18:46:15.615 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+18:46:18.518 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+18:46:18.538 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+18:46:18.538 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+18:46:18.539 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+18:46:18.836 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:46:18.837 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3050 ms
+18:46:19.745 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+18:46:20.296 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+18:46:26.832 [main] INFO  com.ntu.center.CenterClientStart - 中央数据库节点成功连接至MQTT服务器.....
+18:46:26.836 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+18:46:26.886 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+18:46:26.891 [main] INFO  com.ntu.center.CenterClientApplication - Started CenterClientApplication in 12.808 seconds (JVM running for 16.577)
+18:50:51.932 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:50:52.328 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:50:52.587 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 CHANGJIANG_BOX_SENSOR 表中的 12 号数据同步成功 同步时间：Mon May 11 18:50:52 CST 2020
+18:51:24.076 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 TUANJIEHE_BUOY_DIANYA 表中的 3 号数据同步成功 同步时间：Mon May 11 18:51:24 CST 2020
+18:51:25.070 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 TUANJIEHE_BUOY_GONGZUOWENDU 表中的 3 号数据同步成功 同步时间：Mon May 11 18:51:25 CST 2020
+18:51:26.074 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 AREA_SPOT 表中的 3 号数据同步成功 同步时间：Mon May 11 18:51:26 CST 2020
+18:52:57.084 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 AREA_SPOT 表中的 3 号数据同步成功 同步时间：Mon May 11 18:52:57 CST 2020
+18:53:12.113 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 4 号数据同步成功 同步时间：Mon May 11 18:53:12 CST 2020
+18:53:42.130 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 3 号数据同步成功 同步时间：Mon May 11 18:53:42 CST 2020
+19:05:53.616 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 SPOT_NODE 表中的 2 号数据同步成功 同步时间：Mon May 11 19:05:53 CST 2020
+19:09:05.142 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 12956 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+19:09:05.152 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+19:09:09.120 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+19:09:09.142 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+19:09:09.143 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+19:09:09.143 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+19:09:09.487 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:09:09.488 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4152 ms
+19:09:10.527 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+19:09:11.091 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+19:09:17.892 [main] INFO  com.ntu.center.CenterClientStart - 中央数据库节点成功连接至MQTT服务器.....
+19:09:17.896 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+19:09:17.946 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+19:09:17.952 [main] INFO  com.ntu.center.CenterClientApplication - Started CenterClientApplication in 15.19 seconds (JVM running for 19.307)
+19:10:50.347 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 11308 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+19:10:50.368 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+19:10:53.709 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+19:10:53.738 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+19:10:53.739 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+19:10:53.739 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+19:10:54.112 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:10:54.113 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3560 ms
+19:10:55.262 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+19:10:55.888 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+19:11:02.889 [main] INFO  com.ntu.center.CenterClientStart - 中央数据库节点成功连接至MQTT服务器.....
+19:11:02.893 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+19:11:02.947 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+19:11:02.954 [main] INFO  com.ntu.center.CenterClientApplication - Started CenterClientApplication in 14.045 seconds (JVM running for 18.237)
+19:11:23.808 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:11:24.224 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:11:35.732 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 1 号数据同步成功 同步时间：Mon May 11 19:11:24 CST 2020
+19:11:35.764 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - -----------连接断开-----------
+19:11:35.765 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+19:11:56.238 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 1 号数据同步成功 同步时间：Mon May 11 19:11:44 CST 2020
+19:11:56.247 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - -----------连接断开-----------
+19:11:56.247 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+19:11:57.792 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+19:11:57.794 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+19:11:57.803 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+19:15:21.746 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 8488 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+19:15:21.756 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+19:15:24.881 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+19:15:24.901 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+19:15:24.902 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+19:15:24.902 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+19:15:25.154 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:15:25.154 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3133 ms
+19:15:26.075 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+19:15:26.612 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+19:15:33.349 [main] INFO  com.ntu.center.CenterClientStart - 中央数据库节点成功连接至MQTT服务器.....
+19:15:33.352 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+19:15:33.395 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+19:15:33.400 [main] INFO  com.ntu.center.CenterClientApplication - Started CenterClientApplication in 13.34 seconds (JVM running for 17.083)
+19:17:32.349 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:17:32.727 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:17:33.004 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 1 号数据同步成功 同步时间：Mon May 11 19:17:32 CST 2020
+19:17:33.451 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 3 号数据同步成功 同步时间：Mon May 11 19:17:33 CST 2020
+19:36:17.434 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 15480 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+19:36:17.442 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+19:36:21.332 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+19:36:21.378 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+19:36:21.379 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+19:36:21.379 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+19:36:21.682 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:36:21.682 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3873 ms
+19:36:22.679 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+19:36:23.264 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+19:36:29.855 [main] INFO  com.ntu.center.CenterClientStart - 中央数据库节点成功连接至MQTT服务器.....
+19:36:29.859 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+19:36:29.906 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+19:36:29.912 [main] INFO  com.ntu.center.CenterClientApplication - Started CenterClientApplication in 14.217 seconds (JVM running for 18.272)
+19:37:03.849 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:37:04.253 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:37:04.722 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 1 号数据同步成功 同步时间：Mon May 11 19:37:04 CST 2020
+19:41:32.308 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 8348 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+19:41:32.316 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+19:41:36.320 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+19:41:36.343 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+19:41:36.344 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+19:41:36.344 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+19:41:36.633 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:41:36.634 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4049 ms
+19:41:37.642 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+19:41:38.190 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+19:41:44.765 [main] INFO  com.ntu.center.CenterClientStart - 中央数据库节点成功连接至MQTT服务器.....
+19:41:44.769 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+19:41:44.815 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+19:41:44.820 [main] INFO  com.ntu.center.CenterClientApplication - Started CenterClientApplication in 14.148 seconds (JVM running for 17.592)
+19:42:44.735 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:42:45.164 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:42:45.483 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 3 号数据同步成功 同步时间：Mon May 11 19:42:45 CST 2020
+19:44:35.947 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 3 号数据同步成功 同步时间：Mon May 11 19:44:35 CST 2020
+19:46:27.012 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 3 号数据同步成功 同步时间：Mon May 11 19:46:26 CST 2020
+19:46:40.948 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 15132 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+19:46:40.956 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+19:46:45.116 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+19:46:45.141 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+19:46:45.141 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+19:46:45.142 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+19:46:45.588 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:46:45.589 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4406 ms
+19:46:46.884 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+19:46:47.486 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+19:46:54.368 [main] INFO  com.ntu.center.CenterClientStart - 中央数据库节点成功连接至MQTT服务器.....
+19:46:54.371 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+19:46:54.416 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+19:46:54.422 [main] INFO  com.ntu.center.CenterClientApplication - Started CenterClientApplication in 15.444 seconds (JVM running for 19.212)
+19:53:17.518 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:53:17.973 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:53:18.372 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 3 号数据同步成功 同步时间：Mon May 11 19:53:18 CST 2020
+20:06:51.496 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 17104 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+20:06:51.503 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+20:06:55.950 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+20:06:55.973 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+20:06:55.974 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:06:55.974 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+20:06:56.271 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:06:56.271 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4509 ms
+20:06:57.387 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+20:06:57.995 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+20:07:04.731 [main] INFO  com.ntu.center.CenterClientStart - 中央数据库节点成功连接至MQTT服务器.....
+20:07:04.734 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+20:07:04.793 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+20:07:04.798 [main] INFO  com.ntu.center.CenterClientApplication - Started CenterClientApplication in 14.349 seconds (JVM running for 18.587)
+20:14:26.893 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:14:27.419 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:14:27.761 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 2 号数据同步成功 同步时间：Mon May 11 20:14:27 CST 2020
+20:16:36.111 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 2 号数据同步成功 同步时间：Mon May 11 20:16:36 CST 2020
+20:16:56.118 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 2 号数据同步成功 同步时间：Mon May 11 20:16:56 CST 2020
+20:21:07.312 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 SPOT_NODE 表中的 3 号数据同步成功 同步时间：Mon May 11 20:21:07 CST 2020
+20:32:56.178 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - -----------连接断开-----------
+20:32:56.179 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883

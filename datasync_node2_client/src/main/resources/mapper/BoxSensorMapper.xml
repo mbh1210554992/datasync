@@ -6,6 +6,7 @@
     <id column="spot_id" property="spotId" jdbcType="VARCHAR" />
     <id column="node_id" property="nodeId" jdbcType="VARCHAR" />
     <id column="data_time" property="dataTime" jdbcType="TIMESTAMP" />
+    <result column="info_id" property="infoId"/>
     <result column="Conductivity" property="conductivity" jdbcType="REAL" />
     <result column="Temperature" property="temperature" jdbcType="REAL" />
     <result column="Pressure" property="pressure" jdbcType="REAL" />
@@ -19,7 +20,7 @@
     <result column="ORP" property="orp" jdbcType="REAL" />
   </resultMap>
   <sql id="Base_Column_List" >
-    area_id, spot_id, node_id, data_time, Conductivity, Temperature, Pressure, Salinity, 
+    info_id,area_id, spot_id, node_id, data_time, Conductivity, Temperature, Pressure, Salinity,
     DissolvedOxygen, SPAD, Turbidity, AnDan, YaXiaoDan, LinSuanYan, ORP
   </sql>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="com.ntu.common.model.po.BoxSensor" >
@@ -31,6 +32,11 @@
       and node_id = #{nodeId,jdbcType=VARCHAR}
       and data_time = #{dataTime,jdbcType=TIMESTAMP}
   </select>
+
+  <select id="findById" resultMap="BaseResultMap">
+     select * from box_sensor where info_id = #{infoId}
+  </select>
+
   <delete id="deleteByPrimaryKey" parameterType="com.ntu.common.model.po.BoxSensor" >
     delete from box_sensor
     where area_id = #{areaId,jdbcType=VARCHAR}

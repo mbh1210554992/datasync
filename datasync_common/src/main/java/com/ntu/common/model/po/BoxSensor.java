@@ -11,6 +11,7 @@ import java.util.Date;
 @ToString
 public class BoxSensor implements Serializable {
     private static final long serialVersionUID = 3044090487918509605L;
+    private Long infoId;
     private String areaId;
     private String spotId;
     private String nodeId;
@@ -26,5 +27,6 @@ public class BoxSensor implements Serializable {
     private Float yaxiaodan;
     private Float linsuanyan;
     private Float orp;
+    private String areaName;
 
 }

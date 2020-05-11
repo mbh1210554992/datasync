@@ -45,9 +45,15 @@ public class CenterDataReceiver implements DataReceiver {
                     break;
                 }
             }
+            String areaName = null;
+            if(Constant.NODE_CLIENT_ID.equals(syncMessage.getClientid())){
+                areaName ="changjiang";
+            }else if(Constant.NODE2_CLIENT_ID.equals(syncMessage.getClientid())){
+                areaName ="tuanjiehe";
+            }
             logger.debug("receive from "+topicName+" : "+syncMessage.getDataSynchro()+syncMessage.getData());
             DataSynchro local =
-                    dataSynchroMapper.findById(syncMessage.getDataSynchro().getBasicinfoid(), syncMessage.getDataSynchro().getType());
+                    dataSynchroMapper.findById(syncMessage.getDataSynchro().getBasicinfoid(), syncMessage.getDataSynchro().getType(),areaName);
             remote = syncMessage.getDataSynchro();
 
             if (syncMessage.getMsgtype()== 11) {
@@ -85,6 +91,7 @@ public class CenterDataReceiver implements DataReceiver {
                     insertFlag = true;
                 }
                 IDataProcessor iDataProcessor = (IDataProcessor) applicationContextProvider.getBean("Processor"+syncMessage.getMsgtype());
+                syncMessage.setId(areaName);
                 int processFlag = iDataProcessor.onReceive(syncMessage);
                 if (processFlag == 0){
                     //successful
@@ -102,11 +109,7 @@ public class CenterDataReceiver implements DataReceiver {
                     local.setSe1Time(new Date());
                 }
 
-                if(Constant.NODE_CLIENT_ID.equals(syncMessage.getClientid())){
-                   local.setAreaName("changjiang");
-                }else if(Constant.NODE2_CLIENT_ID.equals(syncMessage.getClientid())){
-                    local.setAreaName("tuanjiehe");
-                }
+                local.setAreaName(areaName);
 
                 if(insertFlag){
                     dataSynchroMapper.insert(local);
@@ -114,7 +117,7 @@ public class CenterDataReceiver implements DataReceiver {
                 else{
                     dataSynchroMapper.updateActive(local);
                 }
-                logger.info(syncMessage.getClientid()+" 节点的 "+tableName+" 表中的 "+local.getBasicinfoid()+" 号数据同步成功");
+                logger.info(syncMessage.getClientid()+" 节点的 "+tableName+" 表中的 "+local.getBasicinfoid()+" 号数据同步成功 "+"同步时间："+local.getSc1Time());
 
                 remote.setSa1Status(local.getSa1Status());
                 remote.setSc1Time(local.getSc2Time());

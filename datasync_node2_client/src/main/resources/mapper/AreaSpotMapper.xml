@@ -2,6 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.ntu.client2.mapper.AreaSpotMapper" >
   <resultMap id="BaseResultMap" type="com.ntu.common.model.po.AreaSpot" >
+    <id column="info_id" property="infoId"/>
     <id column="area_id" property="areaId" jdbcType="VARCHAR" />
     <id column="spot_id" property="spotId" jdbcType="VARCHAR" />
     <result column="spot_name" property="spotName" jdbcType="VARCHAR" />
@@ -16,7 +17,7 @@
     <result column="spot_intro" property="spotIntro" jdbcType="LONGVARCHAR" />
   </resultMap>
   <sql id="Base_Column_List" >
-    area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, 
+    info_id,area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth,
     spot_posinfo, spot_runtime
   </sql>
   <sql id="Blob_Column_List" >
@@ -31,6 +32,11 @@
     where area_id = #{areaId,jdbcType=VARCHAR}
       and spot_id = #{spotId,jdbcType=VARCHAR}
   </select>
+
+  <select id="findById" resultMap="ResultMapWithBLOBs">
+    select * from area_spot where info_id = #{infoId}
+  </select>
+
   <delete id="deleteByPrimaryKey" parameterType="com.ntu.common.model.po.AreaSpot" >
     delete from area_spot
     where area_id = #{areaId,jdbcType=VARCHAR}

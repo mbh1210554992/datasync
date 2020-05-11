@@ -1,7 +1,7 @@
 package com.ntu.client2.mapper;
 
 import com.ntu.common.model.po.SpotNode;
-
+import org.apache.ibatis.annotations.Param;
 
 public interface SpotNodeMapper {
     int deleteByPrimaryKey(SpotNode record);
@@ -17,4 +17,6 @@ public interface SpotNodeMapper {
     int updateByPrimaryKeyWithBLOBs(SpotNode record);
 
     int updateByPrimaryKey(SpotNode record);
+
+    SpotNode findById(@Param("infoId")Long infoId);
 }

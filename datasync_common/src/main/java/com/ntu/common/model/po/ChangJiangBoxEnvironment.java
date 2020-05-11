@@ -32,4 +32,5 @@ public class ChangJiangBoxEnvironment implements Serializable {
     private Float cJueYuan;
     private Float cLouShui;
     private Float waterDeep;
+    private String areaName;
 }

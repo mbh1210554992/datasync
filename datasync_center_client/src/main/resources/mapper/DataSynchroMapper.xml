@@ -108,7 +108,7 @@
     </select>
 
     <select id="findById"  resultMap="BaseResultMap">
-        select  * from data_synchro where rtrim(basicinfoid)= #{basicinfoid} and type = #{type}
+        select  * from data_synchro where rtrim(basicinfoid)= #{basicinfoid} and type = #{type} and area_name = #{areaName}
     </select>
 
     <update id="updateActive"  parameterType="com.ntu.common.model.po.DataSynchro" >
@@ -125,7 +125,7 @@
         <if test="sf1Msg != null" >
             , SF1_MSG= #{sf1Msg}
         </if>
-        where rtrim(basicinfoid)= #{basicinfoid} and type = #{type}
+        where rtrim(basicinfoid)= #{basicinfoid} and type = #{type} and area_name = #{areaName}
     </update>
 
     <update id="updatePassive"  parameterType="com.ntu.common.model.po.DataSynchro" >

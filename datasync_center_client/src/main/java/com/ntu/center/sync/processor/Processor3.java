@@ -17,22 +17,17 @@ public class Processor3 implements IDataProcessor{
     
     @Override
     public int onReceive(SyncMessage msg) {
+        if(msg.getDataSynchro().getSa1Status().equals("3")){
+            tuanJieHeBuoyDianYaMapper.deleteById(msg.getDataSynchro().getBasicinfoid(),msg.getId());
+            logger.debug("==========数据同步完成===========");
+            return 0;
+        }
+
         TuanJieHeBuoyDianYa tuanJieHeBuoyDianYa = (TuanJieHeBuoyDianYa)msg.getData();
+        tuanJieHeBuoyDianYa.setAreaName(msg.getId());
         TuanJieHeBuoyDianYa old = tuanJieHeBuoyDianYaMapper.selectByPrimaryKey(tuanJieHeBuoyDianYa);
         if(old !=null)
         {
-            /*if(book.getUpddate() == null ||  old.getUpddate().before(msg.getDataSynchro().getSb1Time()))
-            {
-                bookMapper.updateSelective(book);
-                return 0;
-            }else if(old.getUpddate().equals(msg.getSynchro().getSb1Time()))
-            {
-                return 0;
-            }else
-            {
-                return 1;
-            }*/
-            //return 0;
             tuanJieHeBuoyDianYaMapper.updateByPrimaryKey(tuanJieHeBuoyDianYa);
             return 0;
         }

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ntu.node.mapper.AreaSpotMapper" >
+  <resultMap id="BaseResultMap" type="com.ntu.common.model.po.AreaSpot" >
+    <id column="info_id" property="infoId"/>
+    <id column="area_id" property="areaId" jdbcType="VARCHAR" />
+    <id column="spot_id" property="spotId" jdbcType="VARCHAR" />
+    <result column="spot_name" property="spotName" jdbcType="VARCHAR" />
+    <result column="spot_url" property="spotUrl" jdbcType="VARCHAR" />
+    <result column="spot_historyurl" property="spotHistoryurl" jdbcType="VARCHAR" />
+    <result column="spot_obserargs" property="spotObserargs" jdbcType="VARCHAR" />
+    <result column="spot_obsermeth" property="spotObsermeth" jdbcType="VARCHAR" />
+    <result column="spot_posinfo" property="spotPosinfo" jdbcType="VARCHAR" />
+    <result column="spot_runtime" property="spotRuntime" jdbcType="VARCHAR" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.ntu.common.model.po.AreaSpot" extends="BaseResultMap" >
+    <result column="spot_intro" property="spotIntro" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    info_id,area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth,
+    spot_posinfo, spot_runtime
+  </sql>
+  <sql id="Blob_Column_List" >
+    spot_intro
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="com.ntu.common.model.po.AreaSpot" >
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from area_spot
+    where area_id = #{areaId,jdbcType=VARCHAR}
+      and spot_id = #{spotId,jdbcType=VARCHAR}
+  </select>
+
+  <select id="findById" resultMap="ResultMapWithBLOBs">
+    select * from area_spot where info_id = #{infoId}
+  </select>
+
+  <delete id="deleteByPrimaryKey" parameterType="com.ntu.common.model.po.AreaSpot" >
+    delete from area_spot
+    where area_id = #{areaId,jdbcType=VARCHAR}
+      and spot_id = #{spotId,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.ntu.common.model.po.AreaSpot" >
+    insert into area_spot (area_id, spot_id, spot_name, 
+      spot_url, spot_historyurl, spot_obserargs, 
+      spot_obsermeth, spot_posinfo, spot_runtime, 
+      spot_intro)
+    values (#{areaId,jdbcType=VARCHAR}, #{spotId,jdbcType=VARCHAR}, #{spotName,jdbcType=VARCHAR}, 
+      #{spotUrl,jdbcType=VARCHAR}, #{spotHistoryurl,jdbcType=VARCHAR}, #{spotObserargs,jdbcType=VARCHAR}, 
+      #{spotObsermeth,jdbcType=VARCHAR}, #{spotPosinfo,jdbcType=VARCHAR}, #{spotRuntime,jdbcType=VARCHAR}, 
+      #{spotIntro,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.ntu.common.model.po.AreaSpot" >
+    insert into area_spot
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="areaId != null" >
+        area_id,
+      </if>
+      <if test="spotId != null" >
+        spot_id,
+      </if>
+      <if test="spotName != null" >
+        spot_name,
+      </if>
+      <if test="spotUrl != null" >
+        spot_url,
+      </if>
+      <if test="spotHistoryurl != null" >
+        spot_historyurl,
+      </if>
+      <if test="spotObserargs != null" >
+        spot_obserargs,
+      </if>
+      <if test="spotObsermeth != null" >
+        spot_obsermeth,
+      </if>
+      <if test="spotPosinfo != null" >
+        spot_posinfo,
+      </if>
+      <if test="spotRuntime != null" >
+        spot_runtime,
+      </if>
+      <if test="spotIntro != null" >
+        spot_intro,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="areaId != null" >
+        #{areaId,jdbcType=VARCHAR},
+      </if>
+      <if test="spotId != null" >
+        #{spotId,jdbcType=VARCHAR},
+      </if>
+      <if test="spotName != null" >
+        #{spotName,jdbcType=VARCHAR},
+      </if>
+      <if test="spotUrl != null" >
+        #{spotUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="spotHistoryurl != null" >
+        #{spotHistoryurl,jdbcType=VARCHAR},
+      </if>
+      <if test="spotObserargs != null" >
+        #{spotObserargs,jdbcType=VARCHAR},
+      </if>
+      <if test="spotObsermeth != null" >
+        #{spotObsermeth,jdbcType=VARCHAR},
+      </if>
+      <if test="spotPosinfo != null" >
+        #{spotPosinfo,jdbcType=VARCHAR},
+      </if>
+      <if test="spotRuntime != null" >
+        #{spotRuntime,jdbcType=VARCHAR},
+      </if>
+      <if test="spotIntro != null" >
+        #{spotIntro,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.ntu.common.model.po.AreaSpot" >
+    update area_spot
+    <set >
+      <if test="spotName != null" >
+        spot_name = #{spotName,jdbcType=VARCHAR},
+      </if>
+      <if test="spotUrl != null" >
+        spot_url = #{spotUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="spotHistoryurl != null" >
+        spot_historyurl = #{spotHistoryurl,jdbcType=VARCHAR},
+      </if>
+      <if test="spotObserargs != null" >
+        spot_obserargs = #{spotObserargs,jdbcType=VARCHAR},
+      </if>
+      <if test="spotObsermeth != null" >
+        spot_obsermeth = #{spotObsermeth,jdbcType=VARCHAR},
+      </if>
+      <if test="spotPosinfo != null" >
+        spot_posinfo = #{spotPosinfo,jdbcType=VARCHAR},
+      </if>
+      <if test="spotRuntime != null" >
+        spot_runtime = #{spotRuntime,jdbcType=VARCHAR},
+      </if>
+      <if test="spotIntro != null" >
+        spot_intro = #{spotIntro,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where area_id = #{areaId,jdbcType=VARCHAR}
+      and spot_id = #{spotId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.ntu.common.model.po.AreaSpot" >
+    update area_spot
+    set spot_name = #{spotName,jdbcType=VARCHAR},
+      spot_url = #{spotUrl,jdbcType=VARCHAR},
+      spot_historyurl = #{spotHistoryurl,jdbcType=VARCHAR},
+      spot_obserargs = #{spotObserargs,jdbcType=VARCHAR},
+      spot_obsermeth = #{spotObsermeth,jdbcType=VARCHAR},
+      spot_posinfo = #{spotPosinfo,jdbcType=VARCHAR},
+      spot_runtime = #{spotRuntime,jdbcType=VARCHAR},
+      spot_intro = #{spotIntro,jdbcType=LONGVARCHAR}
+    where area_id = #{areaId,jdbcType=VARCHAR}
+      and spot_id = #{spotId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.ntu.common.model.po.AreaSpot" >
+    update area_spot
+    set spot_name = #{spotName,jdbcType=VARCHAR},
+      spot_url = #{spotUrl,jdbcType=VARCHAR},
+      spot_historyurl = #{spotHistoryurl,jdbcType=VARCHAR},
+      spot_obserargs = #{spotObserargs,jdbcType=VARCHAR},
+      spot_obsermeth = #{spotObsermeth,jdbcType=VARCHAR},
+      spot_posinfo = #{spotPosinfo,jdbcType=VARCHAR},
+      spot_runtime = #{spotRuntime,jdbcType=VARCHAR}
+    where area_id = #{areaId,jdbcType=VARCHAR}
+      and spot_id = #{spotId,jdbcType=VARCHAR}
+  </update>
+</mapper>

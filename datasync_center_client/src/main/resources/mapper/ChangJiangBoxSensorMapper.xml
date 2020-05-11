@@ -8,6 +8,8 @@
         <id column="spot_id" property="spotId"/>
         <id column="node_id" property="nodeId"/>
         <id column="data_time" property="dataTime"/>
+        <result column="info_id" property="infoId"/>
+        <result column="area_name" property="areaName"/>
         <result column="Conductivity" property="conductivity"/>
         <result column="Temperature" property="temperature"/>
         <result column="PH" property="ph"/>
@@ -17,9 +19,25 @@
     </resultMap>
 
     <insert id="insert">
-        insert into nantong_changjiang_box_sensor
-        values (#{areaId},
+        insert into nantong_changjiang_box_sensor(
+                info_id,
+                area_name,
+                spot_id,
+                area_id,
+                node_id,
+                data_time,
+                Conductivity,
+                Temperature,
+                PH,
+                Salinity,
+                DissolvedOxygen,
+                Turbidity
+                )
+        values (
+                #{infoId},
+                #{areaName}
                 #{spotId},
+                #{areaId},
                 #{nodeId},
                 #{dataTime},
                 #{conductivity},
@@ -37,9 +55,12 @@
             PH = #{ph},
             Salinity = #{salinity},
             DissolvedOxygen = #{dissolvedOxygen},
-            Turbidity = #{turbidity}
+            Turbidity = #{turbidity},
         where area_id = #{areaId} and spot_id = #{spotId} and node_id = #{nodeId} and data_time = #{dataTime}
     </update>
+    <delete id="deleteById">
+        delete from nantong_changjiang_box_sensor where info_id = #{infoId} and area_name = #{areaName}
+    </delete>
 
     <select id="findById" resultMap="changJiangBoxSensor">
         select

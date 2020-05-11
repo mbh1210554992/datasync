@@ -6,6 +6,8 @@
     <id column="spot_id" jdbcType="VARCHAR" property="spotId" />
     <id column="node_id" jdbcType="VARCHAR" property="nodeId" />
     <id column="data_time" jdbcType="TIMESTAMP" property="dataTime" />
+    <result column="info_id" property="infoId"/>
+    <result column="area_name" property="areaName"/>
     <result column="dianya" jdbcType="VARCHAR" property="dianya" />
     <result column="dianliust" jdbcType="VARCHAR" property="dianliust" />
     <result column="state" jdbcType="VARCHAR" property="state" />
@@ -29,11 +31,16 @@
       and node_id = #{nodeId,jdbcType=VARCHAR}
       and data_time = #{dataTime,jdbcType=TIMESTAMP}
   </delete>
-  <insert id="insert" parameterType="com.ntu.common.model.po.TuanJieHeBuoyDianYa">
-    insert into nantong_tuanjiehe_buoy_dianya (area_id, spot_id, node_id, 
+
+    <delete id="deleteById">
+      delete from nantong_tuanjiehe_buoy_dianya where info_id = #{infoId} and area_name = #{areaName}
+    </delete>
+
+    <insert id="insert" parameterType="com.ntu.common.model.po.TuanJieHeBuoyDianYa">
+    insert into nantong_tuanjiehe_buoy_dianya (info_id,area_name,area_id, spot_id, node_id,
       data_time, dianya, dianliust, 
       state)
-    values (#{areaId,jdbcType=VARCHAR}, #{spotId,jdbcType=VARCHAR}, #{nodeId,jdbcType=VARCHAR}, 
+    values (#{infoId},#{areaName},#{areaId,jdbcType=VARCHAR}, #{spotId,jdbcType=VARCHAR}, #{nodeId,jdbcType=VARCHAR},
       #{dataTime,jdbcType=TIMESTAMP}, #{dianya,jdbcType=VARCHAR}, #{dianliust,jdbcType=VARCHAR}, 
       #{state,jdbcType=VARCHAR})
   </insert>

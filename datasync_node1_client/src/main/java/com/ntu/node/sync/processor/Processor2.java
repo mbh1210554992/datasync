@@ -21,18 +21,6 @@ public class Processor2 implements IDataProcessor{
         ChangJiangBoxEnvironment old = changJiangBoxEnvironmentMapper.findById( changJiangBoxEnvironment.getInfoId());
         if(old !=null)
         {
-            /*if(book.getUpddate() == null ||  old.getUpddate().before(msg.getDataSynchro().getSb1Time()))
-            {
-                bookMapper.updateSelective(book);
-                return 0;
-            }else if(old.getUpddate().equals(msg.getSynchro().getSb1Time()))
-            {
-                return 0;
-            }else
-            {
-                return 1;
-            }*/
-            //return 0;
             changJiangBoxEnvironmentMapper.update( changJiangBoxEnvironment);
             return 0;
         }

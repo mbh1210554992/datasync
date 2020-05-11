@@ -6,6 +6,7 @@
     <id column="spot_id" property="spotId" jdbcType="VARCHAR" />
     <id column="node_id" property="nodeId" jdbcType="VARCHAR" />
     <id column="data_time" property="dataTime" jdbcType="TIMESTAMP" />
+    <result column="info_id" property="infoId"/>
     <result column="num" property="num" jdbcType="VARCHAR" />
     <result column="num_quest" property="numQuest" jdbcType="VARCHAR" />
     <result column="state" property="state" jdbcType="VARCHAR" />
@@ -14,7 +15,7 @@
     <result column="tem2_xical" property="tem2Xical" jdbcType="DOUBLE" />
   </resultMap>
   <sql id="Base_Column_List" >
-    area_id, spot_id, node_id, data_time, num, num_quest, state, errornum, tem1hratur, 
+    info_id,area_id, spot_id, node_id, data_time, num, num_quest, state, errornum, tem1hratur,
     tem2_xical
   </sql>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="com.ntu.common.model.po.TuanJieHeBuoyGongZuoWenDu" >
