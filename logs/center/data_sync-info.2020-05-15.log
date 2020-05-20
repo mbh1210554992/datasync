@@ -1,0 +1,17 @@
+20:45:54.122 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 9180 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+20:45:54.182 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+20:45:58.484 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+20:45:58.515 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+20:45:58.515 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:45:58.515 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+20:45:58.800 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:45:58.800 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4305 ms
+20:46:00.477 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+20:46:00.657 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+20:46:01.434 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+20:46:08.950 [main] INFO  com.ntu.center.CenterClientStart - 中央数据库节点成功连接至MQTT服务器.....
+20:46:08.950 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+20:46:08.997 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+20:46:09.012 [main] INFO  com.ntu.center.CenterClientApplication - Started CenterClientApplication in 16.89 seconds (JVM running for 24.185)
+23:54:24.809 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - -----------连接断开-----------
+23:54:24.824 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883

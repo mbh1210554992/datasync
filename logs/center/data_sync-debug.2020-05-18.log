@@ -1,0 +1,957 @@
+22:24:25.310 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:24:25.373 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 108(Long), S(String), changjiang(String)
+22:24:25.453 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:24:25.468 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime , spot_intro from area_spot where area_id = ? and spot_id = ? 
+22:24:25.500 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==> Parameters: hangzhou(String), hangzhousite1(String)
+22:24:25.526 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - <==      Total: 0
+22:24:25.527 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - ==>  Preparing: insert into area_spot (info_id,area_name,area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime, spot_intro) values (?,?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:24:25.536 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - ==> Parameters: 108(Long), changjiang(String), hangzhou(String), hangzhousite1(String), 杭州站点1(String), (String), (String), 待定(String), 待定(String), 待定(String), 待定(String), (String)
+22:24:25.600 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - <==    Updates: 1
+22:24:25.601 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:24:25.606 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 108(Long), S(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:24:25.601(Timestamp), null, null, 数据同步成功(String)
+22:24:25.687 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:24:26.586 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:24:26.587 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 109(Long), S(String), changjiang(String)
+22:24:26.609 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:24:26.610 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime , spot_intro from area_spot where area_id = ? and spot_id = ? 
+22:24:26.611 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==> Parameters: hangzhou(String), hangzhousite2(String)
+22:24:26.631 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - <==      Total: 0
+22:24:26.632 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - ==>  Preparing: insert into area_spot (info_id,area_name,area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime, spot_intro) values (?,?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:24:26.633 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - ==> Parameters: 109(Long), changjiang(String), hangzhou(String), hangzhousite2(String), 杭州站点2(String), (String), (String), 待定(String), 待定(String), 待定(String), 待定(String), (String)
+22:24:26.707 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - <==    Updates: 1
+22:24:26.709 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:24:26.710 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 109(Long), S(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:24:26.709(Timestamp), null, null, 数据同步成功(String)
+22:24:26.776 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:24:27.593 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:24:27.593 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 110(Long), S(String), changjiang(String)
+22:24:27.616 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:24:27.616 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime , spot_intro from area_spot where area_id = ? and spot_id = ? 
+22:24:27.617 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==> Parameters: nanhai(String), nanhaisite1(String)
+22:24:27.638 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - <==      Total: 0
+22:24:27.639 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - ==>  Preparing: insert into area_spot (info_id,area_name,area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime, spot_intro) values (?,?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:24:27.640 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - ==> Parameters: 110(Long), changjiang(String), nanhai(String), nanhaisite1(String), 南海站点1(String), jsp/nanhai/nanhaisite1(String), jsp/nanhai/nanhaisite1_history(String), 待定(String), 待定(String), 待定(String), 待定(String), (String)
+22:24:27.704 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - <==    Updates: 1
+22:24:27.705 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:24:27.706 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 110(Long), S(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:24:27.704(Timestamp), null, null, 数据同步成功(String)
+22:24:27.769 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:24:28.582 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:24:28.583 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 111(Long), S(String), changjiang(String)
+22:24:28.604 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:24:28.605 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime , spot_intro from area_spot where area_id = ? and spot_id = ? 
+22:24:28.606 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==> Parameters: nanhai(String), nanhaisite2(String)
+22:24:28.623 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - <==      Total: 0
+22:24:28.624 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - ==>  Preparing: insert into area_spot (info_id,area_name,area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime, spot_intro) values (?,?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:24:28.625 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - ==> Parameters: 111(Long), changjiang(String), nanhai(String), nanhaisite2(String), 南海站点2(String), jsp/nanhai/nanhaisite2(String), jsp/nanhai/nanhaisite2_history(String), 待定(String), 待定(String), 待定(String), 待定(String), (String)
+22:24:28.693 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - <==    Updates: 1
+22:24:28.694 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:24:28.696 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 111(Long), S(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:24:28.694(Timestamp), null, null, 数据同步成功(String)
+22:24:28.760 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:24:29.613 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:24:29.613 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 112(Long), S(String), changjiang(String)
+22:24:29.633 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:24:29.633 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime , spot_intro from area_spot where area_id = ? and spot_id = ? 
+22:24:29.634 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==> Parameters: nantong(String), changjiang(String)
+22:24:29.651 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - <==      Total: 0
+22:24:29.652 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - ==>  Preparing: insert into area_spot (info_id,area_name,area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime, spot_intro) values (?,?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:24:29.654 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - ==> Parameters: 112(Long), changjiang(String), nantong(String), changjiang(String), 长江观测网(String), jsp/nantong/changjiang_data_display(String), jsp/nantong/changjiang_historydata(String), 电导率、pH、水温、溶解氧、浊度、盐度(String), 水下接驳盒(String), 长江(String), 2015年12月-至今(String), (String)
+22:24:29.718 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - <==    Updates: 1
+22:24:29.720 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:24:29.727 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 112(Long), S(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:24:29.72(Timestamp), null, null, 数据同步成功(String)
+22:24:29.786 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:24:30.582 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:24:30.582 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 113(Long), S(String), changjiang(String)
+22:24:30.604 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:24:30.605 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime , spot_intro from area_spot where area_id = ? and spot_id = ? 
+22:24:30.606 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==> Parameters: nantong(String), donglinghu(String)
+22:24:30.625 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - <==      Total: 0
+22:24:30.626 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - ==>  Preparing: insert into area_spot (info_id,area_name,area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime, spot_intro) values (?,?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:24:30.626 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - ==> Parameters: 113(Long), changjiang(String), nantong(String), donglinghu(String), 东凌湖观测网(String), jsp/nantong/donglinghu_data_display(String), (String), 电导率、温度、溶解氧、pH、叶绿素、蓝绿藻、氨氮、浊度、磷酸盐、总磷等。(String), 水下接驳盒(String), 洋口港经济开发区东凌水库(String), 尚未布放(String), (String)
+22:24:30.681 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - <==    Updates: 1
+22:24:30.681 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:24:30.682 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 113(Long), S(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:24:30.681(Timestamp), null, null, 数据同步成功(String)
+22:24:30.755 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:24:31.636 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:24:31.637 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 114(Long), S(String), changjiang(String)
+22:24:31.659 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:24:31.660 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime , spot_intro from area_spot where area_id = ? and spot_id = ? 
+22:24:31.661 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==> Parameters: nantong(String), tuanjiehe(String)
+22:24:31.686 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - <==      Total: 0
+22:24:31.687 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - ==>  Preparing: insert into area_spot (info_id,area_name,area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime, spot_intro) values (?,?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:24:31.688 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - ==> Parameters: 114(Long), changjiang(String), nantong(String), tuanjiehe(String), 团结河浮标(String), jsp/nantong/tuanjiehe_data_display(String), jsp/nantong/tuanjiehe_historydata(String), 气温、湿度、风速、风向、降雨量、气压、水温、pH、溶解氧、电导率、叶绿素、浊度、盐度、氨氮、亚硝酸盐、硝酸盐、磷酸盐、化学需氧量、流速、水深(String), 水上浮标(String), 团结河邻近海域(String), 2017年3月-至今(String), (String)
+22:24:31.765 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - <==    Updates: 1
+22:24:31.765 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:24:31.767 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 114(Long), S(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:24:31.765(Timestamp), null, null, 数据同步成功(String)
+22:24:31.832 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:24:32.584 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:24:32.584 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 115(Long), S(String), changjiang(String)
+22:24:32.602 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:24:32.603 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime , spot_intro from area_spot where area_id = ? and spot_id = ? 
+22:24:32.604 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==> Parameters: nantong(String), yunhu(String)
+22:24:32.628 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - <==      Total: 0
+22:24:32.630 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - ==>  Preparing: insert into area_spot (info_id,area_name,area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime, spot_intro) values (?,?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:24:32.630 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - ==> Parameters: 115(Long), changjiang(String), nantong(String), yunhu(String), 云湖观测网(String), jsp/nantong/yunhu_data_display(String), jsp/nantong/yunhu_historydata(String), 电导率、pH、水温、溶解氧、叶绿素、浊度。(String), 水下接驳盒(String), 南通应急水源地(String), 2015年12月-至今(String), (String)
+22:24:32.695 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - <==    Updates: 1
+22:24:32.696 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:24:32.697 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 115(Long), S(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:24:32.695(Timestamp), null, null, 数据同步成功(String)
+22:24:32.758 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:24:33.581 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:24:33.582 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 116(Long), S(String), changjiang(String)
+22:24:33.600 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:24:33.600 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime , spot_intro from area_spot where area_id = ? and spot_id = ? 
+22:24:33.601 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==> Parameters: shanghai(String), shanghaisite1(String)
+22:24:33.621 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - <==      Total: 0
+22:24:33.621 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - ==>  Preparing: insert into area_spot (info_id,area_name,area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime, spot_intro) values (?,?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:24:33.622 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - ==> Parameters: 116(Long), changjiang(String), shanghai(String), shanghaisite1(String), 上海站点1(String), (String), (String), 待定(String), (String), (String), (String), (String)
+22:24:33.679 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - <==    Updates: 1
+22:24:33.679 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:24:33.681 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 116(Long), S(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:24:33.679(Timestamp), null, null, 数据同步成功(String)
+22:24:33.734 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:33:01.929 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:33:01.932 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 109(Long), S(String), changjiang(String)
+22:33:01.965 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+22:33:01.966 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.deleteById - ==>  Preparing: delete from area_spot where info_id = ? and area_name = ? 
+22:33:01.967 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.deleteById - ==> Parameters: 109(Long), changjiang(String)
+22:33:02.033 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.deleteById - <==    Updates: 1
+22:33:02.069 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+22:33:02.070 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-18 22:33:02.033(Timestamp), 数据同步成功(String), 109(Long), S(String), changjiang(String)
+22:33:02.124 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+22:36:23.026 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:36:23.026 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 124(Long), S(String), changjiang(String)
+22:36:23.042 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:36:23.044 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime , spot_intro from area_spot where area_id = ? and spot_id = ? 
+22:36:23.044 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==> Parameters: hangzhou(String), hangzhousite1(String)
+22:36:23.068 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - <==      Total: 1
+22:36:23.069 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey - ==>  Preparing: update area_spot set spot_name = ?, spot_url = ?, spot_historyurl = ?, spot_obserargs = ?, spot_obsermeth = ?, spot_posinfo = ?, spot_runtime = ? where area_id = ? and spot_id = ? 
+22:36:23.070 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey - ==> Parameters: 杭州站点1(String), (String), (String), 待定(String), 待定(String), 待定(String), 待定(String), hangzhou(String), hangzhousite1(String)
+22:36:23.118 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey - <==    Updates: 1
+22:36:23.119 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:36:23.120 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 124(Long), S(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:36:23.118(Timestamp), null, null, 数据同步成功(String)
+22:36:23.177 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:36:24.031 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:36:24.031 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 125(Long), S(String), changjiang(String)
+22:36:24.047 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:36:24.048 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime , spot_intro from area_spot where area_id = ? and spot_id = ? 
+22:36:24.048 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==> Parameters: hangzhou(String), hangzhousite2(String)
+22:36:24.065 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - <==      Total: 0
+22:36:24.066 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - ==>  Preparing: insert into area_spot (info_id,area_name,area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime, spot_intro) values (?,?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:36:24.066 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - ==> Parameters: 125(Long), changjiang(String), hangzhou(String), hangzhousite2(String), 杭州站点2(String), (String), (String), 待定(String), 待定(String), 待定(String), 待定(String), 뻥骮ꯧ릂(String)
+22:36:24.119 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.insert - <==    Updates: 1
+22:36:24.119 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:36:24.120 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 125(Long), S(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:36:24.119(Timestamp), null, null, 数据同步成功(String)
+22:36:24.174 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:36:25.033 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:36:25.033 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 126(Long), S(String), changjiang(String)
+22:36:25.049 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:36:25.049 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime , spot_intro from area_spot where area_id = ? and spot_id = ? 
+22:36:25.049 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==> Parameters: nanhai(String), nanhaisite1(String)
+22:36:25.068 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - <==      Total: 1
+22:36:25.069 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey - ==>  Preparing: update area_spot set spot_name = ?, spot_url = ?, spot_historyurl = ?, spot_obserargs = ?, spot_obsermeth = ?, spot_posinfo = ?, spot_runtime = ? where area_id = ? and spot_id = ? 
+22:36:25.070 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey - ==> Parameters: 南海站点1(String), jsp/nanhai/nanhaisite1(String), jsp/nanhai/nanhaisite1_history(String), 待定(String), 待定(String), 待定(String), 待定(String), nanhai(String), nanhaisite1(String)
+22:36:25.117 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey - <==    Updates: 1
+22:36:25.117 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:36:25.118 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 126(Long), S(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:36:25.117(Timestamp), null, null, 数据同步成功(String)
+22:36:25.170 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:36:26.172 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:36:26.173 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 127(Long), S(String), changjiang(String)
+22:36:26.188 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:36:26.189 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime , spot_intro from area_spot where area_id = ? and spot_id = ? 
+22:36:26.190 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==> Parameters: nanhai(String), nanhaisite2(String)
+22:36:26.209 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - <==      Total: 1
+22:36:26.210 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey - ==>  Preparing: update area_spot set spot_name = ?, spot_url = ?, spot_historyurl = ?, spot_obserargs = ?, spot_obsermeth = ?, spot_posinfo = ?, spot_runtime = ? where area_id = ? and spot_id = ? 
+22:36:26.210 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey - ==> Parameters: 南海站点2(String), jsp/nanhai/nanhaisite2(String), jsp/nanhai/nanhaisite2_history(String), 待定(String), 待定(String), 待定(String), 待定(String), nanhai(String), nanhaisite2(String)
+22:36:26.281 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey - <==    Updates: 1
+22:36:26.281 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:36:26.283 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 127(Long), S(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:36:26.281(Timestamp), null, null, 数据同步成功(String)
+22:36:26.332 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:36:27.039 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:36:27.040 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 128(Long), S(String), changjiang(String)
+22:36:27.058 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:36:27.058 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime , spot_intro from area_spot where area_id = ? and spot_id = ? 
+22:36:27.059 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==> Parameters: nantong(String), changjiang(String)
+22:36:27.079 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - <==      Total: 1
+22:36:27.079 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey - ==>  Preparing: update area_spot set spot_name = ?, spot_url = ?, spot_historyurl = ?, spot_obserargs = ?, spot_obsermeth = ?, spot_posinfo = ?, spot_runtime = ? where area_id = ? and spot_id = ? 
+22:36:27.080 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey - ==> Parameters: 长江观测网(String), jsp/nantong/changjiang_data_display(String), jsp/nantong/changjiang_historydata(String), 电导率、pH、水温、溶解氧、浊度、盐度(String), 水下接驳盒(String), 长江(String), 2015年12月-至今(String), nantong(String), changjiang(String)
+22:36:27.121 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey - <==    Updates: 1
+22:36:27.122 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:36:27.123 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 128(Long), S(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:36:27.121(Timestamp), null, null, 数据同步成功(String)
+22:36:27.195 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:36:28.037 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:36:28.038 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 129(Long), S(String), changjiang(String)
+22:36:28.054 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:36:28.054 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime , spot_intro from area_spot where area_id = ? and spot_id = ? 
+22:36:28.055 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==> Parameters: nantong(String), donglinghu(String)
+22:36:28.071 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - <==      Total: 1
+22:36:28.072 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey - ==>  Preparing: update area_spot set spot_name = ?, spot_url = ?, spot_historyurl = ?, spot_obserargs = ?, spot_obsermeth = ?, spot_posinfo = ?, spot_runtime = ? where area_id = ? and spot_id = ? 
+22:36:28.074 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey - ==> Parameters: 东凌湖观测网(String), jsp/nantong/donglinghu_data_display(String), (String), 电导率、温度、溶解氧、pH、叶绿素、蓝绿藻、氨氮、浊度、磷酸盐、总磷等。(String), 水下接驳盒(String), 洋口港经济开发区东凌水库(String), 尚未布放(String), nantong(String), donglinghu(String)
+22:36:28.128 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey - <==    Updates: 1
+22:36:28.129 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:36:28.132 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 129(Long), S(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:36:28.128(Timestamp), null, null, 数据同步成功(String)
+22:36:28.186 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:36:29.039 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:36:29.039 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 130(Long), S(String), changjiang(String)
+22:36:29.057 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:36:29.058 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime , spot_intro from area_spot where area_id = ? and spot_id = ? 
+22:36:29.059 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==> Parameters: nantong(String), tuanjiehe(String)
+22:36:29.075 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - <==      Total: 1
+22:36:29.075 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey - ==>  Preparing: update area_spot set spot_name = ?, spot_url = ?, spot_historyurl = ?, spot_obserargs = ?, spot_obsermeth = ?, spot_posinfo = ?, spot_runtime = ? where area_id = ? and spot_id = ? 
+22:36:29.077 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey - ==> Parameters: 团结河浮标(String), jsp/nantong/tuanjiehe_data_display(String), jsp/nantong/tuanjiehe_historydata(String), 气温、湿度、风速、风向、降雨量、气压、水温、pH、溶解氧、电导率、叶绿素、浊度、盐度、氨氮、亚硝酸盐、硝酸盐、磷酸盐、化学需氧量、流速、水深(String), 水上浮标(String), 团结河邻近海域(String), 2017年3月-至今(String), nantong(String), tuanjiehe(String)
+22:36:29.135 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey - <==    Updates: 1
+22:36:29.135 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:36:29.136 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 130(Long), S(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:36:29.135(Timestamp), null, null, 数据同步成功(String)
+22:36:29.187 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:36:30.042 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:36:30.043 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 131(Long), S(String), changjiang(String)
+22:36:30.059 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:36:30.060 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime , spot_intro from area_spot where area_id = ? and spot_id = ? 
+22:36:30.060 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==> Parameters: nantong(String), yunhu(String)
+22:36:30.082 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - <==      Total: 1
+22:36:30.082 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey - ==>  Preparing: update area_spot set spot_name = ?, spot_url = ?, spot_historyurl = ?, spot_obserargs = ?, spot_obsermeth = ?, spot_posinfo = ?, spot_runtime = ? where area_id = ? and spot_id = ? 
+22:36:30.083 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey - ==> Parameters: 云湖观测网(String), jsp/nantong/yunhu_data_display(String), jsp/nantong/yunhu_historydata(String), 电导率、pH、水温、溶解氧、叶绿素、浊度。(String), 水下接驳盒(String), 南通应急水源地(String), 2015年12月-至今(String), nantong(String), yunhu(String)
+22:36:30.133 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey - <==    Updates: 1
+22:36:30.134 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:36:30.134 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 131(Long), S(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:36:30.133(Timestamp), null, null, 数据同步成功(String)
+22:36:30.179 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:36:31.038 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:36:31.039 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 132(Long), S(String), changjiang(String)
+22:36:31.055 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:36:31.056 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime , spot_intro from area_spot where area_id = ? and spot_id = ? 
+22:36:31.056 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==> Parameters: shanghai(String), shanghaisite1(String)
+22:36:31.075 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - <==      Total: 1
+22:36:31.076 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey - ==>  Preparing: update area_spot set spot_name = ?, spot_url = ?, spot_historyurl = ?, spot_obserargs = ?, spot_obsermeth = ?, spot_posinfo = ?, spot_runtime = ? where area_id = ? and spot_id = ? 
+22:36:31.076 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey - ==> Parameters: 上海站点1(String), (String), (String), 待定(String), (String), (String), (String), shanghai(String), shanghaisite1(String)
+22:36:31.137 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey - <==    Updates: 1
+22:36:31.137 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:36:31.138 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 132(Long), S(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:36:31.137(Timestamp), null, null, 数据同步成功(String)
+22:36:31.191 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:39:41.148 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:39:41.149 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 50(Long), M(String), changjiang(String)
+22:39:41.173 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:39:41.174 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:41.175 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:41.195 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 0
+22:39:41.195 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==>  Preparing: insert into monitor_data( info_id, area_name, spot_id, area_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:39:41.196 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==> Parameters: 50(Long), changjiang(String), changjiang(String), nantong(String), node1(String), 2017-08-04 00:00:00.0(Timestamp), 258.46(Float), 28.69(Float), 8.18(Float), 0.12(Float), 9.38(Float), 93.89(Float)
+22:39:41.263 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - <==    Updates: 1
+22:39:41.263 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:39:41.264 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 50(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:39:41.263(Timestamp), null, null, 数据同步成功(String)
+22:39:41.330 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:39:42.149 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:39:42.149 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 51(Long), M(String), changjiang(String)
+22:39:42.166 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:39:42.167 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:42.167 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:42.187 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:39:42.188 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:42.189 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 255.42(Float), 28.56(Float), 8.13(Float), 0.12(Float), 9.04(Float), 94.79(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:42.249 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:39:42.250 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:39:42.250 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 51(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:39:42.25(Timestamp), null, null, 数据同步成功(String)
+22:39:42.303 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:39:43.153 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:39:43.153 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 52(Long), M(String), changjiang(String)
+22:39:43.173 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:39:43.174 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:43.174 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:43.197 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:39:43.197 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:43.199 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 255.61(Float), 28.68(Float), 8.11(Float), 0.12(Float), 9.05(Float), 98.66(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:43.262 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:39:43.262 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:39:43.263 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 52(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:39:43.262(Timestamp), null, null, 数据同步成功(String)
+22:39:43.334 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:39:44.149 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:39:44.149 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 53(Long), M(String), changjiang(String)
+22:39:44.175 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:39:44.176 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:44.177 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:44.194 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:39:44.194 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:44.195 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 255.28(Float), 28.56(Float), 8.12(Float), 0.12(Float), 9.41(Float), 96.66(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:44.258 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:39:44.259 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:39:44.259 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 53(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:39:44.258(Timestamp), null, null, 数据同步成功(String)
+22:39:44.318 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:39:45.155 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:39:45.155 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 54(Long), M(String), changjiang(String)
+22:39:45.174 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:39:45.175 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:45.176 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:45.199 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:39:45.200 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:45.201 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 257.27(Float), 28.58(Float), 8.11(Float), 0.12(Float), 9.4(Float), 92.53(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:45.248 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:39:45.249 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:39:45.250 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 54(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:39:45.249(Timestamp), null, null, 数据同步成功(String)
+22:39:45.303 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:39:46.154 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:39:46.154 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 55(Long), M(String), changjiang(String)
+22:39:46.173 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:39:46.175 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:46.176 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:46.197 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:39:46.198 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:46.199 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 264.31(Float), 28.54(Float), 8.1(Float), 0.12(Float), 9.15(Float), 95.9(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:46.253 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:39:46.253 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:39:46.254 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 55(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:39:46.253(Timestamp), null, null, 数据同步成功(String)
+22:39:46.308 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:39:47.162 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:39:47.162 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 56(Long), M(String), changjiang(String)
+22:39:47.182 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:39:47.183 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:47.183 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:47.206 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:39:47.206 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:47.207 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 262.73(Float), 28.51(Float), 8.13(Float), 0.12(Float), 9.14(Float), 94.51(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:47.281 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:39:47.282 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:39:47.282 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 56(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:39:47.282(Timestamp), null, null, 数据同步成功(String)
+22:39:47.333 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:39:48.160 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:39:48.161 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 57(Long), M(String), changjiang(String)
+22:39:48.178 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:39:48.178 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:48.179 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:48.198 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:39:48.199 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:48.200 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 259.31(Float), 28.69(Float), 8.17(Float), 0.12(Float), 9.01(Float), 96.67(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:48.255 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:39:48.255 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:39:48.256 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 57(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:39:48.255(Timestamp), null, null, 数据同步成功(String)
+22:39:48.321 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:39:49.155 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:39:49.155 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 58(Long), M(String), changjiang(String)
+22:39:49.175 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:39:49.183 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:49.184 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:49.203 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:39:49.204 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:49.205 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 257.45(Float), 28.52(Float), 8.1(Float), 0.12(Float), 9.12(Float), 98.94(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:49.255 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:39:49.255 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:39:49.256 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 58(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:39:49.255(Timestamp), null, null, 数据同步成功(String)
+22:39:49.308 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:39:50.160 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:39:50.161 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 59(Long), M(String), changjiang(String)
+22:39:50.180 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:39:50.181 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:50.182 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:50.203 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:39:50.204 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:50.205 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 255.47(Float), 28.59(Float), 8.1(Float), 0.12(Float), 9.1(Float), 97.47(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:50.250 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:39:50.250 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:39:50.251 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 59(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:39:50.25(Timestamp), null, null, 数据同步成功(String)
+22:39:50.302 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:39:51.164 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:39:51.165 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 60(Long), M(String), changjiang(String)
+22:39:51.181 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:39:51.182 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:51.182 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:51.197 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:39:51.198 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:51.198 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 255.53(Float), 28.54(Float), 8.14(Float), 0.12(Float), 9.39(Float), 98.25(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:51.259 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:39:51.259 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:39:51.260 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 60(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:39:51.259(Timestamp), null, null, 数据同步成功(String)
+22:39:51.308 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:39:52.157 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:39:52.157 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 61(Long), M(String), changjiang(String)
+22:39:52.187 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:39:52.187 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:52.188 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:52.208 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:39:52.208 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:52.209 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 257.54(Float), 28.58(Float), 8.18(Float), 0.12(Float), 9.38(Float), 92.04(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:52.278 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:39:52.279 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:39:52.281 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 61(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:39:52.279(Timestamp), null, null, 数据同步成功(String)
+22:39:52.343 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:39:53.167 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:39:53.168 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 62(Long), M(String), changjiang(String)
+22:39:53.186 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:39:53.186 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:53.187 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:53.207 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:39:53.208 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:53.209 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 262.43(Float), 28.69(Float), 8.13(Float), 0.12(Float), 9.19(Float), 98.07(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:53.285 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:39:53.285 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:39:53.286 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 62(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:39:53.285(Timestamp), null, null, 数据同步成功(String)
+22:39:53.346 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:39:54.172 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:39:54.172 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 63(Long), M(String), changjiang(String)
+22:39:54.193 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:39:54.194 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:54.195 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:54.211 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:39:54.211 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:54.212 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 261.05(Float), 28.67(Float), 8.19(Float), 0.12(Float), 9.41(Float), 97.82(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:54.264 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:39:54.264 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:39:54.265 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 63(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:39:54.264(Timestamp), null, null, 数据同步成功(String)
+22:39:54.323 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:39:55.165 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:39:55.165 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 64(Long), M(String), changjiang(String)
+22:39:55.182 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:39:55.182 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:55.183 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:55.207 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:39:55.208 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:55.208 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 259.93(Float), 28.54(Float), 8.15(Float), 0.12(Float), 9.11(Float), 98.23(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:55.254 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:39:55.255 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:39:55.255 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 64(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:39:55.254(Timestamp), null, null, 数据同步成功(String)
+22:39:55.320 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:39:56.167 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:39:56.167 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 65(Long), M(String), changjiang(String)
+22:39:56.183 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:39:56.184 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:56.184 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:56.200 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:39:56.200 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:56.201 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 256.37(Float), 28.63(Float), 8.13(Float), 0.12(Float), 9.33(Float), 92.28(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:56.253 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:39:56.253 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:39:56.253 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 65(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:39:56.253(Timestamp), null, null, 数据同步成功(String)
+22:39:56.300 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:39:57.161 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:39:57.161 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 66(Long), M(String), changjiang(String)
+22:39:57.178 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:39:57.178 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:57.179 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:57.199 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:39:57.200 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:57.200 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 257.35(Float), 28.6(Float), 8.15(Float), 0.12(Float), 9.04(Float), 99.4(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:57.260 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:39:57.260 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:39:57.261 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 66(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:39:57.26(Timestamp), null, null, 数据同步成功(String)
+22:39:57.319 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:39:58.167 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:39:58.168 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 67(Long), M(String), changjiang(String)
+22:39:58.186 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:39:58.186 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:58.187 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:58.207 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:39:58.208 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:58.208 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 255.03(Float), 28.69(Float), 8.14(Float), 0.12(Float), 9.11(Float), 95.54(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:58.256 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:39:58.257 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:39:58.257 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 67(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:39:58.257(Timestamp), null, null, 数据同步成功(String)
+22:39:58.304 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:39:59.163 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:39:59.163 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 68(Long), M(String), changjiang(String)
+22:39:59.180 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:39:59.180 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:59.180 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:59.197 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:39:59.198 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:39:59.198 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 258.55(Float), 28.59(Float), 8.12(Float), 0.12(Float), 9.33(Float), 97.14(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:39:59.250 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:39:59.251 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:39:59.252 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 68(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:39:59.251(Timestamp), null, null, 数据同步成功(String)
+22:39:59.314 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:40:00.213 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:40:00.213 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 69(Long), M(String), changjiang(String)
+22:40:00.239 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:40:00.239 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:40:00.240 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:40:00.265 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:40:00.267 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:40:00.267 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 256.95(Float), 28.62(Float), 8.15(Float), 0.12(Float), 9.46(Float), 92.9(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:40:00.377 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:40:00.377 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:40:00.378 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 69(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:40:00.377(Timestamp), null, null, 数据同步成功(String)
+22:40:00.462 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:40:01.242 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:40:01.243 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 70(Long), M(String), changjiang(String)
+22:40:01.260 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:40:01.261 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:40:01.262 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:40:01.288 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:40:01.288 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:40:01.288 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 259.97(Float), 28.63(Float), 8.16(Float), 0.12(Float), 9.18(Float), 92.51(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:40:01.343 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:40:01.343 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:40:01.344 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 70(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:40:01.343(Timestamp), null, null, 数据同步成功(String)
+22:40:01.402 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:40:02.704 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:40:02.705 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 71(Long), M(String), changjiang(String)
+22:40:02.724 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:40:02.725 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:40:02.726 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:40:02.747 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:40:02.747 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:40:02.748 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 258.65(Float), 28.52(Float), 8.1(Float), 0.12(Float), 9.33(Float), 91.81(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:40:02.807 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:40:02.807 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:40:02.808 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 71(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:40:02.807(Timestamp), null, null, 数据同步成功(String)
+22:40:02.875 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:40:03.152 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:40:03.152 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 72(Long), M(String), changjiang(String)
+22:40:03.174 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:40:03.175 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:40:03.175 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:40:03.207 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:40:03.207 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:40:03.208 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 262.64(Float), 28.66(Float), 8.15(Float), 0.12(Float), 9.45(Float), 94.87(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:40:03.264 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:40:03.264 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:40:03.265 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 72(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:40:03.264(Timestamp), null, null, 数据同步成功(String)
+22:40:03.334 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:40:04.171 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:40:04.171 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 73(Long), M(String), changjiang(String)
+22:40:04.188 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:40:04.188 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:40:04.188 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:40:04.211 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:40:04.211 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:40:04.212 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 259.94(Float), 28.54(Float), 8.12(Float), 0.12(Float), 9.45(Float), 95.64(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:40:04.281 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:40:04.281 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:40:04.282 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 73(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:40:04.281(Timestamp), null, null, 数据同步成功(String)
+22:40:04.353 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:40:05.186 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:40:05.187 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 74(Long), M(String), changjiang(String)
+22:40:05.208 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:40:05.209 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:40:05.209 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:40:05.230 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:40:05.231 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:40:05.231 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 257.1(Float), 28.58(Float), 8.15(Float), 0.12(Float), 9.23(Float), 95.19(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:40:05.291 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:40:05.292 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:40:05.292 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 74(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:40:05.291(Timestamp), null, null, 数据同步成功(String)
+22:40:05.364 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:40:06.172 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:40:06.172 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 75(Long), M(String), changjiang(String)
+22:40:06.196 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:40:06.196 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:40:06.197 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:40:06.216 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:40:06.217 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:40:06.217 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 257.68(Float), 28.5(Float), 8.15(Float), 0.12(Float), 9.32(Float), 91.15(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:40:06.284 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:40:06.284 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:40:06.284 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 75(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:40:06.284(Timestamp), null, null, 数据同步成功(String)
+22:40:06.336 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:40:07.171 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:40:07.172 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 76(Long), M(String), changjiang(String)
+22:40:07.195 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:40:07.196 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:40:07.196 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:40:07.216 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:40:07.217 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:40:07.218 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 255.24(Float), 28.51(Float), 8.1(Float), 0.12(Float), 9.43(Float), 91.56(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:40:07.308 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:40:07.309 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:40:07.310 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 76(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:40:07.308(Timestamp), null, null, 数据同步成功(String)
+22:40:07.387 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:40:08.177 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:40:08.177 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 77(Long), M(String), changjiang(String)
+22:40:08.199 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:40:08.199 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:40:08.200 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:40:08.217 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:40:08.218 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:40:08.218 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 256.77(Float), 28.61(Float), 8.18(Float), 0.12(Float), 9.49(Float), 92.24(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:40:08.282 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:40:08.283 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:40:08.284 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 77(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:40:08.283(Timestamp), null, null, 数据同步成功(String)
+22:40:08.332 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:40:09.173 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:40:09.173 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 78(Long), M(String), changjiang(String)
+22:40:09.190 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:40:09.191 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:40:09.191 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:40:09.211 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:40:09.211 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:40:09.212 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 257.36(Float), 28.5(Float), 8.15(Float), 0.12(Float), 9.07(Float), 98.63(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:40:09.275 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:40:09.276 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:40:09.276 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 78(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:40:09.276(Timestamp), null, null, 数据同步成功(String)
+22:40:09.325 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:40:10.183 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:40:10.184 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 79(Long), M(String), changjiang(String)
+22:40:10.199 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:40:10.199 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:40:10.200 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:40:10.216 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:40:10.217 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:40:10.217 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 257.51(Float), 28.69(Float), 8.12(Float), 0.12(Float), 9.34(Float), 98.24(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:40:10.277 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:40:10.278 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:40:10.279 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 79(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:40:10.278(Timestamp), null, null, 数据同步成功(String)
+22:40:10.337 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:40:11.177 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:40:11.177 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 80(Long), M(String), changjiang(String)
+22:40:11.193 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:40:11.194 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:40:11.194 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:40:11.212 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:40:11.213 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:40:11.214 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 261.75(Float), 28.62(Float), 8.12(Float), 0.12(Float), 9.38(Float), 99.02(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:40:11.267 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:40:11.268 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:40:11.268 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 80(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:40:11.267(Timestamp), null, null, 数据同步成功(String)
+22:40:11.313 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:40:12.175 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:40:12.175 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 81(Long), M(String), changjiang(String)
+22:40:12.192 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+22:40:12.192 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:40:12.193 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:40:12.209 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+22:40:12.209 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==>  Preparing: update monitor_data set Conductivity = ?, Temperature = ?, PH = ?, Salinity = ?, DissolvedOxygen = ?, Turbidity = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:40:12.210 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - ==> Parameters: 261.5(Float), 28.57(Float), 8.15(Float), 0.12(Float), 9.29(Float), 96.14(Float), nantong(String), changjiang(String), node1(String), 2017-08-04 00:00:00.0(Timestamp)
+22:40:12.256 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.update - <==    Updates: 1
+22:40:12.257 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+22:40:12.257 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 81(Long), M(String), changjiang(String), 1(String), 0(String), 2020-05-18 22:40:12.257(Timestamp), null, null, 数据同步成功(String)
+22:40:12.308 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1
+22:45:33.350 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:45:33.350 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 50(Long), M(String), changjiang(String)
+22:45:33.367 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+22:45:33.367 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:45:33.367 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-09-01 00:00:00.0(Timestamp)
+22:45:33.387 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 0
+22:45:33.388 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==>  Preparing: insert into monitor_data( info_id, area_name, spot_id, area_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:45:33.389 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==> Parameters: 50(Long), changjiang(String), changjiang(String), nantong(String), node1(String), 2017-09-01 00:00:00.0(Timestamp), 258.46(Float), 28.69(Float), 8.18(Float), 0.12(Float), 9.38(Float), 93.89(Float)
+22:45:33.435 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - <==    Updates: 1
+22:45:33.436 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+22:45:33.436 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-18 22:45:33.435(Timestamp), 数据同步成功(String), 50(Long), M(String), changjiang(String)
+22:45:33.495 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+22:45:34.353 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:45:34.353 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 51(Long), M(String), changjiang(String)
+22:45:34.370 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+22:45:34.370 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:45:34.371 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-19 00:00:00.0(Timestamp)
+22:45:34.387 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 0
+22:45:34.387 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==>  Preparing: insert into monitor_data( info_id, area_name, spot_id, area_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:45:34.388 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==> Parameters: 51(Long), changjiang(String), changjiang(String), nantong(String), node1(String), 2017-08-19 00:00:00.0(Timestamp), 255.42(Float), 28.56(Float), 8.13(Float), 0.12(Float), 9.04(Float), 94.79(Float)
+22:45:34.432 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - <==    Updates: 1
+22:45:34.433 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+22:45:34.433 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-18 22:45:34.432(Timestamp), 数据同步成功(String), 51(Long), M(String), changjiang(String)
+22:45:34.496 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+22:45:44.359 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:45:44.360 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 52(Long), M(String), changjiang(String)
+22:45:44.376 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+22:45:44.377 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:45:44.377 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-20 19:00:00.0(Timestamp)
+22:45:44.392 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 0
+22:45:44.392 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==>  Preparing: insert into monitor_data( info_id, area_name, spot_id, area_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:45:44.393 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==> Parameters: 52(Long), changjiang(String), changjiang(String), nantong(String), node1(String), 2017-08-20 19:00:00.0(Timestamp), 255.61(Float), 28.68(Float), 8.11(Float), 0.12(Float), 9.05(Float), 98.66(Float)
+22:45:44.454 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - <==    Updates: 1
+22:45:44.455 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+22:45:44.455 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-18 22:45:44.454(Timestamp), 数据同步成功(String), 52(Long), M(String), changjiang(String)
+22:45:44.532 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+22:45:45.369 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:45:45.370 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 53(Long), M(String), changjiang(String)
+22:45:45.392 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+22:45:45.392 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:45:45.393 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-31 00:00:00.0(Timestamp)
+22:45:45.410 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 0
+22:45:45.411 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==>  Preparing: insert into monitor_data( info_id, area_name, spot_id, area_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:45:45.412 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==> Parameters: 53(Long), changjiang(String), changjiang(String), nantong(String), node1(String), 2017-08-31 00:00:00.0(Timestamp), 255.28(Float), 28.56(Float), 8.12(Float), 0.12(Float), 9.41(Float), 96.66(Float)
+22:45:45.456 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - <==    Updates: 1
+22:45:45.457 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+22:45:45.457 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-18 22:45:45.456(Timestamp), 数据同步成功(String), 53(Long), M(String), changjiang(String)
+22:45:45.513 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+22:45:56.363 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:45:56.363 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 54(Long), M(String), changjiang(String)
+22:45:56.386 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+22:45:56.386 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:45:56.387 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-12-22 00:00:00.0(Timestamp)
+22:45:56.403 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 0
+22:45:56.404 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==>  Preparing: insert into monitor_data( info_id, area_name, spot_id, area_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:45:56.404 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==> Parameters: 54(Long), changjiang(String), changjiang(String), nantong(String), node1(String), 2017-12-22 00:00:00.0(Timestamp), 257.27(Float), 28.58(Float), 8.11(Float), 0.12(Float), 9.4(Float), 92.53(Float)
+22:45:56.474 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - <==    Updates: 1
+22:45:56.475 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+22:45:56.476 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-18 22:45:56.474(Timestamp), 数据同步成功(String), 54(Long), M(String), changjiang(String)
+22:45:56.539 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+22:45:57.372 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:45:57.372 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 55(Long), M(String), changjiang(String)
+22:45:57.391 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+22:45:57.392 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:45:57.392 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-11-24 00:00:00.0(Timestamp)
+22:45:57.418 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 0
+22:45:57.418 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==>  Preparing: insert into monitor_data( info_id, area_name, spot_id, area_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:45:57.419 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==> Parameters: 55(Long), changjiang(String), changjiang(String), nantong(String), node1(String), 2017-11-24 00:00:00.0(Timestamp), 264.31(Float), 28.54(Float), 8.1(Float), 0.12(Float), 9.15(Float), 95.9(Float)
+22:45:57.495 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - <==    Updates: 1
+22:45:57.496 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+22:45:57.496 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-18 22:45:57.495(Timestamp), 数据同步成功(String), 55(Long), M(String), changjiang(String)
+22:45:57.583 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+22:46:08.371 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:46:08.371 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 56(Long), M(String), changjiang(String)
+22:46:08.387 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+22:46:08.387 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:46:08.388 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-26 00:00:00.0(Timestamp)
+22:46:08.404 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 0
+22:46:08.405 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==>  Preparing: insert into monitor_data( info_id, area_name, spot_id, area_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:46:08.406 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==> Parameters: 56(Long), changjiang(String), changjiang(String), nantong(String), node1(String), 2017-08-26 00:00:00.0(Timestamp), 262.73(Float), 28.51(Float), 8.13(Float), 0.12(Float), 9.14(Float), 94.51(Float)
+22:46:08.458 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - <==    Updates: 1
+22:46:08.458 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+22:46:08.459 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-18 22:46:08.458(Timestamp), 数据同步成功(String), 56(Long), M(String), changjiang(String)
+22:46:08.510 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+22:46:09.375 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:46:09.375 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 57(Long), M(String), changjiang(String)
+22:46:09.392 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+22:46:09.392 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:46:09.393 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-12-09 00:00:00.0(Timestamp)
+22:46:09.408 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 0
+22:46:09.409 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==>  Preparing: insert into monitor_data( info_id, area_name, spot_id, area_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:46:09.410 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==> Parameters: 57(Long), changjiang(String), changjiang(String), nantong(String), node1(String), 2017-12-09 00:00:00.0(Timestamp), 259.31(Float), 28.69(Float), 8.17(Float), 0.12(Float), 9.01(Float), 96.67(Float)
+22:46:09.458 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - <==    Updates: 1
+22:46:09.458 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+22:46:09.459 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-18 22:46:09.458(Timestamp), 数据同步成功(String), 57(Long), M(String), changjiang(String)
+22:46:09.525 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+22:46:20.380 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:46:20.380 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 58(Long), M(String), changjiang(String)
+22:46:20.397 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+22:46:20.397 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:46:20.397 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2018-07-20 00:00:00.0(Timestamp)
+22:46:20.413 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 0
+22:46:20.414 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==>  Preparing: insert into monitor_data( info_id, area_name, spot_id, area_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:46:20.414 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==> Parameters: 58(Long), changjiang(String), changjiang(String), nantong(String), node1(String), 2018-07-20 00:00:00.0(Timestamp), 257.45(Float), 28.52(Float), 8.1(Float), 0.12(Float), 9.12(Float), 98.94(Float)
+22:46:20.470 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - <==    Updates: 1
+22:46:20.470 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+22:46:20.470 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-18 22:46:20.47(Timestamp), 数据同步成功(String), 58(Long), M(String), changjiang(String)
+22:46:20.525 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+22:46:41.391 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:46:41.391 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 80(Long), M(String), changjiang(String)
+22:46:41.407 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+22:46:41.408 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:46:41.408 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-06-22 00:00:00.0(Timestamp)
+22:46:41.431 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 0
+22:46:41.431 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==>  Preparing: insert into monitor_data( info_id, area_name, spot_id, area_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:46:41.432 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==> Parameters: 80(Long), changjiang(String), changjiang(String), nantong(String), node1(String), 2017-06-22 00:00:00.0(Timestamp), 261.75(Float), 28.62(Float), 8.12(Float), 0.12(Float), 9.38(Float), 99.02(Float)
+22:46:41.499 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - <==    Updates: 1
+22:46:41.500 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+22:46:41.500 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-18 22:46:41.5(Timestamp), 数据同步成功(String), 80(Long), M(String), changjiang(String)
+22:46:41.554 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+22:46:42.400 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:46:42.400 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 81(Long), M(String), changjiang(String)
+22:46:42.422 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+22:46:42.423 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:46:42.423 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-30 00:00:00.0(Timestamp)
+22:46:42.443 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 0
+22:46:42.444 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==>  Preparing: insert into monitor_data( info_id, area_name, spot_id, area_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:46:42.445 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==> Parameters: 81(Long), changjiang(String), changjiang(String), nantong(String), node1(String), 2017-08-30 00:00:00.0(Timestamp), 261.5(Float), 28.57(Float), 8.15(Float), 0.12(Float), 9.29(Float), 96.14(Float)
+22:46:42.500 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - <==    Updates: 1
+22:46:42.501 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+22:46:42.501 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-18 22:46:42.5(Timestamp), 数据同步成功(String), 81(Long), M(String), changjiang(String)
+22:46:42.557 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+22:46:53.407 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:46:53.408 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 78(Long), M(String), changjiang(String)
+22:46:53.423 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+22:46:53.423 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:46:53.424 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-11-18 00:00:00.0(Timestamp)
+22:46:53.439 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 0
+22:46:53.439 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==>  Preparing: insert into monitor_data( info_id, area_name, spot_id, area_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:46:53.440 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==> Parameters: 78(Long), changjiang(String), changjiang(String), nantong(String), node1(String), 2017-11-18 00:00:00.0(Timestamp), 257.36(Float), 28.5(Float), 8.15(Float), 0.12(Float), 9.07(Float), 98.63(Float)
+22:46:53.488 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - <==    Updates: 1
+22:46:53.489 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+22:46:53.489 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-18 22:46:53.488(Timestamp), 数据同步成功(String), 78(Long), M(String), changjiang(String)
+22:46:53.569 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+22:46:54.403 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:46:54.403 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 79(Long), M(String), changjiang(String)
+22:46:54.425 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+22:46:54.425 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:46:54.426 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-11-11 00:00:00.0(Timestamp)
+22:46:54.441 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 0
+22:46:54.441 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==>  Preparing: insert into monitor_data( info_id, area_name, spot_id, area_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:46:54.442 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==> Parameters: 79(Long), changjiang(String), changjiang(String), nantong(String), node1(String), 2017-11-11 00:00:00.0(Timestamp), 257.51(Float), 28.69(Float), 8.12(Float), 0.12(Float), 9.34(Float), 98.24(Float)
+22:46:54.488 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - <==    Updates: 1
+22:46:54.488 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+22:46:54.489 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-18 22:46:54.488(Timestamp), 数据同步成功(String), 79(Long), M(String), changjiang(String)
+22:46:54.555 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+22:47:05.406 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:47:05.406 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 77(Long), M(String), changjiang(String)
+22:47:05.422 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+22:47:05.423 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:47:05.424 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-11-19 00:00:00.0(Timestamp)
+22:47:05.443 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 0
+22:47:05.443 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==>  Preparing: insert into monitor_data( info_id, area_name, spot_id, area_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:47:05.444 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==> Parameters: 77(Long), changjiang(String), changjiang(String), nantong(String), node1(String), 2017-11-19 00:00:00.0(Timestamp), 256.77(Float), 28.61(Float), 8.18(Float), 0.12(Float), 9.49(Float), 92.24(Float)
+22:47:05.507 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - <==    Updates: 1
+22:47:05.507 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+22:47:05.508 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-18 22:47:05.507(Timestamp), 数据同步成功(String), 77(Long), M(String), changjiang(String)
+22:47:05.565 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+22:47:16.420 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:47:16.420 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 76(Long), M(String), changjiang(String)
+22:47:16.440 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+22:47:16.440 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:47:16.440 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2019-02-17 00:00:00.0(Timestamp)
+22:47:16.456 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 0
+22:47:16.456 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==>  Preparing: insert into monitor_data( info_id, area_name, spot_id, area_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:47:16.457 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==> Parameters: 76(Long), changjiang(String), changjiang(String), nantong(String), node1(String), 2019-02-17 00:00:00.0(Timestamp), 255.24(Float), 28.51(Float), 8.1(Float), 0.12(Float), 9.43(Float), 91.56(Float)
+22:47:16.521 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - <==    Updates: 1
+22:47:16.521 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+22:47:16.522 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-18 22:47:16.521(Timestamp), 数据同步成功(String), 76(Long), M(String), changjiang(String)
+22:47:16.577 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+22:47:37.425 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:47:37.425 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 59(Long), M(String), changjiang(String)
+22:47:37.445 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+22:47:37.446 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:47:37.446 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2018-08-02 00:00:00.0(Timestamp)
+22:47:37.462 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 0
+22:47:37.463 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==>  Preparing: insert into monitor_data( info_id, area_name, spot_id, area_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:47:37.464 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==> Parameters: 59(Long), changjiang(String), changjiang(String), nantong(String), node1(String), 2018-08-02 00:00:00.0(Timestamp), 255.47(Float), 28.59(Float), 8.1(Float), 0.12(Float), 9.1(Float), 97.47(Float)
+22:47:37.539 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - <==    Updates: 1
+22:47:37.539 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+22:47:37.540 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-18 22:47:37.539(Timestamp), 数据同步成功(String), 59(Long), M(String), changjiang(String)
+22:47:37.598 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+22:47:58.440 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:47:58.440 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 60(Long), M(String), changjiang(String)
+22:47:58.458 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+22:47:58.458 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:47:58.459 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2019-03-01 00:00:00.0(Timestamp)
+22:47:58.475 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 0
+22:47:58.475 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==>  Preparing: insert into monitor_data( info_id, area_name, spot_id, area_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:47:58.476 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==> Parameters: 60(Long), changjiang(String), changjiang(String), nantong(String), node1(String), 2019-03-01 00:00:00.0(Timestamp), 255.53(Float), 28.54(Float), 8.14(Float), 0.12(Float), 9.39(Float), 98.25(Float)
+22:47:58.524 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - <==    Updates: 1
+22:47:58.525 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+22:47:58.525 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-18 22:47:58.524(Timestamp), 数据同步成功(String), 60(Long), M(String), changjiang(String)
+22:47:58.577 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+22:48:09.447 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:48:09.448 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 61(Long), M(String), changjiang(String)
+22:48:09.465 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+22:48:09.466 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:48:09.466 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2019-02-10 00:00:00.0(Timestamp)
+22:48:09.487 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 0
+22:48:09.488 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==>  Preparing: insert into monitor_data( info_id, area_name, spot_id, area_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:48:09.489 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==> Parameters: 61(Long), changjiang(String), changjiang(String), nantong(String), node1(String), 2019-02-10 00:00:00.0(Timestamp), 257.54(Float), 28.58(Float), 8.18(Float), 0.12(Float), 9.38(Float), 92.04(Float)
+22:48:09.535 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - <==    Updates: 1
+22:48:09.536 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+22:48:09.537 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-18 22:48:09.536(Timestamp), 数据同步成功(String), 61(Long), M(String), changjiang(String)
+22:48:09.602 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+22:48:20.451 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:48:20.451 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 62(Long), M(String), changjiang(String)
+22:48:20.470 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+22:48:20.470 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:48:20.471 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-23 00:00:00.0(Timestamp)
+22:48:20.487 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 0
+22:48:20.487 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==>  Preparing: insert into monitor_data( info_id, area_name, spot_id, area_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:48:20.488 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==> Parameters: 62(Long), changjiang(String), changjiang(String), nantong(String), node1(String), 2017-08-23 00:00:00.0(Timestamp), 262.43(Float), 28.69(Float), 8.13(Float), 0.12(Float), 9.19(Float), 98.07(Float)
+22:48:20.535 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - <==    Updates: 1
+22:48:20.535 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+22:48:20.536 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-18 22:48:20.535(Timestamp), 数据同步成功(String), 62(Long), M(String), changjiang(String)
+22:48:20.592 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+22:48:31.457 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:48:31.458 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 63(Long), M(String), changjiang(String)
+22:48:31.475 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+22:48:31.476 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:48:31.476 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2018-06-12 00:00:00.0(Timestamp)
+22:48:31.497 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 0
+22:48:31.497 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==>  Preparing: insert into monitor_data( info_id, area_name, spot_id, area_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:48:31.498 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==> Parameters: 63(Long), changjiang(String), changjiang(String), nantong(String), node1(String), 2018-06-12 00:00:00.0(Timestamp), 261.05(Float), 28.67(Float), 8.19(Float), 0.12(Float), 9.41(Float), 97.82(Float)
+22:48:31.565 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - <==    Updates: 1
+22:48:31.565 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+22:48:31.566 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-18 22:48:31.565(Timestamp), 数据同步成功(String), 63(Long), M(String), changjiang(String)
+22:48:31.641 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+22:48:42.467 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:48:42.467 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 64(Long), M(String), changjiang(String)
+22:48:42.487 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+22:48:42.487 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity from monitor_data where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+22:48:42.488 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: nantong(String), changjiang(String), node1(String), 2017-08-26 03:00:00.0(Timestamp)
+22:48:42.504 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 0
+22:48:42.505 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==>  Preparing: insert into monitor_data( info_id, area_name, spot_id, area_id, node_id, data_time, Conductivity, Temperature, PH, Salinity, DissolvedOxygen, Turbidity ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+22:48:42.506 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - ==> Parameters: 64(Long), changjiang(String), changjiang(String), nantong(String), node1(String), 2017-08-26 03:00:00.0(Timestamp), 259.93(Float), 28.54(Float), 8.15(Float), 0.12(Float), 9.11(Float), 98.23(Float)
+22:48:42.560 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.insert - <==    Updates: 1
+22:48:42.561 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+22:48:42.561 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-18 22:48:42.56(Timestamp), 数据同步成功(String), 64(Long), M(String), changjiang(String)
+22:48:42.621 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+22:57:33.762 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+22:57:33.763 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 71(Long), M(String), changjiang(String)
+22:57:33.781 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+22:57:33.782 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.deleteById - ==>  Preparing: delete from monitor_data where info_id = ? and area_name = ? 
+22:57:33.782 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.deleteById - ==> Parameters: 71(Long), changjiang(String)
+22:57:33.824 [MQTT Call: center] DEBUG com.ntu.center.mapper.ChangJiangBoxSensorMapper.deleteById - <==    Updates: 0
+22:57:33.824 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+22:57:33.824 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-18 22:57:33.824(Timestamp), 数据同步成功(String), 71(Long), M(String), changjiang(String)
+22:57:33.899 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+23:21:34.760 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:21:34.809 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 131(Long), S(String), changjiang(String)
+23:21:34.880 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+23:21:34.889 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime , spot_intro from area_spot where area_id = ? and spot_id = ? 
+23:21:34.890 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==> Parameters: nantong(String), yunhu(String)
+23:21:34.913 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - <==      Total: 1
+23:21:34.957 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , fail_time= ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+23:21:34.961 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 9(String), 2020-05-18 23:21:34.913(Timestamp), 中央数据库中已存在此条数据(String), 131(Long), S(String), changjiang(String)
+23:21:35.025 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+23:25:44.387 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:25:44.388 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 131(Long), S(String), changjiang(String)
+23:25:44.408 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+23:25:44.409 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime , spot_intro from area_spot where area_id = ? and spot_id = ? 
+23:25:44.409 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==> Parameters: nantong(String), yunhu(String)
+23:25:44.429 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - <==      Total: 1
+23:25:44.430 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , fail_time= ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+23:25:44.432 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 9(String), 2020-05-18 23:25:44.429(Timestamp), 中央数据库中已存在此条数据(String), 131(Long), S(String), changjiang(String)
+23:25:44.485 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+23:27:50.445 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:27:50.446 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 131(Long), S(String), changjiang(String)
+23:27:50.468 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+23:27:50.469 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime , spot_intro from area_spot where area_id = ? and spot_id = ? 
+23:27:50.469 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==> Parameters: nantong(String), yunhu(String)
+23:27:50.489 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - <==      Total: 1
+23:27:50.490 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , fail_time= ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+23:27:50.491 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 9(String), 2020-05-18 23:27:50.49(Timestamp), 中央数据库中已存在此条数据(String), 131(Long), S(String), changjiang(String)
+23:27:50.546 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+23:29:25.246 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:29:25.286 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 129(Long), S(String), changjiang(String)
+23:29:25.347 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+23:29:25.355 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime , spot_intro from area_spot where area_id = ? and spot_id = ? 
+23:29:25.356 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==> Parameters: nantong(String), donglinghu(String)
+23:29:25.383 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - <==      Total: 1
+23:29:25.418 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , fail_time= ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+23:29:25.423 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 9(String), 2020-05-18 23:29:25.384(Timestamp), 中央数据库中已存在此条数据(String), 129(Long), S(String), changjiang(String)
+23:29:25.495 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+23:29:25.755 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:29:25.756 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 130(Long), S(String), changjiang(String)
+23:29:25.780 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+23:29:25.781 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime , spot_intro from area_spot where area_id = ? and spot_id = ? 
+23:29:25.782 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==> Parameters: nantong(String), tuanjiehe(String)
+23:29:25.803 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - <==      Total: 1
+23:29:25.804 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , fail_time= ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+23:29:25.806 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 9(String), 2020-05-18 23:29:25.804(Timestamp), 中央数据库中已存在此条数据(String), 130(Long), S(String), changjiang(String)
+23:29:25.861 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+23:29:26.782 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:29:26.783 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 131(Long), S(String), changjiang(String)
+23:29:26.806 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+23:29:26.807 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, spot_name, spot_url, spot_historyurl, spot_obserargs, spot_obsermeth, spot_posinfo, spot_runtime , spot_intro from area_spot where area_id = ? and spot_id = ? 
+23:29:26.807 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - ==> Parameters: nantong(String), yunhu(String)
+23:29:26.825 [MQTT Call: center] DEBUG com.ntu.center.mapper.AreaSpotMapper.selectByPrimaryKey - <==      Total: 1
+23:29:26.826 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , fail_time= ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+23:29:26.826 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 9(String), 2020-05-18 23:29:26.825(Timestamp), 中央数据库中已存在此条数据(String), 131(Long), S(String), changjiang(String)
+23:29:26.888 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+23:32:27.880 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:32:27.881 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 65(Long), B(String), changjiang(String)
+23:32:27.899 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+23:32:27.900 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, Pressure, Salinity, DissolvedOxygen, SPAD, Turbidity, AnDan, YaXiaoDan, LinSuanYan, ORP from box_sensor where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:32:27.901 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==> Parameters: 324(String), 234(String), 234(String), 2020-05-05 15:12:20.0(Timestamp)
+23:32:27.926 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - <==      Total: 1
+23:32:27.927 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==>  Preparing: update box_sensor set Conductivity = ?, Temperature = ?, Pressure = ?, Salinity = ?, DissolvedOxygen = ?, SPAD = ?, Turbidity = ?, AnDan = ?, YaXiaoDan = ?, LinSuanYan = ?, ORP = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:32:27.928 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==> Parameters: 3411.0(Float), 23411.0(Float), null, null, null, null, null, null, null, null, null, 324(String), 234(String), 234(String), 2020-05-05 15:12:20.0(Timestamp)
+23:32:27.992 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - <==    Updates: 1
+23:32:27.993 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+23:32:27.994 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-18 23:32:27.992(Timestamp), 数据同步成功(String), 65(Long), B(String), changjiang(String)
+23:32:28.061 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+23:32:47.892 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:32:47.892 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 65(Long), B(String), changjiang(String)
+23:32:47.914 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+23:32:47.915 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, Pressure, Salinity, DissolvedOxygen, SPAD, Turbidity, AnDan, YaXiaoDan, LinSuanYan, ORP from box_sensor where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:32:47.916 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==> Parameters: 324(String), 234(String), 234(String), 2020-05-05 15:12:20.0(Timestamp)
+23:32:47.934 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - <==      Total: 1
+23:32:47.935 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==>  Preparing: update box_sensor set Conductivity = ?, Temperature = ?, Pressure = ?, Salinity = ?, DissolvedOxygen = ?, SPAD = ?, Turbidity = ?, AnDan = ?, YaXiaoDan = ?, LinSuanYan = ?, ORP = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:32:47.937 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==> Parameters: 3411.0(Float), 234111.0(Float), null, null, null, null, null, null, null, null, null, 324(String), 234(String), 234(String), 2020-05-05 15:12:20.0(Timestamp)
+23:32:47.989 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - <==    Updates: 1
+23:32:47.991 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+23:32:47.991 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-18 23:32:47.99(Timestamp), 数据同步成功(String), 65(Long), B(String), changjiang(String)
+23:32:48.047 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+23:42:19.629 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:42:19.666 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 65(Long), B(String), changjiang(String)
+23:42:19.731 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+23:42:19.740 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, Pressure, Salinity, DissolvedOxygen, SPAD, Turbidity, AnDan, YaXiaoDan, LinSuanYan, ORP from box_sensor where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:42:19.743 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==> Parameters: 324(String), 234(String), 234(String), 2020-05-05 15:12:20.0(Timestamp)
+23:42:19.764 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - <==      Total: 1
+23:42:19.794 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , fail_time= ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+23:42:19.795 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 9(String), 2020-05-18 23:42:19.765(Timestamp), 中央数据库中已存在此条数据(String), 65(Long), B(String), changjiang(String)
+23:42:19.880 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" style="height: 100%">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link th:href="@{/css/index.css}"  rel="stylesheet"/>
+    <link href="https://cdn.bootcss.com/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <script th:src="@{/js/jquery.min.js}"></script>
+    <script th:src="@{/js/bootstrap.min.js}"></script>
+    <script src="https://js.cybozu.cn/momentjs/2.24.0/moment-with-locales.min.js"></script>
+    <script th:src="@{/js/layer/layer.js}"></script>
+    <script th:src="@{/js/showJson.js}"></script>
+    <script src="https://cdn.bootcss.com/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+
+</head>
+<body>
+<div class="outer" style="height: 100%">
+
+    <div class="alert1"></div>
+    <nav class="navbar navbar-default navbar-fixed-top" style="background: #96b97d;">
+        <div class="container" style="margin-left:19%">
+            <div class="navbar-header logo" style="color: #fff"><h3>ETL同步日志查看</h3>
+            </div>
+        </div>
+    </nav>
+    <div class="panel panel-default" style="height: 30%;width:60%; margin-left:auto; margin-right:auto ">
+        <div class="panel-heading"><strong style="font-size: 16px">日志信息查看</strong></div>
+        <div class="panel-body">
+            <div  class="form-inline" style="height : 20%">
+                    <div style="margin-top: 15px;margin-left: 15px">
+                        <div class="form-group">
+                            <label>选择日志日期：</label>
+                            <!--指定 date标记-->
+                            <div class='input-group date' id='datetimepicker1'>
+                                <input id ='date' type='text' class="form-control" />
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="form-group" style="margin-top:30px;margin-bottom:30px">
+                            <div class="col-sm-3" style="margin-right: 220px">
+                                <button id="select" class="btn btn-primary">查看日志</button>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default" style="height: 50%;width:60%; margin-left:auto; margin-right:auto;border: solid 1px #ddd;border-radius: 4px">
+        <div class="panel-heading"><strong style="font-size: 15px">info日志</strong></div>
+        <div class="panel-body">
+            <div style="height:450px">
+                <pre id="out_pre" style="height: 100%"></pre>
+            </div>
+            <div style="margin-bottom:20px" >
+                <div  style="float:left">
+                    <button  id="showWarn"class="btn btn-danger" >显示错误日志</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="warn-panel"class="panel panel-default" style="height:70%;width:60%; margin-left:auto; margin-right:auto;border: solid 1px #ddd;border-radius: 4px;display:none">
+        <div class="panel-heading"><strong style="font-size: 15px">error日志</strong></div>
+        <div class="panel-body">
+            <div style="height:450px">
+                <pre id="warn-info" style="height: 100%"></pre>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+
+

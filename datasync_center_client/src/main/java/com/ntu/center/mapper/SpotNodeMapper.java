@@ -18,5 +18,5 @@ public interface SpotNodeMapper {
 
     int updateByPrimaryKey(SpotNode record);
 
-    void deleteById(@Param("infoId")Long infoId,@Param("areaName")String areaName);
+    void deleteById(@Param("infoId")Long infoId,@Param("infoNode")String areaName);
 }

@@ -67,9 +67,7 @@ public class EMQTTClient implements IMQTTClient {
                 mqttClient.setCallback(new MqttCallback() {
                     @Override
                     public void connectionLost(Throwable throwable) {
-                        MqttException e = (MqttException) throwable;
-                        e.printStackTrace();
-                        logger.info("-----------连接断开-----------");
+                        logger.error("-----------连接断开-----------");
                         connect(EMQTTClient.this.dr);
                     }
 
@@ -111,7 +109,7 @@ public class EMQTTClient implements IMQTTClient {
         try{
             mqttClient.subscribe(topics);
         } catch (MqttException e) {
-            logger.error(e.getMessage());
+            logger.error(e.getMessage(),e);
         }
     }
 
@@ -126,9 +124,9 @@ public class EMQTTClient implements IMQTTClient {
             token.waitForCompletion(3000);
             logger.debug("MQTTServer Message Topic="+topicName+" Content: "+new MsgSerializer().decode(message).getData());
         } catch (MqttPersistenceException e) {
-            e.printStackTrace();
+            logger.error(e.getMessage(),e);
         } catch (MqttException e) {
-            e.printStackTrace();
+            logger.error(e.getMessage(),e);
         }
     }
 
@@ -137,7 +135,7 @@ public class EMQTTClient implements IMQTTClient {
         try {
             mqttClient.disconnect();
         } catch (MqttException e) {
-            logger.error(e.getMessage());
+            logger.error(e.getMessage(),e);
         }
     }
 }

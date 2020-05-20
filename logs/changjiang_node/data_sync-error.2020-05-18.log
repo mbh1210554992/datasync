@@ -1,0 +1,17 @@
+22:24:23.586 [node1] ERROR com.ntu.node.sync.SendThread - 同步数据不存在：DataSync(infoId=92, infoType=S, syncType=3, syncStatus=1, successTime=null, failTime=null, failCount=0, syncMsg=未开始数据同步, infoNode=null)
+22:24:23.679 [node1] ERROR com.ntu.node.sync.SendThread - 同步数据不存在：DataSync(infoId=93, infoType=S, syncType=3, syncStatus=1, successTime=null, failTime=null, failCount=0, syncMsg=未开始数据同步, infoNode=null)
+22:24:23.719 [node1] ERROR com.ntu.node.sync.SendThread - 同步数据不存在：DataSync(infoId=94, infoType=S, syncType=3, syncStatus=1, successTime=null, failTime=null, failCount=0, syncMsg=未开始数据同步, infoNode=null)
+22:24:23.757 [node1] ERROR com.ntu.node.sync.SendThread - 同步数据不存在：DataSync(infoId=95, infoType=S, syncType=3, syncStatus=1, successTime=null, failTime=null, failCount=0, syncMsg=未开始数据同步, infoNode=null)
+22:24:23.799 [node1] ERROR com.ntu.node.sync.SendThread - 同步数据不存在：DataSync(infoId=96, infoType=S, syncType=3, syncStatus=1, successTime=null, failTime=null, failCount=0, syncMsg=未开始数据同步, infoNode=null)
+22:24:23.845 [node1] ERROR com.ntu.node.sync.SendThread - 同步数据不存在：DataSync(infoId=97, infoType=S, syncType=3, syncStatus=1, successTime=null, failTime=null, failCount=0, syncMsg=未开始数据同步, infoNode=null)
+22:24:23.931 [node1] ERROR com.ntu.node.sync.SendThread - 同步数据不存在：DataSync(infoId=98, infoType=S, syncType=3, syncStatus=1, successTime=null, failTime=null, failCount=0, syncMsg=未开始数据同步, infoNode=null)
+22:24:23.979 [node1] ERROR com.ntu.node.sync.SendThread - 同步数据不存在：DataSync(infoId=99, infoType=S, syncType=3, syncStatus=1, successTime=null, failTime=null, failCount=0, syncMsg=未开始数据同步, infoNode=null)
+22:24:24.033 [node1] ERROR com.ntu.node.sync.SendThread - 同步数据不存在：DataSync(infoId=100, infoType=S, syncType=3, syncStatus=1, successTime=null, failTime=null, failCount=0, syncMsg=未开始数据同步, infoNode=null)
+22:30:12.665 [node1] ERROR com.ntu.node.sync.SendThread - 同步数据不存在：DataSync(infoId=108, infoType=S, syncType=3, syncStatus=1, successTime=null, failTime=null, failCount=0, syncMsg=未开始数据同步, infoNode=null)
+23:21:36.014 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - AREA_SPOT表中 131 号数据同步失败，本条数据将停止同步
+23:25:45.196 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - AREA_SPOT表中 131 号数据同步失败，本条数据将停止同步
+23:27:51.363 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - AREA_SPOT表中 131 号数据同步失败，本条数据将停止同步
+23:29:26.422 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - AREA_SPOT表中 129 号数据同步失败，本条数据将停止同步
+23:29:26.515 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - AREA_SPOT表中 130 号数据同步失败，本条数据将停止同步
+23:29:27.422 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - AREA_SPOT表中 131 号数据同步失败，本条数据将停止同步
+23:42:20.888 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - BOX_SENSOR表中 65 号数据同步失败，本条数据将停止同步

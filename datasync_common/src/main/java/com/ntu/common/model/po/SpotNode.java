@@ -18,5 +18,5 @@ public class SpotNode implements Serializable {
     private String nodeName;
     private String nodeType;
     private String nodeNote;
-    private String areaName;
+    private String infoNode;
 }

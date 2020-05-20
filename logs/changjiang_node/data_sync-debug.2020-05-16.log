@@ -1,0 +1,813 @@
+23:15:32.587 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:15:32.625 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:15:32.657 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:15:42.663 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:15:42.664 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:15:42.668 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:15:52.671 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:15:52.672 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:15:52.673 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:16:02.676 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:16:02.676 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:16:02.678 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:16:12.680 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:16:12.681 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:16:12.682 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:16:22.683 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:16:22.684 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:16:22.685 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:16:32.686 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:16:32.687 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:16:32.688 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:16:42.689 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:16:42.690 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:16:42.691 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:16:52.692 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:16:52.693 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:16:52.695 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:17:02.697 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:17:02.698 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:17:02.699 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:17:12.700 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:17:12.701 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:17:12.702 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:17:22.703 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:17:22.704 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:17:22.705 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:17:32.706 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:17:32.707 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:17:32.709 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:17:42.710 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:17:42.711 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:17:42.712 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:17:52.714 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:17:52.714 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:17:52.716 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:18:02.717 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:18:02.717 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:18:02.720 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:18:12.723 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:18:12.724 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:18:12.726 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:18:22.726 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:18:22.727 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:18:22.728 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:18:32.730 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:18:32.731 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:18:32.732 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:18:42.734 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:18:42.734 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:18:42.735 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:18:52.738 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:18:52.738 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:18:52.740 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:19:34.654 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:19:34.690 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:19:34.723 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:19:44.731 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:19:44.732 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:19:44.733 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:19:54.735 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:19:54.736 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:19:54.738 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:20:04.740 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:20:04.741 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:20:04.742 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:20:14.745 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:20:14.746 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:20:14.747 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:20:24.748 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:20:24.749 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:20:24.751 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:20:59.675 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:20:59.715 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:20:59.747 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:21:09.757 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:21:09.757 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:21:09.758 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:21:19.760 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:21:19.760 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:21:19.761 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:21:29.763 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:21:29.764 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:21:29.766 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:21:39.767 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:21:39.768 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:21:39.769 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:21:49.771 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:21:49.772 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:21:49.773 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:21:59.775 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:21:59.776 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:21:59.778 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:30:30.994 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:30:31.030 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:30:31.062 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:30:31.074 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:30:31.075 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:30:31.080 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:30:41.090 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:30:41.091 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:30:41.092 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:30:41.093 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:30:41.093 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:30:41.096 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:30:51.097 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:30:51.098 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:30:51.100 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:30:51.101 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:30:51.101 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:30:51.103 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:31:01.104 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:31:01.105 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:31:01.106 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:31:01.107 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:31:01.107 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:31:01.109 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:31:11.112 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:31:11.113 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:31:11.115 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:31:11.116 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:31:11.117 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:31:11.119 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:31:21.121 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:31:21.122 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:31:21.124 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:31:21.125 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:31:21.125 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:31:21.128 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:31:31.130 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:31:31.131 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:31:31.133 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:31:31.134 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:31:31.135 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:31:31.138 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:31:41.143 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:31:41.143 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:31:41.144 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:31:41.145 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:31:41.146 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:31:41.150 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:31:51.154 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:31:51.155 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:31:51.162 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:31:51.172 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:31:51.174 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:31:51.178 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:32:01.187 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:32:01.188 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:32:01.189 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:32:01.190 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:32:01.190 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:32:01.192 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:32:11.194 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:32:11.195 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:32:11.196 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:32:11.197 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:32:11.198 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:32:11.200 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:32:21.201 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:32:21.201 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:32:21.202 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:32:21.202 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:32:21.203 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:32:21.204 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:32:31.207 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:32:31.208 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:32:31.212 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:32:31.215 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:32:31.215 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:32:31.221 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:32:41.225 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:32:41.226 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:32:41.227 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:32:41.228 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:32:41.228 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:32:41.230 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:33:23.472 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:33:23.509 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:33:23.549 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:33:23.561 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:33:23.562 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:33:23.567 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:33:33.579 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:33:33.579 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:33:33.581 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:33:33.581 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:33:33.581 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:33:33.584 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:33:43.586 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:33:43.587 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:33:43.588 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:33:43.589 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:33:43.589 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:33:43.591 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:33:53.593 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:33:53.594 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:33:53.596 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:33:53.598 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:33:53.599 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:33:53.602 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:34:03.605 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:34:03.606 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:34:03.607 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:34:03.608 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:34:03.609 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:34:03.610 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:34:13.613 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:34:13.614 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:34:13.616 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:34:13.617 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:34:13.618 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:34:13.620 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:34:23.622 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:34:23.623 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:34:23.624 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:34:23.625 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:34:23.625 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:34:23.626 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:34:59.171 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:34:59.211 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:34:59.247 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:34:59.256 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:34:59.257 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:34:59.261 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:35:09.757 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:35:09.758 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:35:09.760 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:35:09.760 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:35:09.761 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:35:09.763 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:35:20.760 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:35:20.761 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:35:20.763 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:35:20.764 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:35:20.764 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:35:20.766 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:35:31.769 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:35:31.769 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:35:31.771 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:35:31.772 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:35:31.773 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:35:31.776 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:35:42.782 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:35:42.782 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:35:42.785 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:35:42.786 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:35:42.786 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:35:42.789 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:35:53.780 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:35:53.781 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:35:53.782 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:35:53.783 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:35:53.784 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:35:53.785 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:36:04.787 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:36:04.788 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:36:04.789 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:36:04.790 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:36:04.790 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:36:04.791 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:36:15.794 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:36:15.795 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:36:15.797 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:36:15.798 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:36:15.798 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:36:15.801 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:36:26.803 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:36:26.803 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:36:26.806 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:36:26.809 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:36:26.810 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:36:26.813 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:36:37.805 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:36:37.805 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:36:37.807 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:36:37.809 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:36:37.809 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:36:37.811 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:36:48.818 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:36:48.819 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:36:48.822 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:36:48.826 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:36:48.826 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:36:48.828 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:36:59.842 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:36:59.842 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:36:59.843 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:36:59.844 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:36:59.844 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:36:59.846 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:37:10.826 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:37:10.827 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:37:10.828 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:37:10.829 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:37:10.829 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:37:10.830 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:37:21.834 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:37:21.834 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:37:21.836 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:37:21.837 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:37:21.837 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:37:21.838 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:37:32.840 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:37:32.841 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:37:32.843 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:37:32.843 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:37:32.844 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:37:32.846 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:37:43.848 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:37:43.848 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:37:43.853 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:37:43.854 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:37:43.855 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:37:43.860 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:37:54.853 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:37:54.854 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:37:54.855 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:37:54.855 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:37:54.856 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:37:54.857 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:38:05.882 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:38:05.882 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:38:05.884 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:38:05.887 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:38:05.888 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:38:05.890 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:38:16.869 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:38:16.870 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:38:16.871 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:38:16.872 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:38:16.872 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:38:16.873 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:38:27.873 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:38:27.874 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:38:27.875 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:38:27.875 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:38:27.875 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:38:27.877 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:38:38.878 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:38:38.879 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:38:38.880 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:38:38.881 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:38:38.882 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:38:38.884 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:38:49.883 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:38:49.884 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:38:49.885 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:38:49.886 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:38:49.886 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:38:49.887 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:39:00.891 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:39:00.892 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:39:00.893 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:39:00.894 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:39:00.894 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:39:00.895 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:39:11.903 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:39:11.904 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:39:11.905 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:39:11.906 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:39:11.906 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:39:11.907 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:39:22.911 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:39:22.913 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:39:23.003 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:39:23.004 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:39:23.008 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:39:23.010 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:39:33.935 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:39:33.935 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:39:33.937 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:39:33.943 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:39:33.944 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:39:33.947 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:39:44.933 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:39:44.934 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:39:44.948 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:39:44.948 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:39:44.949 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:39:44.950 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:39:55.931 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:39:55.932 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:39:55.933 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:39:55.933 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:39:55.934 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:39:55.935 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:40:06.940 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:40:06.943 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:40:06.945 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:40:06.946 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:40:06.947 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:40:06.950 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:40:17.950 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:40:17.951 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:40:17.952 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:40:17.953 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:40:17.953 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:40:17.954 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:40:28.955 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:40:28.955 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:40:28.957 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:40:28.957 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:40:28.958 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:40:28.959 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:40:39.964 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:40:39.965 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:40:39.966 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:40:39.967 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:40:39.967 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:40:39.969 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:40:50.972 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:40:50.973 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:40:50.974 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:40:50.974 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:40:50.975 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:40:50.976 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:41:01.977 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:41:01.978 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:41:01.979 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:41:01.979 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:41:01.979 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:41:01.980 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:41:12.983 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:41:12.984 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:41:12.984 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:41:12.985 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:41:12.985 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:41:12.986 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:41:23.994 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:41:23.995 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:41:23.996 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:41:23.996 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:41:23.996 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:41:23.997 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:41:34.996 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:41:34.997 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:41:34.998 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:41:34.999 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:41:34.999 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:41:35.000 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:41:46.096 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:41:46.096 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:41:46.106 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:41:46.107 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:41:46.107 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:41:46.110 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:41:57.011 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:41:57.012 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:41:57.013 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:41:57.014 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:41:57.014 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:41:57.015 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:42:08.016 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:42:08.017 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:42:08.018 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:42:08.019 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:42:08.020 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:42:08.021 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:42:19.025 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:42:19.026 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:42:19.027 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:42:19.027 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:42:19.027 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:42:19.028 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:42:30.044 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:42:30.044 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:42:30.045 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:42:30.045 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:42:30.046 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:42:30.047 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:42:41.060 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:42:41.061 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:42:41.062 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:42:41.062 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:42:41.063 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:42:41.064 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:42:52.060 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:42:52.060 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:42:52.061 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:42:52.062 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:42:52.062 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:42:52.063 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:43:03.064 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:43:03.065 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:43:03.066 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:43:03.066 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:43:03.066 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:43:03.067 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:47:03.073 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:47:03.111 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:47:03.143 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:47:03.153 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:47:03.154 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:47:03.157 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:47:13.715 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:47:13.716 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:47:13.717 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:47:13.718 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:47:13.718 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:47:13.720 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:47:24.721 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:47:24.722 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:47:24.723 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:47:24.724 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:47:24.725 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:47:24.726 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:47:35.731 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:47:35.732 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:47:35.733 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:47:35.734 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:47:35.734 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:47:35.736 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:47:46.736 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:47:46.737 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:47:46.739 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:47:46.740 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:47:46.741 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:47:46.743 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:47:57.742 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:47:57.743 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:47:57.745 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:47:57.746 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:47:57.747 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:47:57.749 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:48:08.747 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:48:08.748 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:48:08.750 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:48:08.750 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:48:08.751 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:48:08.753 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:48:19.754 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:48:19.754 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:48:19.756 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:48:19.756 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:48:19.757 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:48:19.760 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:48:30.762 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:48:30.763 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:48:30.764 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:48:30.765 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:48:30.765 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:48:30.766 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:48:41.770 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:48:41.771 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:48:41.772 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:48:41.773 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:48:41.774 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:48:41.775 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:48:52.779 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:48:52.780 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:48:52.782 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:48:52.783 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:48:52.783 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:48:52.785 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:49:03.786 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:49:03.786 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:49:03.787 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:49:03.788 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:49:03.789 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:49:03.791 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:49:14.794 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:49:14.795 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:49:14.796 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:49:14.797 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:49:14.797 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:49:14.798 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:49:25.808 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:49:25.809 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:49:25.810 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:49:25.811 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:49:25.811 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:49:25.812 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:49:36.889 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:49:36.890 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:49:36.891 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:49:36.891 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:49:36.892 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:49:36.893 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:49:47.817 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:49:47.817 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:49:47.820 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:49:47.820 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:49:47.821 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:49:47.824 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:49:58.822 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:49:58.823 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:49:58.824 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:49:58.825 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:49:58.825 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:49:58.826 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:50:09.828 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:50:09.829 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:50:09.830 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:50:09.830 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:50:09.831 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:50:09.832 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:50:20.854 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:50:20.855 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:50:20.856 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:50:20.930 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:50:20.930 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:50:20.943 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:50:31.839 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:50:31.839 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:50:31.840 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:50:31.841 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:50:31.841 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:50:31.842 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:50:42.846 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:50:42.847 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:50:42.848 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:50:42.849 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:50:42.849 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:50:42.850 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:50:53.853 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:50:53.854 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:50:53.855 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:50:53.856 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:50:53.856 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:50:53.857 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:51:04.861 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:51:04.862 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:51:04.863 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:51:04.864 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:51:04.864 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:51:04.866 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:51:15.867 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:51:15.868 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:51:15.869 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:51:15.869 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:51:15.870 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:51:15.871 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:51:26.874 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:51:26.875 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:51:26.876 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:51:26.876 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:51:26.877 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:51:26.893 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:51:37.881 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:51:37.881 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:51:37.883 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:51:37.884 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:51:37.884 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:51:37.886 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:51:48.887 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:51:48.888 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:51:48.889 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:51:48.889 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:51:48.890 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:51:48.891 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:51:59.893 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:51:59.894 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:51:59.895 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+23:51:59.896 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+23:51:59.896 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 1(Long)
+23:51:59.898 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+23:52:08.909 [MQTT Call: cj_node] DEBUG com.ntu.node.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? 
+23:52:08.910 [MQTT Call: cj_node] DEBUG com.ntu.node.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String)
+23:52:08.911 [MQTT Call: cj_node] DEBUG com.ntu.node.mapper.DataSyncMapper.findByKey - <==      Total: 1
+23:52:08.944 [MQTT Call: cj_node] DEBUG com.ntu.node.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , fail_count= ? where info_id= ? and info_type = ? 
+23:52:08.947 [MQTT Call: cj_node] DEBUG com.ntu.node.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-16 23:52:01.133(Timestamp), 0(Integer), 1(Long), B(String)
+23:52:08.986 [MQTT Call: cj_node] DEBUG com.ntu.node.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+23:52:10.900 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:52:10.900 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:52:10.901 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:52:20.902 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:52:20.903 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:52:20.903 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:52:30.904 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:52:30.905 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:52:30.906 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:52:40.907 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:52:40.908 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:52:40.908 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:52:50.910 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:52:50.914 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:52:50.915 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:53:00.917 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:53:00.918 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:53:00.919 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:53:10.920 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:53:10.921 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:53:10.922 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:53:20.922 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:53:20.923 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:53:20.923 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:53:30.924 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:53:30.925 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:53:30.925 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:53:40.927 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:53:40.928 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:53:40.929 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:53:50.929 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:53:50.930 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:53:50.931 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:54:00.931 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:54:00.931 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:54:00.932 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:54:10.934 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:54:10.935 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:54:10.935 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:54:20.936 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:54:20.937 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:54:20.938 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:54:30.939 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:54:30.940 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:54:30.941 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:54:40.942 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:54:40.942 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:54:40.943 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:54:50.943 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:54:50.943 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:54:50.944 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:55:00.944 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:55:00.945 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:55:00.946 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:55:10.946 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:55:10.947 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:55:10.948 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:55:20.949 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:55:20.949 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:55:20.950 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:55:30.951 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:55:30.952 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:55:30.952 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:55:40.954 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:55:40.954 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:55:40.955 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:55:50.955 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:55:50.956 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:55:50.957 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:56:00.957 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:56:00.958 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:56:00.958 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:56:10.959 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:56:10.960 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:56:10.961 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:56:20.961 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:56:20.962 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:56:20.963 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:56:30.964 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:56:30.965 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:56:30.966 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:56:40.966 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:56:40.966 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:56:40.967 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:56:50.969 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:56:50.970 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:56:50.970 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:57:00.971 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:57:00.971 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:57:00.972 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:57:10.973 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:57:10.973 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:57:10.974 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:57:20.976 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:57:20.976 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:57:20.976 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:57:30.977 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:57:30.977 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:57:30.978 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:57:40.980 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:57:40.980 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:57:40.981 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:57:50.982 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:57:50.982 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:57:50.983 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:58:00.984 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:58:00.984 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:58:00.985 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:58:10.986 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:58:10.986 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:58:10.987 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:58:20.988 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:58:20.988 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:58:20.989 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:58:30.990 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:58:30.991 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:58:30.992 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:58:40.992 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:58:40.992 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:58:40.993 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:58:50.993 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:58:50.993 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:58:50.994 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:59:00.995 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:59:00.996 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:59:00.996 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:59:10.997 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:59:10.997 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:59:10.998 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:59:20.999 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:59:21.000 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:59:21.001 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:59:31.008 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:59:31.009 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:59:31.010 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:59:41.011 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:59:41.012 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:59:41.013 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+23:59:51.014 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+23:59:51.015 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+23:59:51.015 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0

@@ -1,0 +1,1029 @@
+14:24:32.568 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 SPOT_NODE 表中的 35 号数据同步失败原因: 
+14:24:53.577 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 23 号数据同步失败原因: 
+15:39:55.927 [http-nio-9999-exec-5] ERROR com.ntu.center.controller.LogInfoController - logs\center\data_sync-info.2020-05-14.log (系统找不到指定的文件。)
+java.io.FileNotFoundException: logs\center\data_sync-info.2020-05-14.log (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.ntu.center.controller.LogInfoController.getLogInfo(LogInfoController.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+15:51:18.793 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 439 号数据同步失败原因: 中央数据库中已存在此条数据
+15:51:29.795 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 439 号数据同步失败原因: 中央数据库中已存在此条数据
+15:51:40.794 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 439 号数据同步失败原因: 中央数据库中已存在此条数据
+15:51:51.805 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 439 号数据同步失败原因: 中央数据库中已存在此条数据
+15:55:11.337 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 439 号数据同步失败原因: 中央数据库中已存在此条数据
+15:55:21.664 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 439 号数据同步失败原因: 中央数据库中已存在此条数据
+15:55:32.669 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 439 号数据同步失败原因: 中央数据库中已存在此条数据
+15:55:43.683 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 439 号数据同步失败原因: 中央数据库中已存在此条数据
+15:55:54.680 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 439 号数据同步失败原因: 中央数据库中已存在此条数据
+16:01:38.443 [Timer-0] ERROR org.eclipse.paho.client.mqttv3.internal.ClientState - center: Timed out as no write activity, keepAlive=30,000 lastOutboundActivity=1,589,874,944,739 lastInboundActivity=1,589,874,954,627 time=1,589,875,298,439 lastPing=0
+16:02:53.454 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 439 号数据同步失败原因: 中央数据库中已存在此条数据
+18:04:52.185 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 SPOT_NODE 表中的 38 号数据同步失败原因:  中央数据库没有此条数据
+18:04:53.172 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 SPOT_NODE 表中的 39 号数据同步失败原因:  中央数据库没有此条数据
+18:04:57.181 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 50 号数据同步失败原因:  中央数据库没有此条数据
+18:04:58.174 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 51 号数据同步失败原因:  中央数据库没有此条数据
+18:04:59.176 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 52 号数据同步失败原因:  中央数据库没有此条数据
+18:05:00.176 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 53 号数据同步失败原因:  中央数据库没有此条数据
+18:05:01.176 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 54 号数据同步失败原因:  中央数据库没有此条数据
+18:05:02.178 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 55 号数据同步失败原因:  中央数据库没有此条数据
+18:05:03.251 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 56 号数据同步失败原因:  中央数据库没有此条数据
+18:05:04.199 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 57 号数据同步失败原因:  中央数据库没有此条数据
+18:05:05.179 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 58 号数据同步失败原因:  中央数据库没有此条数据
+18:05:06.181 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 59 号数据同步失败原因:  中央数据库没有此条数据
+18:05:07.181 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 60 号数据同步失败原因:  中央数据库没有此条数据
+18:05:08.181 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 61 号数据同步失败原因:  中央数据库没有此条数据
+18:05:09.183 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 62 号数据同步失败原因:  中央数据库没有此条数据
+18:05:10.184 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 63 号数据同步失败原因:  中央数据库没有此条数据
+18:05:11.191 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 64 号数据同步失败原因:  中央数据库没有此条数据
+18:05:12.187 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 65 号数据同步失败原因:  中央数据库没有此条数据
+18:05:13.185 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 66 号数据同步失败原因:  中央数据库没有此条数据
+18:05:14.189 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 67 号数据同步失败原因:  中央数据库没有此条数据
+18:05:15.188 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 68 号数据同步失败原因:  中央数据库没有此条数据
+18:05:16.190 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 69 号数据同步失败原因:  中央数据库没有此条数据
+18:05:17.188 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 70 号数据同步失败原因:  中央数据库没有此条数据
+18:05:20.191 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 110 号数据同步失败原因:  中央数据库没有此条数据
+18:05:21.191 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 111 号数据同步失败原因:  中央数据库没有此条数据
+18:05:22.195 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 112 号数据同步失败原因:  中央数据库没有此条数据
+18:26:38.000 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 110 号数据同步失败原因: 
+18:26:38.003 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30126ms.
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes\mapper\DataSyncMapper.xml]
+### The error may involve com.ntu.center.mapper.DataSyncMapper.findByKey
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30126ms.
+org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30126ms.
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes\mapper\DataSyncMapper.xml]
+### The error may involve com.ntu.center.mapper.DataSyncMapper.findByKey
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30126ms.
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:77)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy64.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:166)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy77.findByKey(Unknown Source)
+	at com.ntu.center.sync.CenterDataReceiver.onReceive(CenterDataReceiver.java:57)
+	at com.ntu.common.client.EMQTTClient$1.messageArrived(EMQTTClient.java:85)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.deliverMessage(CommsCallback.java:477)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.handleMessage(CommsCallback.java:380)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.run(CommsCallback.java:184)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30126ms.
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes\mapper\DataSyncMapper.xml]
+### The error may involve com.ntu.center.mapper.DataSyncMapper.findByKey
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30126ms.
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:149)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at sun.reflect.GeneratedMethodAccessor44.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 11 common frames omitted
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30126ms.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:82)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:68)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:85)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	... 17 common frames omitted
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30126ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:689)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:196)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:161)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	... 27 common frames omitted
+Caused by: java.sql.SQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:2490)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:556)
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:169)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:185)
+	... 32 common frames omitted
+Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.NativeSession.checkClosed(NativeSession.java:1171)
+	at com.mysql.cj.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:576)
+	at com.mysql.cj.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:2486)
+	... 35 common frames omitted
+18:26:38.026 [MQTT Call: center] ERROR com.ntu.common.client.EMQTTClient - 客户机未连接
+org.eclipse.paho.client.mqttv3.MqttException: 客户机未连接
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:31)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms.sendNoWait(ClientComms.java:177)
+	at org.eclipse.paho.client.mqttv3.MqttTopic.publish(MqttTopic.java:116)
+	at com.ntu.common.client.EMQTTClient.publish(EMQTTClient.java:125)
+	at com.ntu.center.sync.CenterDataReceiver.onReceive(CenterDataReceiver.java:184)
+	at com.ntu.common.client.EMQTTClient$1.messageArrived(EMQTTClient.java:85)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.deliverMessage(CommsCallback.java:477)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.handleMessage(CommsCallback.java:380)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.run(CommsCallback.java:184)
+	at java.lang.Thread.run(Thread.java:748)
+19:25:04.126 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 500 号数据同步失败原因: 
+19:25:04.129 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - 
+### Error updating database.  Cause: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes\mapper\AreaSpotMapper.xml]
+### The error may involve com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey
+### The error occurred while executing an update
+### SQL: update area_spot     set spot_name = ?,       spot_url = ?,       spot_historyurl = ?,       spot_obserargs = ?,       spot_obsermeth = ?,       spot_posinfo = ?,       spot_intro = ?       spot_runtime = ?     where area_id = ?       and spot_id = ?
+### Cause: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?
+; uncategorized SQLException; SQL state [null]; error code [0]; sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?; nested exception is java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?
+org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes\mapper\AreaSpotMapper.xml]
+### The error may involve com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey
+### The error occurred while executing an update
+### SQL: update area_spot     set spot_name = ?,       spot_url = ?,       spot_historyurl = ?,       spot_obserargs = ?,       spot_obsermeth = ?,       spot_posinfo = ?,       spot_intro = ?       spot_runtime = ?     where area_id = ?       and spot_id = ?
+### Cause: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?
+; uncategorized SQLException; SQL state [null]; error code [0]; sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?; nested exception is java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy64.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:294)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy65.updateByPrimaryKey(Unknown Source)
+	at com.ntu.center.sync.processor.AreaSpotProcessor.onReceive(AreaSpotProcessor.java:38)
+	at com.ntu.center.sync.CenterDataReceiver.onReceive(CenterDataReceiver.java:101)
+	at com.ntu.common.client.EMQTTClient$1.messageArrived(EMQTTClient.java:85)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.deliverMessage(CommsCallback.java:477)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.handleMessage(CommsCallback.java:380)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.run(CommsCallback.java:184)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?
+	at com.alibaba.druid.wall.WallFilter.check(WallFilter.java:724)
+	at com.alibaba.druid.wall.WallFilter.connection_prepareStatement(WallFilter.java:252)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_prepareStatement(FilterChainImpl.java:448)
+	at com.alibaba.druid.filter.FilterAdapter.connection_prepareStatement(FilterAdapter.java:928)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_prepareStatement(FilterEventAdapter.java:122)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_prepareStatement(FilterChainImpl.java:448)
+	at com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl.prepareStatement(ConnectionProxyImpl.java:342)
+	at com.alibaba.druid.pool.DruidPooledConnection.prepareStatement(DruidPooledConnection.java:331)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.ConnectionLogger.invoke(ConnectionLogger.java:55)
+	at com.sun.proxy.$Proxy79.prepareStatement(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.instantiateStatement(PreparedStatementHandler.java:86)
+	at org.apache.ibatis.executor.statement.BaseStatementHandler.prepare(BaseStatementHandler.java:88)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.prepare(RoutingStatementHandler.java:59)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 12 common frames omitted
+Caused by: com.alibaba.druid.sql.parser.ParserException: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime
+	at com.alibaba.druid.sql.parser.SQLParser.printError(SQLParser.java:232)
+	at com.alibaba.druid.sql.parser.SQLStatementParser.parseStatementList(SQLStatementParser.java:407)
+	at com.alibaba.druid.sql.parser.SQLStatementParser.parseStatementList(SQLStatementParser.java:145)
+	at com.alibaba.druid.wall.WallProvider.checkInternal(WallProvider.java:620)
+	at com.alibaba.druid.wall.WallProvider.check(WallProvider.java:574)
+	at com.alibaba.druid.wall.WallFilter.check(WallFilter.java:711)
+	... 38 common frames omitted
+19:25:12.014 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 500 号数据同步失败原因: 
+19:25:12.015 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - 
+### Error updating database.  Cause: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes\mapper\AreaSpotMapper.xml]
+### The error may involve com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey
+### The error occurred while executing an update
+### SQL: update area_spot     set spot_name = ?,       spot_url = ?,       spot_historyurl = ?,       spot_obserargs = ?,       spot_obsermeth = ?,       spot_posinfo = ?,       spot_intro = ?       spot_runtime = ?     where area_id = ?       and spot_id = ?
+### Cause: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?
+; uncategorized SQLException; SQL state [null]; error code [0]; sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?; nested exception is java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?
+org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes\mapper\AreaSpotMapper.xml]
+### The error may involve com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey
+### The error occurred while executing an update
+### SQL: update area_spot     set spot_name = ?,       spot_url = ?,       spot_historyurl = ?,       spot_obserargs = ?,       spot_obsermeth = ?,       spot_posinfo = ?,       spot_intro = ?       spot_runtime = ?     where area_id = ?       and spot_id = ?
+### Cause: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?
+; uncategorized SQLException; SQL state [null]; error code [0]; sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?; nested exception is java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy64.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:294)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy65.updateByPrimaryKey(Unknown Source)
+	at com.ntu.center.sync.processor.AreaSpotProcessor.onReceive(AreaSpotProcessor.java:38)
+	at com.ntu.center.sync.CenterDataReceiver.onReceive(CenterDataReceiver.java:101)
+	at com.ntu.common.client.EMQTTClient$1.messageArrived(EMQTTClient.java:85)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.deliverMessage(CommsCallback.java:477)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.handleMessage(CommsCallback.java:380)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.run(CommsCallback.java:184)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?
+	at com.alibaba.druid.wall.WallFilter.check(WallFilter.java:724)
+	at com.alibaba.druid.wall.WallFilter.connection_prepareStatement(WallFilter.java:252)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_prepareStatement(FilterChainImpl.java:448)
+	at com.alibaba.druid.filter.FilterAdapter.connection_prepareStatement(FilterAdapter.java:928)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_prepareStatement(FilterEventAdapter.java:122)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_prepareStatement(FilterChainImpl.java:448)
+	at com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl.prepareStatement(ConnectionProxyImpl.java:342)
+	at com.alibaba.druid.pool.DruidPooledConnection.prepareStatement(DruidPooledConnection.java:331)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.ConnectionLogger.invoke(ConnectionLogger.java:55)
+	at com.sun.proxy.$Proxy79.prepareStatement(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.instantiateStatement(PreparedStatementHandler.java:86)
+	at org.apache.ibatis.executor.statement.BaseStatementHandler.prepare(BaseStatementHandler.java:88)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.prepare(RoutingStatementHandler.java:59)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 12 common frames omitted
+Caused by: com.alibaba.druid.sql.parser.ParserException: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime
+	at com.alibaba.druid.sql.parser.SQLParser.printError(SQLParser.java:232)
+	at com.alibaba.druid.sql.parser.SQLStatementParser.parseStatementList(SQLStatementParser.java:407)
+	at com.alibaba.druid.sql.parser.SQLStatementParser.parseStatementList(SQLStatementParser.java:145)
+	at com.alibaba.druid.wall.WallProvider.checkInternal(WallProvider.java:620)
+	at com.alibaba.druid.wall.WallProvider.check(WallProvider.java:574)
+	at com.alibaba.druid.wall.WallFilter.check(WallFilter.java:711)
+	... 38 common frames omitted
+19:25:23.020 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 AREA_SPOT 表中的 500 号数据同步失败原因: 
+19:25:23.021 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - 
+### Error updating database.  Cause: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes\mapper\AreaSpotMapper.xml]
+### The error may involve com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey
+### The error occurred while executing an update
+### SQL: update area_spot     set spot_name = ?,       spot_url = ?,       spot_historyurl = ?,       spot_obserargs = ?,       spot_obsermeth = ?,       spot_posinfo = ?,       spot_intro = ?       spot_runtime = ?     where area_id = ?       and spot_id = ?
+### Cause: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?
+; uncategorized SQLException; SQL state [null]; error code [0]; sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?; nested exception is java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?
+org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes\mapper\AreaSpotMapper.xml]
+### The error may involve com.ntu.center.mapper.AreaSpotMapper.updateByPrimaryKey
+### The error occurred while executing an update
+### SQL: update area_spot     set spot_name = ?,       spot_url = ?,       spot_historyurl = ?,       spot_obserargs = ?,       spot_obsermeth = ?,       spot_posinfo = ?,       spot_intro = ?       spot_runtime = ?     where area_id = ?       and spot_id = ?
+### Cause: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?
+; uncategorized SQLException; SQL state [null]; error code [0]; sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?; nested exception is java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy64.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:294)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy65.updateByPrimaryKey(Unknown Source)
+	at com.ntu.center.sync.processor.AreaSpotProcessor.onReceive(AreaSpotProcessor.java:38)
+	at com.ntu.center.sync.CenterDataReceiver.onReceive(CenterDataReceiver.java:101)
+	at com.ntu.common.client.EMQTTClient$1.messageArrived(EMQTTClient.java:85)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.deliverMessage(CommsCallback.java:477)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.handleMessage(CommsCallback.java:380)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.run(CommsCallback.java:184)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime : update area_spot
+    set spot_name = ?,
+      spot_url = ?,
+      spot_historyurl = ?,
+      spot_obserargs = ?,
+      spot_obsermeth = ?,
+      spot_posinfo = ?,
+      spot_intro = ?
+      spot_runtime = ?
+    where area_id = ?
+      and spot_id = ?
+	at com.alibaba.druid.wall.WallFilter.check(WallFilter.java:724)
+	at com.alibaba.druid.wall.WallFilter.connection_prepareStatement(WallFilter.java:252)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_prepareStatement(FilterChainImpl.java:448)
+	at com.alibaba.druid.filter.FilterAdapter.connection_prepareStatement(FilterAdapter.java:928)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_prepareStatement(FilterEventAdapter.java:122)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_prepareStatement(FilterChainImpl.java:448)
+	at com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl.prepareStatement(ConnectionProxyImpl.java:342)
+	at com.alibaba.druid.pool.DruidPooledConnection.prepareStatement(DruidPooledConnection.java:331)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.ConnectionLogger.invoke(ConnectionLogger.java:55)
+	at com.sun.proxy.$Proxy79.prepareStatement(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.instantiateStatement(PreparedStatementHandler.java:86)
+	at org.apache.ibatis.executor.statement.BaseStatementHandler.prepare(BaseStatementHandler.java:88)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.prepare(RoutingStatementHandler.java:59)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 12 common frames omitted
+Caused by: com.alibaba.druid.sql.parser.ParserException: syntax error, error in :'     spot_runtime = ?
+    where are',expect IDENTIFIER, actual IDENTIFIER spot_runtime
+	at com.alibaba.druid.sql.parser.SQLParser.printError(SQLParser.java:232)
+	at com.alibaba.druid.sql.parser.SQLStatementParser.parseStatementList(SQLStatementParser.java:407)
+	at com.alibaba.druid.sql.parser.SQLStatementParser.parseStatementList(SQLStatementParser.java:145)
+	at com.alibaba.druid.wall.WallProvider.checkInternal(WallProvider.java:620)
+	at com.alibaba.druid.wall.WallProvider.check(WallProvider.java:574)
+	at com.alibaba.druid.wall.WallFilter.check(WallFilter.java:711)
+	... 38 common frames omitted
+21:17:00.529 [MQTT Call: center] ERROR druid.sql.Statement - {conn-10010, stmt-20015} execute error. SELECT 1 FROM DUAL
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 6,625,653 milliseconds ago. The last packet sent successfully to the server was 6,625,668 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2363)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2481)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:302)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2360)
+	at com.alibaba.druid.wall.WallFilter.statement_executeQuery(WallFilter.java:510)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2360)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2481)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:302)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2360)
+	at com.alibaba.druid.proxy.jdbc.StatementProxyImpl.executeQuery(StatementProxyImpl.java:211)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal(DruidAbstractDataSource.java:1303)
+	at com.alibaba.druid.pool.DruidDataSource.getConnectionDirect(DruidDataSource.java:1057)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:4544)
+	at com.alibaba.druid.filter.logging.LogFilter.dataSource_getConnection(LogFilter.java:831)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:4540)
+	at com.alibaba.druid.filter.FilterAdapter.dataSource_getConnection(FilterAdapter.java:2723)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:4540)
+	at com.alibaba.druid.filter.stat.StatFilter.dataSource_getConnection(StatFilter.java:662)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:4540)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:995)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:987)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:103)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:82)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:68)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:85)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy64.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:166)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy77.findByKey(Unknown Source)
+	at com.ntu.center.sync.CenterDataReceiver.onReceive(CenterDataReceiver.java:57)
+	at com.ntu.common.client.EMQTTClient$1.messageArrived(EMQTTClient.java:85)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.deliverMessage(CommsCallback.java:477)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.handleMessage(CommsCallback.java:380)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.run(CommsCallback.java:184)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 6,625,653 milliseconds ago. The last packet sent successfully to the server was 6,625,668 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:539)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:703)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:642)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:941)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:887)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:1073)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1168)
+	... 53 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:983)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:940)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:533)
+	... 59 common frames omitted
+21:17:20.559 [MQTT Call: center] ERROR druid.sql.Statement - {conn-10009, stmt-20016} execute error. SELECT 1 FROM DUAL
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 6,681,292 milliseconds ago. The last packet sent successfully to the server was 6,681,311 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2363)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2481)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:302)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2360)
+	at com.alibaba.druid.wall.WallFilter.statement_executeQuery(WallFilter.java:510)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2360)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2481)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:302)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2360)
+	at com.alibaba.druid.proxy.jdbc.StatementProxyImpl.executeQuery(StatementProxyImpl.java:211)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal(DruidAbstractDataSource.java:1303)
+	at com.alibaba.druid.pool.DruidDataSource.getConnectionDirect(DruidDataSource.java:1057)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:4544)
+	at com.alibaba.druid.filter.logging.LogFilter.dataSource_getConnection(LogFilter.java:831)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:4540)
+	at com.alibaba.druid.filter.FilterAdapter.dataSource_getConnection(FilterAdapter.java:2723)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:4540)
+	at com.alibaba.druid.filter.stat.StatFilter.dataSource_getConnection(StatFilter.java:662)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:4540)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:995)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:987)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:103)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:82)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:68)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:85)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy64.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:166)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy77.findByKey(Unknown Source)
+	at com.ntu.center.sync.CenterDataReceiver.onReceive(CenterDataReceiver.java:57)
+	at com.ntu.common.client.EMQTTClient$1.messageArrived(EMQTTClient.java:85)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.deliverMessage(CommsCallback.java:477)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.handleMessage(CommsCallback.java:380)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.run(CommsCallback.java:184)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 6,681,292 milliseconds ago. The last packet sent successfully to the server was 6,681,311 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:539)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:703)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:642)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:941)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:887)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:1073)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1168)
+	... 53 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:983)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:940)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:533)
+	... 59 common frames omitted
+21:17:23.215 [MQTT Call: center] ERROR com.ntu.common.client.EMQTTClient - 客户机未连接
+org.eclipse.paho.client.mqttv3.MqttException: 客户机未连接
+	at org.eclipse.paho.client.mqttv3.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:31)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms.sendNoWait(ClientComms.java:177)
+	at org.eclipse.paho.client.mqttv3.MqttTopic.publish(MqttTopic.java:116)
+	at com.ntu.common.client.EMQTTClient.publish(EMQTTClient.java:125)
+	at com.ntu.center.sync.CenterDataReceiver.onReceive(CenterDataReceiver.java:184)
+	at com.ntu.common.client.EMQTTClient$1.messageArrived(EMQTTClient.java:85)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.deliverMessage(CommsCallback.java:477)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.handleMessage(CommsCallback.java:380)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.run(CommsCallback.java:184)
+	at java.lang.Thread.run(Thread.java:748)
+21:17:34.388 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 82 号数据同步失败原因: 中央数据库中已存在此条数据
+21:18:03.174 [MQTT Call: center] ERROR com.ntu.common.client.EMQTTClient - 等待来自服务器的响应时超时
+org.eclipse.paho.client.mqttv3.MqttException: 等待来自服务器的响应时超时
+	at org.eclipse.paho.client.mqttv3.internal.Token.waitForCompletion(Token.java:112)
+	at org.eclipse.paho.client.mqttv3.MqttToken.waitForCompletion(MqttToken.java:67)
+	at com.ntu.common.client.EMQTTClient.publish(EMQTTClient.java:126)
+	at com.ntu.center.sync.CenterDataReceiver.onReceive(CenterDataReceiver.java:184)
+	at com.ntu.common.client.EMQTTClient$1.messageArrived(EMQTTClient.java:85)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.deliverMessage(CommsCallback.java:477)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.handleMessage(CommsCallback.java:380)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.run(CommsCallback.java:184)
+	at java.lang.Thread.run(Thread.java:748)
+21:18:15.379 [MQTT Call: center] ERROR com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 101 号数据同步失败原因: 中央数据库中已存在此条数据
+22:24:30.089 [MQTT Call: center] ERROR druid.sql.Statement - {conn-10010, stmt-20018} execute error. SELECT 1 FROM DUAL
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 3,236,858 milliseconds ago. The last packet sent successfully to the server was 3,236,877 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2363)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2481)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:302)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2360)
+	at com.alibaba.druid.wall.WallFilter.statement_executeQuery(WallFilter.java:510)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2360)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2481)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:302)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2360)
+	at com.alibaba.druid.proxy.jdbc.StatementProxyImpl.executeQuery(StatementProxyImpl.java:211)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal(DruidAbstractDataSource.java:1303)
+	at com.alibaba.druid.pool.DruidDataSource.getConnectionDirect(DruidDataSource.java:1057)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:4544)
+	at com.alibaba.druid.filter.logging.LogFilter.dataSource_getConnection(LogFilter.java:831)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:4540)
+	at com.alibaba.druid.filter.FilterAdapter.dataSource_getConnection(FilterAdapter.java:2723)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:4540)
+	at com.alibaba.druid.filter.stat.StatFilter.dataSource_getConnection(StatFilter.java:662)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:4540)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:995)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:987)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:103)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:82)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:68)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:85)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at sun.reflect.GeneratedMethodAccessor45.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy64.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:166)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy77.findByKey(Unknown Source)
+	at com.ntu.center.sync.CenterDataReceiver.onReceive(CenterDataReceiver.java:57)
+	at com.ntu.common.client.EMQTTClient$1.messageArrived(EMQTTClient.java:83)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.deliverMessage(CommsCallback.java:477)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.handleMessage(CommsCallback.java:380)
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.run(CommsCallback.java:184)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 3,236,858 milliseconds ago. The last packet sent successfully to the server was 3,236,877 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:539)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:703)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:642)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:941)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:887)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:1073)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1168)
+	... 52 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:983)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:940)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:533)
+	... 58 common frames omitted

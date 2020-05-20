@@ -1,0 +1,327 @@
+23:37:11.475 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and node_name = ? 
+23:37:11.515 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:37:11.701 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and node_name = ? 
+23:37:11.702 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:37:22.082 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and node_name = ? 
+23:37:22.083 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:37:22.103 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and node_name = ? 
+23:37:22.104 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:37:33.103 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and node_name = ? 
+23:37:33.104 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:37:33.127 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and node_name = ? 
+23:37:33.127 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:37:44.129 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and node_name = ? 
+23:37:44.130 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:37:44.157 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and node_name = ? 
+23:37:44.157 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:37:55.156 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and node_name = ? 
+23:37:55.157 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:37:55.179 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and node_name = ? 
+23:37:55.179 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:38:28.770 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:38:28.813 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:38:28.866 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:38:28.875 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, Pressure, Salinity, DissolvedOxygen, SPAD, Turbidity, AnDan, YaXiaoDan, LinSuanYan, ORP from box_sensor where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:38:28.879 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==> Parameters: 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:38:28.902 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - <==      Total: 1
+23:38:28.903 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==>  Preparing: update box_sensor set Conductivity = ?, Temperature = ?, Pressure = ?, Salinity = ?, DissolvedOxygen = ?, SPAD = ?, Turbidity = ?, AnDan = ?, YaXiaoDan = ?, LinSuanYan = ?, ORP = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:38:28.904 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==> Parameters: 342.0(Float), 2342.0(Float), 234.0(Float), null, null, null, null, null, null, null, null, 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:38:28.974 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - <==    Updates: 1
+23:38:28.975 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:38:28.982 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:38:28.983 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:38:29.006 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:38:29.007 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:38:50.430 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:38:50.431 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:38:50.451 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:38:50.452 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, Pressure, Salinity, DissolvedOxygen, SPAD, Turbidity, AnDan, YaXiaoDan, LinSuanYan, ORP from box_sensor where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:38:50.454 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==> Parameters: 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:38:50.479 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - <==      Total: 1
+23:38:50.480 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==>  Preparing: update box_sensor set Conductivity = ?, Temperature = ?, Pressure = ?, Salinity = ?, DissolvedOxygen = ?, SPAD = ?, Turbidity = ?, AnDan = ?, YaXiaoDan = ?, LinSuanYan = ?, ORP = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:38:50.483 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==> Parameters: 342.0(Float), 2342.0(Float), 234.0(Float), null, null, null, null, null, null, null, null, 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:38:50.535 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - <==    Updates: 1
+23:38:50.536 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:38:50.539 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:38:50.540 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:38:50.565 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:38:50.566 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:39:12.510 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:39:12.510 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:39:12.534 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:39:12.535 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, Pressure, Salinity, DissolvedOxygen, SPAD, Turbidity, AnDan, YaXiaoDan, LinSuanYan, ORP from box_sensor where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:39:12.535 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==> Parameters: 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:39:12.555 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - <==      Total: 1
+23:39:12.555 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==>  Preparing: update box_sensor set Conductivity = ?, Temperature = ?, Pressure = ?, Salinity = ?, DissolvedOxygen = ?, SPAD = ?, Turbidity = ?, AnDan = ?, YaXiaoDan = ?, LinSuanYan = ?, ORP = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:39:12.556 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==> Parameters: 342.0(Float), 2342.0(Float), 234.0(Float), null, null, null, null, null, null, null, null, 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:39:12.632 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - <==    Updates: 1
+23:39:12.632 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:39:12.633 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:39:12.634 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:39:12.654 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:39:12.655 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:39:56.587 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:39:56.626 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:39:56.678 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:39:56.688 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, Pressure, Salinity, DissolvedOxygen, SPAD, Turbidity, AnDan, YaXiaoDan, LinSuanYan, ORP from box_sensor where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:39:56.690 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==> Parameters: 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:39:56.719 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - <==      Total: 1
+23:39:56.720 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==>  Preparing: update box_sensor set Conductivity = ?, Temperature = ?, Pressure = ?, Salinity = ?, DissolvedOxygen = ?, SPAD = ?, Turbidity = ?, AnDan = ?, YaXiaoDan = ?, LinSuanYan = ?, ORP = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:39:56.721 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==> Parameters: 342.0(Float), 2342.0(Float), 234.0(Float), null, null, null, null, null, null, null, null, 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:39:56.789 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - <==    Updates: 1
+23:39:56.790 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:39:56.792 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 1(Long), B(String), changjiang(String), null, 0(String), 2020-05-16 23:39:56.79(Timestamp), null, null, 数据同步成功(String)
+23:39:56.932 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:39:56.933 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:39:56.952 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:39:56.952 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:39:56.954 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 1(Long), B(String), null, null, 2(String), null, 2020-05-16 23:39:56.932(Timestamp), 1(Integer), 数据同步失败原因：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes\mapper\DataSyncMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg)         value(?,?,?,?,?,?,?,?,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null
+; Column 'sync_type' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null(String)
+23:40:18.205 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:40:18.205 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:40:18.221 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:40:18.222 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, Pressure, Salinity, DissolvedOxygen, SPAD, Turbidity, AnDan, YaXiaoDan, LinSuanYan, ORP from box_sensor where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:40:18.222 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==> Parameters: 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:40:18.242 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - <==      Total: 1
+23:40:18.243 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==>  Preparing: update box_sensor set Conductivity = ?, Temperature = ?, Pressure = ?, Salinity = ?, DissolvedOxygen = ?, SPAD = ?, Turbidity = ?, AnDan = ?, YaXiaoDan = ?, LinSuanYan = ?, ORP = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:40:18.244 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==> Parameters: 342.0(Float), 2342.0(Float), 234.0(Float), null, null, null, null, null, null, null, null, 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:40:18.294 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - <==    Updates: 1
+23:40:18.295 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:40:18.296 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 1(Long), B(String), changjiang(String), null, 0(String), 2020-05-16 23:40:18.295(Timestamp), null, null, 数据同步成功(String)
+23:40:18.327 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:40:18.328 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:40:18.347 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:40:18.347 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:40:18.348 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 1(Long), B(String), null, null, 2(String), null, 2020-05-16 23:40:18.327(Timestamp), 1(Integer), 数据同步失败原因：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes\mapper\DataSyncMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg)         value(?,?,?,?,?,?,?,?,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null
+; Column 'sync_type' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null(String)
+23:40:40.296 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:40:40.297 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:40:40.313 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:40:40.314 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, Pressure, Salinity, DissolvedOxygen, SPAD, Turbidity, AnDan, YaXiaoDan, LinSuanYan, ORP from box_sensor where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:40:40.314 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==> Parameters: 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:40:40.336 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - <==      Total: 1
+23:40:40.338 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==>  Preparing: update box_sensor set Conductivity = ?, Temperature = ?, Pressure = ?, Salinity = ?, DissolvedOxygen = ?, SPAD = ?, Turbidity = ?, AnDan = ?, YaXiaoDan = ?, LinSuanYan = ?, ORP = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:40:40.339 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==> Parameters: 342.0(Float), 2342.0(Float), 234.0(Float), null, null, null, null, null, null, null, null, 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:40:40.393 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - <==    Updates: 1
+23:40:40.394 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:40:40.435 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 1(Long), B(String), changjiang(String), null, 0(String), 2020-05-16 23:40:40.393(Timestamp), null, null, 数据同步成功(String)
+23:40:40.477 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:40:40.477 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:40:40.493 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:40:40.494 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:40:40.495 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 1(Long), B(String), null, null, 2(String), null, 2020-05-16 23:40:40.476(Timestamp), 1(Integer), 数据同步失败原因：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes\mapper\DataSyncMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg)         value(?,?,?,?,?,?,?,?,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null
+; Column 'sync_type' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null(String)
+23:41:02.356 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:41:02.356 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:41:02.374 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:41:02.375 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, Pressure, Salinity, DissolvedOxygen, SPAD, Turbidity, AnDan, YaXiaoDan, LinSuanYan, ORP from box_sensor where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:41:02.375 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==> Parameters: 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:41:02.398 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - <==      Total: 1
+23:41:02.398 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==>  Preparing: update box_sensor set Conductivity = ?, Temperature = ?, Pressure = ?, Salinity = ?, DissolvedOxygen = ?, SPAD = ?, Turbidity = ?, AnDan = ?, YaXiaoDan = ?, LinSuanYan = ?, ORP = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:41:02.399 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==> Parameters: 342.0(Float), 2342.0(Float), 234.0(Float), null, null, null, null, null, null, null, null, 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:41:02.464 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - <==    Updates: 1
+23:41:02.465 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:41:02.466 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 1(Long), B(String), changjiang(String), null, 0(String), 2020-05-16 23:41:02.464(Timestamp), null, null, 数据同步成功(String)
+23:41:02.507 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:41:02.507 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:41:02.528 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:41:02.529 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:41:02.530 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 1(Long), B(String), null, null, 2(String), null, 2020-05-16 23:41:02.506(Timestamp), 1(Integer), 数据同步失败原因：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes\mapper\DataSyncMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg)         value(?,?,?,?,?,?,?,?,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null
+; Column 'sync_type' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null(String)
+23:41:24.422 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:41:24.422 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:41:24.440 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:41:24.440 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, Pressure, Salinity, DissolvedOxygen, SPAD, Turbidity, AnDan, YaXiaoDan, LinSuanYan, ORP from box_sensor where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:41:24.441 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==> Parameters: 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:41:24.458 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - <==      Total: 1
+23:41:24.459 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==>  Preparing: update box_sensor set Conductivity = ?, Temperature = ?, Pressure = ?, Salinity = ?, DissolvedOxygen = ?, SPAD = ?, Turbidity = ?, AnDan = ?, YaXiaoDan = ?, LinSuanYan = ?, ORP = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:41:24.460 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==> Parameters: 342.0(Float), 2342.0(Float), 234.0(Float), null, null, null, null, null, null, null, null, 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:41:24.509 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - <==    Updates: 1
+23:41:24.509 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:41:24.510 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 1(Long), B(String), changjiang(String), null, 0(String), 2020-05-16 23:41:24.509(Timestamp), null, null, 数据同步成功(String)
+23:41:24.547 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:41:24.547 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:41:24.563 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:41:24.564 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:41:24.565 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 1(Long), B(String), null, null, 2(String), null, 2020-05-16 23:41:24.547(Timestamp), 1(Integer), 数据同步失败原因：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes\mapper\DataSyncMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg)         value(?,?,?,?,?,?,?,?,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null
+; Column 'sync_type' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null(String)
+23:42:20.519 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:42:20.570 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:42:20.630 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:42:20.640 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, Pressure, Salinity, DissolvedOxygen, SPAD, Turbidity, AnDan, YaXiaoDan, LinSuanYan, ORP from box_sensor where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:42:20.642 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==> Parameters: 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:42:20.664 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - <==      Total: 1
+23:42:20.664 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==>  Preparing: update box_sensor set Conductivity = ?, Temperature = ?, Pressure = ?, Salinity = ?, DissolvedOxygen = ?, SPAD = ?, Turbidity = ?, AnDan = ?, YaXiaoDan = ?, LinSuanYan = ?, ORP = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:42:20.665 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==> Parameters: 342.0(Float), 2342.0(Float), 234.0(Float), null, null, null, null, null, null, null, null, 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:42:20.726 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - <==    Updates: 1
+23:42:20.727 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:42:20.729 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 1(Long), B(String), changjiang(String), null, 0(String), 2020-05-16 23:42:20.727(Timestamp), null, null, 数据同步成功(String)
+23:42:20.863 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:42:20.864 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:42:20.881 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:42:20.881 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:42:20.883 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 1(Long), B(String), null, null, 2(String), null, 2020-05-16 23:42:20.863(Timestamp), 1(Integer), 数据同步失败原因：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes\mapper\DataSyncMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg)         value(?,?,?,?,?,?,?,?,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null
+; Column 'sync_type' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null(String)
+23:42:41.167 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:42:41.167 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:42:41.183 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:42:41.184 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, Pressure, Salinity, DissolvedOxygen, SPAD, Turbidity, AnDan, YaXiaoDan, LinSuanYan, ORP from box_sensor where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:42:41.184 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==> Parameters: 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:42:41.201 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - <==      Total: 1
+23:42:41.202 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==>  Preparing: update box_sensor set Conductivity = ?, Temperature = ?, Pressure = ?, Salinity = ?, DissolvedOxygen = ?, SPAD = ?, Turbidity = ?, AnDan = ?, YaXiaoDan = ?, LinSuanYan = ?, ORP = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:42:41.203 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==> Parameters: 342.0(Float), 2342.0(Float), 234.0(Float), null, null, null, null, null, null, null, null, 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:42:41.250 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - <==    Updates: 1
+23:42:41.250 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:42:41.250 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 1(Long), B(String), changjiang(String), null, 0(String), 2020-05-16 23:42:41.25(Timestamp), null, null, 数据同步成功(String)
+23:42:41.286 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:42:41.286 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:42:41.304 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:42:41.304 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:42:41.305 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 1(Long), B(String), null, null, 2(String), null, 2020-05-16 23:42:41.286(Timestamp), 1(Integer), 数据同步失败原因：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes\mapper\DataSyncMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg)         value(?,?,?,?,?,?,?,?,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null
+; Column 'sync_type' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null(String)
+23:42:52.185 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:42:52.186 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:42:52.203 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:42:52.204 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, Pressure, Salinity, DissolvedOxygen, SPAD, Turbidity, AnDan, YaXiaoDan, LinSuanYan, ORP from box_sensor where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:42:52.204 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==> Parameters: 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:42:52.226 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - <==      Total: 1
+23:42:52.227 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==>  Preparing: update box_sensor set Conductivity = ?, Temperature = ?, Pressure = ?, Salinity = ?, DissolvedOxygen = ?, SPAD = ?, Turbidity = ?, AnDan = ?, YaXiaoDan = ?, LinSuanYan = ?, ORP = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:42:52.227 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==> Parameters: 342.0(Float), 2342.0(Float), 234.0(Float), null, null, null, null, null, null, null, null, 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:42:52.282 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - <==    Updates: 1
+23:42:52.282 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:42:52.284 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 1(Long), B(String), changjiang(String), null, 0(String), 2020-05-16 23:42:52.282(Timestamp), null, null, 数据同步成功(String)
+23:42:52.320 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:42:52.321 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:42:52.337 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:42:52.338 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:42:52.340 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 1(Long), B(String), null, null, 2(String), null, 2020-05-16 23:42:52.319(Timestamp), 1(Integer), 数据同步失败原因：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes\mapper\DataSyncMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg)         value(?,?,?,?,?,?,?,?,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null
+; Column 'sync_type' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null(String)
+23:43:03.210 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:43:03.210 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:43:03.226 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:43:03.227 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, Pressure, Salinity, DissolvedOxygen, SPAD, Turbidity, AnDan, YaXiaoDan, LinSuanYan, ORP from box_sensor where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:43:03.227 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==> Parameters: 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:43:03.249 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - <==      Total: 1
+23:43:03.249 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==>  Preparing: update box_sensor set Conductivity = ?, Temperature = ?, Pressure = ?, Salinity = ?, DissolvedOxygen = ?, SPAD = ?, Turbidity = ?, AnDan = ?, YaXiaoDan = ?, LinSuanYan = ?, ORP = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:43:03.250 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==> Parameters: 342.0(Float), 2342.0(Float), 234.0(Float), null, null, null, null, null, null, null, null, 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:43:03.299 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - <==    Updates: 1
+23:43:03.300 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:43:03.301 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 1(Long), B(String), changjiang(String), null, 0(String), 2020-05-16 23:43:03.3(Timestamp), null, null, 数据同步成功(String)
+23:43:03.336 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:43:03.336 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:43:03.354 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:43:03.355 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:43:03.356 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 1(Long), B(String), null, null, 2(String), null, 2020-05-16 23:43:03.336(Timestamp), 1(Integer), 数据同步失败原因：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes\mapper\DataSyncMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg)         value(?,?,?,?,?,?,?,?,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null
+; Column 'sync_type' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null(String)
+23:47:04.390 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:47:04.435 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:47:04.498 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:47:04.509 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, Pressure, Salinity, DissolvedOxygen, SPAD, Turbidity, AnDan, YaXiaoDan, LinSuanYan, ORP from box_sensor where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:47:04.512 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==> Parameters: 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:47:04.533 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - <==      Total: 1
+23:47:04.534 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==>  Preparing: update box_sensor set Conductivity = ?, Temperature = ?, Pressure = ?, Salinity = ?, DissolvedOxygen = ?, SPAD = ?, Turbidity = ?, AnDan = ?, YaXiaoDan = ?, LinSuanYan = ?, ORP = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:47:04.535 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==> Parameters: 342.0(Float), 2342.0(Float), 234.0(Float), null, null, null, null, null, null, null, null, 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:47:04.590 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - <==    Updates: 1
+23:49:16.760 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:49:16.761 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 1(Long), B(String), changjiang(String), null, 0(String), 2020-05-16 23:47:04.59(Timestamp), null, null, 数据同步成功(String)
+23:49:16.935 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:49:16.937 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:49:16.962 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:49:16.963 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:49:16.965 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 1(Long), B(String), changjiang(String), null, 2(String), null, 2020-05-16 23:49:16.935(Timestamp), 1(Integer), 数据同步失败原因：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes\mapper\DataSyncMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg)         value(?,?,?,?,?,?,?,?,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null
+; Column 'sync_type' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null(String)
+23:49:26.059 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:49:26.060 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:49:26.081 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:49:26.082 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, Pressure, Salinity, DissolvedOxygen, SPAD, Turbidity, AnDan, YaXiaoDan, LinSuanYan, ORP from box_sensor where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:49:26.083 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==> Parameters: 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:49:26.105 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - <==      Total: 1
+23:49:26.105 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==>  Preparing: update box_sensor set Conductivity = ?, Temperature = ?, Pressure = ?, Salinity = ?, DissolvedOxygen = ?, SPAD = ?, Turbidity = ?, AnDan = ?, YaXiaoDan = ?, LinSuanYan = ?, ORP = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:49:26.107 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==> Parameters: 342.0(Float), 2342.0(Float), 234.0(Float), null, null, null, null, null, null, null, null, 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:49:26.155 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - <==    Updates: 1
+23:51:22.389 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:51:22.390 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 1(Long), B(String), changjiang(String), null, 0(String), 2020-05-16 23:49:26.155(Timestamp), null, null, 数据同步成功(String)
+23:51:22.430 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:51:22.431 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:51:22.456 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:51:22.457 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:51:22.459 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 1(Long), B(String), changjiang(String), null, 2(String), null, 2020-05-16 23:51:22.43(Timestamp), 1(Integer), 数据同步失败原因：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null
+### The error may exist in file [C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes\mapper\DataSyncMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg)         value(?,?,?,?,?,?,?,?,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null
+; Column 'sync_type' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'sync_type' cannot be null(String)
+23:52:00.917 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+23:52:00.970 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 1(Long), B(String), changjiang(String)
+23:52:01.029 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 0
+23:52:01.041 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, Pressure, Salinity, DissolvedOxygen, SPAD, Turbidity, AnDan, YaXiaoDan, LinSuanYan, ORP from box_sensor where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:52:01.043 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==> Parameters: 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:52:01.065 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - <==      Total: 1
+23:52:01.066 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==>  Preparing: update box_sensor set Conductivity = ?, Temperature = ?, Pressure = ?, Salinity = ?, DissolvedOxygen = ?, SPAD = ?, Turbidity = ?, AnDan = ?, YaXiaoDan = ?, LinSuanYan = ?, ORP = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+23:52:01.067 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==> Parameters: 342.0(Float), 2342.0(Float), 234.0(Float), null, null, null, null, null, null, null, null, 324(String), 234(String), 234(String), 2020-05-12 19:11:16.0(Timestamp)
+23:52:01.133 [MQTT Call: center] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - <==    Updates: 1
+23:52:08.669 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==>  Preparing: insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg) value(?,?,?,?,?,?,?,?,?) 
+23:52:08.670 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - ==> Parameters: 1(Long), B(String), changjiang(String), 1(String), 0(String), 2020-05-16 23:52:01.133(Timestamp), null, null, 数据同步成功(String)
+23:52:08.760 [MQTT Call: center] DEBUG com.ntu.center.mapper.DataSyncMapper.insert - <==    Updates: 1

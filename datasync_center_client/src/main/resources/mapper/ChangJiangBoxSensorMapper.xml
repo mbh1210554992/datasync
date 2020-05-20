@@ -3,13 +3,13 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.ntu.center.mapper.ChangJiangBoxSensorMapper">
-    <resultMap id="changJiangBoxSensor" type="com.ntu.common.model.po.ChangJiangBoxSensor">
+    <resultMap id="monitorData" type="com.ntu.common.model.po.MonitorData">
         <id column="area_id" property="areaId"/>
         <id column="spot_id" property="spotId"/>
         <id column="node_id" property="nodeId"/>
         <id column="data_time" property="dataTime"/>
         <result column="info_id" property="infoId"/>
-        <result column="area_name" property="areaName"/>
+        <result column="info_node" property="infoNode"/>
         <result column="Conductivity" property="conductivity"/>
         <result column="Temperature" property="temperature"/>
         <result column="PH" property="ph"/>
@@ -19,9 +19,9 @@
     </resultMap>
 
     <insert id="insert">
-        insert into nantong_changjiang_box_sensor(
+        insert into monitor_data(
                 info_id,
-                area_name,
+                info_node,
                 spot_id,
                 area_id,
                 node_id,
@@ -35,7 +35,7 @@
                 )
         values (
                 #{infoId},
-                #{areaName}
+                #{infoNode},
                 #{spotId},
                 #{areaId},
                 #{nodeId},
@@ -49,20 +49,23 @@
     </insert>
 
     <update id="update">
-        update nantong_changjiang_box_sensor
+        update monitor_data
         set Conductivity = #{conductivity},
             Temperature = #{temperature},
             PH = #{ph},
             Salinity = #{salinity},
             DissolvedOxygen = #{dissolvedOxygen},
-            Turbidity = #{turbidity},
-        where area_id = #{areaId} and spot_id = #{spotId} and node_id = #{nodeId} and data_time = #{dataTime}
+            Turbidity = #{turbidity}
+        where area_id = #{areaId,jdbcType=VARCHAR}
+            and spot_id = #{spotId,jdbcType=VARCHAR}
+            and node_id = #{nodeId,jdbcType=VARCHAR}
+            and data_time = #{dataTime,jdbcType=TIMESTAMP}
     </update>
     <delete id="deleteById">
-        delete from nantong_changjiang_box_sensor where info_id = #{infoId} and area_name = #{areaName}
+        delete from monitor_data where info_id = #{infoId} and info_node = #{infoNode}
     </delete>
 
-    <select id="findById" resultMap="changJiangBoxSensor">
+    <select id="findById" resultMap="monitorData">
         select
             area_id,
             spot_id,
@@ -74,7 +77,7 @@
             Salinity,
             DissolvedOxygen,
             Turbidity
-        from nantong_changjiang_box_sensor
+        from monitor_data
         where area_id = #{areaId} and spot_id = #{spotId} and node_id = #{nodeId} and data_time = #{dataTime}
     </select>
 

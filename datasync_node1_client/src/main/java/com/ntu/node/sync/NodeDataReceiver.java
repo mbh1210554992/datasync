@@ -5,9 +5,10 @@ import com.ntu.common.config.ApplicationContextProvider;
 import com.ntu.common.config.MsgSerializer;
 import com.ntu.common.cst.DatasyncType;
 import com.ntu.common.model.SyncMessage;
-import com.ntu.common.model.po.DataSynchro;
+import com.ntu.common.model.po.DataSync;
 import com.ntu.common.processor.DataReceiver;
-import com.ntu.node.mapper.DataSynchroMapper;
+import com.ntu.node.mapper.DataSyncMapper;
+import com.ntu.node.sync.processor.IDataProcessor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,17 +21,17 @@ import java.util.Date;
 public class NodeDataReceiver implements DataReceiver {
     private static final Logger logger = LoggerFactory.getLogger(NodeDataReceiver.class);
     private IMQTTClient mc = null;
-    private DataSynchroMapper dataSynchroMapper;
+    private DataSyncMapper dataSyncMapper;
     private ApplicationContextProvider applicationContextProvider;
 
     public NodeDataReceiver(IMQTTClient imqttClient, ApplicationContextProvider acp){
         this.mc = imqttClient;
         this.applicationContextProvider = acp;
-        dataSynchroMapper = (DataSynchroMapper) applicationContextProvider.getBean("dataSynchroMapper");
+        dataSyncMapper = (DataSyncMapper) applicationContextProvider.getBean("dataSyncMapper");
     }
 
     public void onReceive(String topicName, byte[] data){
-        DataSynchro remote = null;
+        DataSync remote = null;
         SyncMessage syncMessage = null;
         String tableName = null;
 
@@ -38,94 +39,88 @@ public class NodeDataReceiver implements DataReceiver {
             syncMessage = new MsgSerializer().decode(data);
             //用于记录同步的数据属于哪一个数据表
             for(DatasyncType dataType : DatasyncType.values()){
-                if(dataType.getId() == syncMessage.getMsgtype()){
+                if(dataType.getFlag().equals(syncMessage.getDataSync().getInfoType())){
                     tableName = dataType.name();
                     break;
                 }
             }
-            logger.debug("receive from "+topicName+" : "+syncMessage.getDataSynchro()+syncMessage.getData());
-            DataSynchro local =
-                    dataSynchroMapper.findById(syncMessage.getDataSynchro().getBasicinfoid(), syncMessage.getDataSynchro().getType());
-            remote = syncMessage.getDataSynchro();
+            logger.debug("receive from "+topicName+" : "+syncMessage.getDataSync().getInfoType()+syncMessage.getData());
+            DataSync local =
+                    dataSyncMapper.findByKey(syncMessage.getDataSync().getInfoId(), syncMessage.getDataSync().getInfoType());
+            remote = syncMessage.getDataSync();
 
-
+            if(syncMessage.getMsgtype() == 11){
                 //receive ack
                 logger.info("收到确认消息.....");
-                logger.debug("receive ack "+topicName+" : "+syncMessage.getDataSynchro()+syncMessage.getData());
+                logger.debug("receive ack "+topicName+" : "+syncMessage.getDataSync()+syncMessage.getData());
                 if(local != null) {
-                    local.setSa1Status(remote.getSa1Status());
-                    local.setSc1Time(new Date());
-                    if (local.getSa1Status().equals("0")) { //success
+                    local.setSyncStatus(remote.getSyncStatus());
+                    //local.setSuccessTime(remote.getSuccessTime());
+                    if (local.getSyncStatus().equals("0")) { //success
                         logger.debug("name-----------"+Thread.currentThread().getName());
-                        local.setSd1Num(0L);
-                        local.setSf1Msg(remote.getSf1Msg());
-                        local.setSc1Time(remote.getSc1Time());
-                        logger.info(tableName+"表中 "+local.getBasicinfoid()+" 号数据同步成功....");
+                        local.setSyncMsg(remote.getSyncMsg());
+                        local.setSuccessTime(remote.getSuccessTime());
+                        logger.info(tableName+"表中 "+local.getInfoId()+" 号数据同步成功....");
                     }
-                    else if (local.getSa1Status().equals("2")) {//refuse
-                        local.setSd1Num(1L);
-                        local.setSe1Time(new Date());
-                        local.setSf1Msg(remote.getSf1Msg());
-                        logger.error(tableName+"表中 "+(local.getBasicinfoid()+" 号数据同步失败...."));
+                    else if (local.getSyncStatus().equals("2")) {
+                        local.setSyncMsg(remote.getSyncMsg());
+                        local.setFailTime(remote.getFailTime());
+                        local.setFailCount(remote.getFailCount());
+                        local.setSuccessTime(null);
+                        logger.error(tableName+"表中 "+local.getInfoId()+" 号数据同步失败,已失败"+local.getFailCount()+"次");
                     }
                     else { //failed
-                        local.setSd1Num((null == local.getSd1Num()?1:local.getSd1Num())+1>5?5:(null == local.getSd1Num()?0:local.getSd1Num())+1);
-                        local.setSe1Time(new Date());
-                        local.setSf1Msg(remote.getSf1Msg());
-                        logger.error(tableName+"表中 "+(local.getBasicinfoid()+" 号数据同步失败...."));
+                        local.setSyncMsg(remote.getSyncMsg());
+                        local.setFailTime(remote.getFailTime());
+                        local.setFailCount(remote.getFailCount());
+                        local.setSuccessTime(null);
+                        logger.error(tableName+"表中 "+local.getInfoId()+" 号数据同步失败，本条数据将停止同步");
                     }
-                    dataSynchroMapper.updateActive(local);
+                    dataSyncMapper.updateActive(local);
                 }
                 return;
-//            else {//receive data
-//                logger.debug("receive data from "+topicName+" : "+syncMessage.getDataSynchro()+syncMessage.getData());
-//                boolean insertFlag = false;
-//                if(local == null){
-//                    local = new DataSynchro();
-//                    local.setBasicinfoid(remote.getBasicinfoid());
-//                    local.setType(remote.getType());
-//                    insertFlag = true;
-//                }
-//                IDataProcessor iDataProcessor = (IDataProcessor) applicationContextProvider.getBean("Processor"+syncMessage.getMsgtype());
-//                int processFlag = iDataProcessor.onReceive(syncMessage);
-//                if (processFlag == 0){
-//                    //successful
-//                    local.setSa2Status("0");
-//                    local.setSb2Time(remote.getSb1Time());
-//                    local.setSc2Time(new Date());
-//
-//                }
-//                else{
-//                    //failed
-//                    local.setSa2Status("2");
-//                    local.setSf2Msg("data expired");
-//                    local.setSc2Time(new Date());
-//                }
-//
-//
-//                if(insertFlag){
-//                    dataSynchroMapper.insert(local);
-//                }
-//                else{
-//                    dataSynchroMapper.updatePassive(local);
-//                }
-//                logger.info(tableName+" 表中的 "+local.getBasicinfoid()+" 号数据同步成功");
-//
-//                remote.setSa1Status(local.getSa2Status());
-//                remote.setSc1Time(local.getSc2Time());
-//                remote.setSf1Msg(local.getSf2Msg());
-//            }
+            }
+            else {//receive data
+                logger.debug("receive data from "+topicName+" : "+syncMessage.getDataSync()+syncMessage.getData());
+                boolean insertFlag = false;
+                if(local == null){
+                    local = new DataSync();
+                    local.setInfoId(remote.getInfoId());
+                    local.setInfoType(remote.getInfoType());
+                    insertFlag = true;
+                }
+                IDataProcessor iDataProcessor = (IDataProcessor) applicationContextProvider.getBean("Processor"+syncMessage.getMsgtype());
+                int processFlag = iDataProcessor.onReceive(syncMessage);
+                if (processFlag == 0){
+                    //successful
+                    local.setSyncStatus("0");
+                    local.setSuccessTime(new Date());
+                    local.setSyncMsg("数据同步成功");
+
+                }
+                else{
+                    //failed
+                    local.setSyncStatus("2");
+                    local.setSyncMsg("数据同步失败");
+                    local.setFailTime(new Date());
+                }
+
+
+                if(insertFlag){
+                    dataSyncMapper.insert(local);
+                }
+                else{
+                    dataSyncMapper.updateActive(local);
+                }
+                logger.info(syncMessage.getClientid()+" 节点的 "+tableName+" 表中的 "+local.getInfoId()+" 号数据同步成功 "+"同步时间："+local.getSuccessTime());
+                remote.setSyncStatus(local.getSyncStatus());
+                remote.setSuccessTime(local.getSuccessTime());
+            }
 
 
         }catch (Throwable e){
-            logger.info(tableName+" 表中的 " + syncMessage.getDataSynchro().getBasicinfoid()+" 号数据同步失败");
-            logger.error(syncMessage.getDataSynchro().getBasicinfoid()+" 号数据同步失败原因: "+e.getMessage());
-            remote = new DataSynchro();
-            remote.setBasicinfoid(syncMessage.getDataSynchro().getBasicinfoid());
-            remote.setType(syncMessage.getDataSynchro().getType());
-            remote.setSa1Status("9");
-            remote.setSc1Time(new Date());
-            remote.setSf1Msg("synchronize data failed");
+            //logger.error(tableName+" 表中的 " + syncMessage.getDataSync().getInfoId()+" 号数据同步失败");
+            logger.error(e.getMessage(),e);
         }
 
     }

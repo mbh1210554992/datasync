@@ -1,18 +1,15 @@
 package com.ntu.node;
 
-import com.ntu.node.mapper.ChangJiangBoxEnvironmentMapper;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class Node1ClientApplicationTests {
-    @Autowired
-    ChangJiangBoxEnvironmentMapper changJiangBoxEnvironmentMapper;
+
 
     @Test
     void contextLoads() {
-//        ChangJiangBoxSensor changJiangBoxSensor = new ChangJiangBoxSensor();
+//        MonitorData changJiangBoxSensor = new MonitorData();
 //        changJiangBoxSensor.setAreaId("123");
 //        changJiangBoxSensor.setConductivity(123.22f);
 //        changJiangBoxSensor.setDataTime(new Date());

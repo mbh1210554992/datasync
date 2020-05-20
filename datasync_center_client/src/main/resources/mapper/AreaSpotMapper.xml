@@ -5,7 +5,7 @@
     <id column="area_id" property="areaId" jdbcType="VARCHAR" />
     <id column="spot_id" property="spotId" jdbcType="VARCHAR" />
     <result column="info_id" property="infoId"/>
-    <result column="area_name" property="areaName"/>
+    <result column="info_node" property="infoNode"/>
     <result column="spot_name" property="spotName" jdbcType="VARCHAR" />
     <result column="spot_url" property="spotUrl" jdbcType="VARCHAR" />
     <result column="spot_historyurl" property="spotHistoryurl" jdbcType="VARCHAR" />
@@ -40,15 +40,15 @@
   </delete>
 
     <delete id="deleteById">
-      delete from area_spot where info_id = #{infoId} and area_name = #{areaName}
+      delete from area_spot where info_id = #{infoId} and info_node = #{infoNode}
     </delete>
 
     <insert id="insert" parameterType="com.ntu.common.model.po.AreaSpot" >
-    insert into area_spot (info_id,area_name,area_id, spot_id, spot_name,
+    insert into area_spot (info_id,info_node,area_id, spot_id, spot_name,
       spot_url, spot_historyurl, spot_obserargs, 
       spot_obsermeth, spot_posinfo, spot_runtime, 
       spot_intro)
-    values (#{infoId},#{areaName},#{areaId,jdbcType=VARCHAR}, #{spotId,jdbcType=VARCHAR}, #{spotName,jdbcType=VARCHAR},
+    values (#{infoId},#{infoNode},#{areaId,jdbcType=VARCHAR}, #{spotId,jdbcType=VARCHAR}, #{spotName,jdbcType=VARCHAR},
       #{spotUrl,jdbcType=VARCHAR}, #{spotHistoryurl,jdbcType=VARCHAR}, #{spotObserargs,jdbcType=VARCHAR}, 
       #{spotObsermeth,jdbcType=VARCHAR}, #{spotPosinfo,jdbcType=VARCHAR}, #{spotRuntime,jdbcType=VARCHAR}, 
       #{spotIntro,jdbcType=LONGVARCHAR})
@@ -172,6 +172,7 @@
       spot_obserargs = #{spotObserargs,jdbcType=VARCHAR},
       spot_obsermeth = #{spotObsermeth,jdbcType=VARCHAR},
       spot_posinfo = #{spotPosinfo,jdbcType=VARCHAR},
+      spot_intro = #{spotIntro},
       spot_runtime = #{spotRuntime,jdbcType=VARCHAR}
     where area_id = #{areaId,jdbcType=VARCHAR}
       and spot_id = #{spotId,jdbcType=VARCHAR}

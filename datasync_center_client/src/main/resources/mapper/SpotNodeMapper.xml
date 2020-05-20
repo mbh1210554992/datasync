@@ -6,7 +6,7 @@
     <id column="spot_id" property="spotId" jdbcType="VARCHAR" />
     <id column="area_id" property="areaId" jdbcType="VARCHAR" />
     <result column="info_id" property="infoId"/>
-    <result column="area_name" property="areaName"/>
+    <result column="info_node" property="infoNode"/>
     <result column="node_name" property="nodeName" jdbcType="VARCHAR" />
     <result column="node_type" property="nodeType" jdbcType="VARCHAR" />
   </resultMap>
@@ -37,14 +37,14 @@
   </delete>
 
     <delete id="deleteById">
-      delete from spot_node where info_id = #{infoId} and area_name = #{areaName}
+      delete from spot_node where info_id = #{infoId} and info_node = #{infoNode}
     </delete>
 
     <insert id="insert" parameterType="com.ntu.common.model.po.SpotNode" >
-    insert into spot_node (info_id,area_name,node_id, spot_id, area_id,
+    insert into spot_node (info_id,info_node,node_id, spot_id, area_id,
       node_name, node_type, node_note
       )
-    values (#{infoId},#{areaName},#{nodeId,jdbcType=VARCHAR}, #{spotId,jdbcType=VARCHAR}, #{areaId,jdbcType=VARCHAR},
+    values (#{infoId},#{infoNode},#{nodeId,jdbcType=VARCHAR}, #{spotId,jdbcType=VARCHAR}, #{areaId,jdbcType=VARCHAR},
       #{nodeName,jdbcType=VARCHAR}, #{nodeType,jdbcType=VARCHAR}, #{nodeNote,jdbcType=LONGVARCHAR}
       )
   </insert>

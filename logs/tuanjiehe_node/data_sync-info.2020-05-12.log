@@ -1,0 +1,41 @@
+11:21:55.754 [main] INFO  com.ntu.client2.Node2ClientApplication - Starting Node2ClientApplication on LAPTOP-6SA701DM with PID 12940 (C:\Users\Lenovo\Desktop\datasync\datasync_node2_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+11:21:55.762 [main] INFO  com.ntu.client2.Node2ClientApplication - No active profile set, falling back to default profiles: default
+11:22:01.325 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+11:22:01.346 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+11:22:01.348 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:22:01.348 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11:22:01.669 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:22:01.669 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5580 ms
+11:22:03.255 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:22:03.833 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+11:22:10.407 [main] INFO  com.ntu.client2.ClientStart - 团结河节点成功连接至MQTT服务器.........
+11:22:10.412 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+11:22:10.449 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+11:22:10.454 [main] INFO  com.ntu.client2.Node2ClientApplication - Started Node2ClientApplication in 16.921 seconds (JVM running for 21.614)
+11:22:20.533 [node2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:22:20.872 [node2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:22:41.294 [node2] INFO  com.ntu.client2.sync.SendThread - 发送消息:BoxSensor(infoId=2, areaId=ss, spotId=ss, nodeId=ss, dataTime=Tue May 26 20:14:07 CST 2020, conductivity=44111.0, temperature=44.0, pressure=4.0, salinity=null, dissolvedoxygen=null, spad=null, turbidity=null, andan=null, yaxiaodan=null, linsuanyan=null, orp=null, areaName=null)
+11:22:43.305 [MQTT Call: tjh_node] INFO  com.ntu.client2.sync.NodeDataReceiver - 收到确认消息.....
+11:22:43.305 [MQTT Call: tjh_node] INFO  com.ntu.client2.sync.NodeDataReceiver - BOX_SENSOR表中 2 号数据同步成功....
+11:24:02.343 [node2] INFO  com.ntu.client2.sync.SendThread - 发送消息:BoxSensor(infoId=2, areaId=ss, spotId=ss, nodeId=ss, dataTime=Tue May 26 20:14:07 CST 2020, conductivity=4411110.0, temperature=44.0, pressure=4.0, salinity=null, dissolvedoxygen=null, spad=null, turbidity=null, andan=null, yaxiaodan=null, linsuanyan=null, orp=null, areaName=null)
+11:24:02.355 [MQTT Call: tjh_node] INFO  com.ntu.client2.sync.NodeDataReceiver - 收到确认消息.....
+11:24:02.355 [MQTT Call: tjh_node] INFO  com.ntu.client2.sync.NodeDataReceiver - BOX_SENSOR表中 2 号数据同步成功....
+12:32:12.179 [main] INFO  com.ntu.client2.Node2ClientApplication - Starting Node2ClientApplication on LAPTOP-6SA701DM with PID 5160 (C:\Users\Lenovo\Desktop\datasync\datasync_node2_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+12:32:12.187 [main] INFO  com.ntu.client2.Node2ClientApplication - No active profile set, falling back to default profiles: default
+12:32:14.352 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+12:32:14.366 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+12:32:14.367 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+12:32:14.368 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+12:32:14.571 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:32:14.572 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2210 ms
+12:32:15.384 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12:32:15.855 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+12:32:22.351 [main] INFO  com.ntu.client2.ClientStart - 团结河节点成功连接至MQTT服务器.........
+12:32:22.355 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+12:32:22.391 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+12:32:22.396 [main] INFO  com.ntu.client2.Node2ClientApplication - Started Node2ClientApplication in 11.612 seconds (JVM running for 15.151)
+12:32:32.380 [node2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12:32:32.567 [node2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12:33:03.251 [node2] INFO  com.ntu.client2.sync.SendThread - 发送消息:BoxSensor(infoId=2, areaId=ss, spotId=ss, nodeId=ss, dataTime=Tue May 26 20:14:07 CST 2020, conductivity=4411110.0, temperature=4400.12, pressure=4.0, salinity=null, dissolvedoxygen=null, spad=null, turbidity=null, andan=null, yaxiaodan=null, linsuanyan=null, orp=null, areaName=null)
+12:33:04.258 [MQTT Call: tjh_node] INFO  com.ntu.client2.sync.NodeDataReceiver - 收到确认消息.....
+12:33:04.258 [MQTT Call: tjh_node] INFO  com.ntu.client2.sync.NodeDataReceiver - null表中 2 号数据同步成功....

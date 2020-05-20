@@ -6,13 +6,12 @@ import com.ntu.common.config.MsgSerializer;
 import com.ntu.common.cst.DatasyncType;
 import com.ntu.common.model.Constant;
 import com.ntu.common.model.SyncMessage;
-import com.ntu.common.model.po.DataSynchro;
-import com.ntu.node.mapper.DataSynchroMapper;
+import com.ntu.common.model.po.DataSync;
+import com.ntu.node.mapper.DataSyncMapper;
 import com.ntu.node.sync.processor.IDataProcessor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
@@ -39,34 +38,35 @@ public class SendThread implements Runnable {
     @Override
     public void run() {
 
-        DataSynchroMapper dataSynchroMapper = (DataSynchroMapper) applicationContextProvider.getBean("dataSynchroMapper");
+        DataSyncMapper dataSyncMapper = (DataSyncMapper) applicationContextProvider.getBean("dataSyncMapper");
 
         while(true){
             try {
                 Thread.sleep(Constant.SCAN_INTERVAL);
             } catch (InterruptedException e) {
-                e.printStackTrace();
+                logger.error(e.getMessage());
             }
 
             try{
-                List<DataSynchro> data = dataSynchroMapper.querySyncData();
-                for(DataSynchro ds : data){
-                    if(ds.getSa1Status().equals("9")){
-                        //主动同步失败，检查重发时间
-                        Long min = ds.getSd1Num()*6;
-                        Calendar cal = Calendar.getInstance();
-                        cal.setTime(ds.getSe1Time());
-                        cal.add(Calendar.MINUTE, min.intValue());
-                        if(cal.after(new Date()))
-                        {
-                            continue;
-                        }
-                    }
+                List<DataSync> data = dataSyncMapper.queryData();
+                for(DataSync ds : data){
+//                    if(ds.getSa1Status().equals("9")){
+//                        //主动同步失败，检查重发时间
+//                        Long min = ds.getSd1Num()*6;
+//                        Calendar cal = Calendar.getInstance();
+//                        cal.setTime(ds.getSe1Time());
+//                        cal.add(Calendar.MINUTE, min.intValue());
+//                        if(cal.after(new Date()))
+//                        {
+//                            continue;
+//                        }
+//                    }
+                    logger.info(ds.toString());
 
                     byte[] message = null;
                     int type = 0;
                     for(DatasyncType dataType : DatasyncType.values()){
-                         if(dataType.getFlag().equals(ds.getType())){
+                         if(dataType.getFlag().equals(ds.getInfoType())){
                              type = dataType.getId();
                              break;
                          }
@@ -74,29 +74,29 @@ public class SendThread implements Runnable {
 
                     if(type == 0){
                         logger.error("同步数据不存在："+ds);
-                        ds.setSa1Status("2");
-                        ds.setSc1Time(new Date());
-                        ds.setSf1Msg("data not found");
-                        ds.setSd1Num(5L);
-                        dataSynchroMapper.updateActive(ds);
+                        ds.setSyncStatus("9");
+                        ds.setFailTime(new Date());
+                        ds.setSyncMsg("同步的数据不存在");
+                        ds.setFailCount(5);
+                        dataSyncMapper.updateActive(ds);
                         continue;
                     }
 
                     IDataProcessor dr =(IDataProcessor)applicationContextProvider.getBean("Processor"+type);
                     SyncMessage sm = new SyncMessage();
-                    sm.setDataSynchro(ds);
+                    sm.setDataSync(ds);
                     sm.setMsgtype(type);
                     //如果是删除操作，则不需要去对应的表里查询数据
-                    if(!ds.getSa1Status().equals("3")){
+                    if(!ds.getSyncType().equals("3")){
                         dr.onSend(sm);
                         //logger.info("查询到新增的数据:"+sm.getData());
                         if(sm.getData() == null){
                             logger.error("同步数据不存在："+ds);
-                            ds.setSa1Status("2");
-                            ds.setSc1Time(new Date());
-                            ds.setSf1Msg("data not found");
-                            ds.setSd1Num(5L);
-                            dataSynchroMapper.updateActive(ds);
+                            ds.setSyncStatus("9");
+                            ds.setFailTime(new Date());
+                            ds.setSyncMsg("同步的数据不存在");
+                            ds.setFailCount(5);
+                            dataSyncMapper.updateActive(ds);
                             continue;
                         }
                     }
@@ -109,7 +109,7 @@ public class SendThread implements Runnable {
                     logger.info("发送消息"+":" + sm.getData());
                 }
             }catch (Exception e){
-                logger.error(e.getMessage());
+                logger.error(e.getMessage(),e);
 
             }
 

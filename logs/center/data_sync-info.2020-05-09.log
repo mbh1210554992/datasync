@@ -42,7 +42,7 @@
 20:49:32.791 [main] INFO  com.ntu.center.CenterClientApplication - Started CenterClientApplication in 12.973 seconds (JVM running for 16.264)
 20:49:40.730 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
 20:49:41.131 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-20:49:41.333 [MQTT Call: center] INFO  com.ntu.center.sync.processor.Processor3 - ==========数据同步完成===========
+20:49:41.333 [MQTT Call: center] INFO  com.ntu.center.sync.processor.BuoyDianYaProcessor - ==========数据同步完成===========
 20:49:41.400 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 TUANJIEHE_BUOY_DIANYA 表中的 1 号数据同步成功
 22:09:36.093 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 11836 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
 22:09:36.120 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default

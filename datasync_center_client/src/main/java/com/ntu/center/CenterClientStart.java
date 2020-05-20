@@ -18,6 +18,7 @@ public class CenterClientStart implements ApplicationListener<ContextRefreshedEv
     @Autowired
     ApplicationContextProvider applicationContextProvider;
 
+
     @Override
     public void onApplicationEvent(ContextRefreshedEvent contextRefreshedEvent) {
         IMQTTClient imqttClient = new EMQTTClient(Constant.CENTER_CLIENT_ID,

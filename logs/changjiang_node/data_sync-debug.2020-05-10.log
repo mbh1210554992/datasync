@@ -22,9 +22,9 @@
 12:12:53.579 [node1] DEBUG com.ntu.node.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
 12:12:53.580 [node1] DEBUG com.ntu.node.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
 12:12:53.602 [node1] DEBUG com.ntu.node.mapper.DataSynchroMapper.querySyncData - <==      Total: 1
-12:12:53.607 [node1] DEBUG com.ntu.node.mapper.ChangJiangBoxSensorMapper.findById - ==>  Preparing: select * from nantong_changjiang_box_sensor where info_id = ? 
-12:12:53.607 [node1] DEBUG com.ntu.node.mapper.ChangJiangBoxSensorMapper.findById - ==> Parameters: 9(Long)
-12:12:53.611 [node1] DEBUG com.ntu.node.mapper.ChangJiangBoxSensorMapper.findById - <==      Total: 1
+12:12:53.607 [node1] DEBUG com.ntu.node.mapper.MonitorDataMapper.findById - ==>  Preparing: select * from nantong_changjiang_box_sensor where info_id = ?
+12:12:53.607 [node1] DEBUG com.ntu.node.mapper.MonitorDataMapper.findById - ==> Parameters: 9(Long)
+12:12:53.611 [node1] DEBUG com.ntu.node.mapper.MonitorDataMapper.findById - <==      Total: 1
 12:12:55.186 [MQTT Call: cj_node] DEBUG com.ntu.node.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
 12:12:55.187 [MQTT Call: cj_node] DEBUG com.ntu.node.mapper.DataSynchroMapper.findById - ==> Parameters: 9(Long), M(String)
 12:12:55.189 [MQTT Call: cj_node] DEBUG com.ntu.node.mapper.DataSynchroMapper.findById - <==      Total: 1

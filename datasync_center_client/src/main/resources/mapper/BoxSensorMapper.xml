@@ -7,7 +7,7 @@
     <id column="node_id" property="nodeId" jdbcType="VARCHAR" />
     <id column="data_time" property="dataTime" jdbcType="TIMESTAMP" />
     <result column="info_id" property="infoId"/>
-    <result column="area_name" property="areaName"/>
+    <result column="info_node" property="infoNode"/>
     <result column="Conductivity" property="conductivity" jdbcType="REAL" />
     <result column="Temperature" property="temperature" jdbcType="REAL" />
     <result column="Pressure" property="pressure" jdbcType="REAL" />
@@ -42,16 +42,16 @@
   </delete>
 
     <delete id="deleteById">
-      delete from box_sensor where info_id = #{infoId} and area_name = #{areaName}
+      delete from box_sensor where info_id = #{infoId} and info_node = #{infoNode}
     </delete>
 
     <insert id="insert" parameterType="com.ntu.common.model.po.BoxSensor" >
-    insert into box_sensor (info_id,area_name,area_id, spot_id, node_id,
+    insert into box_sensor (info_id,info_node,area_id, spot_id, node_id,
       data_time, Conductivity, Temperature, 
       Pressure, Salinity, DissolvedOxygen, 
       SPAD, Turbidity, AnDan, YaXiaoDan, 
       LinSuanYan, ORP)
-    values (#{infoId},#{areaName},#{areaId,jdbcType=VARCHAR}, #{spotId,jdbcType=VARCHAR}, #{nodeId,jdbcType=VARCHAR},
+    values (#{infoId},#{infoNode},#{areaId,jdbcType=VARCHAR}, #{spotId,jdbcType=VARCHAR}, #{nodeId,jdbcType=VARCHAR},
       #{dataTime,jdbcType=TIMESTAMP}, #{conductivity,jdbcType=REAL}, #{temperature,jdbcType=REAL}, 
       #{pressure,jdbcType=REAL}, #{salinity,jdbcType=REAL}, #{dissolvedoxygen,jdbcType=REAL}, 
       #{spad,jdbcType=REAL}, #{turbidity,jdbcType=REAL}, #{andan,jdbcType=REAL}, #{yaxiaodan,jdbcType=REAL}, 

@@ -22,16 +22,10 @@ import lombok.ToString;
 @Getter
 @ToString
 public enum DatasyncType {
-    CHANGJIANG_BOX_SENSOR("M",1),
-    CHANGJIANG_BOX_ENVIRONMENT("N",2),
-    TUANJIEHE_BUOY_DIANYA("D",3),
-    TUANJIEHE_BUOY_GONGZUOWENDU("G",4),
+    MONITOR_DATA("M",1),
     AREA_SPOT("S",5),
     BOX_SENSOR("B",6),
     SPOT_NODE("P",7);
-    //TUANJIEHE_BUOY_GPS("H",8);
-
-
 
     private String flag;
     private Integer id;

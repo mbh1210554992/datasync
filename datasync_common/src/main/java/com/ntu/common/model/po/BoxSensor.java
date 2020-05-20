@@ -27,6 +27,6 @@ public class BoxSensor implements Serializable {
     private Float yaxiaodan;
     private Float linsuanyan;
     private Float orp;
-    private String areaName;
+    private String infoNode;
 
 }

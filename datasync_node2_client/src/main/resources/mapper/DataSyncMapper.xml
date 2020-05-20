@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ntu.client2.mapper.DataSyncMapper" >
+    <resultMap id="dataSync" type="com.ntu.common.model.po.DataSync">
+        <id column="info_id" property="infoId"/>
+        <id column="info_type" property="infoType"/>
+        <result column="sync_type" property="syncType"/>
+        <result column="sync_status" property="syncStatus"/>
+        <result column="success_time" property="successTime"/>
+        <result column="fail_time" property="failTime"/>
+        <result column="fail_count" property="failCount"/>
+        <result column="sync_msg" property="syncMsg"/>
+    </resultMap>
+
+
+    <select id="findByKey" resultMap="dataSync">
+        select * from data_sync where info_id = #{infoId} and info_type = #{infoType}
+    </select>
+
+    <select id="queryData" resultMap="dataSync">
+        select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count &lt; 5)
+    </select>
+
+    <update id="updateActive"  parameterType="com.ntu.common.model.po.DataSync" >
+        update data_sync
+        set sync_status = #{syncStatus},
+            success_time = #{successTime}
+        <if test="failTime != null" >
+            , fail_time= #{failTime}
+        </if>
+        <if test="failCount != null" >
+            , fail_count= #{failCount}
+        </if>
+        <if test="syncMsg != null" >
+            , sync_msg= #{syncMsg}
+        </if>
+        where info_id= #{infoId} and info_type = #{infoType}
+    </update>
+
+    <insert id="insert">
+        insert into data_sync(info_id, info_type, info_node, sync_type, sync_status, success_time, fail_time, fail_count, sync_msg)
+        value(#{infoId},#{infoType},#{infoNode},#{syncType},#{syncStatus},#{successTime},#{failTime},#{failCount},#{syncMsg})
+    </insert>
+</mapper>

@@ -280,7 +280,7 @@
 21:02:31.924 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\Lenovo\Desktop\datasync\datasync_node1_client\target\classes\com\ntu\node\mapper\DataSynchroMapper.class]
 21:02:31.926 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'changJiangBoxEnvironmentMapper' and 'com.ntu.node.mapper.ChangJiangBoxEnvironmentMapper' mapperInterface
 21:02:31.927 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'changJiangBoxEnvironmentMapper'.
-21:02:31.927 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'changJiangBoxSensorMapper' and 'com.ntu.node.mapper.ChangJiangBoxSensorMapper' mapperInterface
+21:02:31.927 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'changJiangBoxSensorMapper' and 'com.ntu.node.mapper.MonitorDataMapper' mapperInterface
 21:02:31.927 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'changJiangBoxSensorMapper'.
 21:02:31.927 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'dataSynchroMapper' and 'com.ntu.node.mapper.DataSynchroMapper' mapperInterface
 21:02:31.927 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'dataSynchroMapper'.
@@ -1711,7 +1711,7 @@ Unconditional classes:
 21:05:19.707 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\Lenovo\Desktop\datasync\datasync_node1_client\target\classes\com\ntu\node\mapper\DataSynchroMapper.class]
 21:05:19.709 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'changJiangBoxEnvironmentMapper' and 'com.ntu.node.mapper.ChangJiangBoxEnvironmentMapper' mapperInterface
 21:05:19.710 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'changJiangBoxEnvironmentMapper'.
-21:05:19.710 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'changJiangBoxSensorMapper' and 'com.ntu.node.mapper.ChangJiangBoxSensorMapper' mapperInterface
+21:05:19.710 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'changJiangBoxSensorMapper' and 'com.ntu.node.mapper.MonitorDataMapper' mapperInterface
 21:05:19.710 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'changJiangBoxSensorMapper'.
 21:05:19.710 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'dataSynchroMapper' and 'com.ntu.node.mapper.DataSynchroMapper' mapperInterface
 21:05:19.711 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'dataSynchroMapper'.

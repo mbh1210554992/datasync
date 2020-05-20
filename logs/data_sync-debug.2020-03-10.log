@@ -1,0 +1,247 @@
+15:36:01.191 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+15:36:01.215 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+15:36:01.281 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+15:36:08.564 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+15:36:08.565 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+15:36:08.570 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 3
+15:36:08.573 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+15:36:08.574 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 1(String)
+15:36:08.575 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 0
+15:36:08.593 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SD1_NUM= ? , SE1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+15:36:08.595 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==> Parameters: 2(String), 2020-03-10 15:36:08.575(Timestamp), 1(Long), 2020-03-10 14:53:27.0(Timestamp), data not found(String), 1(String), 1(String)
+15:36:08.687 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+15:36:08.688 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+15:36:08.688 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 31(String)
+15:36:08.691 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+15:36:09.563 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+15:36:09.563 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 31(String), 1(String)
+15:36:09.577 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+15:36:09.577 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 8(String)
+15:36:09.578 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+15:36:09.602 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+15:36:09.602 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+15:36:09.603 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 31(String)
+15:36:09.651 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+15:36:09.652 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - ==>  Preparing: insert into book ( book_id, book_name, book_isbn, book_author, book_status, book_info, book_publisher, book_createtime ) values ( ?, ?, ?, ?, 0, ?, ?, now() ) 
+15:36:09.653 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - ==> Parameters: 31(String), 万历十五年(String), 9787108009821(String), 黄仁宇 (String), 万历十五年，亦即公元1587年，在西欧历史上为西班牙舰队全部出动征英的前一年；而在中国，这平平淡淡的一年中，发生了若干为历史学家所易于忽视的事件。(String), 生活·读书·新知三联书店(String)
+15:36:10.515 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+15:36:10.516 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 8(String), 1(String)
+15:36:10.561 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+15:36:10.561 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+15:36:10.561 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 8(String)
+15:36:10.579 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+15:36:10.580 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 31(String), 1(String)
+15:36:10.581 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+15:36:10.583 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SD1_NUM= ? , SE1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+15:36:10.583 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==> Parameters: 9(String), 2020-03-10 15:36:10.581(Timestamp), 2(Long), 2020-03-10 15:36:10.581(Timestamp), synchronize data failed(String), 31(String), 1(String)
+15:36:10.599 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+15:36:10.600 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - ==>  Preparing: insert into book ( book_id, book_name, book_isbn, book_author, book_status, book_info, book_publisher, book_createtime ) values ( ?, ?, ?, ?, 0, ?, ?, now() ) 
+15:36:10.600 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - ==> Parameters: 8(String), 5465465(String), 5412(String), dasdas(String), null, null
+15:36:10.626 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+15:36:11.577 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+15:36:11.577 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 8(String), 1(String)
+15:36:11.579 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+15:36:11.579 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SD1_NUM= ? , SE1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+15:36:11.580 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==> Parameters: 9(String), 2020-03-10 15:36:11.579(Timestamp), 2(Long), 2020-03-10 15:36:11.579(Timestamp), synchronize data failed(String), 8(String), 1(String)
+15:36:11.655 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+15:37:01.325 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+15:37:01.326 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+15:37:01.368 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+15:37:10.576 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+15:37:10.577 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+15:37:10.578 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 2
+15:37:10.579 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+15:37:10.580 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 31(String)
+15:37:10.581 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+15:37:11.544 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+15:37:11.545 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 31(String), 1(String)
+15:37:11.583 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+15:37:11.583 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+15:37:11.583 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 31(String)
+15:37:11.599 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+15:37:11.600 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 8(String)
+15:37:11.602 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+15:37:11.625 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+15:37:11.625 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - ==>  Preparing: insert into book ( book_id, book_name, book_isbn, book_author, book_status, book_info, book_publisher, book_createtime ) values ( ?, ?, ?, ?, 0, ?, ?, now() ) 
+15:37:11.626 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - ==> Parameters: 31(String), 万历十五年(String), 9787108009821(String), 黄仁宇 (String), 万历十五年，亦即公元1587年，在西欧历史上为西班牙舰队全部出动征英的前一年；而在中国，这平平淡淡的一年中，发生了若干为历史学家所易于忽视的事件。(String), 生活·读书·新知三联书店(String)
+15:37:12.548 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+15:37:12.548 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 8(String), 1(String)
+15:37:12.591 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+15:37:12.592 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+15:37:12.592 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 8(String)
+15:37:12.602 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+15:37:12.602 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 31(String), 1(String)
+15:37:12.603 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+15:37:12.604 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SD1_NUM= ? , SE1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+15:37:12.604 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==> Parameters: 9(String), 2020-03-10 15:37:12.604(Timestamp), 3(Long), 2020-03-10 15:37:12.604(Timestamp), synchronize data failed(String), 31(String), 1(String)
+15:37:12.633 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+15:37:12.634 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - ==>  Preparing: insert into book ( book_id, book_name, book_isbn, book_author, book_status, book_info, book_publisher, book_createtime ) values ( ?, ?, ?, ?, 0, ?, ?, now() ) 
+15:37:12.635 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - ==> Parameters: 8(String), 5465465(String), 5412(String), dasdas(String), null, null
+15:37:12.683 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+15:37:13.600 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+15:37:13.600 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 8(String), 1(String)
+15:37:13.601 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+15:37:13.602 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SD1_NUM= ? , SE1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+15:37:13.602 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==> Parameters: 9(String), 2020-03-10 15:37:13.602(Timestamp), 3(Long), 2020-03-10 15:37:13.602(Timestamp), synchronize data failed(String), 8(String), 1(String)
+15:37:13.676 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+15:38:01.420 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+15:38:01.420 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+15:38:01.459 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+15:38:12.600 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+15:38:12.600 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+15:38:12.601 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 2
+15:38:12.601 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+15:38:12.602 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 31(String)
+15:38:12.603 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+15:38:13.559 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+15:38:13.559 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 31(String), 1(String)
+15:38:13.600 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+15:38:13.601 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+15:38:13.601 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 31(String)
+15:38:13.626 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+15:38:13.626 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 8(String)
+15:38:13.627 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+15:38:13.647 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+15:38:13.647 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - ==>  Preparing: insert into book ( book_id, book_name, book_isbn, book_author, book_status, book_info, book_publisher, book_createtime ) values ( ?, ?, ?, ?, 0, ?, ?, now() ) 
+15:38:13.647 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - ==> Parameters: 31(String), 万历十五年(String), 9787108009821(String), 黄仁宇 (String), 万历十五年，亦即公元1587年，在西欧历史上为西班牙舰队全部出动征英的前一年；而在中国，这平平淡淡的一年中，发生了若干为历史学家所易于忽视的事件。(String), 生活·读书·新知三联书店(String)
+15:38:14.592 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+15:38:14.592 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 8(String), 1(String)
+15:38:14.629 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+15:38:14.629 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 31(String), 1(String)
+15:38:14.630 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+15:38:14.631 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SD1_NUM= ? , SE1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+15:38:14.631 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==> Parameters: 9(String), 2020-03-10 15:38:14.63(Timestamp), 4(Long), 2020-03-10 15:38:14.63(Timestamp), synchronize data failed(String), 31(String), 1(String)
+15:38:14.635 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+15:38:14.636 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+15:38:14.636 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 8(String)
+15:38:14.659 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+15:38:14.680 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+15:38:14.681 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - ==>  Preparing: insert into book ( book_id, book_name, book_isbn, book_author, book_status, book_info, book_publisher, book_createtime ) values ( ?, ?, ?, ?, 0, ?, ?, now() ) 
+15:38:14.683 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - ==> Parameters: 8(String), 5465465(String), 5412(String), dasdas(String), null, null
+15:38:15.627 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+15:38:15.627 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 8(String), 1(String)
+15:38:15.628 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+15:38:15.629 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SD1_NUM= ? , SE1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+15:38:15.629 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==> Parameters: 9(String), 2020-03-10 15:38:15.628(Timestamp), 4(Long), 2020-03-10 15:38:15.628(Timestamp), synchronize data failed(String), 8(String), 1(String)
+15:38:15.700 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+15:39:01.504 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+15:39:01.504 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+15:39:01.544 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+15:39:14.627 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+15:39:14.627 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+15:39:14.629 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 5
+15:39:14.629 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+15:39:14.630 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 169(String)
+15:39:14.631 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+15:39:15.593 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+15:39:15.593 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 169(String), 1(String)
+15:39:15.631 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 0
+15:39:15.632 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+15:39:15.632 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 169(String)
+15:39:15.660 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+15:39:15.661 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 213(String)
+15:39:15.662 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+15:39:15.675 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 0
+15:39:15.675 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - ==>  Preparing: insert into book ( book_id, book_name, book_isbn, book_author, book_status, book_info, book_publisher, book_createtime ) values ( ?, ?, ?, ?, 0, ?, ?, now() ) 
+15:39:15.676 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - ==> Parameters: 169(String), 少年PI的奇幻漂流(String), 9787544731706(String), 〔加拿大〕扬·马特尔(String), 艘孤单小船，一个落难少年，一只孟加拉虎，这是南太平洋上，最艰难的生存考验。《少年pi的奇幻漂流》是作者马特尔的第二部小说(String), 译林出版社(String)
+15:39:15.777 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - <==    Updates: 1
+15:39:15.777 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.insert - ==>  Preparing: insert into data_synchro (BASICINFOID, TYPE, SA1_STATUS, SB1_TIME, SC1_TIME, SD1_NUM, SE1_TIME, SF1_MSG, SA2_STATUS, SB2_TIME, SC2_TIME, SF2_MSG ) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+15:39:15.778 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.insert - ==> Parameters: 169(String), 1(String), null, null, null, null, null, null, 0(String), null, 2020-03-10 15:39:15.777(Timestamp), null
+15:39:15.883 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.insert - <==    Updates: 1
+15:39:16.604 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+15:39:16.604 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 213(String), 1(String)
+15:39:16.653 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 0
+15:39:16.653 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+15:39:16.653 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 213(String)
+15:39:16.661 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+15:39:16.661 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 31(String)
+15:39:16.663 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+15:39:16.663 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+15:39:16.664 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 169(String), 1(String)
+15:39:16.665 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+15:39:16.667 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SD1_NUM= ? where rtrim(basicinfoid)= ? and type = ? 
+15:39:16.668 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-03-10 15:39:16.665(Timestamp), 0(Long), 169(String), 1(String)
+15:39:16.693 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 0
+15:39:16.694 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - ==>  Preparing: insert into book ( book_id, book_name, book_isbn, book_author, book_status, book_info, book_publisher, book_createtime ) values ( ?, ?, ?, ?, 0, ?, ?, now() ) 
+15:39:16.694 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - ==> Parameters: 213(String), 活着(String), 9787506365437(String), 余华(String), 《活着》讲述了农村人福贵悲惨的人生遭遇。福贵本是个阔少爷，可他嗜赌如命，终于赌光了家业，一贫如洗...(String), 作家出版社(String)
+15:39:16.765 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+15:39:16.799 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - <==    Updates: 1
+15:39:16.799 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.insert - ==>  Preparing: insert into data_synchro (BASICINFOID, TYPE, SA1_STATUS, SB1_TIME, SC1_TIME, SD1_NUM, SE1_TIME, SF1_MSG, SA2_STATUS, SB2_TIME, SC2_TIME, SF2_MSG ) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+15:39:16.800 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.insert - ==> Parameters: 213(String), 1(String), null, null, null, null, null, null, 0(String), null, 2020-03-10 15:39:16.799(Timestamp), null
+15:39:16.911 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.insert - <==    Updates: 1
+15:39:17.599 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+15:39:17.599 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 31(String), 1(String)
+15:39:17.644 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+15:39:17.644 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+15:39:17.644 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 31(String)
+15:39:17.661 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+15:39:17.661 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 322(String)
+15:39:17.665 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+15:39:17.665 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 213(String), 1(String)
+15:39:17.665 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+15:39:17.666 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+15:39:17.667 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SD1_NUM= ? where rtrim(basicinfoid)= ? and type = ? 
+15:39:17.668 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-03-10 15:39:17.667(Timestamp), 0(Long), 213(String), 1(String)
+15:39:17.716 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+15:39:17.717 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+15:39:17.718 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - ==>  Preparing: insert into book ( book_id, book_name, book_isbn, book_author, book_status, book_info, book_publisher, book_createtime ) values ( ?, ?, ?, ?, 0, ?, ?, now() ) 
+15:39:17.718 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - ==> Parameters: 31(String), 万历十五年(String), 9787108009821(String), 黄仁宇 (String), 万历十五年，亦即公元1587年，在西欧历史上为西班牙舰队全部出动征英的前一年；而在中国，这平平淡淡的一年中，发生了若干为历史学家所易于忽视的事件。(String), 生活·读书·新知三联书店(String)
+15:39:18.603 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+15:39:18.603 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 322(String), 1(String)
+15:39:18.639 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 0
+15:39:18.640 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+15:39:18.640 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 322(String)
+15:39:18.661 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+15:39:18.661 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 8(String)
+15:39:18.662 [node] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+15:39:18.677 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 0
+15:39:18.677 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - ==>  Preparing: insert into book ( book_id, book_name, book_isbn, book_author, book_status, book_info, book_publisher, book_createtime ) values ( ?, ?, ?, ?, 0, ?, ?, now() ) 
+15:39:18.678 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - ==> Parameters: 322(String), 三体(String), 9787536692930(String), 刘慈欣 (String), 文化大革命如火如荼进行的同时。军方探寻外星文明的绝秘计划“红岸工程”取得了突破性进展。但在按下发射键的那一刻，历经劫难的叶文洁没有意识到，她彻底改变了人类的命运。地球文明向宇宙发出的第一声啼鸣，以太阳为中心，以光速向宇宙深处飞驰…(String), 重庆出版社(String)
+15:39:18.691 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+15:39:18.691 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 31(String), 1(String)
+15:39:18.693 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+15:39:18.694 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SD1_NUM= ? , SE1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+15:39:18.694 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==> Parameters: 9(String), 2020-03-10 15:39:18.693(Timestamp), 5(Long), 2020-03-10 15:39:18.693(Timestamp), synchronize data failed(String), 31(String), 1(String)
+15:39:18.731 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+15:39:18.803 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - <==    Updates: 1
+15:39:18.803 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.insert - ==>  Preparing: insert into data_synchro (BASICINFOID, TYPE, SA1_STATUS, SB1_TIME, SC1_TIME, SD1_NUM, SE1_TIME, SF1_MSG, SA2_STATUS, SB2_TIME, SC2_TIME, SF2_MSG ) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+15:39:18.804 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.insert - ==> Parameters: 322(String), 1(String), null, null, null, null, null, null, 0(String), null, 2020-03-10 15:39:18.803(Timestamp), null
+15:39:18.904 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.insert - <==    Updates: 1
+15:39:19.606 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+15:39:19.606 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 8(String), 1(String)
+15:39:19.646 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+15:39:19.647 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==>  Preparing: select * from book where book_id = ? 
+15:39:19.647 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - ==> Parameters: 8(String)
+15:39:19.665 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+15:39:19.666 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 322(String), 1(String)
+15:39:19.666 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+15:39:19.667 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SD1_NUM= ? where rtrim(basicinfoid)= ? and type = ? 
+15:39:19.667 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==> Parameters: 0(String), 2020-03-10 15:39:19.667(Timestamp), 0(Long), 322(String), 1(String)
+15:39:19.685 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.findById - <==      Total: 1
+15:39:19.686 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - ==>  Preparing: insert into book ( book_id, book_name, book_isbn, book_author, book_status, book_info, book_publisher, book_createtime ) values ( ?, ?, ?, ?, 0, ?, ?, now() ) 
+15:39:19.686 [MQTT Call: node10000000] DEBUG com.ntu.datasync.mapper.BookMapper.insertBook - ==> Parameters: 8(String), 5465465(String), 5412(String), dasdas(String), null, null
+15:39:19.687 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+15:39:20.663 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==>  Preparing: select * from data_synchro where rtrim(basicinfoid)= ? and type = ? 
+15:39:20.663 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - ==> Parameters: 8(String), 1(String)
+15:39:20.665 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.findById - <==      Total: 1
+15:39:20.665 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==>  Preparing: update data_synchro set SA1_STATUS = ? , SC1_TIME= ? , SD1_NUM= ? , SE1_TIME= ? , SF1_MSG= ? where rtrim(basicinfoid)= ? and type = ? 
+15:39:20.666 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - ==> Parameters: 9(String), 2020-03-10 15:39:20.665(Timestamp), 5(Long), 2020-03-10 15:39:20.665(Timestamp), synchronize data failed(String), 8(String), 1(String)
+15:39:20.738 [MQTT Call: center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.updateActive - <==    Updates: 1
+15:40:01.582 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+15:40:01.582 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+15:40:01.618 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+15:40:19.663 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+15:40:19.663 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+15:40:19.664 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+15:41:01.659 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+15:41:01.659 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+15:41:01.707 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+15:41:19.664 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+15:41:19.665 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+15:41:19.666 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+15:42:01.750 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+15:42:01.751 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+15:42:01.790 [center] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0
+15:42:19.667 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==>  Preparing: select * from data_synchro where 1=1 and (SA1_STATUS = '1' or SA1_STATUS = '9') and (SD1_NUM < 5 or SD1_NUM is null) 
+15:42:19.668 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - ==> Parameters: 
+15:42:19.668 [node] DEBUG com.ntu.datasync.mapper.DataSynchroMapper.querySyncData - <==      Total: 0

@@ -1,6 +1,6 @@
 package com.ntu.common.model;
 
-import com.ntu.common.model.po.DataSynchro;
+import com.ntu.common.model.po.DataSync;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
@@ -21,17 +21,17 @@ public class SyncMessage implements Serializable {
     private String id = "";
     private int msgtype = 0;
     private String clientid = "";
-    private DataSynchro dataSynchro;
+    private DataSync dataSync;
     private Object data;
 
     public SyncMessage(){
         id = UUID.randomUUID().toString();
     }
 
-    public SyncMessage(int msgtype, String clientid, DataSynchro dataSynchro, Object data){
+    public SyncMessage(int msgtype, String clientid, DataSync dataSync, Object data){
         this.clientid = clientid;
         this.msgtype = msgtype;
-        this.dataSynchro = dataSynchro;
+        this.dataSync = dataSync;
         this.data = data;
     }
 }
