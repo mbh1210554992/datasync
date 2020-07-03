@@ -1,0 +1,990 @@
+15:27:44.250 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:27:44.347 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:27:44.532 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:27:54.536 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:27:54.537 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:27:54.538 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:28:04.540 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:28:04.540 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:28:04.542 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:28:14.543 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:28:14.543 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:28:14.545 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:28:24.546 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:28:24.547 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:28:24.550 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:28:34.552 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:28:34.552 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:28:34.553 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:28:44.554 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:28:44.554 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:28:44.555 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:28:54.557 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:28:54.557 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:28:54.559 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:29:04.560 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:29:04.560 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:29:04.562 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:29:14.563 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:29:14.563 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:29:14.565 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:29:24.566 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:29:24.566 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:29:24.568 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:29:34.569 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:29:34.570 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:29:34.571 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:29:44.572 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:29:44.572 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:29:44.574 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:29:54.575 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:29:54.575 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:29:54.576 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:30:04.577 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:30:04.577 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:30:04.579 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:30:14.580 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:30:14.581 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:30:14.584 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:30:24.585 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:30:24.585 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:30:24.587 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:30:34.587 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:30:34.587 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:30:34.589 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:30:44.589 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:30:44.589 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:30:44.591 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:30:54.592 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:30:54.592 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:30:54.594 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:31:04.594 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:31:04.594 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:31:04.595 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:31:14.596 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:31:14.596 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:31:14.598 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:31:24.600 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:31:24.600 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:31:24.602 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:31:34.602 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:31:34.603 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:31:34.606 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:31:44.641 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:31:44.645 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:31:44.647 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:31:54.650 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:31:54.650 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:31:54.652 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:32:04.653 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:32:04.654 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:32:04.655 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:32:14.656 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:32:14.656 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:32:14.658 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:32:24.658 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:32:24.658 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:32:24.660 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:32:34.661 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:32:34.661 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:32:34.663 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:32:44.664 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:32:44.664 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:32:44.666 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:32:54.668 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:32:54.668 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:32:54.670 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:33:04.671 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:33:04.671 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:33:04.673 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:33:14.674 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:33:14.674 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:33:14.676 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:33:24.676 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:33:24.676 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:33:24.678 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:33:34.679 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:33:34.679 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:33:34.681 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:33:44.682 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:33:44.684 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:33:44.687 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:33:54.734 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:33:54.735 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:33:54.737 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:34:04.738 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:34:04.738 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:34:04.740 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:34:14.741 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:34:14.741 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:34:14.742 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:34:24.744 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:34:24.744 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:34:24.747 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:34:34.748 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:34:34.748 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:34:34.750 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:34:44.751 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:34:44.751 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:34:44.753 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:34:54.828 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:34:54.829 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:34:54.831 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:35:04.839 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:35:04.840 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:35:04.844 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:35:14.890 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:35:14.890 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:35:14.893 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:35:24.894 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:35:24.894 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:35:24.896 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:35:34.896 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:35:34.896 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:35:34.898 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:35:45.015 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:35:45.023 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:35:45.029 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:35:55.030 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:35:55.030 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:35:55.031 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:36:05.059 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:36:05.060 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:36:05.130 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:36:15.132 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:36:15.132 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:36:15.134 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:36:25.237 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:36:25.239 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:36:25.241 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:36:35.242 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:36:35.242 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:36:35.243 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:36:45.245 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:36:45.246 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:36:45.248 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:37:25.955 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:37:26.055 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:37:26.080 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:37:36.083 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:37:36.083 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:37:36.085 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:37:46.085 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:37:46.085 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:37:46.087 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:37:56.112 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:37:56.116 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:37:56.135 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:38:06.136 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:38:06.136 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:38:06.138 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:38:16.184 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:38:16.191 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:38:16.194 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:38:57.794 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:38:57.949 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:38:57.975 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:39:08.025 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:39:08.025 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:39:08.028 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:39:18.030 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:39:18.030 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:39:18.032 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:39:28.034 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:39:28.035 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:39:28.039 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:40:09.094 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:40:09.162 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:40:09.178 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:40:19.180 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:40:19.180 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:40:19.182 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:40:29.182 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:40:29.182 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:40:29.184 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:40:39.185 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:40:39.185 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:40:39.188 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:40:49.190 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:40:49.190 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:40:49.191 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:40:59.192 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:40:59.192 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:40:59.194 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:41:09.195 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:41:09.195 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:41:09.197 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:41:19.198 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:41:19.198 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:41:19.200 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:41:29.202 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:41:29.202 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:41:29.204 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:41:39.205 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:41:39.205 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:41:39.208 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:41:49.210 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:41:49.211 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:41:49.212 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:41:59.212 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:41:59.212 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:41:59.214 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:42:09.216 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:42:09.216 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:42:09.218 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:42:55.098 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:42:55.183 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:42:55.201 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:43:05.204 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:43:05.204 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:43:05.205 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:43:15.207 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:43:15.207 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:43:15.209 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:43:25.209 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:43:25.209 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:43:25.211 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:43:35.212 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:43:35.212 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:43:35.213 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:43:45.215 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:43:45.215 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:43:45.216 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:43:55.218 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:43:55.218 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:43:55.219 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:44:05.221 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:44:05.221 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:44:05.223 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:44:15.224 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:44:15.224 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:44:15.225 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:44:25.226 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:44:25.226 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:44:25.227 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:44:35.228 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:44:35.228 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:44:35.230 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:44:45.231 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:44:45.231 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:44:45.233 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:44:55.233 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:44:55.233 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:44:55.235 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:45:05.236 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:45:05.236 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:45:05.238 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:45:15.238 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:45:15.238 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:45:15.240 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:45:25.243 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:45:25.243 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:45:25.247 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:45:35.250 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:45:35.251 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:45:35.253 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:45:45.254 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:45:45.254 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:45:45.256 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:45:55.256 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:45:55.256 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:45:55.257 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:46:05.259 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:46:05.259 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:46:05.261 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:46:15.261 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:46:15.261 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:46:15.263 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:46:25.263 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:46:25.263 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:46:25.265 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:46:35.265 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:46:35.265 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:46:35.267 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:46:45.269 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:46:45.269 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:46:45.271 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:46:55.272 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:46:55.272 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:46:55.274 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:47:05.274 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:47:05.274 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:47:05.276 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:47:15.277 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:47:15.277 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:47:15.278 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:47:25.279 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:47:25.279 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:47:25.281 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:47:35.282 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:47:35.282 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:47:35.283 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:47:45.284 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:47:45.284 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:47:45.286 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:47:55.287 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:47:55.287 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:47:55.289 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:48:05.289 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:48:05.289 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:48:05.291 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:48:15.292 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:48:15.292 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:48:15.294 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:48:25.295 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:48:25.295 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:48:25.297 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:48:35.297 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:48:35.297 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:48:35.298 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:48:45.299 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:48:45.299 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:48:45.301 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:48:55.304 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:48:55.305 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:48:55.307 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:49:05.308 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:49:05.309 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:49:05.311 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:49:15.312 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:49:15.312 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:49:15.313 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:49:25.315 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:49:25.322 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:49:25.337 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:49:35.337 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:49:35.337 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:49:35.339 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:49:45.340 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:49:45.340 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:49:45.342 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:50:28.700 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:50:28.776 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:50:28.794 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:50:38.796 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:50:38.796 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:50:38.798 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:50:48.799 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:50:48.799 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:50:48.801 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:50:58.802 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:50:58.802 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:50:58.804 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:51:08.805 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:51:08.805 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:51:08.807 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:51:18.808 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:51:18.808 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:51:18.810 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:51:28.811 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:51:28.812 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:51:28.813 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:51:38.813 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:51:38.813 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:51:38.815 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:51:48.816 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:51:48.816 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:51:48.816 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:52:25.361 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:52:25.434 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:52:25.476 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:52:35.478 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:52:35.478 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:52:35.480 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:52:45.480 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:52:45.480 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:52:45.482 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:52:55.484 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:52:55.484 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:52:55.485 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:53:05.487 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:53:05.487 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:53:05.489 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:53:15.494 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:53:15.499 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:53:15.501 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:53:25.608 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:53:25.608 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:53:25.611 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:54:07.092 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:54:07.163 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:54:07.181 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:54:17.184 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:54:17.184 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:54:17.186 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:54:27.187 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:54:27.188 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:54:27.190 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:54:37.191 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:54:37.191 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:54:37.193 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:54:47.193 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:54:47.193 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:54:47.195 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:54:57.196 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:54:57.196 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:54:57.198 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:55:07.198 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:55:07.198 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:55:07.199 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:55:17.201 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:55:17.201 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:55:17.203 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:55:27.204 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:55:27.204 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:55:27.206 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:55:37.207 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:55:37.207 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:55:37.209 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:55:47.211 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:55:47.211 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:55:47.213 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:55:57.214 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:55:57.214 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:55:57.216 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:56:07.217 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:56:07.217 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:56:07.219 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:56:17.220 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:56:17.220 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:56:17.221 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:56:27.222 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:56:27.223 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:56:27.224 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:56:37.226 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:56:37.226 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:56:37.229 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:56:47.231 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:56:47.231 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:56:47.233 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:56:57.234 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:56:57.234 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:56:57.236 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:57:07.237 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:57:07.237 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:57:07.239 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:57:17.239 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:57:17.239 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:57:17.240 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:57:27.242 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:57:27.242 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:57:27.244 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:57:37.244 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:57:37.244 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:57:37.246 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:57:47.246 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:57:47.246 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:57:47.247 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:57:57.249 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:57:57.249 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:57:57.250 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:58:07.251 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:58:07.251 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:58:07.252 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:58:17.253 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:58:17.253 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:58:17.254 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:58:27.256 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:58:27.256 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:58:27.258 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:58:37.258 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:58:37.258 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:58:37.259 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:58:47.260 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:58:47.260 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:58:47.262 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:58:57.263 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:58:57.263 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:58:57.265 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:59:07.265 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:59:07.265 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:59:07.266 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:59:17.268 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:59:17.268 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:59:17.270 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:59:27.271 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:59:27.271 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:59:27.273 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:59:37.273 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:59:37.273 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:59:37.275 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:59:47.276 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:59:47.276 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:59:47.277 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+15:59:57.279 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+15:59:57.279 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+15:59:57.281 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:00:07.282 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:00:07.282 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:00:07.284 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:00:17.285 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:00:17.285 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:00:17.286 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:00:27.287 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:00:27.287 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:00:27.288 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:00:37.290 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:00:37.290 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:00:37.291 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:00:47.292 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:00:47.292 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:00:47.294 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:00:57.294 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:00:57.294 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:00:57.295 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:01:07.296 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:01:07.296 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:01:07.298 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:01:17.298 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:01:17.298 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:01:17.300 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:01:27.301 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:01:27.301 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:01:27.302 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:01:37.303 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:01:37.303 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:01:37.304 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:01:47.306 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:01:47.306 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:01:47.308 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:01:57.308 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:01:57.308 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:01:57.309 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:02:07.310 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:02:07.310 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:02:07.311 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:02:17.313 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:02:17.313 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:02:17.315 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:02:27.316 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:02:27.316 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:02:27.318 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:02:37.319 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:02:37.319 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:02:37.320 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:02:47.321 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:02:47.321 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:02:47.322 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:02:57.323 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:02:57.323 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:02:57.325 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:03:07.326 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:03:07.326 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:03:07.341 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:03:17.342 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:03:17.342 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:03:17.343 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:03:27.344 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:03:27.344 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:03:27.346 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:03:37.347 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:03:37.347 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:03:37.349 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:03:47.349 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:03:47.349 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:03:47.350 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:03:57.352 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:03:57.352 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:03:57.353 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:04:07.355 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:04:07.355 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:04:07.357 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:04:17.358 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:04:17.358 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:04:17.360 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:04:27.360 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:04:27.360 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:04:27.361 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:04:37.363 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:04:37.363 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:04:37.365 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:04:47.365 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:04:47.365 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:04:47.367 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:04:57.368 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:04:57.368 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:04:57.369 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:05:07.370 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:05:07.370 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:05:07.371 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:05:17.372 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:05:17.372 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:05:17.373 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:05:27.375 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:05:27.375 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:05:27.376 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:05:37.378 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:05:37.378 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:05:37.379 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:05:47.380 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:05:47.380 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:05:47.381 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:05:57.382 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:05:57.382 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:05:57.384 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:06:07.385 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:06:07.385 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:06:07.386 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:06:17.387 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:06:17.387 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:06:17.389 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:06:27.390 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:06:27.391 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:06:27.392 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:06:37.393 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:06:37.393 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:06:37.395 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:06:47.396 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:06:47.396 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:06:47.398 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:06:57.400 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:06:57.400 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:06:57.402 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:07:07.402 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:07:07.403 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:07:07.404 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:07:17.405 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:07:17.405 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:07:17.406 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:07:27.407 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:07:27.407 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:07:27.408 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:07:37.409 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:07:37.409 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:07:37.410 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:07:47.413 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:07:47.413 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:07:47.414 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:07:57.415 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:07:57.415 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:07:57.416 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:08:07.417 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:08:07.417 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:08:07.419 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:08:17.419 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:08:17.420 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:08:17.421 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:08:27.422 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:08:27.422 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:08:27.423 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:08:37.424 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:08:37.424 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:08:37.426 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:08:47.427 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:08:47.427 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:08:47.428 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:08:57.429 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:08:57.429 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:08:57.430 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:09:07.431 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:09:07.431 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:09:07.432 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:09:17.433 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:09:17.433 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:09:17.435 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:09:27.436 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:09:27.436 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:09:27.436 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:09:37.438 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:09:37.438 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:09:37.439 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:09:47.440 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:09:47.440 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:09:47.441 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:09:57.442 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:09:57.442 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:09:57.444 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:10:07.445 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:10:07.445 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:10:07.447 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:10:17.447 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:10:17.447 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:10:17.448 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:10:27.450 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:10:27.450 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:10:27.451 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:10:37.452 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:10:37.452 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:10:37.453 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:10:47.455 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:10:47.455 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:10:47.456 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:10:57.457 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:10:57.457 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:10:57.458 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:11:07.460 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:11:07.460 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:11:07.461 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:11:17.462 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:11:17.462 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:11:17.463 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:11:27.463 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:11:27.463 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:11:27.464 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:11:37.466 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:11:37.466 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:11:37.467 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:11:47.468 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:11:47.468 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:11:47.469 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:11:57.469 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:11:57.469 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:11:57.470 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:12:07.470 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:12:07.470 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:12:07.471 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:12:17.472 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:12:17.472 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:12:17.473 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:12:27.475 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:12:27.475 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:12:27.476 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:12:37.476 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:12:37.476 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:12:37.478 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:12:47.478 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:12:47.478 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:12:47.479 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:12:57.481 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:12:57.481 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:12:57.482 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:13:07.483 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:13:07.483 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:13:07.484 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:13:17.485 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:13:17.485 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:13:17.487 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:13:27.488 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:13:27.488 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:13:27.490 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:13:37.490 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:13:37.490 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:13:37.492 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:13:47.493 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:13:47.493 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:13:47.494 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:13:57.495 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:13:57.495 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:13:57.496 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:14:07.498 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:14:07.498 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:14:07.499 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:14:17.500 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:14:17.500 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:14:17.501 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:14:27.502 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:14:27.502 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:14:27.503 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:14:37.504 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:14:37.504 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:14:37.505 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:14:47.507 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:14:47.507 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:14:47.508 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:14:57.509 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:14:57.509 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:14:57.510 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:15:07.512 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:15:07.512 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:15:07.513 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:15:17.514 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:15:17.515 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:15:17.516 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:15:27.517 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:15:27.517 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:15:27.518 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:15:37.519 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:15:37.519 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:15:37.520 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:15:47.521 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:15:47.521 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:15:47.522 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:15:57.524 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:15:57.524 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:15:57.525 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:16:07.527 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:16:07.527 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:16:07.527 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:16:17.529 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:16:17.529 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:16:17.530 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:16:27.530 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:16:27.530 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:16:27.531 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:16:37.532 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:16:37.532 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:16:37.533 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:16:47.535 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:16:47.535 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:16:47.536 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:16:57.536 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:16:57.536 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:16:57.537 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:17:07.537 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:17:07.537 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:17:07.538 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:17:17.538 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:17:17.538 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:17:17.540 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:17:27.540 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:17:27.540 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:17:27.541 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:17:37.543 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:17:37.543 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:17:37.544 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:17:47.546 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:17:47.546 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:17:47.547 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:17:57.548 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:17:57.548 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:17:57.549 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:18:07.549 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:18:07.549 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:18:07.550 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:18:17.550 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:18:17.550 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:18:17.551 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:18:27.552 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:18:27.552 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:18:27.552 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:18:37.553 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:18:37.553 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:18:37.554 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:18:47.554 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:18:47.554 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:18:47.555 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:18:57.555 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:18:57.555 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:18:57.556 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:19:07.557 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:19:07.557 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:19:07.558 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:19:17.559 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:19:17.559 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:19:17.560 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:19:27.560 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:19:27.560 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:19:27.561 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:19:37.562 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:19:37.562 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:19:37.563 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:19:47.564 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:19:47.564 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:19:47.565 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:19:57.565 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:19:57.565 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:19:57.566 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:20:07.567 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:20:07.567 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:20:07.568 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:20:17.570 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:20:17.570 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:20:17.570 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:20:27.572 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:20:27.572 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:20:27.573 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:20:37.573 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:20:37.573 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:20:37.574 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:20:47.575 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:20:47.575 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:20:47.576 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:20:57.578 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:20:57.578 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:20:57.579 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:21:07.580 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:21:07.580 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:21:07.581 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:21:17.582 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:21:17.582 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:21:17.584 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:21:27.584 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:21:27.584 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:21:27.585 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:21:37.587 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:21:37.587 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:21:37.588 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:21:47.589 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:21:47.589 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:21:47.590 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:21:57.592 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:21:57.592 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:21:57.593 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:22:07.593 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:22:07.593 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:22:07.594 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:22:17.595 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:22:17.595 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:22:17.596 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:22:27.596 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:22:27.596 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:22:27.597 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:22:37.599 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:22:37.599 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:22:37.600 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:22:47.601 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:22:47.601 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:22:47.602 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:22:57.602 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:22:57.602 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:22:57.603 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:23:07.604 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:23:07.604 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:23:07.605 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:23:17.607 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:23:17.607 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:23:17.608 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:23:27.609 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:23:27.609 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:23:27.610 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:23:37.611 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:23:37.611 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:23:37.612 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:23:47.612 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:23:47.612 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:23:47.613 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:23:57.613 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:23:57.613 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:23:57.614 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:24:07.614 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:24:07.614 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:24:07.615 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:24:17.616 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:24:17.616 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:24:17.617 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:24:27.617 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:24:27.617 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:24:27.618 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:24:37.619 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:24:37.619 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:24:37.620 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:24:47.621 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:24:47.621 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:24:47.622 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:24:57.622 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:24:57.622 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:24:57.623 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:25:07.625 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:25:07.625 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:25:07.626 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:25:17.627 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:25:17.627 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:25:17.628 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:25:27.629 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:25:27.629 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:25:27.631 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:25:37.633 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:25:37.633 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:25:37.633 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:25:47.634 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:25:47.634 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:25:47.635 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:25:57.636 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:25:57.636 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:25:57.637 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:26:07.638 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:26:07.638 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:26:07.640 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+16:26:17.640 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+16:26:17.640 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+16:26:17.641 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0

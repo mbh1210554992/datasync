@@ -8,6 +8,7 @@
     <result column="info_id" property="infoId"/>
     <result column="node_name" property="nodeName" jdbcType="VARCHAR" />
     <result column="node_type" property="nodeType" jdbcType="VARCHAR" />
+    <result column="node_note" property="nodeNote"/>
   </resultMap>
   <resultMap id="ResultMapWithBLOBs" type="com.ntu.common.model.po.SpotNode" extends="BaseResultMap" >
     <result column="node_note" property="nodeNote" jdbcType="LONGVARCHAR" />

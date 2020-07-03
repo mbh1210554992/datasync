@@ -1,0 +1,2 @@
+14:18:33.663 [MQTT Call: tjh_node] ERROR com.ntu.client2.sync.NodeDataReceiver - BOX_SENSOR表中 451 号数据同步失败，本条数据将停止同步
+20:37:55.488 [pool-2-thread-1] ERROR com.ntu.client2.sync.NodeDataReceiver - BOX_SENSOR表中 463 号数据同步失败，本条数据将停止同步

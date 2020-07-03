@@ -137,13 +137,17 @@ public class CenterDataReceiver implements DataReceiver {
 
                 local.setInfoNode(nodeName);
 
-                if(insertFlag){
-                    dataSyncMapper.insert(local);
+                try{
+                    if(insertFlag){
+                        dataSyncMapper.insert(local);
+                    }
+                    else{
+                        dataSyncMapper.updateActive(local);
+                    }
+                }catch (Exception e){
+                    logger.info("中央数据库中同步表记录更新失败！");
+                    logger.error("中央数据库中同步记录更新失败,失败原因："+e.getMessage());
                 }
-                else{
-                    dataSyncMapper.updateActive(local);
-                }
-
 
             }
 

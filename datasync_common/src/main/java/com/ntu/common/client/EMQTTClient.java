@@ -1,13 +1,16 @@
 package com.ntu.common.client;
 
 import com.ntu.common.config.MsgSerializer;
-import com.ntu.common.model.SyncMessage;
 import com.ntu.common.model.Constant;
+import com.ntu.common.model.SyncMessage;
 import com.ntu.common.processor.DataReceiver;
 import com.ntu.common.util.SslUtil;
 import org.eclipse.paho.client.mqttv3.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 /**
  * @Author: baihua
@@ -18,6 +21,7 @@ public class EMQTTClient implements IMQTTClient {
     private static final boolean CLEAN_START = true;
     private static final short KEEP_ALIVE = 30;
     private static final long RECONNECTION_DELAY = 5000;
+    public  ExecutorService thread = Executors.newCachedThreadPool();
 
    /* @Autowired
     private SysConfig sysConfig;*/
@@ -78,9 +82,12 @@ public class EMQTTClient implements IMQTTClient {
                         logger.debug("接收消息Qos： "+message.getQos());
                         SyncMessage syncMessage = new MsgSerializer().decode(message.getPayload());
                         logger.debug("接收消息内容： "+ syncMessage.getData());
-
-                        if(EMQTTClient.this.dr!=null)
-                            EMQTTClient.this.dr.onReceive(topic, message.getPayload());
+                        thread.execute(new Runnable() {
+                            public void run() {
+                                if(EMQTTClient.this.dr!=null)
+                                    EMQTTClient.this.dr.onReceive(topic, message.getPayload());
+                            }
+                        });
 
                     }
 

@@ -1,0 +1,42 @@
+14:41:23.201 [main] INFO  com.ntu.node.Node1ClientApplication - Starting Node1ClientApplication on LAPTOP-6SA701DM with PID 9656 (C:\Users\Lenovo\Desktop\datasync\datasync_node1_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+14:41:23.240 [main] INFO  com.ntu.node.Node1ClientApplication - No active profile set, falling back to default profiles: default
+14:41:28.550 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+14:41:28.597 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+14:41:28.598 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:41:28.599 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+14:41:29.157 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:41:29.157 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5781 ms
+14:41:32.018 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:41:32.490 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+14:41:32.531 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+14:41:32.562 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+14:41:33.070 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+14:41:39.634 [main] INFO  com.ntu.node.ClientStart - 长江结点成功连接至MQTT服务器.........
+14:41:39.650 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+14:41:39.692 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+14:41:39.697 [main] INFO  com.ntu.node.Node1ClientApplication - Started Node1ClientApplication in 17.519 seconds (JVM running for 23.784)
+14:42:41.201 [node1] INFO  com.ntu.node.sync.SendThread - DataSync(infoId=512, infoType=B, syncType=4, syncStatus=1, successTime=null, failTime=null, failCount=0, syncMsg=未开始数据同步, infoNode=null)
+14:42:41.540 [node1] INFO  com.ntu.node.sync.SendThread - 发送消息:BoxSensor(infoId=512, areaId=34, spotId=34, nodeId=34, dataTime=Thu May 21 22:51:45 CST 2020, conductivity=null, temperature=123.0, pressure=null, salinity=null, dissolvedoxygen=null, spad=null, turbidity=null, andan=null, yaxiaodan=null, linsuanyan=null, orp=null, infoNode=null)
+14:42:46.557 [pool-2-thread-1] INFO  com.ntu.node.sync.NodeDataReceiver - 收到确认消息.....
+14:42:46.558 [pool-2-thread-1] INFO  com.ntu.node.sync.NodeDataReceiver - BOX_SENSOR表中 512 号数据同步成功....
+14:45:00.263 [main] INFO  com.ntu.node.Node1ClientApplication - Starting Node1ClientApplication on LAPTOP-6SA701DM with PID 3540 (C:\Users\Lenovo\Desktop\datasync\datasync_node1_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+14:45:00.271 [main] INFO  com.ntu.node.Node1ClientApplication - No active profile set, falling back to default profiles: default
+14:45:03.365 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+14:45:03.384 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+14:45:03.385 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:45:03.385 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+14:45:03.656 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:45:03.656 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3232 ms
+14:45:05.025 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:45:05.280 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+14:45:05.307 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+14:45:05.331 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+14:45:05.748 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+14:45:12.604 [main] INFO  com.ntu.node.ClientStart - 长江结点成功连接至MQTT服务器.........
+14:45:12.619 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+14:45:12.712 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+14:45:12.722 [main] INFO  com.ntu.node.Node1ClientApplication - Started Node1ClientApplication in 13.672 seconds (JVM running for 19.925)
+14:45:23.328 [node1] INFO  com.ntu.node.sync.SendThread - DataSync(infoId=512, infoType=B, syncType=4, syncStatus=1, successTime=null, failTime=null, failCount=0, syncMsg=未开始数据同步, infoNode=null)
+14:45:24.295 [node1] INFO  com.ntu.node.sync.SendThread - 发送消息:BoxSensor(infoId=512, areaId=34, spotId=34, nodeId=34, dataTime=Thu May 21 22:51:45 CST 2020, conductivity=null, temperature=123.0, pressure=321.0, salinity=null, dissolvedoxygen=null, spad=null, turbidity=null, andan=null, yaxiaodan=null, linsuanyan=null, orp=null, infoNode=null)
+14:45:27.306 [pool-2-thread-1] INFO  com.ntu.node.sync.NodeDataReceiver - 收到确认消息.....
+14:45:27.307 [pool-2-thread-1] INFO  com.ntu.node.sync.NodeDataReceiver - BOX_SENSOR表中 512 号数据同步成功....

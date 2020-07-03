@@ -103,6 +103,7 @@ public class NodeDataReceiver implements DataReceiver {
                     local.setSyncStatus("2");
                     local.setSyncMsg("数据同步失败");
                     local.setFailTime(new Date());
+                    local.setSuccessTime(null);
                 }
 
 

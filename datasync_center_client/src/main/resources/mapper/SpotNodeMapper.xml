@@ -9,6 +9,7 @@
     <result column="info_node" property="infoNode"/>
     <result column="node_name" property="nodeName" jdbcType="VARCHAR" />
     <result column="node_type" property="nodeType" jdbcType="VARCHAR" />
+    <result column="node_note" property="nodeNote"/>
   </resultMap>
   <resultMap id="ResultMapWithBLOBs" type="com.ntu.common.model.po.SpotNode" extends="BaseResultMap" >
     <result column="node_note" property="nodeNote" jdbcType="LONGVARCHAR" />
@@ -120,7 +121,8 @@
   <update id="updateByPrimaryKey" parameterType="com.ntu.common.model.po.SpotNode" >
     update spot_node
     set node_name = #{nodeName,jdbcType=VARCHAR},
-      node_type = #{nodeType,jdbcType=VARCHAR}
+      node_type = #{nodeType,jdbcType=VARCHAR},
+      node_note = #{nodeNote,jdbcType=LONGVARCHAR}
     where node_id = #{nodeId,jdbcType=VARCHAR}
       and spot_id = #{spotId,jdbcType=VARCHAR}
       and area_id = #{areaId,jdbcType=VARCHAR}

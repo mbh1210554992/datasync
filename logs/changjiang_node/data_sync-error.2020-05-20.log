@@ -1,0 +1,2 @@
+18:52:01.931 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 205 号数据同步失败，本条数据将停止同步
+20:07:37.709 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - SPOT_NODE表中 39 号数据同步失败，本条数据将停止同步

@@ -1,0 +1,710 @@
+12:28:33.303 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 18320 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+12:28:33.365 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+12:29:01.075 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 15240 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+12:29:01.075 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+12:29:04.199 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+12:29:04.215 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+12:29:04.215 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+12:29:04.215 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+12:29:04.464 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:29:04.480 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3202 ms
+12:29:05.870 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12:29:05.980 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+12:29:06.417 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+12:29:13.603 [main] INFO  com.ntu.center.CenterClientStart - 中央数据库节点成功连接至MQTT服务器.....
+12:29:13.603 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+12:29:13.650 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+12:29:13.650 [main] INFO  com.ntu.center.CenterClientApplication - Started CenterClientApplication in 14.323 seconds (JVM running for 17.568)
+13:00:09.551 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 SPOT_NODE 表中的 41 号数据同步成功 同步时间：Thu May 21 13:00:09 CST 2020
+13:24:44.380 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 65 号数据同步成功 同步时间：Thu May 21 13:24:44 CST 2020
+13:24:44.493 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+13:24:59.642 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 65 号数据同步成功 同步时间：Thu May 21 13:24:59 CST 2020
+13:25:00.641 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 232 号数据同步成功 同步时间：Thu May 21 13:25:00 CST 2020
+13:25:01.639 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 248 号数据同步成功 同步时间：Thu May 21 13:25:01 CST 2020
+13:25:02.641 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 435 号数据同步成功 同步时间：Thu May 21 13:25:02 CST 2020
+13:25:03.641 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 436 号数据同步成功 同步时间：Thu May 21 13:25:03 CST 2020
+13:25:04.643 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 437 号数据同步成功 同步时间：Thu May 21 13:25:04 CST 2020
+13:25:05.647 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 438 号数据同步成功 同步时间：Thu May 21 13:25:05 CST 2020
+13:25:06.702 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 439 号数据同步成功 同步时间：Thu May 21 13:25:06 CST 2020
+13:32:40.210 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 7656 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+13:32:40.218 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+13:32:43.051 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+13:32:43.073 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+13:32:43.073 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+13:32:43.074 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+13:32:43.527 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:32:43.528 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3160 ms
+13:32:44.891 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+13:32:45.090 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+13:32:45.543 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+13:32:52.287 [main] INFO  com.ntu.center.CenterClientStart - 中央数据库节点成功连接至MQTT服务器.....
+13:32:52.291 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+13:32:52.346 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+13:32:52.352 [main] INFO  com.ntu.center.CenterClientApplication - Started CenterClientApplication in 13.751 seconds (JVM running for 18.592)
+13:52:07.905 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 14720 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+13:52:07.917 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+13:52:12.119 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+13:52:12.153 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+13:52:12.155 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+13:52:12.157 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+13:52:12.513 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:52:12.514 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4251 ms
+13:52:13.618 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+13:52:13.897 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+13:52:14.330 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+13:52:30.660 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 16116 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+13:52:30.702 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+13:52:33.786 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+13:52:33.810 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+13:52:33.810 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+13:52:33.811 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+13:52:34.103 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:52:34.103 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3054 ms
+13:52:35.376 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+13:52:35.544 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+13:52:36.101 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+13:52:42.727 [main] INFO  com.ntu.center.CenterClientStart - 中央数据库节点成功连接至MQTT服务器.....
+13:52:42.730 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+13:52:42.776 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+13:52:42.784 [main] INFO  com.ntu.center.CenterClientApplication - Started CenterClientApplication in 13.797 seconds (JVM running for 17.232)
+13:52:44.666 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:52:45.179 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:52:45.366 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 445 号数据同步成功 同步时间：Thu May 21 13:52:45 CST 2020
+13:52:45.684 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 446 号数据同步成功 同步时间：Thu May 21 13:52:45 CST 2020
+13:52:46.699 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 447 号数据同步成功 同步时间：Thu May 21 13:52:46 CST 2020
+13:52:47.702 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 448 号数据同步成功 同步时间：Thu May 21 13:52:47 CST 2020
+13:52:48.707 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 449 号数据同步成功 同步时间：Thu May 21 13:52:48 CST 2020
+13:52:49.702 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 450 号数据同步成功 同步时间：Thu May 21 13:52:49 CST 2020
+13:52:50.663 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 451 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:53:01.674 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 440 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:53:02.707 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 441 号数据同步成功 同步时间：Thu May 21 13:53:02 CST 2020
+13:53:03.710 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 442 号数据同步成功 同步时间：Thu May 21 13:53:03 CST 2020
+13:53:04.714 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 443 号数据同步成功 同步时间：Thu May 21 13:53:04 CST 2020
+13:53:05.715 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 444 号数据同步成功 同步时间：Thu May 21 13:53:05 CST 2020
+13:54:36.728 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 206 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:54:37.731 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 207 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:54:38.732 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 208 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:54:39.735 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 209 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:54:40.739 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 210 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:54:41.746 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 211 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:54:42.733 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 212 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:54:43.738 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 213 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:54:44.735 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 214 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:54:45.738 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 215 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:54:46.737 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 216 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:54:47.739 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 217 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:54:48.738 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 218 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:54:49.745 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 219 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:54:50.739 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 220 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:54:51.746 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 221 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:54:52.777 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 222 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:54:53.744 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 223 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:54:54.744 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 224 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:54:55.756 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 225 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:54:56.746 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 226 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:54:57.746 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 227 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:54:58.751 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 228 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:54:59.747 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 229 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:55:00.756 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 230 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:55:01.751 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 231 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:55:02.750 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 232 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:55:03.754 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 233 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:55:04.759 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 234 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:55:05.754 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 235 号数据新增失败,失败原因：中央数据库中已存在此条数据
+13:55:06.757 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 236 号数据新增失败,失败原因：中央数据库中已存在此条数据
+14:01:44.036 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 237 号数据同步成功 同步时间：Thu May 21 14:01:44 CST 2020
+14:01:45.038 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 238 号数据同步成功 同步时间：Thu May 21 14:01:45 CST 2020
+14:01:46.044 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 239 号数据同步成功 同步时间：Thu May 21 14:01:46 CST 2020
+14:01:47.046 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 240 号数据同步成功 同步时间：Thu May 21 14:01:47 CST 2020
+14:01:48.043 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 241 号数据同步成功 同步时间：Thu May 21 14:01:48 CST 2020
+14:01:49.042 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 242 号数据同步成功 同步时间：Thu May 21 14:01:49 CST 2020
+14:01:50.045 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 243 号数据同步成功 同步时间：Thu May 21 14:01:50 CST 2020
+14:01:51.043 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 244 号数据同步成功 同步时间：Thu May 21 14:01:51 CST 2020
+14:01:52.045 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 245 号数据同步成功 同步时间：Thu May 21 14:01:52 CST 2020
+14:01:53.069 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 246 号数据同步成功 同步时间：Thu May 21 14:01:53 CST 2020
+14:01:54.047 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 247 号数据同步成功 同步时间：Thu May 21 14:01:54 CST 2020
+14:01:55.049 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 248 号数据同步成功 同步时间：Thu May 21 14:01:55 CST 2020
+14:01:56.047 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 249 号数据同步成功 同步时间：Thu May 21 14:01:56 CST 2020
+14:01:57.051 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 250 号数据同步成功 同步时间：Thu May 21 14:01:57 CST 2020
+14:01:58.048 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 251 号数据同步成功 同步时间：Thu May 21 14:01:58 CST 2020
+14:01:59.050 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 252 号数据同步成功 同步时间：Thu May 21 14:01:59 CST 2020
+14:02:00.076 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 253 号数据同步成功 同步时间：Thu May 21 14:02:00 CST 2020
+14:02:01.054 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 254 号数据同步成功 同步时间：Thu May 21 14:02:01 CST 2020
+14:02:02.052 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 255 号数据同步成功 同步时间：Thu May 21 14:02:02 CST 2020
+14:02:03.053 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 256 号数据同步成功 同步时间：Thu May 21 14:02:03 CST 2020
+14:02:04.055 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 257 号数据同步成功 同步时间：Thu May 21 14:02:04 CST 2020
+14:02:05.056 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 258 号数据同步成功 同步时间：Thu May 21 14:02:05 CST 2020
+14:02:06.056 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 259 号数据同步成功 同步时间：Thu May 21 14:02:06 CST 2020
+14:02:07.059 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 260 号数据同步成功 同步时间：Thu May 21 14:02:07 CST 2020
+14:02:08.057 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 261 号数据同步成功 同步时间：Thu May 21 14:02:08 CST 2020
+14:02:09.063 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 262 号数据同步成功 同步时间：Thu May 21 14:02:09 CST 2020
+14:02:10.059 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 263 号数据同步成功 同步时间：Thu May 21 14:02:10 CST 2020
+14:02:11.058 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 264 号数据同步成功 同步时间：Thu May 21 14:02:11 CST 2020
+14:02:12.062 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 265 号数据同步成功 同步时间：Thu May 21 14:02:12 CST 2020
+14:02:13.067 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 266 号数据同步成功 同步时间：Thu May 21 14:02:13 CST 2020
+14:02:14.060 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 267 号数据同步成功 同步时间：Thu May 21 14:02:14 CST 2020
+14:07:34.217 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 237 号数据同步成功 同步时间：Thu May 21 14:07:34 CST 2020
+14:07:35.219 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 238 号数据同步成功 同步时间：Thu May 21 14:07:35 CST 2020
+14:07:36.222 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 239 号数据同步成功 同步时间：Thu May 21 14:07:36 CST 2020
+14:07:37.222 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 240 号数据同步成功 同步时间：Thu May 21 14:07:37 CST 2020
+14:07:38.221 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 241 号数据同步成功 同步时间：Thu May 21 14:07:38 CST 2020
+14:07:39.222 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 242 号数据同步成功 同步时间：Thu May 21 14:07:39 CST 2020
+14:07:40.222 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 243 号数据同步成功 同步时间：Thu May 21 14:07:40 CST 2020
+14:07:41.232 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 244 号数据同步成功 同步时间：Thu May 21 14:07:41 CST 2020
+14:07:42.226 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 245 号数据同步成功 同步时间：Thu May 21 14:07:42 CST 2020
+14:07:43.227 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 246 号数据同步成功 同步时间：Thu May 21 14:07:43 CST 2020
+14:07:44.228 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 247 号数据同步成功 同步时间：Thu May 21 14:07:44 CST 2020
+14:07:45.233 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 248 号数据同步成功 同步时间：Thu May 21 14:07:45 CST 2020
+14:07:46.330 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 249 号数据同步成功 同步时间：Thu May 21 14:07:46 CST 2020
+14:07:47.229 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 250 号数据同步成功 同步时间：Thu May 21 14:07:47 CST 2020
+14:07:48.234 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 251 号数据同步成功 同步时间：Thu May 21 14:07:48 CST 2020
+14:07:49.235 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 252 号数据同步成功 同步时间：Thu May 21 14:07:49 CST 2020
+14:07:50.233 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 253 号数据同步成功 同步时间：Thu May 21 14:07:50 CST 2020
+14:07:51.235 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 254 号数据同步成功 同步时间：Thu May 21 14:07:51 CST 2020
+14:07:52.236 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 255 号数据同步成功 同步时间：Thu May 21 14:07:52 CST 2020
+14:07:53.236 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 256 号数据同步成功 同步时间：Thu May 21 14:07:53 CST 2020
+14:07:54.240 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 257 号数据同步成功 同步时间：Thu May 21 14:07:54 CST 2020
+14:07:55.236 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 258 号数据同步成功 同步时间：Thu May 21 14:07:55 CST 2020
+14:07:56.240 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 259 号数据同步成功 同步时间：Thu May 21 14:07:56 CST 2020
+14:07:57.244 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 260 号数据同步成功 同步时间：Thu May 21 14:07:57 CST 2020
+14:07:58.239 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 261 号数据同步成功 同步时间：Thu May 21 14:07:58 CST 2020
+14:07:59.240 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 262 号数据同步成功 同步时间：Thu May 21 14:07:59 CST 2020
+14:08:00.261 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 263 号数据同步成功 同步时间：Thu May 21 14:08:00 CST 2020
+14:08:01.254 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 264 号数据同步成功 同步时间：Thu May 21 14:08:01 CST 2020
+14:08:02.244 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 265 号数据同步成功 同步时间：Thu May 21 14:08:02 CST 2020
+14:08:03.244 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 266 号数据同步成功 同步时间：Thu May 21 14:08:03 CST 2020
+14:08:04.242 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 267 号数据同步成功 同步时间：Thu May 21 14:08:04 CST 2020
+14:08:24.268 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 268 号数据同步成功 同步时间：Thu May 21 14:08:24 CST 2020
+14:08:25.285 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 269 号数据同步成功 同步时间：Thu May 21 14:08:25 CST 2020
+14:08:26.279 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 270 号数据同步成功 同步时间：Thu May 21 14:08:26 CST 2020
+14:08:27.276 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 271 号数据同步成功 同步时间：Thu May 21 14:08:27 CST 2020
+14:08:28.275 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 272 号数据同步成功 同步时间：Thu May 21 14:08:28 CST 2020
+14:08:29.278 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 273 号数据同步成功 同步时间：Thu May 21 14:08:29 CST 2020
+14:08:30.280 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 274 号数据同步成功 同步时间：Thu May 21 14:08:30 CST 2020
+14:08:31.281 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 275 号数据同步成功 同步时间：Thu May 21 14:08:31 CST 2020
+14:08:32.303 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 276 号数据同步成功 同步时间：Thu May 21 14:08:32 CST 2020
+14:08:33.281 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 277 号数据同步成功 同步时间：Thu May 21 14:08:33 CST 2020
+14:08:34.279 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 278 号数据同步成功 同步时间：Thu May 21 14:08:34 CST 2020
+14:08:35.281 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 279 号数据同步成功 同步时间：Thu May 21 14:08:35 CST 2020
+14:08:36.283 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 280 号数据同步成功 同步时间：Thu May 21 14:08:36 CST 2020
+14:08:37.283 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 281 号数据同步成功 同步时间：Thu May 21 14:08:37 CST 2020
+14:08:38.293 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 282 号数据同步成功 同步时间：Thu May 21 14:08:38 CST 2020
+14:08:39.284 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 283 号数据同步成功 同步时间：Thu May 21 14:08:39 CST 2020
+14:08:40.284 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 284 号数据同步成功 同步时间：Thu May 21 14:08:40 CST 2020
+14:08:41.294 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 285 号数据同步成功 同步时间：Thu May 21 14:08:41 CST 2020
+14:08:42.287 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 286 号数据同步成功 同步时间：Thu May 21 14:08:42 CST 2020
+14:08:43.288 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 287 号数据同步成功 同步时间：Thu May 21 14:08:43 CST 2020
+14:08:44.288 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 288 号数据同步成功 同步时间：Thu May 21 14:08:44 CST 2020
+14:08:45.291 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 289 号数据同步成功 同步时间：Thu May 21 14:08:45 CST 2020
+14:08:46.291 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 290 号数据同步成功 同步时间：Thu May 21 14:08:46 CST 2020
+14:08:47.294 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 291 号数据同步成功 同步时间：Thu May 21 14:08:47 CST 2020
+14:08:48.290 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 292 号数据同步成功 同步时间：Thu May 21 14:08:48 CST 2020
+14:08:49.291 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 293 号数据同步成功 同步时间：Thu May 21 14:08:49 CST 2020
+14:08:50.294 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 294 号数据同步成功 同步时间：Thu May 21 14:08:50 CST 2020
+14:08:51.293 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 295 号数据同步成功 同步时间：Thu May 21 14:08:51 CST 2020
+14:08:52.293 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 296 号数据同步成功 同步时间：Thu May 21 14:08:52 CST 2020
+14:08:53.302 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 297 号数据同步成功 同步时间：Thu May 21 14:08:53 CST 2020
+14:08:54.296 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 298 号数据同步成功 同步时间：Thu May 21 14:08:54 CST 2020
+14:17:50.594 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 439 号数据同步成功 同步时间：Thu May 21 14:17:50 CST 2020
+14:18:21.633 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 440 号数据同步成功 同步时间：Thu May 21 14:18:21 CST 2020
+14:18:22.640 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 441 号数据同步成功 同步时间：Thu May 21 14:18:22 CST 2020
+14:18:23.639 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 442 号数据同步成功 同步时间：Thu May 21 14:18:23 CST 2020
+14:18:24.639 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 443 号数据同步成功 同步时间：Thu May 21 14:18:24 CST 2020
+14:18:25.642 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 444 号数据同步成功 同步时间：Thu May 21 14:18:25 CST 2020
+14:18:26.648 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 445 号数据同步成功 同步时间：Thu May 21 14:18:26 CST 2020
+14:18:27.643 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 446 号数据同步成功 同步时间：Thu May 21 14:18:27 CST 2020
+14:18:28.652 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 447 号数据同步成功 同步时间：Thu May 21 14:18:28 CST 2020
+14:18:29.645 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 448 号数据同步成功 同步时间：Thu May 21 14:18:29 CST 2020
+14:18:30.649 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 449 号数据同步成功 同步时间：Thu May 21 14:18:30 CST 2020
+14:18:31.650 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 450 号数据同步成功 同步时间：Thu May 21 14:18:31 CST 2020
+14:18:32.609 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 451 号数据新增失败,失败原因：中央数据库中已存在此条数据
+15:32:28.867 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 268 号数据同步成功 同步时间：Thu May 21 15:32:28 CST 2020
+17:10:09.854 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 279 号数据同步成功 同步时间：Thu May 21 17:10:09 CST 2020
+17:10:09.920 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+17:10:26.006 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 279 号数据更新失败,失败原因：中央数据库没有此条数据
+17:21:02.374 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 279 号数据更新失败,失败原因：中央数据库没有此条数据
+17:21:38.429 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 278 号数据同步成功 同步时间：Thu May 21 17:21:38 CST 2020
+17:27:59.725 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 284 号数据同步成功 同步时间：Thu May 21 17:27:59 CST 2020
+17:28:09.733 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 284 号数据同步成功 同步时间：Thu May 21 17:28:09 CST 2020
+17:28:51.069 [http-nio-9999-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1589872028,1589970932,1590040176; Hm_lpvt_eaa57ca47dacb4ad4f5a257001a3457c=1590041875] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+17:28:51.112 [http-nio-9999-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:28:51.112 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:28:51.168 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 56 ms
+17:40:01.094 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 452 号数据同步成功 同步时间：Thu May 21 17:40:01 CST 2020
+17:40:02.096 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 453 号数据同步成功 同步时间：Thu May 21 17:40:02 CST 2020
+17:40:03.098 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 454 号数据同步成功 同步时间：Thu May 21 17:40:03 CST 2020
+17:40:43.220 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 455 号数据同步失败,已失败1次
+17:40:48.322 [MQTT Rec: center] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+17:40:55.431 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 459 号数据同步成功 同步时间：Thu May 21 17:40:55 CST 2020
+17:40:56.433 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 460 号数据同步成功 同步时间：Thu May 21 17:40:56 CST 2020
+17:40:57.476 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 461 号数据同步成功 同步时间：Thu May 21 17:40:57 CST 2020
+17:40:58.437 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 462 号数据同步成功 同步时间：Thu May 21 17:40:58 CST 2020
+17:40:59.402 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 463 号数据新增失败,失败原因：中央数据库中已存在此条数据
+17:41:09.443 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 455 号数据同步成功 同步时间：Thu May 21 17:41:09 CST 2020
+17:41:11.443 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 456 号数据同步成功 同步时间：Thu May 21 17:41:11 CST 2020
+17:41:12.489 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 457 号数据同步成功 同步时间：Thu May 21 17:41:12 CST 2020
+17:41:13.448 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 458 号数据同步成功 同步时间：Thu May 21 17:41:13 CST 2020
+17:43:32.347 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 9784 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+17:43:32.355 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+17:43:35.265 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+17:43:35.287 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+17:43:35.287 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+17:43:35.288 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+17:43:35.634 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:43:35.635 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3070 ms
+17:43:35.851 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+17:43:35.952 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:44:19.897 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 3060 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+17:44:19.904 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+17:44:22.785 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+17:44:22.805 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+17:44:22.805 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+17:44:22.806 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+17:44:23.062 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:44:23.062 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3010 ms
+17:44:24.040 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:44:24.167 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+17:44:24.599 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+17:44:31.186 [main] INFO  com.ntu.center.CenterClientStart - 中央数据库节点成功连接至MQTT服务器.....
+17:44:31.189 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+17:44:31.232 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+17:44:31.238 [main] INFO  com.ntu.center.CenterClientApplication - Started CenterClientApplication in 12.806 seconds (JVM running for 16.205)
+17:45:14.076 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:45:14.613 [MQTT Call: center] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:45:14.733 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 452 号数据同步成功 同步时间：Thu May 21 17:45:14 CST 2020
+17:45:15.101 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 453 号数据同步成功 同步时间：Thu May 21 17:45:15 CST 2020
+17:45:16.119 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 454 号数据同步成功 同步时间：Thu May 21 17:45:16 CST 2020
+17:45:17.131 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 455 号数据同步成功 同步时间：Thu May 21 17:45:17 CST 2020
+17:45:18.202 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 456 号数据同步成功 同步时间：Thu May 21 17:45:18 CST 2020
+17:45:19.132 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 457 号数据同步成功 同步时间：Thu May 21 17:45:19 CST 2020
+17:45:20.119 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 458 号数据同步成功 同步时间：Thu May 21 17:45:20 CST 2020
+17:45:21.121 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 459 号数据同步成功 同步时间：Thu May 21 17:45:21 CST 2020
+17:45:22.120 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 460 号数据同步成功 同步时间：Thu May 21 17:45:22 CST 2020
+17:45:23.120 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 461 号数据同步成功 同步时间：Thu May 21 17:45:23 CST 2020
+17:45:24.142 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 462 号数据同步成功 同步时间：Thu May 21 17:45:24 CST 2020
+17:45:25.119 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 463 号数据同步成功 同步时间：Thu May 21 17:45:25 CST 2020
+17:54:06.529 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 464 号数据同步成功 同步时间：Thu May 21 17:54:06 CST 2020
+17:54:07.416 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 465 号数据同步成功 同步时间：Thu May 21 17:54:07 CST 2020
+17:54:08.412 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 466 号数据同步成功 同步时间：Thu May 21 17:54:08 CST 2020
+17:54:09.408 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 467 号数据同步成功 同步时间：Thu May 21 17:54:09 CST 2020
+17:54:10.421 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 468 号数据同步成功 同步时间：Thu May 21 17:54:10 CST 2020
+17:54:11.421 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 469 号数据同步成功 同步时间：Thu May 21 17:54:11 CST 2020
+17:54:12.431 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 470 号数据同步成功 同步时间：Thu May 21 17:54:12 CST 2020
+17:54:13.419 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 471 号数据同步成功 同步时间：Thu May 21 17:54:13 CST 2020
+17:54:14.428 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 472 号数据同步成功 同步时间：Thu May 21 17:54:14 CST 2020
+17:54:15.414 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 473 号数据同步成功 同步时间：Thu May 21 17:54:15 CST 2020
+17:54:16.414 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 474 号数据同步成功 同步时间：Thu May 21 17:54:16 CST 2020
+17:54:17.374 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 475 号数据新增失败,失败原因：中央数据库中已存在此条数据
+17:56:07.451 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 464 号数据同步成功 同步时间：Thu May 21 17:56:07 CST 2020
+17:56:08.455 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 465 号数据同步成功 同步时间：Thu May 21 17:56:08 CST 2020
+17:56:09.455 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 466 号数据同步成功 同步时间：Thu May 21 17:56:09 CST 2020
+17:56:10.458 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 467 号数据同步成功 同步时间：Thu May 21 17:56:10 CST 2020
+17:56:11.459 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 468 号数据同步成功 同步时间：Thu May 21 17:56:11 CST 2020
+17:56:12.465 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 469 号数据同步成功 同步时间：Thu May 21 17:56:12 CST 2020
+17:56:13.459 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 470 号数据同步成功 同步时间：Thu May 21 17:56:13 CST 2020
+17:56:14.469 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 471 号数据同步成功 同步时间：Thu May 21 17:56:14 CST 2020
+17:56:15.466 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 472 号数据同步成功 同步时间：Thu May 21 17:56:15 CST 2020
+17:56:16.462 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 473 号数据同步成功 同步时间：Thu May 21 17:56:16 CST 2020
+17:56:17.470 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 474 号数据同步成功 同步时间：Thu May 21 17:56:17 CST 2020
+17:56:18.462 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 475 号数据同步成功 同步时间：Thu May 21 17:56:18 CST 2020
+17:58:09.552 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 476 号数据同步成功 同步时间：Thu May 21 17:58:09 CST 2020
+17:58:10.556 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 477 号数据同步成功 同步时间：Thu May 21 17:58:10 CST 2020
+17:58:11.557 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 478 号数据同步成功 同步时间：Thu May 21 17:58:11 CST 2020
+17:58:12.559 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 479 号数据同步成功 同步时间：Thu May 21 17:58:12 CST 2020
+17:58:13.561 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 480 号数据同步成功 同步时间：Thu May 21 17:58:13 CST 2020
+17:58:14.558 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 481 号数据同步成功 同步时间：Thu May 21 17:58:14 CST 2020
+17:58:15.559 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 482 号数据同步成功 同步时间：Thu May 21 17:58:15 CST 2020
+17:58:16.562 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 483 号数据同步成功 同步时间：Thu May 21 17:58:16 CST 2020
+17:58:17.561 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 484 号数据同步成功 同步时间：Thu May 21 17:58:17 CST 2020
+17:58:18.562 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 485 号数据同步成功 同步时间：Thu May 21 17:58:18 CST 2020
+17:58:19.563 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 486 号数据同步成功 同步时间：Thu May 21 17:58:19 CST 2020
+17:58:20.564 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 487 号数据同步成功 同步时间：Thu May 21 17:58:20 CST 2020
+17:58:30.293 [http-nio-9999-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1589872028,1589970932,1590040176; Hm_lpvt_eaa57ca47dacb4ad4f5a257001a3457c=1590053988] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+17:58:30.315 [http-nio-9999-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:58:30.316 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:58:30.346 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 30 ms
+18:07:41.136 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 10980 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+18:07:41.146 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+18:07:43.763 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+18:07:43.783 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+18:07:43.784 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+18:07:43.784 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+18:07:44.033 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:07:44.034 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2732 ms
+18:07:45.019 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+18:07:45.141 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+18:07:45.482 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+18:07:52.009 [main] INFO  com.ntu.center.CenterClientStart - 中央数据库节点成功连接至MQTT服务器.....
+18:07:52.012 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+18:07:52.056 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+18:07:52.061 [main] INFO  com.ntu.center.CenterClientApplication - Started CenterClientApplication in 12.392 seconds (JVM running for 16.021)
+18:25:43.158 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 476 号数据同步成功 同步时间：Thu May 21 18:25:43 CST 2020
+18:37:48.033 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 487 号数据同步成功 同步时间：Thu May 21 18:37:48 CST 2020
+18:45:34.188 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 476 号数据同步成功 同步时间：Thu May 21 18:45:34 CST 2020
+18:45:41.147 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 477 号数据同步成功 同步时间：Thu May 21 18:45:41 CST 2020
+18:45:42.202 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 478 号数据同步成功 同步时间：Thu May 21 18:45:42 CST 2020
+19:03:34.354 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 936 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+19:03:34.363 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+19:03:39.191 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+19:03:39.230 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+19:03:39.231 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+19:03:39.231 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+19:03:39.651 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:03:39.652 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5081 ms
+19:03:41.290 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+19:03:41.596 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+19:03:42.383 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+19:03:51.662 [main] INFO  com.ntu.center.CenterClientStart - 中央数据库节点成功连接至MQTT服务器.....
+19:03:51.667 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+19:03:51.740 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+19:03:51.748 [main] INFO  com.ntu.center.CenterClientApplication - Started CenterClientApplication in 19.426 seconds (JVM running for 23.917)
+19:04:19.402 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 478 号数据同步成功 同步时间：Thu May 21 19:04:19 CST 2020
+19:04:20.571 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 479 号数据同步成功 同步时间：Thu May 21 19:04:20 CST 2020
+19:04:21.571 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 480 号数据同步成功 同步时间：Thu May 21 19:04:21 CST 2020
+19:04:22.573 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 481 号数据同步成功 同步时间：Thu May 21 19:04:22 CST 2020
+19:04:23.577 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 482 号数据同步成功 同步时间：Thu May 21 19:04:23 CST 2020
+19:04:24.574 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 483 号数据同步成功 同步时间：Thu May 21 19:04:24 CST 2020
+19:04:25.571 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 484 号数据同步成功 同步时间：Thu May 21 19:04:25 CST 2020
+19:04:26.579 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 485 号数据同步成功 同步时间：Thu May 21 19:04:26 CST 2020
+19:04:27.572 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 486 号数据同步成功 同步时间：Thu May 21 19:04:27 CST 2020
+19:07:34.702 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 268 号数据同步成功 同步时间：Thu May 21 19:07:34 CST 2020
+19:07:35.830 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 269 号数据同步成功 同步时间：Thu May 21 19:07:35 CST 2020
+19:07:36.704 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 270 号数据同步成功 同步时间：Thu May 21 19:07:36 CST 2020
+19:07:37.714 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 271 号数据同步成功 同步时间：Thu May 21 19:07:37 CST 2020
+19:07:38.722 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 272 号数据同步成功 同步时间：Thu May 21 19:07:38 CST 2020
+19:07:39.709 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 273 号数据同步成功 同步时间：Thu May 21 19:07:39 CST 2020
+19:07:40.725 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 274 号数据同步成功 同步时间：Thu May 21 19:07:40 CST 2020
+19:07:41.724 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 275 号数据同步成功 同步时间：Thu May 21 19:07:41 CST 2020
+19:07:42.708 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 276 号数据同步成功 同步时间：Thu May 21 19:07:42 CST 2020
+19:07:43.712 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 277 号数据同步成功 同步时间：Thu May 21 19:07:43 CST 2020
+19:07:44.713 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 278 号数据同步成功 同步时间：Thu May 21 19:07:44 CST 2020
+19:07:45.716 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 279 号数据同步成功 同步时间：Thu May 21 19:07:45 CST 2020
+19:07:46.715 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 280 号数据同步成功 同步时间：Thu May 21 19:07:46 CST 2020
+19:07:47.719 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 281 号数据同步成功 同步时间：Thu May 21 19:07:47 CST 2020
+19:07:48.716 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 282 号数据同步成功 同步时间：Thu May 21 19:07:48 CST 2020
+19:07:49.721 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 283 号数据同步成功 同步时间：Thu May 21 19:07:49 CST 2020
+19:07:50.729 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 284 号数据同步成功 同步时间：Thu May 21 19:07:50 CST 2020
+19:07:51.762 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 285 号数据同步成功 同步时间：Thu May 21 19:07:51 CST 2020
+19:07:52.720 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 286 号数据同步成功 同步时间：Thu May 21 19:07:52 CST 2020
+19:07:53.730 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 287 号数据同步成功 同步时间：Thu May 21 19:07:53 CST 2020
+19:07:54.722 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 288 号数据同步成功 同步时间：Thu May 21 19:07:54 CST 2020
+19:07:55.723 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 289 号数据同步成功 同步时间：Thu May 21 19:07:55 CST 2020
+19:07:56.721 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 290 号数据同步成功 同步时间：Thu May 21 19:07:56 CST 2020
+19:07:57.853 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 291 号数据同步成功 同步时间：Thu May 21 19:07:57 CST 2020
+19:07:59.198 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 292 号数据同步成功 同步时间：Thu May 21 19:07:59 CST 2020
+19:07:59.724 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 293 号数据同步成功 同步时间：Thu May 21 19:07:59 CST 2020
+19:08:00.725 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 294 号数据同步成功 同步时间：Thu May 21 19:08:00 CST 2020
+19:08:01.725 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 295 号数据同步成功 同步时间：Thu May 21 19:08:01 CST 2020
+19:08:02.728 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 296 号数据同步成功 同步时间：Thu May 21 19:08:02 CST 2020
+19:08:03.726 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 297 号数据同步成功 同步时间：Thu May 21 19:08:03 CST 2020
+19:08:04.728 [MQTT Call: center] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 298 号数据同步成功 同步时间：Thu May 21 19:08:04 CST 2020
+20:07:30.673 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 17156 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+20:07:30.739 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+20:07:35.610 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+20:07:35.636 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+20:07:35.637 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:07:35.637 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+20:07:36.090 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:07:36.090 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5099 ms
+20:07:38.554 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+20:07:38.831 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+20:07:39.438 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+20:07:48.979 [main] INFO  com.ntu.center.CenterClientStart - 中央数据库节点成功连接至MQTT服务器.....
+20:07:48.982 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+20:07:49.038 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+20:07:49.044 [main] INFO  com.ntu.center.CenterClientApplication - Started CenterClientApplication in 20.26 seconds (JVM running for 26.492)
+20:08:41.633 [pool-2-thread-1] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 488 号数据同步成功 同步时间：Thu May 21 20:08:41 CST 2020
+20:08:41.634 [pool-2-thread-3] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 490 号数据同步成功 同步时间：Thu May 21 20:08:41 CST 2020
+20:08:41.635 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 489 号数据同步成功 同步时间：Thu May 21 20:08:41 CST 2020
+20:08:41.642 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 491 号数据同步成功 同步时间：Thu May 21 20:08:41 CST 2020
+20:08:42.649 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 492 号数据同步成功 同步时间：Thu May 21 20:08:42 CST 2020
+20:08:43.615 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 493 号数据同步成功 同步时间：Thu May 21 20:08:43 CST 2020
+20:08:44.595 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 494 号数据同步成功 同步时间：Thu May 21 20:08:44 CST 2020
+20:08:45.705 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 495 号数据同步成功 同步时间：Thu May 21 20:08:45 CST 2020
+20:08:46.613 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 496 号数据同步成功 同步时间：Thu May 21 20:08:46 CST 2020
+20:08:47.609 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 497 号数据同步成功 同步时间：Thu May 21 20:08:47 CST 2020
+20:08:48.596 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 498 号数据同步成功 同步时间：Thu May 21 20:08:48 CST 2020
+20:08:49.626 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 499 号数据同步成功 同步时间：Thu May 21 20:08:49 CST 2020
+20:10:50.692 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 488 号数据同步成功 同步时间：Thu May 21 20:10:50 CST 2020
+20:10:51.657 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 489 号数据同步成功 同步时间：Thu May 21 20:10:51 CST 2020
+20:10:52.656 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 490 号数据同步成功 同步时间：Thu May 21 20:10:52 CST 2020
+20:10:53.657 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 491 号数据同步成功 同步时间：Thu May 21 20:10:53 CST 2020
+20:10:54.661 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 492 号数据同步成功 同步时间：Thu May 21 20:10:54 CST 2020
+20:10:55.662 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 493 号数据同步成功 同步时间：Thu May 21 20:10:55 CST 2020
+20:10:56.662 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 494 号数据同步成功 同步时间：Thu May 21 20:10:56 CST 2020
+20:10:57.661 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 495 号数据同步成功 同步时间：Thu May 21 20:10:57 CST 2020
+20:10:58.664 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 496 号数据同步成功 同步时间：Thu May 21 20:10:58 CST 2020
+20:10:59.663 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 497 号数据同步成功 同步时间：Thu May 21 20:10:59 CST 2020
+20:11:00.664 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 498 号数据同步成功 同步时间：Thu May 21 20:11:00 CST 2020
+20:11:01.671 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 499 号数据同步成功 同步时间：Thu May 21 20:11:01 CST 2020
+20:11:52.746 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 299 号数据同步成功 同步时间：Thu May 21 20:11:52 CST 2020
+20:11:53.742 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 300 号数据同步成功 同步时间：Thu May 21 20:11:53 CST 2020
+20:11:54.746 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 301 号数据同步成功 同步时间：Thu May 21 20:11:54 CST 2020
+20:11:55.750 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 302 号数据同步成功 同步时间：Thu May 21 20:11:55 CST 2020
+20:11:56.744 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 303 号数据同步成功 同步时间：Thu May 21 20:11:56 CST 2020
+20:11:57.759 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 304 号数据同步成功 同步时间：Thu May 21 20:11:57 CST 2020
+20:12:00.219 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 305 号数据同步成功 同步时间：Thu May 21 20:12:00 CST 2020
+20:12:00.470 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 306 号数据同步成功 同步时间：Thu May 21 20:12:00 CST 2020
+20:12:01.785 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 307 号数据同步成功 同步时间：Thu May 21 20:12:01 CST 2020
+20:12:02.772 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 308 号数据同步成功 同步时间：Thu May 21 20:12:02 CST 2020
+20:12:03.767 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 309 号数据同步成功 同步时间：Thu May 21 20:12:03 CST 2020
+20:12:04.767 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 310 号数据同步成功 同步时间：Thu May 21 20:12:04 CST 2020
+20:12:05.774 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 311 号数据同步成功 同步时间：Thu May 21 20:12:05 CST 2020
+20:12:06.771 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 312 号数据同步成功 同步时间：Thu May 21 20:12:06 CST 2020
+20:12:07.775 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 313 号数据同步成功 同步时间：Thu May 21 20:12:07 CST 2020
+20:12:08.772 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 314 号数据同步成功 同步时间：Thu May 21 20:12:08 CST 2020
+20:12:10.753 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 315 号数据同步成功 同步时间：Thu May 21 20:12:10 CST 2020
+20:12:10.766 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 316 号数据同步成功 同步时间：Thu May 21 20:12:10 CST 2020
+20:12:11.772 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 317 号数据同步成功 同步时间：Thu May 21 20:12:11 CST 2020
+20:12:12.774 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 318 号数据同步成功 同步时间：Thu May 21 20:12:12 CST 2020
+20:12:13.782 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 319 号数据同步成功 同步时间：Thu May 21 20:12:13 CST 2020
+20:12:15.758 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 321 号数据同步成功 同步时间：Thu May 21 20:12:15 CST 2020
+20:12:15.784 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 320 号数据同步成功 同步时间：Thu May 21 20:12:15 CST 2020
+20:12:16.773 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 322 号数据同步成功 同步时间：Thu May 21 20:12:16 CST 2020
+20:12:17.775 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 323 号数据同步成功 同步时间：Thu May 21 20:12:17 CST 2020
+20:12:18.775 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 324 号数据同步成功 同步时间：Thu May 21 20:12:18 CST 2020
+20:12:19.778 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 325 号数据同步成功 同步时间：Thu May 21 20:12:19 CST 2020
+20:12:20.777 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 326 号数据同步成功 同步时间：Thu May 21 20:12:20 CST 2020
+20:12:21.779 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 327 号数据同步成功 同步时间：Thu May 21 20:12:21 CST 2020
+20:12:22.777 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 328 号数据同步成功 同步时间：Thu May 21 20:12:22 CST 2020
+20:12:23.784 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 329 号数据同步成功 同步时间：Thu May 21 20:12:23 CST 2020
+20:24:15.121 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 299 号数据同步成功 同步时间：Thu May 21 20:24:15 CST 2020
+20:24:16.188 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 300 号数据同步成功 同步时间：Thu May 21 20:24:16 CST 2020
+20:24:19.083 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 301 号数据同步成功 同步时间：Thu May 21 20:24:19 CST 2020
+20:24:20.083 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 303 号数据同步成功 同步时间：Thu May 21 20:24:20 CST 2020
+20:24:20.092 [pool-2-thread-8] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 302 号数据同步成功 同步时间：Thu May 21 20:24:20 CST 2020
+20:24:21.089 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 304 号数据同步成功 同步时间：Thu May 21 20:24:21 CST 2020
+20:24:22.183 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 305 号数据同步成功 同步时间：Thu May 21 20:24:22 CST 2020
+20:24:23.088 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 306 号数据同步成功 同步时间：Thu May 21 20:24:23 CST 2020
+20:24:24.090 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 307 号数据同步成功 同步时间：Thu May 21 20:24:24 CST 2020
+20:24:25.087 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 308 号数据同步成功 同步时间：Thu May 21 20:24:25 CST 2020
+20:24:26.090 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 309 号数据同步成功 同步时间：Thu May 21 20:24:26 CST 2020
+20:24:27.099 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 310 号数据同步成功 同步时间：Thu May 21 20:24:27 CST 2020
+20:24:28.091 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 311 号数据同步成功 同步时间：Thu May 21 20:24:28 CST 2020
+20:24:29.092 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 312 号数据同步成功 同步时间：Thu May 21 20:24:29 CST 2020
+20:24:30.091 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 313 号数据同步成功 同步时间：Thu May 21 20:24:30 CST 2020
+20:24:31.093 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 314 号数据同步成功 同步时间：Thu May 21 20:24:31 CST 2020
+20:24:32.093 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 315 号数据同步成功 同步时间：Thu May 21 20:24:32 CST 2020
+20:24:33.094 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 316 号数据同步成功 同步时间：Thu May 21 20:24:33 CST 2020
+20:24:34.094 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 317 号数据同步成功 同步时间：Thu May 21 20:24:34 CST 2020
+20:24:35.101 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 318 号数据同步成功 同步时间：Thu May 21 20:24:35 CST 2020
+20:24:36.094 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 319 号数据同步成功 同步时间：Thu May 21 20:24:36 CST 2020
+20:24:37.096 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 320 号数据同步成功 同步时间：Thu May 21 20:24:37 CST 2020
+20:24:38.095 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 321 号数据同步成功 同步时间：Thu May 21 20:24:38 CST 2020
+20:24:39.096 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 322 号数据同步成功 同步时间：Thu May 21 20:24:39 CST 2020
+20:24:40.098 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 323 号数据同步成功 同步时间：Thu May 21 20:24:40 CST 2020
+20:24:41.098 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 324 号数据同步成功 同步时间：Thu May 21 20:24:41 CST 2020
+20:24:42.098 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 325 号数据同步成功 同步时间：Thu May 21 20:24:42 CST 2020
+20:24:43.101 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 326 号数据同步成功 同步时间：Thu May 21 20:24:43 CST 2020
+20:24:44.101 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 327 号数据同步成功 同步时间：Thu May 21 20:24:44 CST 2020
+20:24:45.124 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 328 号数据同步成功 同步时间：Thu May 21 20:24:45 CST 2020
+20:24:46.112 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 329 号数据同步成功 同步时间：Thu May 21 20:24:46 CST 2020
+20:25:35.022 [main] INFO  com.ntu.center.CenterClientApplication - Starting CenterClientApplication on LAPTOP-6SA701DM with PID 3164 (C:\Users\Lenovo\Desktop\datasync\datasync_center_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+20:25:35.033 [main] INFO  com.ntu.center.CenterClientApplication - No active profile set, falling back to default profiles: default
+20:25:41.926 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+20:25:41.953 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+20:25:41.955 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:25:41.955 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+20:25:42.466 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:25:42.467 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7211 ms
+20:25:44.923 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+20:25:45.182 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+20:25:45.889 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+20:25:53.186 [main] INFO  com.ntu.center.CenterClientStart - 中央数据库节点成功连接至MQTT服务器.....
+20:25:53.191 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+20:25:53.255 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+20:25:53.263 [main] INFO  com.ntu.center.CenterClientApplication - Started CenterClientApplication in 20.303 seconds (JVM running for 24.703)
+20:26:47.890 [pool-2-thread-1] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 330 号数据同步成功 同步时间：Thu May 21 20:26:47 CST 2020
+20:26:47.893 [pool-2-thread-3] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 332 号数据同步成功 同步时间：Thu May 21 20:26:47 CST 2020
+20:26:47.906 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 331 号数据同步成功 同步时间：Thu May 21 20:26:47 CST 2020
+20:26:48.273 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 334 号数据同步成功 同步时间：Thu May 21 20:26:48 CST 2020
+20:26:48.284 [pool-2-thread-3] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 333 号数据同步成功 同步时间：Thu May 21 20:26:48 CST 2020
+20:26:49.273 [pool-2-thread-3] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 335 号数据同步成功 同步时间：Thu May 21 20:26:49 CST 2020
+20:26:51.263 [pool-2-thread-3] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 336 号数据同步成功 同步时间：Thu May 21 20:26:51 CST 2020
+20:26:52.283 [pool-2-thread-3] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 337 号数据同步成功 同步时间：Thu May 21 20:26:52 CST 2020
+20:26:53.240 [pool-2-thread-3] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 338 号数据同步成功 同步时间：Thu May 21 20:26:53 CST 2020
+20:26:53.270 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 339 号数据同步成功 同步时间：Thu May 21 20:26:53 CST 2020
+20:26:55.260 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 340 号数据同步成功 同步时间：Thu May 21 20:26:55 CST 2020
+20:26:56.265 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 341 号数据同步成功 同步时间：Thu May 21 20:26:56 CST 2020
+20:26:57.251 [pool-2-thread-3] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 343 号数据同步成功 同步时间：Thu May 21 20:26:57 CST 2020
+20:26:57.266 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 342 号数据同步成功 同步时间：Thu May 21 20:26:57 CST 2020
+20:26:59.262 [pool-2-thread-3] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 344 号数据同步成功 同步时间：Thu May 21 20:26:59 CST 2020
+20:27:00.243 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 346 号数据同步成功 同步时间：Thu May 21 20:27:00 CST 2020
+20:27:00.268 [pool-2-thread-3] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 345 号数据同步成功 同步时间：Thu May 21 20:27:00 CST 2020
+20:27:02.264 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 347 号数据同步成功 同步时间：Thu May 21 20:27:02 CST 2020
+20:27:03.272 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 348 号数据同步成功 同步时间：Thu May 21 20:27:03 CST 2020
+20:27:04.264 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 349 号数据同步成功 同步时间：Thu May 21 20:27:04 CST 2020
+20:27:05.269 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 350 号数据同步成功 同步时间：Thu May 21 20:27:05 CST 2020
+20:27:06.269 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 351 号数据同步成功 同步时间：Thu May 21 20:27:06 CST 2020
+20:27:07.250 [pool-2-thread-3] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 353 号数据同步成功 同步时间：Thu May 21 20:27:07 CST 2020
+20:27:07.272 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 352 号数据同步成功 同步时间：Thu May 21 20:27:07 CST 2020
+20:27:08.308 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 354 号数据同步成功 同步时间：Thu May 21 20:27:08 CST 2020
+20:27:10.272 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 355 号数据同步成功 同步时间：Thu May 21 20:27:10 CST 2020
+20:27:11.269 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 356 号数据同步成功 同步时间：Thu May 21 20:27:11 CST 2020
+20:27:12.248 [pool-2-thread-3] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 358 号数据同步成功 同步时间：Thu May 21 20:27:12 CST 2020
+20:27:12.272 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 357 号数据同步成功 同步时间：Thu May 21 20:27:12 CST 2020
+20:27:13.280 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 359 号数据同步成功 同步时间：Thu May 21 20:27:13 CST 2020
+20:27:15.269 [pool-2-thread-2] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 360 号数据同步成功 同步时间：Thu May 21 20:27:15 CST 2020
+20:34:05.443 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 361 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:06.445 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 362 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:07.445 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 363 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:08.458 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 364 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:09.460 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 365 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:10.445 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 366 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:11.449 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 367 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:12.445 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 368 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:13.489 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 369 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:14.455 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 370 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:15.450 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 371 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:16.453 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 372 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:17.452 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 373 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:18.454 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 374 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:19.453 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 375 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:20.459 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 376 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:21.456 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 377 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:22.457 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 378 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:23.458 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 379 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:24.459 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 380 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:25.460 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 381 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:26.460 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 382 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:27.449 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 384 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:27.462 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 383 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:29.757 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 385 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:30.537 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 386 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:31.499 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 387 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:32.477 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 388 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:33.462 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 389 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:34.456 [pool-2-thread-5] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 391 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:34.471 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 390 号数据新增失败,失败原因：中央数据库中已存在此条数据
+20:34:56.514 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 330 号数据同步成功 同步时间：Thu May 21 20:34:56 CST 2020
+20:34:57.578 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 331 号数据同步成功 同步时间：Thu May 21 20:34:57 CST 2020
+20:34:58.627 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 332 号数据同步成功 同步时间：Thu May 21 20:34:58 CST 2020
+20:34:59.517 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 333 号数据同步成功 同步时间：Thu May 21 20:34:59 CST 2020
+20:35:00.507 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 334 号数据同步成功 同步时间：Thu May 21 20:35:00 CST 2020
+20:35:01.520 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 335 号数据同步成功 同步时间：Thu May 21 20:35:01 CST 2020
+20:35:02.508 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 336 号数据同步成功 同步时间：Thu May 21 20:35:02 CST 2020
+20:35:03.508 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 337 号数据同步成功 同步时间：Thu May 21 20:35:03 CST 2020
+20:35:04.511 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 338 号数据同步成功 同步时间：Thu May 21 20:35:04 CST 2020
+20:35:05.510 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 339 号数据同步成功 同步时间：Thu May 21 20:35:05 CST 2020
+20:35:06.514 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 340 号数据同步成功 同步时间：Thu May 21 20:35:06 CST 2020
+20:35:07.514 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 341 号数据同步成功 同步时间：Thu May 21 20:35:07 CST 2020
+20:35:08.513 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 342 号数据同步成功 同步时间：Thu May 21 20:35:08 CST 2020
+20:35:09.525 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 343 号数据同步成功 同步时间：Thu May 21 20:35:09 CST 2020
+20:35:10.517 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 344 号数据同步成功 同步时间：Thu May 21 20:35:10 CST 2020
+20:35:11.519 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 345 号数据同步成功 同步时间：Thu May 21 20:35:11 CST 2020
+20:35:12.517 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 346 号数据同步成功 同步时间：Thu May 21 20:35:12 CST 2020
+20:35:13.519 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 347 号数据同步成功 同步时间：Thu May 21 20:35:13 CST 2020
+20:35:14.519 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 348 号数据同步成功 同步时间：Thu May 21 20:35:14 CST 2020
+20:35:15.532 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 349 号数据同步成功 同步时间：Thu May 21 20:35:15 CST 2020
+20:35:16.521 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 350 号数据同步成功 同步时间：Thu May 21 20:35:16 CST 2020
+20:35:17.521 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 351 号数据同步成功 同步时间：Thu May 21 20:35:17 CST 2020
+20:35:18.525 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 352 号数据同步成功 同步时间：Thu May 21 20:35:18 CST 2020
+20:35:19.523 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 353 号数据同步成功 同步时间：Thu May 21 20:35:19 CST 2020
+20:35:20.523 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 354 号数据同步成功 同步时间：Thu May 21 20:35:20 CST 2020
+20:35:21.526 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 355 号数据同步成功 同步时间：Thu May 21 20:35:21 CST 2020
+20:35:22.526 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 356 号数据同步成功 同步时间：Thu May 21 20:35:22 CST 2020
+20:35:23.527 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 357 号数据同步成功 同步时间：Thu May 21 20:35:23 CST 2020
+20:35:24.530 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 358 号数据同步成功 同步时间：Thu May 21 20:35:24 CST 2020
+20:35:25.537 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 359 号数据同步成功 同步时间：Thu May 21 20:35:25 CST 2020
+20:35:26.529 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 360 号数据同步成功 同步时间：Thu May 21 20:35:26 CST 2020
+20:35:27.530 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 361 号数据同步成功 同步时间：Thu May 21 20:35:27 CST 2020
+20:35:28.536 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 362 号数据同步成功 同步时间：Thu May 21 20:35:28 CST 2020
+20:35:29.529 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 363 号数据同步成功 同步时间：Thu May 21 20:35:29 CST 2020
+20:35:30.533 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 364 号数据同步成功 同步时间：Thu May 21 20:35:30 CST 2020
+20:35:31.530 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 365 号数据同步成功 同步时间：Thu May 21 20:35:31 CST 2020
+20:35:32.531 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 366 号数据同步成功 同步时间：Thu May 21 20:35:32 CST 2020
+20:35:33.539 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 367 号数据同步成功 同步时间：Thu May 21 20:35:33 CST 2020
+20:35:34.532 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 368 号数据同步成功 同步时间：Thu May 21 20:35:34 CST 2020
+20:35:35.535 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 369 号数据同步成功 同步时间：Thu May 21 20:35:35 CST 2020
+20:35:36.539 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 370 号数据同步成功 同步时间：Thu May 21 20:35:36 CST 2020
+20:35:37.536 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 371 号数据同步成功 同步时间：Thu May 21 20:35:37 CST 2020
+20:35:38.537 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 372 号数据同步成功 同步时间：Thu May 21 20:35:38 CST 2020
+20:35:39.539 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 373 号数据同步成功 同步时间：Thu May 21 20:35:39 CST 2020
+20:35:40.539 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 374 号数据同步成功 同步时间：Thu May 21 20:35:40 CST 2020
+20:35:41.540 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 375 号数据同步成功 同步时间：Thu May 21 20:35:41 CST 2020
+20:35:42.542 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 376 号数据同步成功 同步时间：Thu May 21 20:35:42 CST 2020
+20:35:43.542 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 377 号数据同步成功 同步时间：Thu May 21 20:35:43 CST 2020
+20:35:44.554 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 378 号数据同步成功 同步时间：Thu May 21 20:35:44 CST 2020
+20:35:45.558 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 379 号数据同步成功 同步时间：Thu May 21 20:35:45 CST 2020
+20:35:46.543 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 380 号数据同步成功 同步时间：Thu May 21 20:35:46 CST 2020
+20:35:47.549 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 381 号数据同步成功 同步时间：Thu May 21 20:35:47 CST 2020
+20:35:48.564 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 382 号数据同步成功 同步时间：Thu May 21 20:35:48 CST 2020
+20:35:49.546 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 383 号数据同步成功 同步时间：Thu May 21 20:35:49 CST 2020
+20:35:50.546 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 384 号数据同步成功 同步时间：Thu May 21 20:35:50 CST 2020
+20:35:51.578 [pool-2-thread-4] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 385 号数据同步成功 同步时间：Thu May 21 20:35:51 CST 2020
+20:35:52.545 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 386 号数据同步成功 同步时间：Thu May 21 20:35:52 CST 2020
+20:35:53.551 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 387 号数据同步成功 同步时间：Thu May 21 20:35:53 CST 2020
+20:35:54.552 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 388 号数据同步成功 同步时间：Thu May 21 20:35:54 CST 2020
+20:35:55.549 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 389 号数据同步成功 同步时间：Thu May 21 20:35:55 CST 2020
+20:35:56.550 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 390 号数据同步成功 同步时间：Thu May 21 20:35:56 CST 2020
+20:35:57.564 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 MONITOR_DATA 表中的 391 号数据同步成功 同步时间：Thu May 21 20:35:57 CST 2020
+20:36:51.580 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 440 号数据同步成功 同步时间：Thu May 21 20:36:51 CST 2020
+20:36:52.584 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 441 号数据同步成功 同步时间：Thu May 21 20:36:52 CST 2020
+20:36:53.584 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 442 号数据同步成功 同步时间：Thu May 21 20:36:53 CST 2020
+20:36:54.646 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 443 号数据同步成功 同步时间：Thu May 21 20:36:54 CST 2020
+20:36:55.594 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 444 号数据同步成功 同步时间：Thu May 21 20:36:55 CST 2020
+20:36:56.590 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 445 号数据同步成功 同步时间：Thu May 21 20:36:56 CST 2020
+20:36:57.595 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 446 号数据同步成功 同步时间：Thu May 21 20:36:57 CST 2020
+20:36:58.587 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 447 号数据同步成功 同步时间：Thu May 21 20:36:58 CST 2020
+20:36:59.586 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 448 号数据同步成功 同步时间：Thu May 21 20:36:59 CST 2020
+20:37:00.585 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 449 号数据同步成功 同步时间：Thu May 21 20:37:00 CST 2020
+20:37:01.588 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 450 号数据同步成功 同步时间：Thu May 21 20:37:01 CST 2020
+20:37:02.594 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 451 号数据同步成功 同步时间：Thu May 21 20:37:02 CST 2020
+20:37:38.680 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 500 号数据同步成功 同步时间：Thu May 21 20:37:38 CST 2020
+20:37:39.673 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 501 号数据同步成功 同步时间：Thu May 21 20:37:39 CST 2020
+20:37:40.739 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 502 号数据同步成功 同步时间：Thu May 21 20:37:40 CST 2020
+20:37:41.822 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 503 号数据同步成功 同步时间：Thu May 21 20:37:41 CST 2020
+20:37:42.674 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 504 号数据同步成功 同步时间：Thu May 21 20:37:42 CST 2020
+20:37:43.848 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 505 号数据同步成功 同步时间：Thu May 21 20:37:43 CST 2020
+20:37:43.849 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 452 号数据同步成功 同步时间：Thu May 21 20:37:43 CST 2020
+20:37:44.656 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 506 号数据同步成功 同步时间：Thu May 21 20:37:44 CST 2020
+20:37:44.677 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 453 号数据同步成功 同步时间：Thu May 21 20:37:44 CST 2020
+20:37:45.656 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 454 号数据同步成功 同步时间：Thu May 21 20:37:45 CST 2020
+20:37:45.678 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 507 号数据同步成功 同步时间：Thu May 21 20:37:45 CST 2020
+20:37:46.659 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 455 号数据同步成功 同步时间：Thu May 21 20:37:46 CST 2020
+20:37:46.682 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 508 号数据同步成功 同步时间：Thu May 21 20:37:46 CST 2020
+20:37:47.667 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 456 号数据同步成功 同步时间：Thu May 21 20:37:47 CST 2020
+20:37:47.685 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 509 号数据同步成功 同步时间：Thu May 21 20:37:47 CST 2020
+20:37:48.663 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 457 号数据同步成功 同步时间：Thu May 21 20:37:48 CST 2020
+20:37:48.680 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 510 号数据同步成功 同步时间：Thu May 21 20:37:48 CST 2020
+20:37:49.689 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 458 号数据同步成功 同步时间：Thu May 21 20:37:49 CST 2020
+20:37:49.701 [pool-2-thread-6] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 511 号数据同步成功 同步时间：Thu May 21 20:37:49 CST 2020
+20:37:50.679 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 459 号数据同步成功 同步时间：Thu May 21 20:37:50 CST 2020
+20:37:51.680 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 460 号数据同步成功 同步时间：Thu May 21 20:37:51 CST 2020
+20:37:52.681 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 461 号数据同步成功 同步时间：Thu May 21 20:37:52 CST 2020
+20:37:53.684 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 462 号数据同步成功 同步时间：Thu May 21 20:37:53 CST 2020
+20:37:54.602 [pool-2-thread-7] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 463 号数据新增失败,失败原因：中央数据库中已存在此条数据
+21:28:37.299 [pool-2-thread-9] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 453 号数据同步成功 同步时间：Thu May 21 21:28:37 CST 2020
+21:28:38.301 [pool-2-thread-9] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 455 号数据同步成功 同步时间：Thu May 21 21:28:38 CST 2020
+21:28:38.322 [pool-2-thread-10] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 454 号数据同步成功 同步时间：Thu May 21 21:28:38 CST 2020
+21:28:39.328 [pool-2-thread-10] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 456 号数据同步成功 同步时间：Thu May 21 21:28:39 CST 2020
+21:28:39.332 [pool-2-thread-8] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 452 号数据同步成功 同步时间：Thu May 21 21:28:39 CST 2020
+21:28:40.322 [pool-2-thread-8] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 500 号数据同步成功 同步时间：Thu May 21 21:28:40 CST 2020
+21:28:40.327 [pool-2-thread-10] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 457 号数据同步成功 同步时间：Thu May 21 21:28:40 CST 2020
+21:28:41.327 [pool-2-thread-10] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 458 号数据同步成功 同步时间：Thu May 21 21:28:41 CST 2020
+21:28:41.328 [pool-2-thread-8] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 501 号数据同步成功 同步时间：Thu May 21 21:28:41 CST 2020
+21:28:42.343 [pool-2-thread-10] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 459 号数据同步成功 同步时间：Thu May 21 21:28:42 CST 2020
+21:28:42.343 [pool-2-thread-8] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 502 号数据同步成功 同步时间：Thu May 21 21:28:42 CST 2020
+21:28:43.337 [pool-2-thread-8] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 503 号数据同步成功 同步时间：Thu May 21 21:28:43 CST 2020
+21:28:43.342 [pool-2-thread-10] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 460 号数据同步成功 同步时间：Thu May 21 21:28:43 CST 2020
+21:28:44.328 [pool-2-thread-8] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 504 号数据同步成功 同步时间：Thu May 21 21:28:44 CST 2020
+21:28:44.331 [pool-2-thread-10] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 461 号数据同步成功 同步时间：Thu May 21 21:28:44 CST 2020
+21:28:45.375 [pool-2-thread-8] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 505 号数据同步成功 同步时间：Thu May 21 21:28:45 CST 2020
+21:28:45.378 [pool-2-thread-10] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 462 号数据同步成功 同步时间：Thu May 21 21:28:45 CST 2020
+21:28:46.368 [pool-2-thread-10] INFO  com.ntu.center.sync.CenterDataReceiver - tjh_node 节点的 BOX_SENSOR 表中的 463 号数据同步成功 同步时间：Thu May 21 21:28:46 CST 2020
+21:28:46.375 [pool-2-thread-8] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 506 号数据同步成功 同步时间：Thu May 21 21:28:46 CST 2020
+21:28:47.382 [pool-2-thread-8] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 507 号数据同步成功 同步时间：Thu May 21 21:28:47 CST 2020
+21:28:48.704 [pool-2-thread-8] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 508 号数据同步成功 同步时间：Thu May 21 21:28:48 CST 2020
+21:28:49.319 [pool-2-thread-10] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 509 号数据同步成功 同步时间：Thu May 21 21:28:49 CST 2020
+21:28:50.323 [pool-2-thread-10] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 510 号数据同步成功 同步时间：Thu May 21 21:28:50 CST 2020
+21:28:51.327 [pool-2-thread-10] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 511 号数据同步成功 同步时间：Thu May 21 21:28:51 CST 2020
+21:33:21.779 [http-nio-9999-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1589970932,1590040176,1590062906; Hm_lpvt_eaa57ca47dacb4ad4f5a257001a3457c=1590064619] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+21:33:21.807 [http-nio-9999-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:33:21.808 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+21:33:21.859 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 51 ms
+22:51:55.095 [pool-2-thread-11] INFO  com.ntu.center.sync.CenterDataReceiver - cj_node 节点的 BOX_SENSOR 表中的 512 号数据同步成功 同步时间：Thu May 21 22:51:55 CST 2020

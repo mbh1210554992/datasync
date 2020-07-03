@@ -1,0 +1,68 @@
+13:52:51.639 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - BOX_SENSOR表中 451 号数据同步失败，本条数据将停止同步
+13:53:02.682 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - BOX_SENSOR表中 440 号数据同步失败，本条数据将停止同步
+13:54:37.798 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 206 号数据同步失败，本条数据将停止同步
+13:54:38.927 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 207 号数据同步失败，本条数据将停止同步
+13:54:39.784 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 208 号数据同步失败，本条数据将停止同步
+13:54:40.749 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 209 号数据同步失败，本条数据将停止同步
+13:54:41.735 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 210 号数据同步失败，本条数据将停止同步
+13:54:42.751 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 211 号数据同步失败，本条数据将停止同步
+13:54:43.758 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 212 号数据同步失败，本条数据将停止同步
+13:54:44.755 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 213 号数据同步失败，本条数据将停止同步
+13:54:45.747 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 214 号数据同步失败，本条数据将停止同步
+13:54:46.739 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 215 号数据同步失败，本条数据将停止同步
+13:54:47.733 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 216 号数据同步失败，本条数据将停止同步
+13:54:48.773 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 217 号数据同步失败，本条数据将停止同步
+13:54:49.793 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 218 号数据同步失败，本条数据将停止同步
+13:54:50.716 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 219 号数据同步失败，本条数据将停止同步
+13:54:51.820 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 220 号数据同步失败，本条数据将停止同步
+13:54:52.822 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 221 号数据同步失败，本条数据将停止同步
+13:54:53.821 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 222 号数据同步失败，本条数据将停止同步
+13:54:54.787 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 223 号数据同步失败，本条数据将停止同步
+13:54:55.762 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 224 号数据同步失败，本条数据将停止同步
+13:54:56.804 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 225 号数据同步失败，本条数据将停止同步
+13:54:57.782 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 226 号数据同步失败，本条数据将停止同步
+13:54:58.749 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 227 号数据同步失败，本条数据将停止同步
+13:54:59.777 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 228 号数据同步失败，本条数据将停止同步
+13:55:00.804 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 229 号数据同步失败，本条数据将停止同步
+13:55:01.820 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 230 号数据同步失败，本条数据将停止同步
+13:55:02.787 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 231 号数据同步失败，本条数据将停止同步
+13:55:03.806 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 232 号数据同步失败，本条数据将停止同步
+13:55:04.802 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 233 号数据同步失败，本条数据将停止同步
+13:55:05.792 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 234 号数据同步失败，本条数据将停止同步
+13:55:06.728 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 235 号数据同步失败，本条数据将停止同步
+13:55:07.727 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 236 号数据同步失败，本条数据将停止同步
+17:10:26.292 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 279 号数据同步失败，本条数据将停止同步
+17:21:02.672 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 279 号数据同步失败，本条数据将停止同步
+17:41:00.303 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - BOX_SENSOR表中 463 号数据同步失败，本条数据将停止同步
+17:54:17.756 [MQTT Call: cj_node] ERROR com.ntu.node.sync.NodeDataReceiver - BOX_SENSOR表中 475 号数据同步失败，本条数据将停止同步
+20:34:06.353 [pool-2-thread-5] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 361 号数据同步失败，本条数据将停止同步
+20:34:07.371 [pool-2-thread-5] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 362 号数据同步失败，本条数据将停止同步
+20:34:08.334 [pool-2-thread-5] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 363 号数据同步失败，本条数据将停止同步
+20:34:09.334 [pool-2-thread-5] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 364 号数据同步失败，本条数据将停止同步
+20:34:10.338 [pool-2-thread-5] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 365 号数据同步失败，本条数据将停止同步
+20:34:11.337 [pool-2-thread-5] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 366 号数据同步失败，本条数据将停止同步
+20:34:12.399 [pool-2-thread-5] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 367 号数据同步失败，本条数据将停止同步
+20:34:13.387 [pool-2-thread-5] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 368 号数据同步失败，本条数据将停止同步
+20:34:14.357 [pool-2-thread-5] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 369 号数据同步失败，本条数据将停止同步
+20:34:15.383 [pool-2-thread-5] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 370 号数据同步失败，本条数据将停止同步
+20:34:16.337 [pool-2-thread-5] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 371 号数据同步失败，本条数据将停止同步
+20:34:17.344 [pool-2-thread-5] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 372 号数据同步失败，本条数据将停止同步
+20:34:18.389 [pool-2-thread-5] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 373 号数据同步失败，本条数据将停止同步
+20:34:19.348 [pool-2-thread-5] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 374 号数据同步失败，本条数据将停止同步
+20:34:20.523 [pool-2-thread-5] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 375 号数据同步失败，本条数据将停止同步
+20:34:21.455 [pool-2-thread-5] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 376 号数据同步失败，本条数据将停止同步
+20:34:22.382 [pool-2-thread-5] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 377 号数据同步失败，本条数据将停止同步
+20:34:23.378 [pool-2-thread-5] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 378 号数据同步失败，本条数据将停止同步
+20:34:24.354 [pool-2-thread-5] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 379 号数据同步失败，本条数据将停止同步
+20:34:25.394 [pool-2-thread-5] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 380 号数据同步失败，本条数据将停止同步
+20:34:26.348 [pool-2-thread-5] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 381 号数据同步失败，本条数据将停止同步
+20:34:27.340 [pool-2-thread-5] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 382 号数据同步失败，本条数据将停止同步
+20:34:28.352 [pool-2-thread-5] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 384 号数据同步失败，本条数据将停止同步
+20:34:28.416 [pool-2-thread-6] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 383 号数据同步失败，本条数据将停止同步
+20:34:30.529 [pool-2-thread-6] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 385 号数据同步失败，本条数据将停止同步
+20:34:31.438 [pool-2-thread-6] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 386 号数据同步失败，本条数据将停止同步
+20:34:32.351 [pool-2-thread-6] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 387 号数据同步失败，本条数据将停止同步
+20:34:33.373 [pool-2-thread-6] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 388 号数据同步失败，本条数据将停止同步
+20:34:34.348 [pool-2-thread-6] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 389 号数据同步失败，本条数据将停止同步
+20:34:35.323 [pool-2-thread-6] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 391 号数据同步失败，本条数据将停止同步
+20:34:35.325 [pool-2-thread-5] ERROR com.ntu.node.sync.NodeDataReceiver - MONITOR_DATA表中 390 号数据同步失败，本条数据将停止同步

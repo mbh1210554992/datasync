@@ -1,4 +1,4 @@
-package com.ntu.node.config;
+package com.ntu.client2.config;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
@@ -18,7 +18,7 @@ public class SwaggerConfig {
 
     ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("长江站点数据库 API")
+                .title("团结河站点数据库 API")
                 .description("")
                 .termsOfServiceUrl("")
                 .version("1.0")
@@ -31,7 +31,7 @@ public class SwaggerConfig {
                 .groupName("unica API document")
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.ntu.node.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.ntu.client2.controller"))
                 .paths(PathSelectors.any()).build();
     }
 }

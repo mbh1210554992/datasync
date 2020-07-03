@@ -1,0 +1,45 @@
+14:41:50.914 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+14:41:51.004 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+14:41:51.172 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+14:42:01.175 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+14:42:01.176 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+14:42:01.178 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+14:42:11.178 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+14:42:11.178 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+14:42:11.180 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+14:42:21.182 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+14:42:21.182 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+14:42:21.186 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+14:42:31.187 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+14:42:31.187 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+14:42:31.188 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+14:42:41.190 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+14:42:41.191 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+14:42:41.199 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+14:42:41.207 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+14:42:41.212 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 512(Long)
+14:42:41.219 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+14:42:46.552 [pool-2-thread-1] DEBUG com.ntu.node.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? 
+14:42:46.554 [pool-2-thread-1] DEBUG com.ntu.node.mapper.DataSyncMapper.findByKey - ==> Parameters: 512(Long), B(String)
+14:42:46.556 [pool-2-thread-1] DEBUG com.ntu.node.mapper.DataSyncMapper.findByKey - <==      Total: 1
+14:42:46.586 [pool-2-thread-1] DEBUG com.ntu.node.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ?, success_time = ? , fail_count= ? , sync_msg= ? where info_id= ? and info_type = ? 
+14:42:46.596 [pool-2-thread-1] DEBUG com.ntu.node.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-31 14:42:46.156(Timestamp), 0(Integer), 数据同步成功(String), 512(Long), B(String)
+14:42:46.633 [pool-2-thread-1] DEBUG com.ntu.node.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+14:42:51.541 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+14:42:51.541 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+14:42:51.543 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0
+14:45:23.143 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+14:45:23.300 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+14:45:23.325 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 1
+14:45:23.333 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==>  Preparing: select * from box_sensor where info_id = ? 
+14:45:23.337 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - ==> Parameters: 512(Long)
+14:45:23.343 [node1] DEBUG com.ntu.node.mapper.BoxSensorMapper.findById - <==      Total: 1
+14:45:27.300 [pool-2-thread-1] DEBUG com.ntu.node.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? 
+14:45:27.302 [pool-2-thread-1] DEBUG com.ntu.node.mapper.DataSyncMapper.findByKey - ==> Parameters: 512(Long), B(String)
+14:45:27.305 [pool-2-thread-1] DEBUG com.ntu.node.mapper.DataSyncMapper.findByKey - <==      Total: 1
+14:45:27.336 [pool-2-thread-1] DEBUG com.ntu.node.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ?, success_time = ? , fail_count= ? , sync_msg= ? where info_id= ? and info_type = ? 
+14:45:27.346 [pool-2-thread-1] DEBUG com.ntu.node.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-31 14:45:26.398(Timestamp), 0(Integer), 数据同步成功(String), 512(Long), B(String)
+14:45:27.419 [pool-2-thread-1] DEBUG com.ntu.node.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+14:45:34.296 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==>  Preparing: select * from data_sync where 1=1 and (sync_status = '1' or sync_status = '2' or sync_status = '3') and (fail_count < 5) 
+14:45:34.296 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - ==> Parameters: 
+14:45:34.298 [node1] DEBUG com.ntu.node.mapper.DataSyncMapper.queryData - <==      Total: 0

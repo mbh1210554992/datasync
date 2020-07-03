@@ -1,0 +1,176 @@
+15:27:18.918 [main] INFO  com.ntu.node.Node1ClientApplication - Starting Node1ClientApplication on LAPTOP-6SA701DM with PID 3168 (C:\Users\Lenovo\Desktop\datasync\datasync_node1_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+15:27:18.927 [main] INFO  com.ntu.node.Node1ClientApplication - No active profile set, falling back to default profiles: default
+15:27:22.818 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+15:27:22.839 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+15:27:22.841 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+15:27:22.841 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+15:27:23.300 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:27:23.300 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4217 ms
+15:27:25.496 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:27:25.835 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+15:27:25.871 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+15:27:25.903 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+15:27:26.472 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+15:27:33.181 [main] INFO  com.ntu.node.ClientStart - 长江结点成功连接至MQTT服务器.........
+15:27:33.197 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+15:27:33.238 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+15:27:33.243 [main] INFO  com.ntu.node.Node1ClientApplication - Started Node1ClientApplication in 15.471 seconds (JVM running for 19.669)
+15:28:24.375 [http-nio-8083-exec-2] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1589970932,1590040176,1590062906] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+15:28:24.395 [http-nio-8083-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:28:24.396 [http-nio-8083-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:28:24.411 [http-nio-8083-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+15:37:03.240 [main] INFO  com.ntu.node.Node1ClientApplication - Starting Node1ClientApplication on LAPTOP-6SA701DM with PID 5536 (C:\Users\Lenovo\Desktop\datasync\datasync_node1_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+15:37:03.248 [main] INFO  com.ntu.node.Node1ClientApplication - No active profile set, falling back to default profiles: default
+15:37:06.435 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+15:37:06.452 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+15:37:06.453 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+15:37:06.453 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+15:37:06.747 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:37:06.747 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3283 ms
+15:37:08.128 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:37:08.379 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+15:37:08.407 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+15:37:08.432 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+15:37:08.780 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+15:37:15.425 [main] INFO  com.ntu.node.ClientStart - 长江结点成功连接至MQTT服务器.........
+15:37:15.429 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+15:37:15.471 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+15:37:15.476 [main] INFO  com.ntu.node.Node1ClientApplication - Started Node1ClientApplication in 13.288 seconds (JVM running for 17.572)
+15:37:30.033 [http-nio-8083-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1590040176,1590062906,1590650912; Hm_lpvt_eaa57ca47dacb4ad4f5a257001a3457c=1590650912] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+15:37:30.059 [http-nio-8083-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:37:30.059 [http-nio-8083-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:37:30.073 [http-nio-8083-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+15:38:34.686 [main] INFO  com.ntu.node.Node1ClientApplication - Starting Node1ClientApplication on LAPTOP-6SA701DM with PID 17268 (C:\Users\Lenovo\Desktop\datasync\datasync_node1_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+15:38:34.724 [main] INFO  com.ntu.node.Node1ClientApplication - No active profile set, falling back to default profiles: default
+15:38:38.170 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+15:38:38.188 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+15:38:38.189 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+15:38:38.189 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+15:38:38.456 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:38:38.456 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3608 ms
+15:38:39.821 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:38:40.105 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+15:38:40.132 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+15:38:40.159 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+15:38:40.516 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+15:38:47.124 [main] INFO  com.ntu.node.ClientStart - 长江结点成功连接至MQTT服务器.........
+15:38:47.128 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+15:38:47.171 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+15:38:47.176 [main] INFO  com.ntu.node.Node1ClientApplication - Started Node1ClientApplication in 13.628 seconds (JVM running for 17.998)
+15:38:58.862 [http-nio-8083-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1590040176,1590062906,1590650912; Hm_lpvt_eaa57ca47dacb4ad4f5a257001a3457c=1590651457] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+15:38:58.878 [http-nio-8083-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:38:58.878 [http-nio-8083-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:38:58.891 [http-nio-8083-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+15:39:46.498 [main] INFO  com.ntu.node.Node1ClientApplication - Starting Node1ClientApplication on LAPTOP-6SA701DM with PID 6328 (C:\Users\Lenovo\Desktop\datasync\datasync_node1_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+15:39:46.506 [main] INFO  com.ntu.node.Node1ClientApplication - No active profile set, falling back to default profiles: default
+15:39:49.525 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+15:39:49.545 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+15:39:49.546 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+15:39:49.546 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+15:39:49.884 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:39:49.884 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3260 ms
+15:39:51.279 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:39:51.535 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+15:39:51.564 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+15:39:51.589 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+15:39:51.951 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+15:39:58.609 [main] INFO  com.ntu.node.ClientStart - 长江结点成功连接至MQTT服务器.........
+15:39:58.613 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+15:39:58.668 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+15:39:58.674 [main] INFO  com.ntu.node.Node1ClientApplication - Started Node1ClientApplication in 13.566 seconds (JVM running for 18.063)
+15:40:01.540 [http-nio-8083-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1590040176,1590062906,1590650912; Hm_lpvt_eaa57ca47dacb4ad4f5a257001a3457c=1590651545] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+15:40:01.576 [http-nio-8083-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:40:01.577 [http-nio-8083-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:40:01.601 [http-nio-8083-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 23 ms
+15:42:31.944 [main] INFO  com.ntu.node.Node1ClientApplication - Starting Node1ClientApplication on LAPTOP-6SA701DM with PID 15456 (C:\Users\Lenovo\Desktop\datasync\datasync_node1_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+15:42:31.952 [main] INFO  com.ntu.node.Node1ClientApplication - No active profile set, falling back to default profiles: default
+15:42:35.438 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+15:42:35.457 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+15:42:35.458 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+15:42:35.458 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+15:42:35.720 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:42:35.721 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3621 ms
+15:42:37.055 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:42:37.308 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+15:42:37.336 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+15:42:37.365 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+15:42:37.717 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+15:42:44.620 [main] INFO  com.ntu.node.ClientStart - 长江结点成功连接至MQTT服务器.........
+15:42:44.624 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+15:42:44.672 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+15:42:44.677 [main] INFO  com.ntu.node.Node1ClientApplication - Started Node1ClientApplication in 14.055 seconds (JVM running for 17.741)
+15:43:37.244 [http-nio-8083-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1590040176,1590062906,1590650912; Hm_lpvt_eaa57ca47dacb4ad4f5a257001a3457c=1590651608] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+15:43:37.261 [http-nio-8083-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:43:37.262 [http-nio-8083-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:43:37.274 [http-nio-8083-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+15:50:06.193 [main] INFO  com.ntu.node.Node1ClientApplication - Starting Node1ClientApplication on LAPTOP-6SA701DM with PID 12588 (C:\Users\Lenovo\Desktop\datasync\datasync_node1_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+15:50:06.202 [main] INFO  com.ntu.node.Node1ClientApplication - No active profile set, falling back to default profiles: default
+15:50:09.386 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+15:50:09.405 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+15:50:09.406 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+15:50:09.406 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+15:50:09.691 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:50:09.691 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3306 ms
+15:50:11.029 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:50:11.276 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+15:50:11.303 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+15:50:11.328 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+15:50:11.695 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+15:50:18.246 [main] INFO  com.ntu.node.ClientStart - 长江结点成功连接至MQTT服务器.........
+15:50:18.250 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+15:50:18.293 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+15:50:18.297 [main] INFO  com.ntu.node.Node1ClientApplication - Started Node1ClientApplication in 13.517 seconds (JVM running for 17.329)
+15:50:39.960 [http-nio-8083-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1590040176,1590062906,1590650912; Hm_lpvt_eaa57ca47dacb4ad4f5a257001a3457c=1590651823] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+15:50:39.984 [http-nio-8083-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:50:39.984 [http-nio-8083-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:50:40.000 [http-nio-8083-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+15:52:02.625 [main] INFO  com.ntu.node.Node1ClientApplication - Starting Node1ClientApplication on LAPTOP-6SA701DM with PID 17188 (C:\Users\Lenovo\Desktop\datasync\datasync_node1_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+15:52:02.636 [main] INFO  com.ntu.node.Node1ClientApplication - No active profile set, falling back to default profiles: default
+15:52:06.115 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+15:52:06.134 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+15:52:06.135 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+15:52:06.136 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+15:52:06.453 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:52:06.454 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3685 ms
+15:52:07.745 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:52:07.991 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+15:52:08.018 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+15:52:08.044 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+15:52:08.393 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+15:52:14.902 [main] INFO  com.ntu.node.ClientStart - 长江结点成功连接至MQTT服务器.........
+15:52:14.906 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+15:52:14.949 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+15:52:14.954 [main] INFO  com.ntu.node.Node1ClientApplication - Started Node1ClientApplication in 13.453 seconds (JVM running for 17.314)
+15:52:49.210 [http-nio-8083-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1590040176,1590062906,1590650912; Hm_lpvt_eaa57ca47dacb4ad4f5a257001a3457c=1590652246] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+15:52:49.232 [http-nio-8083-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:52:49.233 [http-nio-8083-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:52:49.248 [http-nio-8083-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+15:53:44.617 [main] INFO  com.ntu.node.Node1ClientApplication - Starting Node1ClientApplication on LAPTOP-6SA701DM with PID 13984 (C:\Users\Lenovo\Desktop\datasync\datasync_node1_client\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\datasync)
+15:53:44.624 [main] INFO  com.ntu.node.Node1ClientApplication - No active profile set, falling back to default profiles: default
+15:53:47.765 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+15:53:47.784 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+15:53:47.785 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+15:53:47.785 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+15:53:48.128 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:53:48.128 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3347 ms
+15:53:49.440 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:53:49.698 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+15:53:49.726 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+15:53:49.751 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+15:53:50.108 [main] INFO  com.ntu.common.client.EMQTTClient - connecting to server: ssl://127.0.0.1:8883
+15:53:56.622 [main] INFO  com.ntu.node.ClientStart - 长江结点成功连接至MQTT服务器.........
+15:53:56.626 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+15:53:56.666 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+15:53:56.671 [main] INFO  com.ntu.node.Node1ClientApplication - Started Node1ClientApplication in 13.185 seconds (JVM running for 17.331)
+15:54:51.172 [http-nio-8083-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1590040176,1590062906,1590650912; Hm_lpvt_eaa57ca47dacb4ad4f5a257001a3457c=1590652375] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+15:54:51.195 [http-nio-8083-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:54:51.195 [http-nio-8083-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:54:51.210 [http-nio-8083-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms

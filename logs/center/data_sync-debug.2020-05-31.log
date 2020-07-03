@@ -1,0 +1,24 @@
+14:42:45.642 [pool-2-thread-1] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+14:42:45.861 [pool-2-thread-1] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 512(Long), B(String), changjiang(String)
+14:42:45.936 [pool-2-thread-1] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+14:42:45.978 [pool-2-thread-1] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, Pressure, Salinity, DissolvedOxygen, SPAD, Turbidity, AnDan, YaXiaoDan, LinSuanYan, ORP from box_sensor where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+14:42:45.982 [pool-2-thread-1] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==> Parameters: 34(String), 34(String), 34(String), 2020-05-21 22:51:45.0(Timestamp)
+14:42:46.002 [pool-2-thread-1] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - <==      Total: 1
+14:42:46.038 [pool-2-thread-1] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==>  Preparing: update box_sensor set Conductivity = ?, Temperature = ?, Pressure = ?, Salinity = ?, DissolvedOxygen = ?, SPAD = ?, Turbidity = ?, AnDan = ?, YaXiaoDan = ?, LinSuanYan = ?, ORP = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+14:42:46.079 [pool-2-thread-1] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==> Parameters: null, 123.0(Float), null, null, null, null, null, null, null, null, null, 34(String), 34(String), 34(String), 2020-05-21 22:51:45.0(Timestamp)
+14:42:46.136 [pool-2-thread-1] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - <==    Updates: 1
+14:42:46.229 [pool-2-thread-1] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+14:42:46.233 [pool-2-thread-1] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-31 14:42:46.156(Timestamp), 数据同步成功(String), 512(Long), B(String), changjiang(String)
+14:42:46.272 [pool-2-thread-1] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1
+14:45:25.953 [pool-2-thread-1] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==>  Preparing: select * from data_sync where info_id = ? and info_type = ? and info_Node = ? 
+14:45:26.177 [pool-2-thread-1] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - ==> Parameters: 512(Long), B(String), changjiang(String)
+14:45:26.222 [pool-2-thread-1] DEBUG com.ntu.center.mapper.DataSyncMapper.findByKey - <==      Total: 1
+14:45:26.264 [pool-2-thread-1] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==>  Preparing: select area_id, spot_id, node_id, data_time, Conductivity, Temperature, Pressure, Salinity, DissolvedOxygen, SPAD, Turbidity, AnDan, YaXiaoDan, LinSuanYan, ORP from box_sensor where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+14:45:26.267 [pool-2-thread-1] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - ==> Parameters: 34(String), 34(String), 34(String), 2020-05-21 22:51:45.0(Timestamp)
+14:45:26.297 [pool-2-thread-1] DEBUG com.ntu.center.mapper.BoxSensorMapper.selectByPrimaryKey - <==      Total: 1
+14:45:26.333 [pool-2-thread-1] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==>  Preparing: update box_sensor set Conductivity = ?, Temperature = ?, Pressure = ?, Salinity = ?, DissolvedOxygen = ?, SPAD = ?, Turbidity = ?, AnDan = ?, YaXiaoDan = ?, LinSuanYan = ?, ORP = ? where area_id = ? and spot_id = ? and node_id = ? and data_time = ? 
+14:45:26.343 [pool-2-thread-1] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - ==> Parameters: null, 123.0(Float), 321.0(Float), null, null, null, null, null, null, null, null, 34(String), 34(String), 34(String), 2020-05-21 22:51:45.0(Timestamp)
+14:45:26.380 [pool-2-thread-1] DEBUG com.ntu.center.mapper.BoxSensorMapper.updateByPrimaryKey - <==    Updates: 1
+14:45:26.451 [pool-2-thread-1] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==>  Preparing: update data_sync set sync_status = ? , success_time = ? , sync_msg= ? where info_id= ? and info_type = ? and info_node = ? 
+14:45:26.453 [pool-2-thread-1] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - ==> Parameters: 0(String), 2020-05-31 14:45:26.398(Timestamp), 数据同步成功(String), 512(Long), B(String), changjiang(String)
+14:45:26.493 [pool-2-thread-1] DEBUG com.ntu.center.mapper.DataSyncMapper.updateActive - <==    Updates: 1

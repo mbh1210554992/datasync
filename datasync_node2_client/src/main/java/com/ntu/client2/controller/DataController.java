@@ -1,11 +1,11 @@
-package com.ntu.node.controller;
+package com.ntu.client2.controller;
 
+import com.ntu.client2.mapper.BoxSensorMapper;
+import com.ntu.client2.mapper.MonitorDataMapper;
 import com.ntu.common.model.Result;
 import com.ntu.common.model.ResultCode;
 import com.ntu.common.model.po.BoxSensor;
 import com.ntu.common.model.po.MonitorData;
-import com.ntu.node.mapper.BoxSensorMapper;
-import com.ntu.node.mapper.MonitorDataMapper;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
@@ -40,9 +40,9 @@ public class DataController {
     @PostMapping(value = "/addMonitorData")
     @ResponseBody
     @ApiImplicitParams({
-            @ApiImplicitParam(name="infoFile",value="模拟采集的数据文件",dataType = "file", paramType = "form")
+            @ApiImplicitParam(name="file",value="模拟采集的数据文件",dataType = "file", paramType = "form")
     })
-    public Result addMonitorData(@RequestParam(name = "infoFile") MultipartFile file) throws IOException {
+    public Result addMonitorData(@RequestParam(name = "file") MultipartFile file) throws IOException {
         //1.根据Excel文件创建工作簿
         Workbook workbook = new XSSFWorkbook(file.getInputStream());
         //2.获取Sheet
@@ -82,10 +82,10 @@ public class DataController {
 
     @ApiOperation(value = "模拟box_sensor表采集数据接口")
     @PostMapping(value = "/addBoxSensor")
+    @ResponseBody
     @ApiImplicitParams({
             @ApiImplicitParam(name="file",value="模拟采集的数据文件",dataType = "file", paramType = "form")
     })
-    @ResponseBody
     public Result addBoxSensor(@RequestParam(name = "file") MultipartFile file) throws IOException {
         //1.根据Excel文件创建工作簿
         Workbook workbook = new XSSFWorkbook(file.getInputStream());
